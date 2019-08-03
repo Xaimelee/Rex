@@ -1063,9 +1063,11 @@ trade_company_dominant = {
 
 large_colonial_nation = {
 	merchants = 1
-	global_trade_power = 0.05
+	global_trade_power = 0.10
 	naval_forcelimit = 10
 	land_forcelimit = 10
+	global_manpower = 5
+	global_sailors = 500
 }
 
 march_subject = {
@@ -1083,7 +1085,7 @@ union_subject = {
 }
 
 all_nations = {
-	global_tax_income = 36
+	global_tax_income = 48
 	land_forcelimit	= 6
 	naval_forcelimit = 12
 }
@@ -1272,18 +1274,7 @@ karma_too_low =
 ########################################
 
 invasion_nation = {
-	discipline = 0.25
-	manpower_recovery_speed = 1
-	sailors_recovery_speed = 1
-	global_tax_income = 600
-	land_forcelimit	= 100
-	naval_forcelimit = 100
-	global_manpower = 100.0
-	global_sailors = 10000
-	core_creation = -0.75
-	global_unrest = -10
-	land_attrition = -0.5
-	yearly_corruption = -1
+
 }
 
 
