@@ -3,7 +3,7 @@ type = galley
 
 hull_size = 8
 base_cannons = 10 
-sail_speed = 9
+sail_speed = 10
 
 trade_power = 1
 

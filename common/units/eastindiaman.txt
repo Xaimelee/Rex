@@ -3,7 +3,7 @@ type = transport
 
 hull_size = 26
 base_cannons = 24
-sail_speed = 11
+sail_speed = 8
 
 trade_power = 6
 
