@@ -123,7 +123,6 @@ arid = {
 
 sea_zone = {
 	max_attrition = 5						#Maximum Attrition is 5
-	local_naval_engagement_modifier = 0.40
 }
 
 land_province = {
