@@ -1,8 +1,8 @@
 #CS3
 type = transport
 
-hull_size = 26
-base_cannons = 24
+hull_size = 18
+base_cannons = 16
 sail_speed = 8
 
 trade_power = 6
