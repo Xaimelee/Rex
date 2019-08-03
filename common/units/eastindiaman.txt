@@ -1,0 +1,10 @@
+#CS3
+type = transport
+
+hull_size = 26
+base_cannons = 24
+sail_speed = 11
+
+trade_power = 6
+
+sprite_level = 1

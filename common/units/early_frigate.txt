@@ -1,0 +1,10 @@
+#MS1
+type = light_ship
+
+hull_size = 10
+base_cannons = 20
+sail_speed = 7
+
+trade_power = 0
+
+sprite_level = 1

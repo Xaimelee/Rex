@@ -1,0 +1,10 @@
+#LS3
+type = galley
+
+hull_size = 24
+base_cannons = 44 
+sail_speed = 9
+
+trade_power = 3
+
+sprite_level = 1

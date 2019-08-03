@@ -1,0 +1,10 @@
+#CS1
+type = transport
+
+hull_size = 10
+base_cannons = 8
+sail_speed = 11
+
+trade_power = 2
+
+sprite_level = 1

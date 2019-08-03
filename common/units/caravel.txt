@@ -1,0 +1,10 @@
+#LS2
+type = galley
+
+hull_size = 16
+base_cannons = 28
+sail_speed = 9
+
+trade_power = 2
+
+sprite_level = 1
