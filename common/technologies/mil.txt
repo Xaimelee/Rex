@@ -166,7 +166,7 @@ technology = {
 	year = 1492
 	
 	#The limber
-	artillery_fire 		= 	1
+	artillery_fire 		= 	1.0
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
 	enable = large_cast_bronze_mortar 
@@ -284,7 +284,7 @@ technology = {
 	
 	#Trunnions
 	artillery_shock 	= 	0.1
-	artillery_fire 		= 	0.4
+	artillery_fire 		= 	1.0
 	
 	enable = small_cast_iron_bombard
 	enable = large_cast_iron_bombard
@@ -453,7 +453,7 @@ technology = {
 	#Cartridge	(1620)?)
 	cavalry_fire		=	0.5
 	artillery_shock 	=	0.1
-	artillery_fire		=	2.0
+	artillery_fire		=	1.0
 	
 	combat_width = 2
 	
@@ -520,7 +520,7 @@ technology = {
 	
 	#Metallurgy
 	artillery_shock 	=	0.1
-	artillery_fire		=	2.0
+	artillery_fire		=	1.0
 	
 	enable = royal_mortar	
 }
@@ -654,5 +654,5 @@ technology = {
 	#Field Howitzer
 	military_tactics	=	0.25
 	artillery_shock		=	0.1
-	artillery_fire		=	2.0	
+	artillery_fire		=	1.0	
 }
