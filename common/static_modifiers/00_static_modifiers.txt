@@ -454,6 +454,9 @@ left_trade_company = {
 
 scorched_earth = {
 	local_hostile_movement_speed = -0.50
+	local_friendly_movement_speed = -0.50
+	local_hostile_attrition = 1
+	supply_limit_modifier = -0.25
 }
 
 ##########################################################################
