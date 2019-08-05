@@ -81,6 +81,8 @@ NDefines.NEconomy.LIGHT_SHIP_MAINT_FACTOR = 0.07
 NDefines.NEconomy.GALLEY_MAINT_FACTOR = 0.06
 NDefines.NEconomy.TRANSPORT_MAINT_FACTOR = 0.06
 
+NDefines.NEconomy.CARAVAN_POWER_MAX = 25
+
 -- Military Defines
 -- Land
 
