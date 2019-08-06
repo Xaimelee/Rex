@@ -583,6 +583,10 @@ on_replace_governor = {
 
 # country
 on_bankruptcy = {
+	add_country_modifier = {
+		name = longterm_bankruptcy_effects
+		duration = 3650 #10 years
+	}
 }
 
 # country (country annexing, root = target)
