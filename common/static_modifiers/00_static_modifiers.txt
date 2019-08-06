@@ -131,28 +131,28 @@ land_province = {
 }
 
 mild_winter = {
-	local_hostile_attrition = 2
-	supply_limit_modifier = -0.2
+	local_hostile_attrition = 1
+	supply_limit_modifier = -0.1
 
 	picture = "winter_mild"
 }
 
 normal_winter = {
-	local_hostile_attrition = 3
-	supply_limit_modifier = -0.3
+	local_hostile_attrition = 2
+	supply_limit_modifier = -0.2
 
 	picture = "winter_normal"
 }
 
 severe_winter = {
-	local_hostile_attrition = 4
-	supply_limit_modifier = -0.4
+	local_hostile_attrition = 3
+	supply_limit_modifier = -0.3
 
 	picture = "winter_severe"
 }
 
 mild_monsoon = {
-	local_hostile_attrition = 2
+	local_hostile_attrition = 1
 	local_hostile_movement_speed = -0.10
 	local_friendly_movement_speed = -0.10
 
@@ -160,7 +160,7 @@ mild_monsoon = {
 }
 
 normal_monsoon = {
-	local_hostile_attrition = 3
+	local_hostile_attrition = 2
 	local_hostile_movement_speed = -0.20
 	local_friendly_movement_speed = -0.20
 
@@ -168,7 +168,7 @@ normal_monsoon = {
 }
 
 severe_monsoon = {
-	local_hostile_attrition = 4
+	local_hostile_attrition = 3
 	local_hostile_movement_speed = -0.30
 	local_friendly_movement_speed = -0.30
 
@@ -453,10 +453,10 @@ left_trade_company = {
 
 
 scorched_earth = {
-	local_hostile_movement_speed = -0.50
-	local_friendly_movement_speed = -0.50
+	local_hostile_movement_speed = -0.30
+	local_friendly_movement_speed = -0.30
 	local_hostile_attrition = 1
-	supply_limit_modifier = -0.25
+	supply_limit_modifier = -0.30
 }
 
 ##########################################################################
