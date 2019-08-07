@@ -1,11 +1,11 @@
 military_funding_penalty_1 = {
 	potential = {
-	    num_of_loans = 5
+	    num_of_loans = 10
 		NOT = { has_country_modifier = military_funding_penalty_2 }
 	}
 
 	trigger = {
-		num_of_loans = 5
+		num_of_loans = 10
 		NOT = { has_country_modifier = military_funding_penalty_2 }
 	}
 	
@@ -15,12 +15,12 @@ military_funding_penalty_1 = {
 
 military_funding_penalty_2 = {
 	potential = {
-	    num_of_loans = 10
+	    num_of_loans = 15
 		NOT = { has_country_modifier = military_funding_penalty_3 }
 	}
 
 	trigger = {
-		num_of_loans = 10
+		num_of_loans = 15
 		NOT = { has_country_modifier = military_funding_penalty_3 }
 	}
 	
@@ -30,12 +30,12 @@ military_funding_penalty_2 = {
 
 military_funding_penalty_3 = {
 	potential = {
-	    num_of_loans = 15
+	    num_of_loans = 20
 		NOT = { has_country_modifier = military_funding_penalty_4 }
 	}
 
 	trigger = {
-		num_of_loans = 15
+		num_of_loans = 20
 		NOT = { has_country_modifier = military_funding_penalty_4 }
 	}
 	
@@ -45,12 +45,12 @@ military_funding_penalty_3 = {
 
 military_funding_penalty_4 = {
 	potential = {
-	    num_of_loans = 20
+	    num_of_loans = 25
 		NOT = { has_country_modifier = military_funding_penalty_5 }
 	}
 
 	trigger = {
-		num_of_loans = 20
+		num_of_loans = 25
 		NOT = { has_country_modifier = military_funding_penalty_5 }
 	}
 	
@@ -60,12 +60,12 @@ military_funding_penalty_4 = {
 
 military_funding_penalty_5 = {
 	potential = {
-	    num_of_loans = 25
+	    num_of_loans = 30
 		NOT = { has_country_modifier = military_funding_penalty_6 }
 	}
 
 	trigger = {
-		num_of_loans = 25
+		num_of_loans = 30
 		NOT = { has_country_modifier = military_funding_penalty_6 }
 	}
 	
@@ -75,12 +75,12 @@ military_funding_penalty_5 = {
 
 military_funding_penalty_6 = {
 	potential = {
-	    num_of_loans = 30
+	    num_of_loans = 35
 		NOT = { has_country_modifier = military_funding_penalty_7 }
 	}
 
 	trigger = {
-		num_of_loans = 30
+		num_of_loans = 35
 		NOT = { has_country_modifier = military_funding_penalty_7 }
 	}
 	
@@ -90,12 +90,12 @@ military_funding_penalty_6 = {
 
 military_funding_penalty_7 = {
 	potential = {
-	    num_of_loans = 35
+	    num_of_loans = 40
 		NOT = { has_country_modifier = military_funding_penalty_8 }
 	}
 
 	trigger = {
-		num_of_loans = 35
+		num_of_loans = 40
 		NOT = { has_country_modifier = military_funding_penalty_8 }
 	}
 	
@@ -105,12 +105,12 @@ military_funding_penalty_7 = {
 
 military_funding_penalty_8 = {
 	potential = {
-	    num_of_loans = 40
+	    num_of_loans = 45
 		NOT = { has_country_modifier = military_funding_penalty_9 }
 	}
 
 	trigger = {
-		num_of_loans = 40
+		num_of_loans = 45
 		NOT = { has_country_modifier = military_funding_penalty_9 }
 	}
 	
@@ -120,12 +120,12 @@ military_funding_penalty_8 = {
 
 military_funding_penalty_9 = {
 	potential = {
-	    num_of_loans = 45
+	    num_of_loans = 50
 		NOT = { has_country_modifier = military_funding_penalty_10 }
 	}
 
 	trigger = {
-		num_of_loans = 45
+		num_of_loans = 50
 		NOT = { has_country_modifier = military_funding_penalty_10 }
 	}
 	
@@ -135,11 +135,11 @@ military_funding_penalty_9 = {
 
 military_funding_penalty_10 = {
 	potential = {
-	    num_of_loans = 50
+	    num_of_loans = 55
 	}
 
 	trigger = {
-		num_of_loans = 50
+		num_of_loans = 55
 	}
 	
 	land_morale = -0.5
