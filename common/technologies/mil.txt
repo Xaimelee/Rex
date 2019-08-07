@@ -4,6 +4,7 @@ monarch_power = MIL
 # no bonus for MIL currently
 ahead_of_time = {
     land_maintenance_modifier = -0.05
+	yearly_corruption = -0.03
 }
 
 # Pre-era techs
