@@ -1,0 +1,48 @@
+war_exhaustion_modifier_1 = {
+	potential = {
+        is_at_war = yes
+		NOT = { war_exhaustion_modifier_2 }
+		NOT = { war_exhaustion_modifier_3 }
+	}
+
+	trigger = {
+		NOT = { manpower_percentage = 0.20 }
+		NOT = { war_exhaustion_modifier_2 }
+		NOT = { war_exhaustion_modifier_3 }
+	}
+	
+	war_exhaustion = 0.05
+	war_exhaustion_cost = 0.10
+}
+
+war_exhaustion_modifier_2 = {
+	potential = {
+	    is_at_war = yes
+		NOT = { manpower_percentage = 0.10 }
+		NOT = { war_exhaustion_modifier_3 }
+	}
+
+	trigger = { 
+	    is_at_war = yes
+		NOT = { manpower_percentage = 0.10 }
+		NOT = { war_exhaustion_modifier_3 }
+	}
+	
+	war_exhaustion = 0.10
+	war_exhaustion_cost = 0.20
+}
+
+war_exhaustion_modifier_3 = {
+	potential = {
+		is_at_war = yes
+		NOT = { manpower_percentage = 0.01 }
+	}
+
+	trigger = {
+	    is_at_war = yes
+		NOT = { manpower_percentage = 0.01 }
+	}
+	
+	war_exhaustion = 0.15
+	war_exhaustion_cost = 0.30
+}
