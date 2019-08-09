@@ -363,9 +363,11 @@ devastation = {
 }
 
 prosperity = {
-	local_development_cost = -0.1
-	trade_goods_size_modifier = 0.1
+    local_tax_modifier = 0.1
+	local_institution_spread = 0.1
+	local_unrest = -2
 	local_autonomy = -0.05
+	regiment_recruit_speed = -0.20
 }
 
 slaves_raided = {
