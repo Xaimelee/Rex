@@ -42,14 +42,13 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = general_recruit_show
-			army_professionalism = 0.05
 			NOT = { army_professionalism = 0.5 }
 		}
 		allow = {
-            army_professionalism = 0.05
+            army_professionalism = 0.025
 		}
 		effect = {
-            add_army_professionalism = -0.05
+            add_army_professionalism = -0.025
 			create_general = { tradition = 30 }
 		}
 		ai_will_do = {
