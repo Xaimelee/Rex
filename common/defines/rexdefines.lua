@@ -19,7 +19,7 @@ NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 30
 NDefines.NDiplomacy.HRE_FOREIGN_CONTROL_PENALTY = -0.01
 
 NDefines.NDiplomacy.PEACE_COST_GOLD_STEP = 5
-NDefines.NDiplomacy.PEACE_COST_GOLD_MAX = 0
+NDefines.NDiplomacy.PEACE_COST_GOLD_MAX = 3
 
 -- Country Defines
 
