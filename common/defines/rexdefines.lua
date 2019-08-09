@@ -23,7 +23,7 @@ NDefines.NDiplomacy.PEACE_COST_GOLD_MAX = 0
 
 -- Country Defines
 
-NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 1
+NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
 NDefines.NCountry.PROSPERITY_MONTHLY_DECLINE = -1
 
 NDefines.NCountry.MONARCH_MIN_SKILL = 1
