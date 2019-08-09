@@ -61,6 +61,8 @@ NDefines.NCountry.MONTHS_TO_CHANGE_CULTURE = 6
 NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.3
 NDefines.NCountry.REVOLT_SIZE_BASE = 4
 
+NDefines.NCountry.YEARS_OF_NATIONALISM = 15
+
 -- Economy Defines
 
 NDefines.NEconomy.DEBASE_MONTHS_PER_CHARGE = 36
