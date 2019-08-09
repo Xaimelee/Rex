@@ -1,6 +1,7 @@
 country_decisions = {
 
     general_recruit_hide_decisions = {
+	    major = yes
 		potential = {
             has_country_modifier = general_recruit_show
 		}
@@ -18,6 +19,7 @@ country_decisions = {
 	}
 	
 	general_recruit_show_decisions = {
+	    major = yes
 		potential = {
             NOT = { has_country_modifier = general_recruit_show }
 		}

@@ -1,10 +1,10 @@
 ﻿l_english:
 #AP Generals
- general_recruit_hide_decisions_title:0 "Hide Decisions for General Recruitment"
+ general_recruit_hide_decisions_title:0 "Hide Decisions for Recruitment"
  general_recruit_hide_decisions_desc:0 ""
- general_recruit_show_decisions_title:0 "Show Decisions for General Recruitment"
+ general_recruit_show_decisions_title:0 "Show Decisions for Recruitment"
  general_recruit_show_decisions_desc:0 ""
- general_recruit_tier_1_title:0 "Recruit from the Military"
+ general_recruit_tier_1_title:0 "Recruit from the Ranks"
  general_recruit_tier_1_desc:0 ""
  general_recruit_tier_2_title:0 "Recruit from the Cadet Academy"
  general_recruit_tier_2_desc:0 ""
