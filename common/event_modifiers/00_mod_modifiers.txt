@@ -5,7 +5,3 @@
 longterm_bankruptcy_effects = {
 	interest = 3
 }
-
-general_recruit_show = {
-    hidden = yes
-}
