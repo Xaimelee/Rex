@@ -63,6 +63,8 @@ NDefines.NCountry.REVOLT_SIZE_BASE = 4
 
 NDefines.NCountry.YEARS_OF_NATIONALISM = 15
 
+NDefines.NCountry.UNREST_REVOLT_FACTOR = 0.75
+
 NDefines.NCountry.PS_MAKE_PROVINCE_CORE = 8
 
 -- Economy Defines
