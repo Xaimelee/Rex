@@ -1026,15 +1026,15 @@ absolutism = {
 }
 
 low_army_professionalism = {
-	land_maintenance_modifier = -0.10
+	yearly_army_professionalism = 0.005
 }
 
 high_army_professionalism = {
 	discipline = 0.05
-	army_tradition = 1
 	movement_speed = 0.1
 	siege_ability = 0.1
 	land_maintenance_modifier = 0.1
+	yearly_army_professionalism = 0.02
 }
 
 streltsy_modifier = {
