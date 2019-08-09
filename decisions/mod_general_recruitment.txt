@@ -1,7 +1,6 @@
 country_decisions = {
 
     general_recruit_hide_decisions = {
-	    major = yes
 		potential = {
             has_country_modifier = general_recruit_show
 		}
@@ -19,7 +18,6 @@ country_decisions = {
 	}
 	
 	general_recruit_show_decisions = {
-	    major = yes
 		potential = {
             NOT = { has_country_modifier = general_recruit_show }
 		}
@@ -39,7 +37,6 @@ country_decisions = {
 	}
 	
 	general_recruit_tier_1 = {
-	    major = yes
 		potential = {
             has_country_modifier = general_recruit_show
 			NOT = { army_professionalism = 0.5 }
@@ -57,17 +54,16 @@ country_decisions = {
 	}
 	
 	general_recruit_tier_2 = {
-	    major = yes
 		potential = {
             has_country_modifier = general_recruit_show
 			army_professionalism = 0.5
 			NOT = { army_professionalism = 0.8 }
 		}
 		allow = {
-            army_professionalism = 0.05
+            army_professionalism = 0.025
 		}
 		effect = {
-            add_army_professionalism = -0.05
+            add_army_professionalism = -0.025
 			create_general = { tradition = 60 }
 		}
 		ai_will_do = {
@@ -76,16 +72,15 @@ country_decisions = {
 	}
 	
 	general_recruit_tier_3 = {
-	    major = yes
 		potential = {
             has_country_modifier = general_recruit_show
 			army_professionalism = 0.8
 		}
 		allow = {
-            army_professionalism = 0.05
+            army_professionalism = 0.025
 		}
 		effect = {
-            add_army_professionalism = -0.05
+            add_army_professionalism = -0.025
 			create_general = { tradition = 100 }
 		}
 		ai_will_do = {
