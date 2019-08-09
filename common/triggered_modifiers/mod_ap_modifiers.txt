@@ -1,0 +1,11 @@
+ap_from_war = {
+	potential = {
+	    is_at_war = yes
+	}
+
+	trigger = {
+		is_at_war = yes
+	}
+	
+	add_army_professionalism = 0.005
+}
