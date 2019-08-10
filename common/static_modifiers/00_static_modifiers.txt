@@ -303,6 +303,7 @@ march_bonus = {
 	land_maintenance_modifier = -0.20
 	naval_maintenance_modifier = -0.20
 	possible_mercenaries = -2
+	global_tax_income = -24
 }
 
 same_culture_group = {
