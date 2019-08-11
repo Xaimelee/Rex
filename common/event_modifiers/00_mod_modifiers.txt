@@ -5,3 +5,23 @@
 longterm_bankruptcy_effects = {
 	interest = 3
 }
+
+## Stratagems - AP mechanic
+
+aristocratic_stratagem = {
+}
+
+plutocratic_stratagem = {
+}
+
+offensive_stratagem = {
+}
+
+defensive_stratagem = {
+}
+
+quality_stratagem = {
+}
+
+quantity_stratagem = {
+}
