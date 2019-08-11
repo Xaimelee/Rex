@@ -8,11 +8,14 @@ country_decisions = {
             army_professionalism = 0.25
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
+			    calc_true_if = {
 				has_country_modifier = plutocratic_stratagem
 				has_country_modifier = offensive_stratagem
 				has_country_modifier = defensive_stratagem
 				has_country_modifier = quality_stratagem
 				has_country_modifier = quantity_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -34,12 +37,15 @@ country_decisions = {
 		allow = {
             army_professionalism = 0.25
 			NOT = {
-			    has_country_modifier = aristocratic_stratagem
-				has_country_modifier = plutocratic_stratagem
+			    has_country_modifier = plutocratic_stratagem
+			    calc_true_if = {
+				has_country_modifier = aristocratic_stratagem
 				has_country_modifier = offensive_stratagem
 				has_country_modifier = defensive_stratagem
 				has_country_modifier = quality_stratagem
 				has_country_modifier = quantity_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -61,12 +67,15 @@ country_decisions = {
 		allow = {
             army_professionalism = 0.25
 			NOT = {
-			    has_country_modifier = aristocratic_stratagem
+			    has_country_modifier = offensive_stratagem
+			    calc_true_if = {
+				has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
-				has_country_modifier = offensive_stratagem
 				has_country_modifier = defensive_stratagem
 				has_country_modifier = quality_stratagem
 				has_country_modifier = quantity_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -88,12 +97,15 @@ country_decisions = {
 		allow = {
             army_professionalism = 0.25
 			NOT = {
-			    has_country_modifier = aristocratic_stratagem
+			    has_country_modifier = defensive_stratagem
+			    calc_true_if = {
+				has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
 				has_country_modifier = offensive_stratagem
-				has_country_modifier = defensive_stratagem
 				has_country_modifier = quality_stratagem
 				has_country_modifier = quantity_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -115,12 +127,15 @@ country_decisions = {
 		allow = {
             army_professionalism = 0.25
 			NOT = {
-			    has_country_modifier = aristocratic_stratagem
+			    has_country_modifier = quality_stratagem
+			    calc_true_if = {
+				has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
 				has_country_modifier = offensive_stratagem
 				has_country_modifier = defensive_stratagem
-				has_country_modifier = quality_stratagem
 				has_country_modifier = quantity_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -142,12 +157,15 @@ country_decisions = {
 		allow = {
             army_professionalism = 0.25
 			NOT = {
-			    has_country_modifier = aristocratic_stratagem
+			    has_country_modifier = quantity_stratagem
+			    calc_true_if = {
+				has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
 				has_country_modifier = offensive_stratagem
 				has_country_modifier = defensive_stratagem
 				has_country_modifier = quality_stratagem
-				has_country_modifier = quantity_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
