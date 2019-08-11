@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_ap_stratagems"
+		texturefile = "gfx//interface//icon_ap_stratagems.dds"
+		loadType = "INGAME"
+	}
+}
