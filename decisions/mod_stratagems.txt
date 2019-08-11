@@ -5,7 +5,7 @@ country_decisions = {
             full_idea_group = aristocracy_ideas
 		}
 		allow = {
-            army_professionalism = 0.5
+            army_professionalism = 0.25
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
@@ -32,7 +32,7 @@ country_decisions = {
             full_idea_group = plutocracy_ideas
 		}
 		allow = {
-            army_professionalism = 0.5
+            army_professionalism = 0.25
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
@@ -59,7 +59,7 @@ country_decisions = {
             full_idea_group = offensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.5
+            army_professionalism = 0.25
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
@@ -86,7 +86,7 @@ country_decisions = {
             full_idea_group = defensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.5
+            army_professionalism = 0.25
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
@@ -113,7 +113,7 @@ country_decisions = {
             full_idea_group = quality_ideas
 		}
 		allow = {
-            army_professionalism = 0.5
+            army_professionalism = 0.25
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
@@ -140,7 +140,7 @@ country_decisions = {
             full_idea_group = quantity_ideas
 		}
 		allow = {
-            army_professionalism = 0.5
+            army_professionalism = 0.25
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
 				has_country_modifier = plutocratic_stratagem
