@@ -6,6 +6,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.35
+			add_years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
 			    calc_true_if = {
@@ -20,6 +21,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
+			add_years_of_income = 0.5
 			add_country_modifier = {
 			    name = aristocratic_stratagem
 				duration = 730
@@ -36,6 +38,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.35
+			add_years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = plutocratic_stratagem
 			    calc_true_if = {
@@ -50,6 +53,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
+			add_years_of_income = 0.5
 			add_country_modifier = {
 			    name = plutocratic_stratagem
 				duration = 730
@@ -66,6 +70,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.35
+			add_years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = offensive_stratagem
 			    calc_true_if = {
@@ -80,6 +85,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
+			add_years_of_income = 0.5
 			add_country_modifier = {
 			    name = offensive_stratagem
 				duration = 730
@@ -96,6 +102,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.35
+			add_years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = defensive_stratagem
 			    calc_true_if = {
@@ -110,6 +117,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
+			add_years_of_income = 0.5
 			add_country_modifier = {
 			    name = defensive_stratagem
 				duration = 730
@@ -126,6 +134,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.35
+			add_years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = quality_stratagem
 			    calc_true_if = {
@@ -140,6 +149,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
+			add_years_of_income = 0.5
 			add_country_modifier = {
 			    name = quality_stratagem
 				duration = 730
@@ -156,6 +166,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.35
+			add_years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = quantity_stratagem
 			    calc_true_if = {
@@ -170,6 +181,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
+			add_years_of_income = 0.5
 			add_country_modifier = {
 			    name = quantity_stratagem
 				duration = 730
