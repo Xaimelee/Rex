@@ -8,3 +8,16 @@
  general_recruit_tier_3_desc:0 ""
 #AP War
  ap_from_war:0 "Lessons of War"
+#AP Stratagems
+ aristocratic_stratagem_title:0 "£mil£ Enact Aristocratic Stratagem"
+ aristocratic_stratagem_desc:0 " "
+ plutocratic_stratagem_title:0 "£mil£ Enact Plutocratic Stratagem"
+ plutocratic_stratagem_desc:0 " "
+ offensive_stratagem_title:0 "£mil£ Enact Offensive Stratagem"
+ offensive_stratagem_desc:0 " "
+ defensive_stratagem_title:0 "£mil£ Enact Defensive Stratagem"
+ defensive_stratagem_desc:0 " "
+ quality_stratagem_title:0 "£mil£ Enact Quality Stratagem"
+ quality_stratagem_desc:0 " "
+ quantity_stratagem_title:0 "£mil£ Enact Quantity Stratagem"
+ quantity_stratagem_desc:0 " "
