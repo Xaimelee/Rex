@@ -21,7 +21,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
-			add_years_of_income = 0.5
+			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = aristocratic_stratagem
 				duration = 730
@@ -53,7 +53,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
-			add_years_of_income = 0.5
+			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = plutocratic_stratagem
 				duration = 730
@@ -85,7 +85,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
-			add_years_of_income = 0.5
+			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = offensive_stratagem
 				duration = 730
@@ -117,7 +117,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
-			add_years_of_income = 0.5
+			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = defensive_stratagem
 				duration = 730
@@ -149,7 +149,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
-			add_years_of_income = 0.5
+			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = quality_stratagem
 				duration = 730
@@ -181,7 +181,7 @@ country_decisions = {
 		}
 		effect = {
             add_army_professionalism = -0.35
-			add_years_of_income = 0.5
+			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = quantity_stratagem
 				duration = 730
