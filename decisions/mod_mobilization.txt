@@ -1,0 +1,19 @@
+country_decisions = {    
+	aristocratic_stratagem = {
+		potential = {
+            army_professionalism = 0.60
+		}
+		allow = {
+            army_professionalism = 0.60
+		}
+		effect = {
+			add_country_modifier = {
+			    name = mobilize_stage1
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}
