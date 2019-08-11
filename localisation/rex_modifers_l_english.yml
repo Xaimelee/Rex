@@ -1,3 +1,10 @@
 ﻿l_english:
 #Misc
  longterm_bankruptcy_effects:0 "Recovery from Bankruptcy"
+#AP Stratagems
+ aristocratic_stratagem:0 "Aristocratic Stratagem"
+ plutocratic_stratagem:0 "Plutocratic Stratagem"
+ offensive_stratagem:0 "Offensive Stratagem"
+ defensive_stratagem:0 "Defensive Stratagem"
+ quality_stratagem:0 "Quality Stratagem"
+ quantity_stratagem:0 "Quantity Stratagem"
