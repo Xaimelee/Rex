@@ -1,0 +1,171 @@
+country_decisions = {
+	
+	aristocratic_stratagem = {
+	    major = yes
+		potential = {
+            full_idea_group = aristocracy_ideas
+		}
+		allow = {
+            army_professionalism = 0.5
+			NOT = {
+			    has_country_modifier = aristocratic_stratagem
+				has_country_modifier = plutocratic_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				has_country_modifier = quantity_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.25
+			add_country_modifier = {
+			    name = aristocratic_stratagem
+				duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	
+	plutocratic_stratagem = {
+	    major = yes
+		potential = {
+            full_idea_group = plutocracy_ideas
+		}
+		allow = {
+            army_professionalism = 0.5
+			NOT = {
+			    has_country_modifier = aristocratic_stratagem
+				has_country_modifier = plutocratic_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				has_country_modifier = quantity_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.25
+			add_country_modifier = {
+			    name = plutocratic_stratagem
+				duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	
+	offensive_stratagem = {
+	    major = yes
+		potential = {
+            full_idea_group = offensive_ideas
+		}
+		allow = {
+            army_professionalism = 0.5
+			NOT = {
+			    has_country_modifier = aristocratic_stratagem
+				has_country_modifier = plutocratic_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				has_country_modifier = quantity_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.25
+			add_country_modifier = {
+			    name = offensive_stratagem
+				duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	defensive_stratagem = {
+	    major = yes
+		potential = {
+            full_idea_group = defensive_ideas
+		}
+		allow = {
+            army_professionalism = 0.5
+			NOT = {
+			    has_country_modifier = aristocratic_stratagem
+				has_country_modifier = plutocratic_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				has_country_modifier = quantity_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.25
+			add_country_modifier = {
+			    name = defensive_stratagem
+				duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	quality_stratagem = {
+	    major = yes
+		potential = {
+            full_idea_group = quality_ideas
+		}
+		allow = {
+            army_professionalism = 0.5
+			NOT = {
+			    has_country_modifier = aristocratic_stratagem
+				has_country_modifier = plutocratic_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				has_country_modifier = quantity_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.25
+			add_country_modifier = {
+			    name = quality_stratagem
+				duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	quantity_stratagem = {
+	    major = yes
+		potential = {
+            full_idea_group = quantity_ideas
+		}
+		allow = {
+            army_professionalism = 0.5
+			NOT = {
+			    has_country_modifier = aristocratic_stratagem
+				has_country_modifier = plutocratic_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				has_country_modifier = quantity_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.25
+			add_country_modifier = {
+			    name = quantity_stratagem
+				duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+}
