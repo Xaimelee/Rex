@@ -1,7 +1,6 @@
 country_decisions = {
 	
 	general_recruit_tier_1 = {
-	    major = yes
 		potential = {
 			NOT = { army_professionalism = 0.5 }
 		}
@@ -18,7 +17,6 @@ country_decisions = {
 	}
 	
 	general_recruit_tier_2 = {
-	    major = yes
 		potential = {
 			army_professionalism = 0.5
 			NOT = { army_professionalism = 0.8 }
@@ -36,7 +34,6 @@ country_decisions = {
 	}
 	
 	general_recruit_tier_3 = {
-	    major = yes
 		potential = {
 			army_professionalism = 0.8
 		}

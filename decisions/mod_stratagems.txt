@@ -1,7 +1,6 @@
 country_decisions = {
 	
 	aristocratic_stratagem = {
-	    major = yes
 		potential = {
             full_idea_group = aristocracy_ideas
 		}
@@ -29,7 +28,6 @@ country_decisions = {
 	}
 	
 	plutocratic_stratagem = {
-	    major = yes
 		potential = {
             full_idea_group = plutocracy_ideas
 		}
@@ -57,7 +55,6 @@ country_decisions = {
 	}
 	
 	offensive_stratagem = {
-	    major = yes
 		potential = {
             full_idea_group = offensive_ideas
 		}
@@ -85,7 +82,6 @@ country_decisions = {
 	}
 
 	defensive_stratagem = {
-	    major = yes
 		potential = {
             full_idea_group = defensive_ideas
 		}
@@ -113,7 +109,6 @@ country_decisions = {
 	}
 
 	quality_stratagem = {
-	    major = yes
 		potential = {
             full_idea_group = quality_ideas
 		}
@@ -141,7 +136,6 @@ country_decisions = {
 	}
 
 	quantity_stratagem = {
-	    major = yes
 		potential = {
             full_idea_group = quantity_ideas
 		}
