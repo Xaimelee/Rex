@@ -1,0 +1,14 @@
+﻿l_english:
+#AP Conscription
+ conscription.1.title:0 "Enacted Conscription"
+ conscription.1.desc:0 "Royal decree of [Root.Monarch.GetTitle] [Root.Monarch.GetName] declares that nationwide conscription has been enacted to help bolster the armed forces for this coming war. Every man, regardless of class, profession or status, shall take up arms to defend the country."
+ conscription.1.a:0 "We shall continue to rally our country for the war to come."
+ conscription.2.title:0 "Further Conscription"
+ conscription.2.desc:0 "Regardless of noticeable resistance from the populace to being conscripted, our armed forces have seen a noticable increase in available reserves. Now being months into this war, it's time to see our nation fully conscripted."
+ conscription.2.a:0 "Every man shall be armed to defend this country."
+ conscription.3.title:0 "Nationwide Conscription"
+ conscription.3.desc:0 "Any man available for service has been conscripted, may we now hope this is a quick and decisive war in our favour."
+ conscription.3.a:0 "Our enemies will cower in fear at the sight of our mighty army."
+ conscription.4.title:0 "Abolishment of Wartime Conscription"
+ conscription.4.desc:0 "The war has ended and those who were conscripted into the army will now return to their previous lifes."
+ conscription.4.a:0 "Rest assured they will be needed again."

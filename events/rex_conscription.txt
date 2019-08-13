@@ -1,0 +1,101 @@
+namespace = rex_conscription
+
+country_event = {
+	id = conscription.1
+	title = conscription.1.title
+	desc = conscription.1.desc
+	picture = CITY_VIEW_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = conscription.1.a
+		
+		add_country_modifier = {
+		    name = "conscription_stage2"
+			duration = -1
+		}
+		add_yearly_manpower = 0.3
+		remove_country_modifier = conscription_stage1
+		country_event = {
+			id = conscription.2
+			days = 60
+		}
+	}
+}
+
+country_event = {
+	id = conscription.2
+	title = conscription.2.title
+	desc = conscription.2.desc
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = conscription.2.a
+		
+		add_country_modifier = {
+		    name = "conscription_stage3"
+			duration = -1
+		}
+		add_yearly_manpower = 0.3
+		remove_country_modifier = conscription_stage2
+		country_event = {
+			id = conscription.3
+			days = 60
+		}
+	}
+}
+
+country_event = {
+	id = conscription.3
+	title = conscription.3.title
+	desc = conscription.3.desc
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = conscription.3.a
+		add_yearly_manpower = 1
+		add_country_modifier = {
+		    name = "conscription_stage4"
+			duration = -1
+		}
+		remove_country_modifier = conscription_stage3
+	}
+}
+
+country_event = {
+	id = conscription.4
+	title = conscription.4.title
+	desc = conscription.4.desc
+	picture = CITY_VIEW_eventPicture
+	
+	trigger = {
+	    OR = {
+	        has_country_modifier = conscription_stage1
+			has_country_modifier = conscription_stage2
+			has_country_modifier = conscription_stage3
+			has_country_modifier = conscription_stage4
+		}
+		is_at_war = no
+	}
+	
+	mean_time_to_happen = {
+	    months = 1
+    }
+	
+	option = {
+		name = conscription.4.a
+		hidden_effect = {
+		    remove_country_modifier = conscription_stage1
+		    remove_country_modifier = conscription_stage2
+		    remove_country_modifier = conscription_stage3
+		    remove_country_modifier = conscription_stage4
+		    remove_country_flag = conscription
+		}
+	}
+}

@@ -6,7 +6,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.025
-			NOT = { has_country_flag = mobilizing }
+			NOT = { has_country_flag = conscription }
 		}
 		effect = {
             add_army_professionalism = -0.025
@@ -24,7 +24,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.025
-			NOT = { has_country_flag = mobilizing }
+			NOT = { has_country_flag = conscription }
 		}
 		effect = {
             add_army_professionalism = -0.025
@@ -41,7 +41,7 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.025
-			NOT = { has_country_flag = mobilizing }
+			NOT = { has_country_flag = conscription }
 		}
 		effect = {
             add_army_professionalism = -0.025

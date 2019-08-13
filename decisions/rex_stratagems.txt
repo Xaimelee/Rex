@@ -5,7 +5,7 @@ country_decisions = {
             full_idea_group = aristocracy_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.20
 			years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = aristocratic_stratagem
@@ -17,11 +17,11 @@ country_decisions = {
 				has_country_modifier = quantity_stratagem
 				amount = 2
 				}
-				has_country_flag = mobilizing
+				has_country_flag = conscription
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.25
+            add_army_professionalism = -0.20
 			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = aristocratic_stratagem
@@ -38,7 +38,7 @@ country_decisions = {
             full_idea_group = plutocracy_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.20
 			years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = plutocratic_stratagem
@@ -50,11 +50,11 @@ country_decisions = {
 				has_country_modifier = quantity_stratagem
 				amount = 2
 				}
-				has_country_flag = mobilizing
+				has_country_flag = conscription
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.25
+            add_army_professionalism = -0.20
 			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = plutocratic_stratagem
@@ -71,7 +71,7 @@ country_decisions = {
             full_idea_group = offensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.20
 			years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = offensive_stratagem
@@ -83,11 +83,11 @@ country_decisions = {
 				has_country_modifier = quantity_stratagem
 				amount = 2
 				}
-				has_country_flag = mobilizing
+				has_country_flag = conscription
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.25
+            add_army_professionalism = -0.20
 			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = offensive_stratagem
@@ -104,7 +104,7 @@ country_decisions = {
             full_idea_group = defensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.20
 			years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = defensive_stratagem
@@ -116,11 +116,11 @@ country_decisions = {
 				has_country_modifier = quantity_stratagem
 				amount = 2
 				}
-				has_country_flag = mobilizing
+				has_country_flag = conscription
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.25
+            add_army_professionalism = -0.20
 			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = defensive_stratagem
@@ -137,7 +137,7 @@ country_decisions = {
             full_idea_group = quality_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.20
 			years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = quality_stratagem
@@ -149,11 +149,11 @@ country_decisions = {
 				has_country_modifier = quantity_stratagem
 				amount = 2
 				}
-				has_country_flag = mobilizing
+				has_country_flag = conscription
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.25
+            add_army_professionalism = -0.20
 			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = quality_stratagem
@@ -170,7 +170,7 @@ country_decisions = {
             full_idea_group = quantity_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.20
 			years_of_income = 0.5
 			NOT = {
 			    has_country_modifier = quantity_stratagem
@@ -182,11 +182,11 @@ country_decisions = {
 				has_country_modifier = quality_stratagem
 				amount = 2
 				}
-				has_country_flag = mobilizing
+				has_country_flag = conscription
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.25
+            add_army_professionalism = -0.20
 			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = quantity_stratagem
