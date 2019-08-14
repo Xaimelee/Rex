@@ -673,13 +673,13 @@ age_of_revolutions = {
 		}
 		obj_large_subject = {
 			any_subject_country = {
-				total_development = 250
+				total_development = 200
 			}
 		}
 		obj_disc_army = {
 			has_global_modifier_value = {
 				which = discipline
-				value = 0.25
+				value = 0.15
 				extra_shortcut = yes
 			}
 		}
@@ -693,7 +693,7 @@ age_of_revolutions = {
 		}
 	
 		obj_two_institutions = {
-			num_of_owned_and_controlled_institutions = 2
+			land_forcelimit = 500
 		}
 	}
 
@@ -718,7 +718,8 @@ age_of_revolutions = {
 
 		ab_napoleonic_warfare = {
 			modifier = {
-				artillery_bonus_vs_fort = 3
+				land_maintenance_modifier = -0.075
+				naval_maintenance_modifier = -0.075
 			}
 			ai_will_do = {
 				factor = 10
@@ -754,7 +755,7 @@ age_of_revolutions = {
 		
 		ab_backrow_artillery = {
 			modifier = {
-				backrow_artillery_damage = 0.20
+				backrow_artillery_damage = 0.10
 			}
 			ai_will_do = {
 				factor = 10
@@ -762,7 +763,7 @@ age_of_revolutions = {
 		}
 		ab_same_contine_lib_desire = {
 			modifier = {
-				reduced_liberty_desire_on_same_continent = 25
+				shock_damage = 0.10
 			}
 			ai_will_do = {
 				factor = 15
@@ -779,10 +780,10 @@ age_of_revolutions = {
 		}
 		ab_pru_military = {
 			allow = {
-				tag = PRU
+				technology_group = western
 			}
 			modifier = {
-				fire_damage_received = -0.2
+				artillery_power = 0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -790,10 +791,10 @@ age_of_revolutions = {
 		}
 		ab_gbr_fleet = {
 			allow = {
-				tag = GBR
+				technology_group = eastern
 			}
 			modifier = {
-				naval_maintenance_modifier = -0.33
+				max_states = 10
 			}
 			ai_will_do = {
 				factor = 100
@@ -801,10 +802,12 @@ age_of_revolutions = {
 		}
 		ab_russia_boost = {
 			allow = {
-				tag = RUS
+				technology_group = muslim
 			}
 			modifier = {
-				max_states = 20
+				land_morale = 0.10
+				drill_gain_modifier = 0.20
+				drill_decay_modifier = -0.20
 			}
 			ai_will_do = {
 				factor = 100
@@ -812,10 +815,10 @@ age_of_revolutions = {
 		}
 		ab_austria_rep = {
 			allow = {
-				tag = HAB
+				technology_group = indian
 			}
 			modifier = {
-				diplomatic_reputation = 5
+				leader_land_fire = 1
 			}
 			ai_will_do = {
 				factor = 100
