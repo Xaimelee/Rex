@@ -485,7 +485,7 @@ age_of_absolutism = {
 		}
 		
 		obj_universities = {
-			university = 5
+			university = 10
 		}
 	
 		obj_large_forcelimit = {
@@ -493,12 +493,11 @@ age_of_absolutism = {
 		}
 		
 		obj_90_absolutism = {
-			absolutism = 90
+			absolutism = 80
 		}
 		
 		obj_emperor_of_china = {
-			is_emperor_of_china = yes
-			imperial_mandate = 50
+			local_autonomy_above_min = 20
 		}
 		
 		obj_cultures_accepted = {
@@ -521,8 +520,7 @@ age_of_absolutism = {
 	
 		ab_allow_edict_of_absolutism = {
 			effect = {
-				custom_tooltip = edict_of_absolutism_tt
-				set_country_flag = edict_of_absolutism
+				yearly_army_professionalism = 0.0025
 			}
 			ai_will_do = {
 				factor = 10
@@ -531,7 +529,7 @@ age_of_absolutism = {
 
 		ab_rival_change = {
 			modifier = {
-				rival_change_cost = -0.5
+				build_cost = -0.10
 			}
 			ai_will_do = {
 				factor = 0
@@ -540,7 +538,7 @@ age_of_absolutism = {
 
 		ab_rival_border_fort = {
 			modifier = {
-				rival_border_fort_maintenance = -1.0
+				fort_maintenance_modifier = -0.15
 			}
 			ai_will_do = {
 				factor = 10
@@ -551,6 +549,7 @@ age_of_absolutism = {
 		ab_autonomy = {
 			modifier = {
 				autonomy_change_time = -0.5
+				years_of_nationalism = -5
 			}
 			ai_will_do = {
 				factor = 10
@@ -561,6 +560,7 @@ age_of_absolutism = {
 		ab_harsh_treatment = {
 			modifier = {
 				harsh_treatment_cost = -0.5
+				global_unrest = -1
 			}
 			ai_will_do = {
 				factor = 10
@@ -589,10 +589,10 @@ age_of_absolutism = {
 	
 		ab_france_fire_damage = {
 			allow = {
-				tag = FRA
+				technology_group = western
 			}
 			modifier = {
-				fire_damage = 0.2
+				fire_damage = 0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -600,10 +600,11 @@ age_of_absolutism = {
 		}
 		ab_dutch_anti_corruption = {
 			allow = {
-				tag = NED
+				technology_group = eastern
 			}
 			modifier = {
-				yearly_corruption = -0.2
+				cavalry_power = 0.10
+				movement_speed = 0.05
 			}
 			ai_will_do = {
 				factor = 100
@@ -611,10 +612,11 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
-				tag = SWE
+				technology_group = muslim
 			}
 			modifier = {
-				manpower_recovery_speed = 0.35
+				global_manpower_modifier = 0.15
+				fire_damage_received = 0.075
 			}
 			ai_will_do = {
 				factor = 100
@@ -623,13 +625,11 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
-				OR = {
-					tag = MCH
-					tag = QNG
-				}
+				technology_group = chinese
 			}
 			modifier = {
-				amount_of_banners = 0.5
+				yearly_corruption = -0.2
+				max_states = 5
 			}
 			ai_will_do = {
 				factor = 100
