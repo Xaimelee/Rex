@@ -585,7 +585,7 @@ on_replace_governor = {
 on_bankruptcy = {
 	add_country_modifier = {
 		name = longterm_bankruptcy_effects
-		duration = 3650 #10 years
+		duration = 7300 #20 years
 	}
 }
 
