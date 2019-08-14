@@ -186,7 +186,8 @@ age_of_discovery = {
 				technology_group = western
 			}
 			modifier = {
-				infantry_cost = -0.10
+				infantry_cost = -0.075
+				infantry_power = 0.075
 			}
 			ai_will_do = {
 				factor = 100
