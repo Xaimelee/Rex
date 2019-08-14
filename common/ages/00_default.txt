@@ -86,7 +86,10 @@ age_of_discovery = {
 			allow = {
 				NOT = { religion_group = christian }
 			}
-			vassal = 5
+			OR = {
+			    vassal = 5
+			    march = 5
+			}
 		}		
 	
 		obj_two_continents = {
@@ -108,8 +111,7 @@ age_of_discovery = {
 	abilities = {
 		ab_allow_feudal_de_jure_law = {
 			effect = {
-				custom_tooltip = feudal_de_jure_law
-				set_country_flag = feudal_de_jure_law
+				global_tax_modifier = 0.10
 			}
 			ai_will_do = {
 				factor = 10
@@ -118,7 +120,8 @@ age_of_discovery = {
 		
 		ab_justified_wars = {
 			modifier = {
-				ae_impact = -0.1
+				diplomatic_upkeep = 1
+				diplomatic_reputation = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -149,7 +152,8 @@ age_of_discovery = {
 
 		ab_cavalry_armies = {
 			modifier = {
-				cav_to_inf_ratio = 0.2
+				cav_to_inf_ratio = 0.1
+				cavalry_cost = -0.1
 			}
 			ai_will_do = {
 				factor = 10
@@ -179,10 +183,11 @@ age_of_discovery = {
 		
 		ab_ottoman_siege_ability = {
 			allow = {
-				tag = TUR
+				technology_group = western
 			}
 			modifier = {
-				siege_ability = 0.33
+				infantry_cost = 0.05
+				infantry_power = 0.05
 			}
 			ai_will_do = {
 				factor = 100
@@ -192,10 +197,11 @@ age_of_discovery = {
 		ab_portugal_colonial_growth = {
 		
 			allow = {
-				tag = POR
+				technology_group = eastern
 			}
 			modifier = {
-				global_colonial_growth = 50
+				stability_cost_modifier = -0.15
+				max_states = 2
 			}
 			ai_will_do = {
 				factor = 100
@@ -204,30 +210,26 @@ age_of_discovery = {
 		ab_denmark_reduced_lib_desire = {
 		
 			allow = {
-				tag = DAN
+				technology_group = muslim
 			}
 			modifier = {
-				reduced_liberty_desire = 30
+				siege_ability = 0.20
 			}
 			ai_will_do = {
 				factor = 100
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 20
-						}
-					}
-				}
 			}
 		}
 		ab_venice_ship_trade = {
 		
 			allow = {
-				tag = VEN
+			    OR = {
+				technology_group = west_african
+				technology_group = east_african
+				}
 			}
 			modifier = {
-				global_ship_trade_power = 0.5
+				core_creation = -0.1
+				land_attrition = -0.15
 			}
 			ai_will_do = {
 				factor = 100
