@@ -272,7 +272,7 @@
  obj_two_institutions_desc:0 "Have a land force limit of at least 500 regiments."
  CONFIRAGEABILITY:0 "Confirm Ability"
  CONFIRAGEABILITY_TEXT:0 "Selecting $ABILITY|Y$ will grant\n$EFFECT$\nuntil the start of next age.\nAre you sure?"
- ab_allow_feudal_de_jure_law:0 "Feudal Taxation."
+ ab_allow_feudal_de_jure_law:0 "Feudal Taxation"
  ab_justified_wars:0 "Feudal Courts"
  ab_claim_duration:0 "Longer Claim Duration"
  ab_transfer_vassal_wargoal:1 "Transfer Subject"
