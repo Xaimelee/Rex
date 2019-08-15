@@ -186,8 +186,7 @@ age_of_discovery = {
 				technology_group = western
 			}
 			modifier = {
-				infantry_cost = -0.075
-				infantry_power = 0.075
+				leader_land_shock = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -228,7 +227,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				core_creation = -0.1
+				core_creation = -0.10
 				land_attrition = -0.15
 			}
 			ai_will_do = {
