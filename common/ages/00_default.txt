@@ -263,7 +263,8 @@ age_of_reformation = {
 		    allow = {
 				NOT = { religion_group = christian }
 			}
-			is_core = 385
+			owns_core_province = 385
+			
 		}
 		
 		obj_humanism_religious = {
