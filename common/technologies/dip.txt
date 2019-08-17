@@ -30,7 +30,11 @@ technology = { #The Barque
 	# Tech 2
 	year = 1420
 	
+	
+	enable = barque
 	trade_range				=	100
+	enable = cog
+	enable = galley
 
 }
 
@@ -45,6 +49,9 @@ technology = { #The Early Carrack
 	range					= 	100
 	trade_efficiency 		= 	0.02
 	global_colonial_growth	= 	15
+	
+	enable = early_carrack
+
 
 }
 
@@ -104,7 +111,8 @@ technology = { #Carracks & Caravel
 	naval_maintenance		= 	0.1
 	range					=	50
 	
-
+	enable = carrack
+	enable = caravel
 	may_study_technology = yes
 	
 }
@@ -116,7 +124,8 @@ technology = { #The Flute
 	trade_efficiency		= 	0.02
 	trade_range				=	20
 	global_colonial_growth  = 	10
-
+	enable = flute
+	enable = war_galley
 }
 
 technology = { #Wharf
@@ -134,6 +143,8 @@ technology = { #Man of War
 	year = 1557
 	naval_morale			=	0.4
 	may_slander_merchants = yes
+
+	
 }
 
 technology = { #Chartered Companies
@@ -141,7 +152,7 @@ technology = { #Chartered Companies
 	year = 1570
 	
 	trade_efficiency 		= 	0.02
-
+	enable = brig
 
 }
 
@@ -151,6 +162,9 @@ technology = { #The Galleass
 	
 	tradecompany = yes
 	num_accepted_cultures = 1
+
+	
+	enable = galleass
 }
  
 technology = { #The Galleon
@@ -160,7 +174,9 @@ technology = { #The Galleon
 	naval_maintenance		= 	0.1
 	range					=	50
 	global_colonial_growth  = 	15
-
+	
+	enable = galleon
+	enable = early_frigate
 	may_sabotage_recruitment = yes
 
 }
@@ -185,14 +201,14 @@ technology = { #Merchantman
 	trade_depot = yes 
 
 
-
+	enable = merchantman
 }
 
 technology = { #Line of Battle
 	# Tech 18
 	year = 1635
 	
-
+	enable = galiot
 	naval_morale			=	0.5
 	may_sow_discontent = yes
 
@@ -209,7 +225,8 @@ technology = { #The War Galleon
 	drydock = yes 
 	
 	
-
+	enable = wargalleon
+	enable = frigate
 }
 
 technology = { #Naval Professionalization
@@ -227,7 +244,7 @@ technology = { #The Chebeck
 	year = 1674
 	
 
-
+	enable = chebeck
 	may_sabotage_reputation = yes
 
 }
@@ -243,6 +260,8 @@ technology = { #Limes
 	stock_exchange = yes
 
 	reduced_naval_attrition = yes
+	enable = twodecker
+	enable = trabakul
 }
 
 technology = { #Heavy Frigates
@@ -253,6 +272,8 @@ technology = { #Heavy Frigates
 	range					=	150
 	allow_client_states = yes		
 
+	
+	enable = heavy_frigate
 }
 
 technology = { #The Archipelago Frigate
@@ -261,10 +282,11 @@ technology = { #The Archipelago Frigate
 	
 	
 	grand_shipyard = yes 
+
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
-
+	enable = archipelago_frigate
 	may_corrupt_officials = yes
 
 }
@@ -275,7 +297,8 @@ technology = { #The Threedeckers
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
-
+	
+	enable = threedecker
 }
 
 technology = { #The Eastindiaman
@@ -285,7 +308,9 @@ technology = { #The Eastindiaman
 	range					=	200
 	global_colonial_growth  = 	25
 	num_accepted_cultures = 1
-
+	
+	enable = eastindiaman
+	enable = great_frigate
 }
 
 technology = { #Public Punishments
