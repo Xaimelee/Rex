@@ -45,11 +45,6 @@ technology = { #The Early Carrack
 	range					= 	100
 	trade_efficiency 		= 	0.02
 	global_colonial_growth	= 	15
-	
-    enable = carrack
-	enable = early_frigate
-	enable = barque
-	enable = cog
 
 }
 
@@ -139,11 +134,6 @@ technology = { #Man of War
 	year = 1557
 	naval_morale			=	0.4
 	may_slander_merchants = yes
-
-	enable = wargalleon
-	enable = frigate
-	enable = caravel
-	enable = merchantman
 }
 
 technology = { #Chartered Companies
@@ -271,11 +261,6 @@ technology = { #The Archipelago Frigate
 	
 	
 	grand_shipyard = yes 
-
-	enable = threedecker
-	enable = great_frigate
-	enable = brig
-	enable = eastindiaman
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
