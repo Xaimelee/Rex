@@ -155,7 +155,7 @@ categories =  {
 
 		movement_cost = 1.40
 		local_defensiveness = 0.1
-		local_development_cost = 0.25
+		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 		
@@ -275,7 +275,7 @@ categories =  {
 		movement_cost = 1.5
 		defence = 1
 		local_defensiveness = 0.25
-		local_development_cost = 0.35
+		local_development_cost = 0.30
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 		
@@ -407,7 +407,7 @@ categories =  {
 		sound_type = jungle
 
 		movement_cost = 1.5
-		local_development_cost = 0.35
+		local_development_cost = 0.20
 		nation_designer_cost_multiplier = 0.8
 		supply_limit = 5
 		
