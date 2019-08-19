@@ -9,8 +9,8 @@
 
 ## Military Groups
 
-## Aristocratic -- Cavarly, Early game with potential scaling across mid-late game.
-aristocracy_ideas = {
+## Traditional
+traditional_ideas = {
 	category = MIL
 
 	bonus = {
@@ -51,7 +51,7 @@ aristocracy_ideas = {
 	}
 }
 
-## Offensive -- Attack, siege and overcoming enemies with speed. Potentially weak early game with strong scaling in mid-late. 
+## Offensive
 offensive_ideas = {
 	category = MIL
 
@@ -88,7 +88,7 @@ offensive_ideas = {
 	}
 }
 
-## Defensive -- Priority in winning battles and wars defensively, being able to sustain longer with less casualties.
+## Defensive
 defensive_ideas = {
 	category = MIL
 
@@ -124,7 +124,7 @@ defensive_ideas = {
 	}
 }
 
-## Quality -- Strong allrounder that still has potential to be beaten by other openers. Has good early and late game.
+## Quality
 quality_ideas = {
 	category = MIL
 
@@ -160,7 +160,7 @@ quality_ideas = {
 	}
 }
 
-## Quantity -- Numbers and cheaper units, high casuality ratio.
+## Quantity
 quantity_ideas = {
 	category = MIL
 
@@ -197,8 +197,8 @@ quantity_ideas = {
 	}
 }
 
-## Plutocratic / Mercenaries -- Efficient in sustaining mercenaries and looting, has some scaling potential economically
-plutocracy_ideas = {
+## Strategic Ideas
+strategic_ideas = {
 	category = MIL
 
 	bonus = {
