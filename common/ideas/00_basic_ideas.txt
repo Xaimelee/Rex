@@ -31,13 +31,12 @@ traditional_ideas = {
 	}
 	noble_officers = {
 		prestige_from_land = 0.35
-		recover_army_morale_speed = 0.10
 	}
 	international_nobility = {
 		infantry_power = 0.10
 	}
 	noble_resilience = {
-		army_tradition_decay = -0.01
+		recover_army_morale_speed = 0.10
 	}
 	
 
