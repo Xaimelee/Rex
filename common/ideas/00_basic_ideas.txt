@@ -116,7 +116,7 @@ defensive_ideas = {
 		fire_damage_received = -0.10
 	}
 	improved_foraging = {
-		global_manpower_modifier = 0.10
+		global_manpower_modifier = 0.15
 	}
 
 	ai_will_do = {
