@@ -23,4 +23,46 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_idea_culturalism_ideas"
+		texturefile = "gfx//interface//ideas//idea_culturalism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_mercantilist_ideas"
+		texturefile = "gfx//interface//ideas//idea_mercantilist_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_imperialism_ideas"
+		texturefile = "gfx//interface//ideas//idea_imperialism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_ideas"
+		texturefile = "gfx//interface//ideas//idea_trade_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_infrastructure_ideas"
+		texturefile = "gfx//interface//ideas//idea_infrastructure_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_naval_ideas"
+		texturefile = "gfx//interface//ideas//idea_naval_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }
