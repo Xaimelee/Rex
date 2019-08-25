@@ -1,0 +1,43 @@
+first_wave_colonist = {
+	potential = {
+        technology_group = western
+		NOT = { has_country_modifier = second_wave_colonist }
+		NOT = { has_country_modifier = third_wave_colonist }
+	}
+
+	trigger = {
+	    is_year = 1455
+		technology_group = western
+	}
+	
+	colonists = 1
+}
+
+second_wave_colonist = {
+	potential = {
+	    technology_group = western
+		num_of_ports = 1
+		NOT = { has_country_modifier = third_wave_colonist }
+	}
+
+	trigger = { 
+	    is_year = 1492
+		technology_group = western
+	}
+	
+	colonists = 2
+}
+
+third_wave_colonist = {
+	potential = {
+	    num_of_ports = 1
+	}
+
+	trigger = {
+	    is_year = 1600
+		num_of_ports = 1
+	}
+	
+	colonists = 3
+	global_colonial_growth = 10
+}
