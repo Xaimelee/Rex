@@ -1,0 +1,44 @@
+country_decisions = {
+
+	recruit_explorers_rex = {
+		potential = {
+		    OR = {
+			    has_country_modifier = first_wave_colonist
+				has_country_modifier = second_wave_colonist
+				has_country_modifier = third_wave_colonist
+				has_institution = new_world_i
+			}
+		}
+		allow = {
+            dip_power = 50
+		}
+		effect = {
+			create_explorer = 30
+			add_dip_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	recruit_conquistadors_rex = {
+		potential = {
+			OR = {
+			    has_country_modifier = first_wave_colonist
+				has_country_modifier = second_wave_colonist
+				has_country_modifier = third_wave_colonist
+				has_institution = new_world_i
+			}
+		}
+		allow = {
+            mil_power = 50
+		}
+		effect = {
+			create_conquistador = 30
+			add_mil_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
