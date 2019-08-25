@@ -26,6 +26,7 @@ second_wave_colonist = {
 	}
 	
 	colonists = 2
+	range = 0.5
 }
 
 third_wave_colonist = {
@@ -39,5 +40,5 @@ third_wave_colonist = {
 	}
 	
 	colonists = 3
-	global_colonial_growth = 10
-}
+	range = 1
+	}
