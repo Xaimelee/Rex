@@ -5,9 +5,6 @@ monarchy_mechanic = {
 	queen = yes
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
-	custom_attributes = {
-		enables_aristocratic_idea_group = yes
-	}
 }
 
 #Feudalism vs Autocracy:
@@ -58,10 +55,6 @@ plutocratic_reform = {
 	nation_designer_cost = 10
 	modifiers = {
 		merchants = 1
-	}
-	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
 	}
 }
 
