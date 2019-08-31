@@ -45,7 +45,7 @@ technology = { #The Early Carrack
 	year = 1440
 
 	naval_morale			=	0.1
-	naval_maintenance		= 	0.1
+	naval_maintenance		= 	0.05
 	range					= 	100
 	trade_efficiency 		= 	0.02
 	global_colonial_growth	= 	15
@@ -108,7 +108,7 @@ technology = { #Carracks & Caravel
 	# Tech 9
 	year = 1518
 	
-	naval_maintenance		= 	0.1
+	naval_maintenance		= 	0.05
 	range					=	50
 	
 	enable = carrack
@@ -171,7 +171,7 @@ technology = { #The Galleon
 	# Tech 15
 	year = 1596
 	
-	naval_maintenance		= 	0.1
+	naval_maintenance		= 	0.05
 	range					=	50
 	global_colonial_growth  = 	15
 	
@@ -219,7 +219,7 @@ technology = { #The War Galleon
 	# Tech 19
 	year = 1648
 	
-	naval_maintenance		= 	0.1	
+	naval_maintenance		= 	0.05	
 	range					=	50
 	
 	drydock = yes 
@@ -254,7 +254,7 @@ technology = { #Limes
 	year = 1687
 	
 	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
+	naval_maintenance		= 	0.05
 	
 
 	stock_exchange = yes
@@ -296,7 +296,7 @@ technology = { #The Threedeckers
 	year = 1730
 	
 	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
+	naval_maintenance		= 	0.05
 	
 	enable = threedecker
 }
@@ -318,7 +318,7 @@ technology = { #Public Punishments
 	year = 1760
 	
 	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
+	naval_maintenance		= 	0.05
 	may_agitate_for_liberty = yes
 
 }
@@ -336,7 +336,7 @@ technology = { #Midshipmen Cadets
 	year = 1790
 	
 	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
+	naval_maintenance		= 	0.05
 }
 
 technology = { #Insurance Companies
@@ -353,7 +353,7 @@ technology = { #Superior Ship Design
 	year = 1820
 	
 	naval_morale			=	0.5
-	naval_maintenance		= 	0.1	
+	naval_maintenance		= 	0.05	
 	num_accepted_cultures = 1
 }
 
