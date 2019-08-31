@@ -270,7 +270,6 @@ renaissance = {
 
 	bonus = {
 		development_cost = -0.05
-		build_cost = -0.05
 	}
 
 	trade_company_efficiency = 0.0
