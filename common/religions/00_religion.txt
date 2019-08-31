@@ -405,7 +405,7 @@ christian = {
 			catholic
 		}
 		country = {
-			tolerance_heretic = 2
+			tolerance_heretic = 1
 			advisor_cost = -0.05
 		}
 		
