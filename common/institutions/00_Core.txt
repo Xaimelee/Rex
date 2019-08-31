@@ -1411,7 +1411,7 @@ manufactories = {
 	penalty = 0.5
 
 	bonus = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.075
 	}
 
 	trade_company_efficiency = 0.2
