@@ -12,6 +12,7 @@ first_wave_colonist = {
 	}
 	
 	colonists = 1
+	range = 0.25
 }
 
 second_wave_colonist = {
