@@ -1486,7 +1486,7 @@ papal_blessing = {
 
 papal_sanction_for_holy_war = {
 	manpower_recovery_speed = 0.10
-	shock_damage = 0.05
+	shock_damage = 0.10
 	religion = yes
 }
 
