@@ -798,7 +798,7 @@ printing_press = {
 	penalty = 0.5
 
 	bonus = {
-		stability_cost_modifier = -0.05
+		stability_cost_modifier = -0.10
 	}
 
 	trade_company_efficiency = 0.0
