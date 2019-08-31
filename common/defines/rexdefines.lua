@@ -195,3 +195,7 @@ NDefines.NMilitary.TRANSPORT_TIME = 185
 
 NDefines.NMilitary.NAVAL_DOCTRINE_SAILORS_COST = 0.03
 NDefines.NMilitary.NAVAL_DOCTRINE_MIN_FORCE_LIMIT = 15
+
+-- Government Defines
+
+NDefines.NGovernment.RUSSIAN_ABILITY_STRELTSY_SPAWN_SIZE = 0.1
