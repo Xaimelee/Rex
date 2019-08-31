@@ -270,8 +270,8 @@ christian = {
 			catholic
 		}
 		country = {
-			global_tax_modifier = 0.1
-			improve_relation_modifier = 0.15
+			global_tax_modifier = 0.05
+			shock_damage_received = -0.05
 		}
 		
 		country_as_secondary = {
