@@ -132,7 +132,7 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	max_states = 3
 	development_efficiency = 0.05
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.05
 }
 
 technology = { #Improved Drainage
@@ -176,7 +176,7 @@ technology = { #University
 	university = yes	
 	max_states = 5
 	
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.05
 	development_efficiency = 0.05
 }
 
