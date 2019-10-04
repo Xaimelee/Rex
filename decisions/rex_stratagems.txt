@@ -26,7 +26,7 @@ country_decisions = {
 		effect = {
             add_army_professionalism = -0.20
 			add_country_modifier = {
-			    name = aristocratic_stratagem
+			    name = traditional_stratagem
 				duration = 730
 			}
 		}
@@ -61,7 +61,7 @@ country_decisions = {
 		effect = {
             add_army_professionalism = -0.20
 			add_country_modifier = {
-			    name = plutocratic_stratagem
+			    name = strategic_stratagem
 				duration = 730
 			}
 		}
