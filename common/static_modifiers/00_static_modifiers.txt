@@ -1065,9 +1065,7 @@ trade_company_dominant = {
 
 large_colonial_nation = {
 	merchants = 1
-	global_trade_power = 0.10
-	naval_forcelimit = 10
-	land_forcelimit = 5
+	global_tariffs = 0.10
 }
 
 march_subject = {
