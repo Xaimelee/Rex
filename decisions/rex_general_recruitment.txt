@@ -1,55 +1,55 @@
-country_decisions = {
-	
-	general_recruit_tier_1 = {
-		potential = {
-			NOT = { army_professionalism = 0.5 }
-		}
-		allow = {
-            army_professionalism = 0.025
-			NOT = { has_country_flag = conscription }
-		}
-		effect = {
-            add_army_professionalism = -0.025
-			create_general = { tradition = 30 }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	general_recruit_tier_2 = {
-		potential = {
-			army_professionalism = 0.5
-			NOT = { army_professionalism = 0.8 }
-		}
-		allow = {
-            army_professionalism = 0.05
-			NOT = { has_country_flag = conscription }
-		}
-		effect = {
-            add_army_professionalism = -0.05
-			create_general = { tradition = 60 }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	general_recruit_tier_3 = {
-		potential = {
-			army_professionalism = 0.8
-		}
-		allow = {
-            army_professionalism = 0.075
-			NOT = { has_country_flag = conscription }
-		}
-		effect = {
-            add_army_professionalism = -0.075
-			create_general = { tradition = 100 }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-}
+#country_decisions = {
+#	
+#	general_recruit_tier_1 = {
+#		potential = {
+#			NOT = { army_professionalism = 0.5 }
+#		}
+#		allow = {
+#           army_professionalism = 0.025
+#			NOT = { has_country_flag = conscription }
+#		}
+#		effect = {
+#            add_army_professionalism = -0.025
+#			create_general = { tradition = 30 }
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	
+#	general_recruit_tier_2 = {
+#		potential = {
+#			army_professionalism = 0.5
+#			NOT = { army_professionalism = 0.8 }
+#		}
+#		allow = {
+#            army_professionalism = 0.05
+#			NOT = { has_country_flag = conscription }
+#		}
+#		effect = {
+#           add_army_professionalism = -0.05
+#			create_general = { tradition = 60 }
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	
+#	general_recruit_tier_3 = {
+#		potential = {
+#			army_professionalism = 0.8
+#		}
+#		allow = {
+#           army_professionalism = 0.075
+#			NOT = { has_country_flag = conscription }
+#		}
+#		effect = {
+#           add_army_professionalism = -0.075
+#			create_general = { tradition = 100 }
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#
+#}
