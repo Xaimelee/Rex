@@ -94,8 +94,8 @@ NDefines.NEconomy.CARAVAN_POWER_MAX = 25
 -- Military Defines
 -- Land
 
-NDefines.NMilitary.SLACKEN_AP_DROP = -0
-NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 0
+NDefines.NMilitary.SLACKEN_AP_DROP = -0.05
+NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 0.5
 
 NDefines.NMilitary.ARMY_DRILL_YEARLY_DECAY = -5
 NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 25.0
