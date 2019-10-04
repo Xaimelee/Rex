@@ -596,7 +596,6 @@ inflation = {
 
 bankruptcy = {
 	interest = 3
-	stability_cost_modifier = 0.3
 	land_morale = -0.5
 	naval_morale = -0.5
 	reinforce_speed = -0.50					#Slower reinforce
@@ -604,7 +603,7 @@ bankruptcy = {
 	mr_guilds_influence = 0.25
 	manpower_recovery_speed = -0.5
 	sailors_recovery_speed = -0.5
-	advisor_cost = 0.3
+	advisor_cost = 0.5
 	monthly_fervor_increase = -1
 	global_colonial_growth = -200
 	global_autonomy = 0.05
@@ -613,7 +612,7 @@ bankruptcy = {
 	yearly_absolutism = -2.0
 	technology_cost = 0.5
 	idea_cost = 0.5
-	discipline = -0.075
+	discipline = -0.10
 	possible_mercenaries = -3.0
 }
 
