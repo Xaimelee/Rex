@@ -67,6 +67,7 @@ can_decrease_autonomy = {
 
 can_make_core = {
     condition = {
+	    tooltip = "cn_core_restriction"
 	    potential = {
 			FROM = {
 				is_colonial_nation = yes
@@ -140,6 +141,7 @@ can_garrison_sorties = {
 
 can_seize_colony = {
     condition = {
+        tooltip = "cn_seizecolony_restriction"
 	    potential = {
 			FROM = {
 				is_colonial_nation = yes
@@ -160,6 +162,7 @@ can_burn_colony = {
 
 can_colonize_province = {
     condition = {
+	    tooltip = "cn_colonize_restriction"
 	    potential = {
 			FROM = {
 				is_colonial_nation = yes
