@@ -91,6 +91,8 @@ NDefines.NEconomy.TRANSPORT_MAINT_FACTOR = 0.05
 
 NDefines.NEconomy.CARAVAN_POWER_MAX = 25
 
+NDefines.NEconomy.LARGE_COLONIAL_NATION_LIMIT = 20
+
 -- Military Defines
 -- Land
 
