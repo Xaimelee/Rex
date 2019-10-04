@@ -3,3 +3,5 @@
  cn_core_restriction:0 "You cannot core outside of your colonial region."
  cn_seizecolony_restriction:0 "You cannot seize colonies outside of your colonial region."
  cn_colonize_restriction:0 "You cannot colonize outside of your colonial region."
+#Stratagem restrictions
+ stratagem_restrictions:0 "You may only have 2 stratagems active at the same time while conscription has not been enacted."

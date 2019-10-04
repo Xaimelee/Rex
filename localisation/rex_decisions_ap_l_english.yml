@@ -9,10 +9,10 @@
 #AP War
  ap_from_war:0 "Lessons of War"
 #AP Stratagems
- aristocratic_stratagem_title:0 "£icon_ap_stratagems£ Enact Aristocratic Stratagem"
- aristocratic_stratagem_desc:0 " "
- plutocratic_stratagem_title:0 "£icon_ap_stratagems£ Enact Plutocratic Stratagem"
- plutocratic_stratagem_desc:0 " "
+ traditional_stratagem_title:0 "£icon_ap_stratagems£ Enact Traditional Stratagem"
+ traditional_stratagem_desc:0 " "
+ strategic_stratagem_title:0 "£icon_ap_stratagems£ Enact Strategic Stratagem"
+ strategic_stratagem_desc:0 " "
  offensive_stratagem_title:0 "£icon_ap_stratagems£ Enact Offensive Stratagem"
  offensive_stratagem_desc:0 " "
  defensive_stratagem_title:0 "£icon_ap_stratagems£ Enact Defensive Stratagem"

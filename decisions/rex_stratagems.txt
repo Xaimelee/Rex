@@ -1,28 +1,30 @@
 country_decisions = {
 	
-	aristocratic_stratagem = {
+	traditional_stratagem = {
 		potential = {
-            full_idea_group = aristocracy_ideas
+            full_idea_group = traditional_ideas
 		}
 		allow = {
             army_professionalism = 0.20
-			years_of_income = 0.5
-			NOT = {
-			    has_country_modifier = aristocratic_stratagem
-			    calc_true_if = {
-				has_country_modifier = plutocratic_stratagem
-				has_country_modifier = offensive_stratagem
-				has_country_modifier = defensive_stratagem
-				has_country_modifier = quality_stratagem
-				has_country_modifier = quantity_stratagem
-				amount = 2
-				}
-				has_country_flag = conscription
+			is_at_war = yes
+			tooltip = "stratagem_restrictions"
+			hidden_effect = {
+			    NOT = {
+			        has_country_modifier = traditional_stratagem
+			        calc_true_if = {
+				    has_country_modifier = strategic_stratagem
+				    has_country_modifier = quantity_stratagem
+				    has_country_modifier = offensive_stratagem
+				    has_country_modifier = defensive_stratagem
+				    has_country_modifier = quality_stratagem
+				    amount = 2
+				    }
+				    has_country_flag = conscription
+			    }
 			}
 		}
 		effect = {
             add_army_professionalism = -0.20
-			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = aristocratic_stratagem
 				duration = 730
@@ -33,29 +35,31 @@ country_decisions = {
 		}
 	}
 	
-	plutocratic_stratagem = {
+	strategic_stratagem = {
 		potential = {
-            full_idea_group = plutocracy_ideas
+            full_idea_group = strategic_ideas
 		}
 		allow = {
             army_professionalism = 0.20
-			years_of_income = 0.5
-			NOT = {
-			    has_country_modifier = plutocratic_stratagem
-			    calc_true_if = {
-				has_country_modifier = aristocratic_stratagem
-				has_country_modifier = offensive_stratagem
-				has_country_modifier = defensive_stratagem
-				has_country_modifier = quality_stratagem
-				has_country_modifier = quantity_stratagem
-				amount = 2
-				}
-				has_country_flag = conscription
+			is_at_war = yes
+			tooltip = "stratagem_restrictions"
+			hidden_effect = {
+			    NOT = {
+			        has_country_modifier = strategic_stratagem
+			        calc_true_if = {
+				    has_country_modifier = traditional_stratagem
+				    has_country_modifier = quantity_stratagem
+				    has_country_modifier = offensive_stratagem
+				    has_country_modifier = defensive_stratagem
+				    has_country_modifier = quality_stratagem
+				    amount = 2
+				    }
+				    has_country_flag = conscription
+			    }
 			}
 		}
 		effect = {
             add_army_professionalism = -0.20
-			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = plutocratic_stratagem
 				duration = 730
@@ -72,23 +76,25 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.20
-			years_of_income = 0.5
-			NOT = {
-			    has_country_modifier = offensive_stratagem
-			    calc_true_if = {
-				has_country_modifier = aristocratic_stratagem
-				has_country_modifier = plutocratic_stratagem
-				has_country_modifier = defensive_stratagem
-				has_country_modifier = quality_stratagem
-				has_country_modifier = quantity_stratagem
-				amount = 2
-				}
-				has_country_flag = conscription
+			is_at_war = yes
+			tooltip = "stratagem_restrictions"
+			hidden_effect = {
+			    NOT = {
+			        has_country_modifier = offensive_stratagem
+			        calc_true_if = {
+				    has_country_modifier = traditional_stratagem
+				    has_country_modifier = quantity_stratagem
+				    has_country_modifier = strategic_stratagem
+				    has_country_modifier = defensive_stratagem
+				    has_country_modifier = quality_stratagem
+				    amount = 2
+				    }
+				    has_country_flag = conscription
+			    }
 			}
 		}
 		effect = {
             add_army_professionalism = -0.20
-			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = offensive_stratagem
 				duration = 730
@@ -105,23 +111,25 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.20
-			years_of_income = 0.5
-			NOT = {
-			    has_country_modifier = defensive_stratagem
-			    calc_true_if = {
-				has_country_modifier = aristocratic_stratagem
-				has_country_modifier = plutocratic_stratagem
-				has_country_modifier = offensive_stratagem
-				has_country_modifier = quality_stratagem
-				has_country_modifier = quantity_stratagem
-				amount = 2
-				}
-				has_country_flag = conscription
+			is_at_war = yes
+			tooltip = "stratagem_restrictions"
+			hidden_effect = {
+			    NOT = {
+			        has_country_modifier = defensive_stratagem
+			        calc_true_if = {
+				    has_country_modifier = traditional_stratagem
+				    has_country_modifier = quantity_stratagem
+				    has_country_modifier = offensive_stratagem
+				    has_country_modifier = strategic_stratagem
+				    has_country_modifier = quality_stratagem
+				    amount = 2
+				    }
+				    has_country_flag = conscription
+			    }
 			}
 		}
 		effect = {
             add_army_professionalism = -0.20
-			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = defensive_stratagem
 				duration = 730
@@ -138,23 +146,25 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.20
-			years_of_income = 0.5
-			NOT = {
-			    has_country_modifier = quality_stratagem
-			    calc_true_if = {
-				has_country_modifier = aristocratic_stratagem
-				has_country_modifier = plutocratic_stratagem
-				has_country_modifier = offensive_stratagem
-				has_country_modifier = defensive_stratagem
-				has_country_modifier = quantity_stratagem
-				amount = 2
-				}
-				has_country_flag = conscription
+			is_at_war = yes
+			tooltip = "stratagem_restrictions"
+			hidden_effect = {
+			    NOT = {
+			        has_country_modifier = quality_stratagem
+			        calc_true_if = {
+				    has_country_modifier = traditional_stratagem
+				    has_country_modifier = quantity_stratagem
+				    has_country_modifier = offensive_stratagem
+				    has_country_modifier = defensive_stratagem
+				    has_country_modifier = strategic_stratagem
+				    amount = 2
+				    }
+				    has_country_flag = conscription
+			    }
 			}
 		}
 		effect = {
             add_army_professionalism = -0.20
-			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = quality_stratagem
 				duration = 730
@@ -171,23 +181,25 @@ country_decisions = {
 		}
 		allow = {
             army_professionalism = 0.20
-			years_of_income = 0.5
-			NOT = {
-			    has_country_modifier = quantity_stratagem
-			    calc_true_if = {
-				has_country_modifier = aristocratic_stratagem
-				has_country_modifier = plutocratic_stratagem
-				has_country_modifier = offensive_stratagem
-				has_country_modifier = defensive_stratagem
-				has_country_modifier = quality_stratagem
-				amount = 2
-				}
-				has_country_flag = conscription
+			is_at_war = yes
+			tooltip = "stratagem_restrictions"
+			hidden_effect = {
+			    NOT = {
+			        has_country_modifier = quantity_stratagem
+			        calc_true_if = {
+				    has_country_modifier = traditional_stratagem
+				    has_country_modifier = strategic_stratagem
+				    has_country_modifier = offensive_stratagem
+				    has_country_modifier = defensive_stratagem
+				    has_country_modifier = quality_stratagem
+				    amount = 2
+				    }
+				    has_country_flag = conscription
+			    }
 			}
 		}
 		effect = {
             add_army_professionalism = -0.20
-			add_years_of_income = -0.5
 			add_country_modifier = {
 			    name = quantity_stratagem
 				duration = 730
