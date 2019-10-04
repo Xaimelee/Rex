@@ -23,11 +23,11 @@ country_decisions = {
 			NOT = { army_professionalism = 0.8 }
 		}
 		allow = {
-            army_professionalism = 0.025
+            army_professionalism = 0.05
 			NOT = { has_country_flag = conscription }
 		}
 		effect = {
-            add_army_professionalism = -0.025
+            add_army_professionalism = -0.05
 			create_general = { tradition = 60 }
 		}
 		ai_will_do = {
@@ -40,11 +40,11 @@ country_decisions = {
 			army_professionalism = 0.8
 		}
 		allow = {
-            army_professionalism = 0.025
+            army_professionalism = 0.075
 			NOT = { has_country_flag = conscription }
 		}
 		effect = {
-            add_army_professionalism = -0.025
+            add_army_professionalism = -0.075
 			create_general = { tradition = 100 }
 		}
 		ai_will_do = {
