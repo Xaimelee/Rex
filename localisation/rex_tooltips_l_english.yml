@@ -3,7 +3,16 @@
  cn_core_restriction:0 "You cannot core outside of your colonial region."
  cn_seizecolony_restriction:0 "You cannot seize colonies outside of your colonial region."
  cn_colonize_restriction:0 "You cannot colonize outside of your colonial region."
+ cn_ally_restriction:0 "You cannot ally colonial nations."
+ cn_declarewar_restriction:0 "Colonial nations cannot declare war on countries that have their capital on a different continent."
+ cn_support_restriction:0 "Colonial nations cannot ask other countries to support their independence."
+ cn_spyaction_restriction:0 "Colonial nations cannot use spy actions on countries that have their capital on a different continent."
+ cn_gift_restriction:0 "Colonial nations cannot send money to nations that are not their overlord."
+ cn_gift_receive_restriction:0 "You cannot send money to colonial nations owned by other countries." 
 #Misc restrictions
- nw_capital_move:0 "You cannot move your capital to the New World."
+ move_capital_restriction:0 "You cannot move your capital to the New World."
+ vassalize_restriction:0 "You cannot diplomatically vassalize player nations."
+ transfertrade_restriction:0 "You cannot ask player nations to transfer trade."
+ infiltrate_restriction:0 "Infiltrate Administration is disabled."
 #Stratagem restrictions
  stratagem_restrictions:0 "You may only have 2 stratagems active at the same time while conscription has not been enacted."

@@ -203,3 +203,235 @@ form_coalition = {
 		}
 	}
 }
+
+allianceaction = {
+	condition = {
+		tooltip = cn_ally_restriction
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			FROM = { is_colonial_nation = no }
+		}
+	}
+}
+
+declarewar = {
+	condition = {
+		tooltip = cn_declarewar_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+
+support_independence_action = {
+	condition = {
+		tooltip = cn_support_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+		
+		
+vassalaction = {
+	condition = {
+		tooltip = vassalize_restriction
+		potential = {
+		}
+		allow = {
+			FROM = { ai = yes }
+		}
+	}
+}
+
+transfer_trade_power = {
+	condition = {
+		tooltip = transfertrade_restriction
+		potential = {
+		}
+		allow = {
+			FROM = { ai = yes }
+		}
+	}
+}
+infiltrate_administration = {
+	condition = {
+		tooltip = infiltrate_restriction
+		potential = {
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+sabotage_reputation = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+support_rebels = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+sow_discontent = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+study_technology = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+agitate_for_liberty = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+slander_merchants = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+sabotage_recruitment = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+corrupt_officials = {
+	condition = {
+		tooltip = cn_spyaction_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
+}
+warsubsidy = {
+	condition = {
+		tooltip = cn_gift_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			OR = {
+				FROM = { overlord_of = ROOT }
+			}
+		}
+	}
+	condition = {
+		tooltip = cn_gift_receive_restriction
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			OR = {
+				FROM = { is_colonial_nation = no }
+				FROM = { is_subject_of = ROOT }
+			}
+		}
+	}
+}
+offerloan = {
+	condition = {
+		tooltip = cn_gift_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			OR = {
+				FROM = { overlord_of = ROOT }
+			}
+		}
+	}
+	condition = {
+		tooltip = cn_gift_receive_restriction
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			OR = {
+				FROM = { is_colonial_nation = no }
+				FROM = { is_subject_of = ROOT }
+			}
+		}
+	}
+}
+giftaction = {
+	condition = {
+		tooltip = cn_gift_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			OR = {
+				FROM = { overlord_of = ROOT }
+			}
+		}
+	}
+	condition = {
+		tooltip = cn_gift_receive_restriction
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			OR = {
+				FROM = { is_colonial_nation = no }
+				FROM = { is_subject_of = ROOT }
+			}
+		}
+	}
+}

@@ -123,7 +123,7 @@ can_move_capital = {
 		}
 	}
 	condition = {
-		tooltip = "nw_capital_move"
+		tooltip = "move_capital_restriction"
 		potential = {
 		}
 		allow = {
