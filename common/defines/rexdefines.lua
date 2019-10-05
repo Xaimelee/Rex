@@ -4,7 +4,6 @@
 NDefines.NDiplomacy.MIN_ASKED_TRADE_POWER = 0
 NDefines.NDiplomacy.MAX_ASKED_TRADE_POWER = 0
 
-NDefines.NDiplomacy.FABRICATE_CLAIM_COST = 10
 NDefines.NDiplomacy.ABANDON_UNION_PRESTIGE = -0
 NDefines.NDiplomacy.REVANCHISM_MONTHLY_DECAY = 0.335
 
