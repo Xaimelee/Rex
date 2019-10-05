@@ -1466,7 +1466,6 @@ papal_sanction_for_church_taxes = {
 
 papal_indulgence = {
 	legitimacy = 1
-	build_cost = -0.05
 	religion = yes
 }
 
@@ -1485,13 +1484,12 @@ papal_blessing = {
 }
 
 papal_sanction_for_holy_war = {
-	manpower_recovery_speed = 0.10
 	shock_damage = 0.10
 	religion = yes
 }
 
 papal_legate = {
-	diplomatic_reputation = 2
+	diplomatic_annexation_cost = -0.10
 	religion = yes
 }
 
