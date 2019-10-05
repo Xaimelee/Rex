@@ -712,7 +712,7 @@ navy_tradition = {
 }
 
 positive_piety = { #As of 1.23 Legalism
-	technology_cost = -0.1
+	technology_cost = -0.05
 	global_manpower_modifier = 0.10
 	global_tax_modifier = 0.20
 }
@@ -1418,7 +1418,7 @@ hanafi_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	adm_tech_cost_modifier = -0.10
+	technology_cost = -0.05
 }
 
 hanbali_scholar_modifier = {
@@ -1426,7 +1426,7 @@ hanbali_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	ae_impact = -0.1
+	ae_impact = -0.2
 }
 
 maliki_scholar_modifier = {
