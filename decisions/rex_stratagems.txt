@@ -5,7 +5,7 @@ country_decisions = {
             full_idea_group = traditional_ideas
 		}
 		allow = {
-            army_professionalism = 0.20
+            army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
 			hidden_effect = {
@@ -19,7 +19,6 @@ country_decisions = {
 				    has_country_modifier = quality_stratagem
 				    amount = 2
 				    }
-				    has_country_flag = conscription
 			    }
 			}
 		}
@@ -40,7 +39,7 @@ country_decisions = {
             full_idea_group = strategic_ideas
 		}
 		allow = {
-            army_professionalism = 0.20
+            army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
 			hidden_effect = {
@@ -54,7 +53,6 @@ country_decisions = {
 				    has_country_modifier = quality_stratagem
 				    amount = 2
 				    }
-				    has_country_flag = conscription
 			    }
 			}
 		}
@@ -75,7 +73,7 @@ country_decisions = {
             full_idea_group = offensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.20
+            army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
 			hidden_effect = {
@@ -89,7 +87,6 @@ country_decisions = {
 				    has_country_modifier = quality_stratagem
 				    amount = 2
 				    }
-				    has_country_flag = conscription
 			    }
 			}
 		}
@@ -110,7 +107,7 @@ country_decisions = {
             full_idea_group = defensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.20
+            army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
 			hidden_effect = {
@@ -124,7 +121,6 @@ country_decisions = {
 				    has_country_modifier = quality_stratagem
 				    amount = 2
 				    }
-				    has_country_flag = conscription
 			    }
 			}
 		}
@@ -145,7 +141,7 @@ country_decisions = {
             full_idea_group = quality_ideas
 		}
 		allow = {
-            army_professionalism = 0.20
+            army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
 			hidden_effect = {
@@ -159,7 +155,6 @@ country_decisions = {
 				    has_country_modifier = strategic_stratagem
 				    amount = 2
 				    }
-				    has_country_flag = conscription
 			    }
 			}
 		}
@@ -180,7 +175,7 @@ country_decisions = {
             full_idea_group = quantity_ideas
 		}
 		allow = {
-            army_professionalism = 0.20
+            army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
 			hidden_effect = {
@@ -194,7 +189,6 @@ country_decisions = {
 				    has_country_modifier = quality_stratagem
 				    amount = 2
 				    }
-				    has_country_flag = conscription
 			    }
 			}
 		}
