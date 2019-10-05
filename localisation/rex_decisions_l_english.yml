@@ -1,6 +1,4 @@
 ﻿l_english:
-#Explorer Decisions
- recruit_explorers_rex_title:0 "£explorer_16£  Commission Explorer"
- recruit_explorers_rex_desc:0 ""
- recruit_conquistadors_rex_title:0 "£conquistador_16£  Commission Conquistador"
- recruit_conquistadors_rex_desc:0 ""
+#Sanction Expedition
+ rex_sanction_expedition_title:0 "Sanction State Colonial Expeditions"
+ rex_sanction_expedition_desc:0 ""

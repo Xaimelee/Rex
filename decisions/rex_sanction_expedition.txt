@@ -1,0 +1,29 @@
+country_decisions = {
+
+	rex_sanction_expedition = {
+	    major = yes
+		potential = {
+		    num_of_ports = 1
+		}
+		allow = {
+           dip_power = 100
+		   NOT = { num_of_loans = 20 }
+		   OR = {
+			    has_country_modifier = first_wave_colonist
+				has_country_modifier = second_wave_colonist
+				has_country_modifier = third_wave_colonist
+				has_institution = new_world_i
+			}
+		}
+		effect = {
+			add_dip_power = -100
+			country_event = {
+			    id = sanction_expedition.1
+				days = 3
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}

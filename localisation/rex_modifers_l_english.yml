@@ -8,8 +8,6 @@
  defensive_stratagem:0 "Defensive Stratagem"
  quality_stratagem:0 "Quality Stratagem"
  quantity_stratagem:0 "Quantity Stratagem"
-#AP Conscription
- conscription_stage1:0 "Minimal Conscription"
- conscription_stage2:0 "Moderate Conscription"
- conscription_stage3:0 "Extensive Conscription"
- conscription_stage4:0 "National Conscription"
+#Expeditions
+ sanctioned_exploration:0 "State Sanctioned Exploration"
+ sanctioned_colonizing:0 "State Funded Colonization"
