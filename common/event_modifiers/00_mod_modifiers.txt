@@ -9,39 +9,35 @@ longterm_bankruptcy_effects = {
 ## Stratagems - AP mechanic
 
 traditional_stratagem = {
-    cavalry_power = 0.10
-	movement_speed = 0.10
-	land_maintenance_modifier = 0.10
+    shock_damage = 0.10
+	land_maintenance_modifier = 0.20
 }
 
 strategic_stratagem = {
-    war_exhaustion = -0.05
-	manpower_recovery_speed = 0.15
-	land_maintenance_modifier = 0.10
+    artillery_power = 0.10
+	land_maintenance_modifier = 0.20
 }
 
 offensive_stratagem = {
-    siege_ability = 0.10
-	land_attrition = -0.10
-	land_maintenance_modifier = 0.10
+    land_attrition = -0.20
+	siege_ability = 0.10
+	land_maintenance_modifier = 0.20
 }
 
 defensive_stratagem = {
-    defensiveness = 0.10
-	land_forcelimit_modifier = 0.10
-	land_maintenance_modifier = 0.10
+    shock_damage_received = -0.075
+	fire_damage_received = -0.075
+	land_maintenance_modifier = 0.20
 }
 
 quality_stratagem = {
-    discipline = 0.025
-	drill_decay_modifier = -0.10
-	land_maintenance_modifier = 0.10
+    fire_damage = 0.10
+	land_maintenance_modifier = 0.20
 }
 
 quantity_stratagem = {
-    land_morale = 0.10
-	reinforce_cost_modifier = -0.10
-	land_maintenance_modifier = 0.10
+    land_morale = 0.15
+	land_maintenance_modifier = 0.20
 }
 
 ## Conscription - AP mechanic
