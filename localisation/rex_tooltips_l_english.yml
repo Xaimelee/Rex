@@ -9,6 +9,7 @@
  cn_spyaction_restriction:0 "Colonial nations cannot use spy actions on countries that have their capital on a different continent."
  cn_gift_restriction:0 "Colonial nations cannot send money to nations that are not their overlord."
  cn_gift_receive_restriction:0 "You cannot send money to colonial nations owned by other countries." 
+ cn_offer_support_restriction:0 "You cannot offer to support the independence of a Colonial Nation."
 #Misc restrictions
  move_capital_restriction:0 "You cannot move your capital to the New World."
  vassalize_restriction:0 "You cannot diplomatically vassalize player nations."

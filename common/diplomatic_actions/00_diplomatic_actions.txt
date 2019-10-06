@@ -239,6 +239,15 @@ declarewar = {
 
 support_independence_action = {
 	condition = {
+		tooltip = cn_offer_support_restriction
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			FROM = { is_colonial_nation = no }
+		}
+	}
+	condition = {
 		tooltip = cn_support_restriction
 		potential = {
 			is_colonial_nation = yes
