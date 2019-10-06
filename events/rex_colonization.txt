@@ -17,12 +17,18 @@ country_event = {
 		    name = sanctioned_exploration
 			duration = 1825
 		}
+		hidden_effect = {
+		    clr_country_flag = sanctioning_expedition
+		}
 	}
 	#Exploring land
 	option = {
 		name = sanction_expedition.1.b
 		create_conquistador = 50
 		add_mil_power = -50
+		hidden_effect = {
+		    clr_country_flag = sanctioning_expedition
+		}
 	}
 	#Boost to colonizing
 	option = {
@@ -34,10 +40,16 @@ country_event = {
 		    name = sanctioned_colonizing
 			duration = 1825
 		}
+		hidden_effect = {
+		    clr_country_flag = sanctioning_expedition
+		}
 	}
 	#Exit
 	option = {
 		name = sanction_expedition.1.d
 		add_dip_power = 100
 	}
+	hidden_effect = {
+		    clr_country_flag = sanctioning_expedition
+		}
 }

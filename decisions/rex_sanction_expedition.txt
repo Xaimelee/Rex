@@ -6,13 +6,17 @@ country_decisions = {
 		    num_of_ports = 1
 		}
 		allow = {
-           dip_power = 100
-		   NOT = { num_of_loans = 20 }
-		   OR = {
+            dip_power = 100
+		    NOT = { num_of_loans = 20 }
+			NOT = { has_country_flag = sanctioning_expedition }
+		    OR = {
 			    has_country_modifier = first_wave_colonist
 				has_country_modifier = second_wave_colonist
 				has_country_modifier = third_wave_colonist
 				has_institution = new_world_i
+		    }
+			hidden_effect = {
+			    NOT = { has_country_flag = sanctioning_expedition }
 			}
 		}
 		effect = {
@@ -20,6 +24,9 @@ country_decisions = {
 			country_event = {
 			    id = sanction_expedition.1
 				days = 3
+			}
+			hidden_effect = {
+			    set_country_flag = sanctioning_expedition
 			}
 		}
 		ai_will_do = {
