@@ -48,8 +48,8 @@ country_event = {
 	option = {
 		name = sanction_expedition.1.d
 		add_dip_power = 100
-	}
-	hidden_effect = {
+		hidden_effect = {
 		    clr_country_flag = sanctioning_expedition
 		}
+	}
 }
