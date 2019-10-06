@@ -214,6 +214,15 @@ allianceaction = {
 			FROM = { is_colonial_nation = no }
 		}
 	}
+	condition = {
+		tooltip = cn_ally_restriction
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { is_colonial_nation = no }
+		}
+	}
 }
 
 declarewar = {
