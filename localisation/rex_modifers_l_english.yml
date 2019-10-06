@@ -11,3 +11,5 @@
 #Expeditions
  sanctioned_exploration:0 "State Sanctioned Exploration"
  sanctioned_colonizing:0 "State Funded Colonization"
+#CN Modifiers
+ human_cn_colony:0 "Colonial Penalties"
