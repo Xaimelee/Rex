@@ -76,6 +76,7 @@ NDefines.NCountry.TARIFF_INCREASE_STEP = 0.05
 NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5
 NDefines.NCountry.TARIFF_DECREASE_STEP = -0.05
 NDefines.NCountry.HIGH_LIBERTY_DESIRE = 50			
+NDefines.NCountry.LIBERTY_DESIRE_DEVELOPED_IN_SUBJECT = -2.5
 
 -- Economy Defines
 
