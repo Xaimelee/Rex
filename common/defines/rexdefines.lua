@@ -71,6 +71,12 @@ NDefines.NCountry.PS_MAKE_PROVINCE_CORE = 8
 
 NDefines.NCountry.NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 4
 
+NDefines.NCountry.BASE_TARIFF = 0.10
+NDefines.NCountry.TARIFF_INCREASE_STEP = 0.05
+NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5
+NDefines.NCountry.TARIFF_DECREASE_STEP = -0.05
+NDefines.NCountry.HIGH_LIBERTY_DESIRE = 50			
+
 -- Economy Defines
 
 NDefines.NEconomy.DEBASE_MONTHS_PER_CHARGE = 36
