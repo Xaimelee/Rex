@@ -442,7 +442,7 @@ colony = {
 		colonial_region_nations = yes
 	}
 	can_ally = {
-		neighboring_primitives = yes
+		#neighboring_primitives = yes
 	}
 
 	# Subject Interactions:
