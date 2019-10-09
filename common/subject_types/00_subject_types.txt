@@ -410,6 +410,7 @@ colony = {
 
 	# Properties:
 	#transfer_trade_power = yes
+	divert_trade = yes
 	can_release_and_play = yes
 	uses_tariffs = yes
 	eats_overlords_colonies = yes
