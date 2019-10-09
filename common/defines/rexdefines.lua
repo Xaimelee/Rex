@@ -78,6 +78,9 @@ NDefines.NCountry.TARIFF_DECREASE_STEP = -0.05
 NDefines.NCountry.HIGH_LIBERTY_DESIRE = 50			
 NDefines.NCountry.LIBERTY_DESIRE_DEVELOPED_IN_SUBJECT = -2.5
 
+NDefines.NCountry.DIVERT_TRADE_FRACTION = 0.5
+NDefines.NCountry.DIVERT_TRADE_LIBERTY = 30
+
 -- Economy Defines
 
 NDefines.NEconomy.DEBASE_MONTHS_PER_CHARGE = 36
