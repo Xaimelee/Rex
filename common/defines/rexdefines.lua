@@ -81,6 +81,8 @@ NDefines.NCountry.LIBERTY_DESIRE_DEVELOPED_IN_SUBJECT = -2.5
 NDefines.NCountry.DIVERT_TRADE_FRACTION = 0.5
 NDefines.NCountry.DIVERT_TRADE_LIBERTY = 30
 
+NDefines.NCountry.SIPHON_INCOME_LIBERTY = 30
+
 -- Economy Defines
 
 NDefines.NEconomy.DEBASE_MONTHS_PER_CHARGE = 36
