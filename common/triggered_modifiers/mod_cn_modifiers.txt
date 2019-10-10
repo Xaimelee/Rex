@@ -17,3 +17,116 @@ human_cn_colony = {
 	possible_mil_policy = -1	
 	possible_mercenaries = -1
 }
+
+libertydesire_penalty_i = {
+    potential = {
+		any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 50
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_ii }
+		NOT = { has_country_modifier = libertydesire_penalty_iii }
+		NOT = { has_country_modifier = libertydesire_penalty_iv }
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	trigger = {
+	    any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 50
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_ii }
+		NOT = { has_country_modifier = libertydesire_penalty_iii }
+		NOT = { has_country_modifier = libertydesire_penalty_iv }
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	
+	trade_efficiency = -0.20
+}
+
+libertydesire_penalty_ii = {
+    potential = {
+		any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 60
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_iii }
+		NOT = { has_country_modifier = libertydesire_penalty_iv }
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	trigger = {
+	    any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 60
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_iii }
+		NOT = { has_country_modifier = libertydesire_penalty_iv }
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	
+	trade_efficiency = -0.40
+}
+
+libertydesire_penalty_iii = {
+    potential = {
+		any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 70
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_iv }
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	trigger = {
+	    any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 70
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_iv }
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	
+	trade_efficiency = -0.60
+}
+
+libertydesire_penalty_iv = {
+    potential = {
+		any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 80
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	trigger = {
+	    any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 80
+		}
+		
+		NOT = { has_country_modifier = libertydesire_penalty_v }
+	}
+	
+	trade_efficiency = -0.80
+}
+
+libertydesire_penalty_v = {
+    potential = {
+		any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 90
+		}
+	}
+	trigger = {
+	    any_subject_country = { 
+		    is_colonial_nation_of = ROOT
+			liberty_desire = 90
+		}
+	}
+	
+	trade_efficiency = -1
+}
