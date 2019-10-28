@@ -458,9 +458,11 @@ colony = {
 	modifier_overlord = {
 		modifier = large_colonial_nation
 		trigger = {
-			num_of_cities = 20
+			num_of_cities = 15
 		}
 	}
+	
+	
 
 	overlord_opinion_modifier = colonial_relation
 	subject_opinion_modifier = colonial_relation
