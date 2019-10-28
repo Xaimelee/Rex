@@ -2,6 +2,14 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+## CN Subject Modifiers
+
+completed_colonial_region = {
+    global_manpower = 15
+	global_sailors = 500
+	global_trade_power = 0.075
+}
+
 ## Sanction Expedition
 
 sanctioned_exploration = {

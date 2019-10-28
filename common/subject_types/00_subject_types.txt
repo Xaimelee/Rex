@@ -462,7 +462,17 @@ colony = {
 		}
 	}
 	
-	
+	modifier_overlord = {
+		modifier = completed_colonial_region
+		trigger = {
+			capital_scope = {
+				region_for_scope_province = {
+					type = all
+					owned_by = ROOT
+				}
+			}
+		}
+	}
 
 	overlord_opinion_modifier = colonial_relation
 	subject_opinion_modifier = colonial_relation
