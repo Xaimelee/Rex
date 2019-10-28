@@ -9,3 +9,7 @@
  libertydesire_penalty_v:0 "Disrupted Colonial Trade"
 #CN Overlord WE Penalty
  exhausted_overlord:0 "Exhausted Colonial Overlord"
+#CN Modifiers
+ human_cn_colony:0 "Human Colonial Nation"
+ human_cn_admin:0 "Colonial Administration"
+ human_cn_military:0 "Colonial Military"
