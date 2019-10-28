@@ -645,8 +645,8 @@ call_for_peace = {
 
 war_exhaustion = {
 	global_unrest = 1
-	global_regiment_recruit_speed = 0.02
-	global_ship_recruit_speed = 0.02
+	global_regiment_recruit_speed = 0.025
+	global_ship_recruit_speed = 0.025
 	temples_influence = -0.05
 	mr_aristocrats_influence = -0.05
 	rr_girondists_influence = -0.05
@@ -654,8 +654,8 @@ war_exhaustion = {
 	manpower_recovery_speed = -0.01
 	sailors_recovery_speed = -0.01
 	defensiveness = -0.025
-	global_trade_goods_size_modifier = -0.02
-	global_tariffs = -0.05
+	global_trade_goods_size_modifier = -0.025
+	reduced_liberty_desire = -2.5
 }
 
 doom = {
