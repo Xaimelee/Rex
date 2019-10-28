@@ -1,11 +1,11 @@
 ﻿l_english:
 #WE Modifiers
- war_exhaustion_modifier_1:0 "Depleted Reserves"
+ war_exhaustion_modifier_1:0 "Depleted Manpower Reserves"
 #CN Liberty Desire Penalty
- libertydesire_penalty_i:0 "Rebellious Colonial Subject"
- libertydesire_penalty_ii:0 "Rebellious Colonial Subject"
- libertydesire_penalty_iii:0 "Rebellious Colonial Subject"
- libertydesire_penalty_iv:0 "Rebellious Colonial Subject"
- libertydesire_penalty_v:0 "Rebellious Colonial Subject"
+ libertydesire_penalty_i:0 "Disrupted Colonial Trade"
+ libertydesire_penalty_ii:0 "Disrupted Colonial Trade"
+ libertydesire_penalty_iii:0 "Disrupted Colonial Trade"
+ libertydesire_penalty_iv:0 "Disrupted Colonial Trade"
+ libertydesire_penalty_v:0 "Disrupted Colonial Trade"
 #CN Overlord WE Penalty
- exhausted_overlord:0 "Exhausted Overlord"
+ exhausted_overlord:0 "Exhausted Colonial Overlord"
