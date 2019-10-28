@@ -10,6 +10,10 @@ completed_colonial_region = {
 	global_trade_power = 0.075
 }
 
+exhausted_overlord = {
+	war_exhaustion = 0.15
+}
+
 ## Sanction Expedition
 
 sanctioned_exploration = {

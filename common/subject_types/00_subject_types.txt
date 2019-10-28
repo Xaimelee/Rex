@@ -473,6 +473,16 @@ colony = {
 			}
 		}
 	}
+	
+	modifier_subject = {
+	    modifier = exhausted_overlord
+		trigger = {
+		    overlord = {
+		        war_exhaustion = 5
+		    }
+		}
+	}
+	
 
 	overlord_opinion_modifier = colonial_relation
 	subject_opinion_modifier = colonial_relation
