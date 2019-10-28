@@ -425,6 +425,7 @@ colony = {
 	can_transfer_in_peace = no
 	press_sailors = yes
 	forcelimit_bonus = 1.0
+	can_fight_independence_war = no
 	
 	liberty_desire_development_ratio = 0.1
 

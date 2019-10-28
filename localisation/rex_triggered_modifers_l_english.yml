@@ -1,8 +1,6 @@
 ﻿l_english:
-#Loan Modifiers
+#WE Modifiers
  war_exhaustion_modifier_1:0 "Depleted Reserves"
- war_exhaustion_modifier_2:0 "Depleted Reserves"
- war_exhaustion_modifier_3:0 "Depleted Reserves"
 #CN Liberty Desire Penalty
  libertydesire_penalty_i:0 "Rebellious Colonial Subject"
  libertydesire_penalty_ii:0 "Rebellious Colonial Subject"
@@ -10,8 +8,4 @@
  libertydesire_penalty_iv:0 "Rebellious Colonial Subject"
  libertydesire_penalty_v:0 "Rebellious Colonial Subject"
 #CN Overlord WE Penalty
- cn_we_penalty_i:0 "Exhausted Overlord"
- cn_we_penalty_ii:0 "Exhausted Overlord"
- cn_we_penalty_iii:0 "Exhausted Overlord"
- cn_we_penalty_iv:0 "Exhausted Overlord"
- cn_we_penalty_v:0 "Exhausted Overlord"
+ exhausted_overlord:0 "Exhausted Overlord"
