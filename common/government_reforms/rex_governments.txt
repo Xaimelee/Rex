@@ -1,0 +1,23 @@
+r_dominion_government = {
+	icon = "constitution"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	fixed_rank = 1
+	has_parliament = yes
+	legacy_equivalent = colonial_government_legacy
+	potential = {
+	    is_colonial_nation = yes
+		has_country_flag = cn_dominion
+	}
+
+	modifiers = {
+		max_states = 2
+		max_absolutism = -25
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 4
+}

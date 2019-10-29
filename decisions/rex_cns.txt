@@ -1,0 +1,83 @@
+country_decisions = {
+	
+	establish_dominion = {
+	    major = yes
+		potential = {
+		    is_colonial_nation = yes
+			NOT = { has_country_flag = cn_dominion }
+		}
+		allow = {
+		    OR = {
+			    colonial_alaska = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_canada = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_eastern_america = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_louisiana = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_california = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_mexico = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_the_carribean = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_colombia = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_peru = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_la_plata = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+                colonial_brazil = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+				colonial_australia = { 
+				    type = all
+				    owned_by = ROOT
+					is_core = ROOT
+				}
+			}
+		}
+		effect = {
+		    set_country_flag = cn_dominion
+			add_government_reform = r_dominion_government
+			country_event = { id = ideagroups.1 days = 3 }
+		}
+		ai_will_do = {
+		    factor = 10
+		}
+	}
+
+}

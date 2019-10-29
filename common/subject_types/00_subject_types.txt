@@ -466,11 +466,8 @@ colony = {
 	modifier_overlord = {
 		modifier = completed_colonial_region
 		trigger = {
-			capital_scope = {
-				region_for_scope_province = {
-					type = all
-					owned_by = ROOT
-				}
+			ROOT = {
+			    has_country_flag = cn_dominion
 			}
 		}
 	}

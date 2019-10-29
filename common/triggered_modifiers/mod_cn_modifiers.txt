@@ -20,12 +20,12 @@ human_cn_colony = {
 human_cn_admin = {
     potential = {
 		is_colonial_nation = yes
-		NOT = { has_country_flag = dominion }
+		NOT = { has_country_flag = cn_dominion }
 	}
     trigger = {
 	    was_player = yes
 		is_colonial_nation = yes
-		NOT = { has_country_flag = dominion }
+		NOT = { has_country_flag = cn_dominion }
 	}
 	
 	all_power_cost = 0.10
@@ -34,12 +34,12 @@ human_cn_admin = {
 human_cn_military = {
     potential = {
 		is_colonial_nation = yes
-		NOT = { has_country_flag = dominion }
+		NOT = { has_country_flag = cn_dominion }
 	}
     trigger = {
 	    was_player = yes
 		is_colonial_nation = yes
-		NOT = { has_country_flag = dominion }
+		NOT = { has_country_flag = cn_dominion }
 	}
 	
 	global_regiment_cost = 0.10
