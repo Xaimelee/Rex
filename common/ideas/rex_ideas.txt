@@ -1,0 +1,433 @@
+#Colonial regions
+
+#Alaska
+
+alaska_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_alaska
+			}
+		}
+	}
+	
+	free = yes
+	
+	a_1 = {
+	}
+	a_2 = {
+	}
+	a_3 = {
+	}
+	a_4 = {
+	}
+	a_5 = {
+	}
+	a_6 = {
+	}
+	a_7 = {
+	}
+}
+
+#Canada
+
+canada_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_canada
+			}
+		}
+	}
+	
+	free = yes
+	
+	c_1 = {
+	}
+	c_2 = {
+	}
+	c_3 = {
+	}
+	c_4 = {
+	}
+	c_5 = {
+	}
+	c_6 = {
+	}
+	c_7 = {
+	}
+}
+
+#Eastern Amercia
+
+eastern_america_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_eastern_america
+			}
+		}
+	}
+	
+	free = yes
+	
+	ea_1 = {
+	}
+	ea_2 = {
+	}
+	ea_3 = {
+	}
+	ea_4 = {
+	}
+	ea_5 = {
+	}
+	ea_6 = {
+	}
+	ea_7 = {
+	}
+}
+
+#Louisiana
+
+louisiana_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_louisiana
+			}
+		}
+	}
+	
+	free = yes
+	
+	l_1 = {
+	}
+	l_2 = {
+	}
+	l_3 = {
+	}
+	l_4 = {
+	}
+	l_5 = {
+	}
+	l_6 = {
+	}
+	l_7 = {
+	}
+}
+
+#California
+
+california_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_california
+			}
+		}
+	}
+	
+	free = yes
+	
+	ca_1 = {
+	}
+	ca_2 = {
+	}
+	ca_3 = {
+	}
+	ca_4 = {
+	}
+	ca_5 = {
+	}
+	ca_6 = {
+	}
+	ca_7 = {
+	}
+}
+
+#Mexico
+
+mexico_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_mexico
+			}
+		}
+	}
+	
+	free = yes
+	
+	m_1 = {
+	}
+	m_2 = {
+	}
+	m_3 = {
+	}
+	m_4 = {
+	}
+	m_5 = {
+	}
+	m_6 = {
+	}
+	m_7 = {
+	}
+}
+
+#Carribean
+
+the_carribean_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_carribean
+			}
+		}
+	}
+	
+	free = yes
+	
+	car_1 = {
+	}
+	car_2 = {
+	}
+	car_3 = {
+	}
+	car_4 = {
+	}
+	car_5 = {
+	}
+	car_6 = {
+	}
+	car_7 = {
+	}
+}
+
+#Colombia
+
+colombia_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_colombia
+			}
+		}
+	}
+	
+	free = yes
+	
+	co_1 = {
+	}
+	co_2 = {
+	}
+	co_3 = {
+	}
+	co_4 = {
+	}
+	co_5 = {
+	}
+	co_6 = {
+	}
+	co_7 = {
+	}
+}
+
+#Peru
+
+peru_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_peru
+			}
+		}
+	}
+	
+	free = yes
+	
+	p_1 = {
+	}
+	p_2 = {
+	}
+	p_3 = {
+	}
+	p_4 = {
+	}
+	p_5 = {
+	}
+	p_6 = {
+	}
+	p_7 = {
+	}
+}
+
+#La Plata
+
+la_plata_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_la_plata
+			}
+		}
+	}
+	
+	free = yes
+	
+	lp_1 = {
+	}
+	lp_2 = {
+	}
+	lp_3 = {
+	}
+	lp_4 = {
+	}
+	lp_5 = {
+	}
+	lp_6 = {
+	}
+	lp_7 = {
+	}
+}
+
+#Brazil
+
+brazil_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_brazil
+			}
+		}
+	}
+	
+	free = yes
+	
+	b_1 = {
+	}
+	b_2 = {
+	}
+	b_3 = {
+	}
+	b_4 = {
+	}
+	b_5 = {
+	}
+	b_6 = {
+	}
+	b_7 = {
+	}
+}
+
+#Australia
+
+australia_region_ideas = {
+
+	start = {
+	}	
+	bonus = {
+	}
+	
+	trigger = {
+	    AND = {
+		    has_country_flag = cn_dominion
+			capital_scope = {
+			    colonial_region = colonial_australia
+			}
+		}
+	}
+	
+	free = yes
+	
+	au_1 = {
+	}
+	au_2 = {
+	}
+	au_3 = {
+	}
+	au_4 = {
+	}
+	au_5 = {
+	}
+	au_6 = {
+	}
+	au_7 = {
+	}
+}
