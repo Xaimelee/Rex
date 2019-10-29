@@ -116,6 +116,8 @@ california={
 		2003 973 
 		#from mexico
 		2494 878 879 2492 881 2495 4631 4632 880 2496 4630 882
+		#Hawaii
+		1240
 	}
 }
 girin={
@@ -1390,7 +1392,7 @@ laplata={
 	outgoing={
 	    name="australia"
 		path={
-		    1432 1541
+		    1423 1541
 		}
 		control={
 		}
