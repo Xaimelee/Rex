@@ -168,10 +168,17 @@ mississippi_river={
 	outgoing={
 		name="chesapeake_bay"
 		path={
-			921 2528 939 
+			2533 2547
 		}
 		control={
-			1398.000000 1375.000000 1395.000000 1426.000000 1437.000000 1493.000000 
+		}
+	}
+	outgoing={
+		name="st_lawrence"
+		path={
+			939 945 2577
+		}
+		control={
 		}
 	}
 	members={
