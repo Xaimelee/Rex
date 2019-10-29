@@ -41,7 +41,7 @@ client_ideas = {
 
 colonial_ideas = {
 	start = {
-		development_cost = -0.1
+		colonists = 1
 		no_religion_penalty = yes
 	}
 	
@@ -58,20 +58,19 @@ colonial_ideas = {
 		republican_tradition = 0.5
 	}
 	continental_trade = {
-		global_prov_trade_power_modifier = 0.25
+		global_prov_trade_power_modifier = 0.10
 	}
 	manufacturing_center = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	free_thinkers = {
 		idea_cost = -0.1
 	}
 	colonial_militia = {
-		global_regiment_cost = -0.1
+		fort_maintenance_modifier = -0.10
 	}
 	new_frontiers = {
 		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 20
 	}
 	liberty_heroes = {
 		free_leader_pool = 1
