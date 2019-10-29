@@ -4,6 +4,7 @@ first_wave_colonist = {
 		num_of_ports = 1
 		NOT = { has_country_modifier = second_wave_colonist }
 		NOT = { has_country_modifier = third_wave_colonist }
+		NOT = { is_colonial_nation = yes }
 	}
 
 	trigger = {
@@ -20,6 +21,7 @@ second_wave_colonist = {
 	    technology_group = western
 		num_of_ports = 1
 		NOT = { has_country_modifier = third_wave_colonist }
+		NOT = { is_colonial_nation = yes }
 	}
 
 	trigger = { 
@@ -35,6 +37,7 @@ third_wave_colonist = {
 	potential = {
 	    num_of_ports = 1
 		has_institution = new_world_i
+		NOT = { is_colonial_nation = yes }
 	}
 
 	trigger = {
