@@ -810,11 +810,12 @@ age_of_revolutions = {
 		ab_russia_boost = {
 			allow = {
 				technology_group = muslim
+				technology_group = ottoman
 			}
 			modifier = {
 				land_morale = 0.10
 				drill_gain_modifier = 0.20
-				drill_decay_modifier = -0.20
+				drill_decay_modifier = -0.10
 			}
 			ai_will_do = {
 				factor = 100
