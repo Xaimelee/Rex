@@ -427,7 +427,8 @@ colony = {
 	forcelimit_bonus = 1.0
 	can_fight_independence_war = no
 	
-	liberty_desire_development_ratio = 0.1
+	#liberty_desire_development_ratio = 0.1
+	liberty_desire_development_ratio = 0.05
 
 	max_government_rank = 1
 	cities_required_for_bonuses = 20
