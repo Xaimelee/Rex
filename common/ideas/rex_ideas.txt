@@ -467,7 +467,7 @@ brazil_region_ideas = {
 		development_cost = -0.10
 	}	
 	bonus = {
-	    fire_damage_received = -0.1
+		global_institution_spread = 0.20
 	}
 	
 	trigger = {
@@ -495,10 +495,10 @@ brazil_region_ideas = {
 	    prestige = 0.5
 	}
 	b_5 = {
-	    global_institution_spread = 0.20
+	    fire_damage_received = -0.1
 	}
 	b_6 = {
-	    republican_tradition = -0.1
+	    republican_tradition = 0.1
 	}
 	b_7 = {
 	    build_cost = -0.05
