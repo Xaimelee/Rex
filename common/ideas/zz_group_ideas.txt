@@ -41,12 +41,12 @@ client_ideas = {
 
 colonial_ideas = {
 	start = {
-		colonists = 1
+		global_colonial_growth = 10
 		no_religion_penalty = yes
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		land_morale = 0.075
 	}
 	
 	trigger = {
@@ -64,7 +64,7 @@ colonial_ideas = {
 		build_cost = -0.05
 	}
 	free_thinkers = {
-		idea_cost = -0.1
+		idea_cost = -0.10
 	}
 	colonial_militia = {
 		fort_maintenance_modifier = -0.10
