@@ -22,6 +22,8 @@ NDefines.NDiplomacy.PEACE_COST_GOLD_MAX = 3
 
 NDefines.NDiplomacy.MONTHS_BEFORE_TOTAL_OCCUPATION = 12
 
+NDefines.NDiplomacy.DISHONORABLE_PEACE_MONTHS = 0
+
 -- Country Defines
 
 NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
