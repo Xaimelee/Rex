@@ -20,6 +20,8 @@ NDefines.NDiplomacy.HRE_FOREIGN_CONTROL_PENALTY = -0.01
 NDefines.NDiplomacy.PEACE_COST_GOLD_STEP = 5
 NDefines.NDiplomacy.PEACE_COST_GOLD_MAX = 3
 
+NDefines.NDiplomacy.MONTHS_BEFORE_TOTAL_OCCUPATION = 12
+
 -- Country Defines
 
 NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
