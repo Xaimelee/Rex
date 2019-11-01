@@ -24,6 +24,8 @@ NDefines.NDiplomacy.MONTHS_BEFORE_TOTAL_OCCUPATION = 12
 
 NDefines.NDiplomacy.DISHONORABLE_PEACE_MONTHS = 0
 
+NDefines.NDiplomacy.ANNUL_TREATIES_YEARS = 20
+
 -- Country Defines
 
 NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
