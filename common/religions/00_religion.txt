@@ -235,7 +235,7 @@ christian = {
 			catholic
 		}
 		country = {
-			development_cost = -0.1
+			development_cost = -0.05
 			innovativeness_gain = 0.5
 			may_explore = yes
 		}
@@ -594,7 +594,7 @@ christian = {
 			}
 
 			icon_pancreator = {
-				development_cost = -0.10
+				development_cost = -0.05
 				build_cost = -0.05
 				
 				allow = {
@@ -821,7 +821,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_maliki"
 
-			development_cost = -0.1
+			development_cost = -0.05
 		}
 		shafii_school = {
 			potential_invite_scholar = {
@@ -1076,7 +1076,7 @@ eastern = {
 			may_explore = yes
 		}
 		country_as_secondary = {
-			development_cost = -0.1
+			development_cost = -0.05
 			diplomats = 1
 		}
 		on_convert = {
