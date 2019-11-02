@@ -1013,11 +1013,11 @@ is_great_power = {						#Only works with Rights of Man DLC enabled
 
 in_golden_era = {
 	all_power_cost = -0.05
+	idea_cost = -0.05
+	prestige = 0.5
 	global_trade_goods_size_modifier = 0.05
-	land_morale = 0.1
-	naval_morale = 0.1
-	monarch_admin_power = 1
-	monarch_diplomatic_power = 1
+	land_morale = 0.05
+	naval_morale = 0.05
 }
 
 absolutism = {
