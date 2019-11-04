@@ -371,7 +371,7 @@ peru_region_ideas = {
 
 	start = {
 	    artillery_power = 0.10
-		artillery_cost = -0.20
+		artillery_cost = -0.10
 	}	
 	bonus = {
 	    backrow_artillery_damage = 0.1
@@ -392,8 +392,7 @@ peru_region_ideas = {
 	    siege_ability = 0.15
 	}
 	p_2 = {
-	    reinforce_speed = 0.10
-		reinforce_cost_modifier = -0.10
+	    global_trade_goods_size_modifier = 0.10
 	}
 	p_3 = {
 	    movement_speed = 0.10
