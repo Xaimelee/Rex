@@ -466,7 +466,7 @@ brazil_region_ideas = {
 		development_cost = -0.10
 	}	
 	bonus = {
-		global_institution_spread = 0.20
+		global_institution_spread = 0.25
 	}
 	
 	trigger = {
@@ -481,11 +481,10 @@ brazil_region_ideas = {
 	free = yes
 	
 	b_1 = {
-	    possible_adm_policy = 1
+	    free_adm_policy = 1
 	}
 	b_2 = {
-	    global_trade_goods_size_modifier = 0.05
-		production_efficiency = 0.05
+		production_efficiency = 0.10
 	}
 	b_3 = {
 	    global_prov_trade_power_modifier = 0.2
