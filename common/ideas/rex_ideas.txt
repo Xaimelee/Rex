@@ -417,7 +417,7 @@ la_plata_region_ideas = {
 
 	start = {
 	    development_cost = -0.10
-		global_institution_spread = 0.20
+		reinforce_cost_modifier = -0.10
 	}	
 	bonus = {
 	    yearly_army_professionalism = 0.005
