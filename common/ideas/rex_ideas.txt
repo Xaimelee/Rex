@@ -214,7 +214,7 @@ california_region_ideas = {
 	    development_cost = -0.15
 	}
 	ca_5 = {
-		free_adm_policy = 1
+		possible_adm_policy = 1
 	}
 	ca_6 = {
 	    free_leader_pool = 1
