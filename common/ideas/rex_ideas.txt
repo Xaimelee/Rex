@@ -248,7 +248,7 @@ mexico_region_ideas = {
 	free = yes
 	
 	m_1 = {
-	    global_trade_goods_size_modifier = 0.15
+	    global_trade_goods_size_modifier = 0.10
 	}
 	m_2 = {
 	    defensiveness = 0.10
@@ -268,7 +268,7 @@ mexico_region_ideas = {
 		global_missionary_strength = 0.03
 	}
 	m_7 = {
-	    land_maintenance_modifier = -0.15
+	    land_maintenance_modifier = -0.05
 	}
 }
 
