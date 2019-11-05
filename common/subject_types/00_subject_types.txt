@@ -431,7 +431,7 @@ colony = {
 	liberty_desire_development_ratio = 0.05
 
 	max_government_rank = 1
-	cities_required_for_bonuses = 20
+	cities_required_for_bonuses = 15
 
 	relative_power_class = 0
 
