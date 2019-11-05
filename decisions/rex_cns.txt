@@ -8,11 +8,6 @@ country_decisions = {
 		}
 		allow = {
 		    OR = {
-			    colonial_alaska = { 
-				    type = all
-				    owned_by = ROOT
-					is_core = ROOT
-				}
 				colonial_canada = { 
 				    type = all
 				    owned_by = ROOT
