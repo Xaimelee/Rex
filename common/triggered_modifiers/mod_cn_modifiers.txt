@@ -1,3 +1,83 @@
+reward_owning_cn = {
+    potential = {
+	    num_of_colonists = 1
+	}
+	
+	trigger = {
+	    colony = 1
+		OR = {
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_canada
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_eastern_america
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_louisiana
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_california
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_mexico
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_the_carribean
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_colombia
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_peru
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_la_plata
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_brazil
+				}
+			}
+			AND = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					colonial_region = colonial_australia
+				}
+			}
+		}
+    }
+	
+	global_trade_goods_size_modifier = 0.10
+}
+
 human_cn_colony = {
     potential = {
 		is_colonial_nation = yes

@@ -13,3 +13,5 @@
  human_cn_colony:0 "Human Colonial Nation"
  human_cn_admin:0 "Colonial Administration"
  human_cn_military:0 "Colonial Military"
+#CN Overlord Bonus
+ reward_owning_cn:0 "Colonial Imports"
