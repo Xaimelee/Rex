@@ -168,6 +168,8 @@ NDefines.NMilitary.LOOTED_RECOVERY = 0.1
 
 NDefines.NMilitary.RESERVE_TICK_DAMAGE = 0.2
 
+NDefines.NMilitary.STACKWIPE_MANPOWER_RETURN_FRACTION = 0.25
+
 -- Naval
 	
 NDefines.NMilitary.NAVAL_TARGET_SELECT_ITERATIONS = 8 		
