@@ -15,5 +15,6 @@
  vassalize_restriction:0 "You cannot diplomatically vassalize player nations."
  transfertrade_restriction:0 "You cannot ask player nations to transfer trade."
  infiltrate_restriction:0 "Infiltrate Administration is disabled."
+ r_we_restriction:0  "You must be at peace to reduce your war exhaustion."
 #Stratagem restrictions
  stratagem_restrictions:0 "You may only have 2 stratagems active at the same time while conscription has not been enacted."
