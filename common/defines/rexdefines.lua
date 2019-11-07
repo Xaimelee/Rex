@@ -166,6 +166,8 @@ NDefines.NMilitary.LOOTED_SCALE = 3
 NDefines.NMilitary.LOOTED_MAX = 10
 NDefines.NMilitary.LOOTED_RECOVERY = 0.1	
 
+NDefines.NMilitary.RESERVE_TICK_DAMAGE = 0.2
+
 -- Naval
 	
 NDefines.NMilitary.NAVAL_TARGET_SELECT_ITERATIONS = 8 		
