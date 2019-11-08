@@ -74,7 +74,7 @@ military_funding_penalty_4 = {
 	shock_damage_received = 0.05
 	fire_damage_received = 0.05
 	war_exhaustion = 0.04
-
+}
 military_funding_penalty_5 = {
 	potential = {
 	    num_of_loans = 50
