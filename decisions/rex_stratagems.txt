@@ -8,18 +8,16 @@ country_decisions = {
             army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
-			hidden = {
-			    NOT = {
-			        has_country_modifier = traditional_stratagem
-			        calc_true_if = {
-				    has_country_modifier = strategic_stratagem
-				    has_country_modifier = quantity_stratagem
-				    has_country_modifier = offensive_stratagem
-				    has_country_modifier = defensive_stratagem
-				    has_country_modifier = quality_stratagem
-				    amount = 2
-				    }
-			    }
+			NOT = {
+				has_country_modifier = traditional_stratagem
+				calc_true_if = {
+				has_country_modifier = strategic_stratagem
+				has_country_modifier = quantity_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -41,19 +39,16 @@ country_decisions = {
 		allow = {
             army_professionalism = 0.25
 			is_at_war = yes
-			tooltip = "stratagem_restrictions"
-			hidden = {
-			    NOT = {
-			        has_country_modifier = strategic_stratagem
-			        calc_true_if = {
-				    has_country_modifier = traditional_stratagem
-				    has_country_modifier = quantity_stratagem
-				    has_country_modifier = offensive_stratagem
-				    has_country_modifier = defensive_stratagem
-				    has_country_modifier = quality_stratagem
-				    amount = 2
-				    }
-			    }
+			NOT = {
+				has_country_modifier = strategic_stratagem
+				calc_true_if = {
+				has_country_modifier = traditional_stratagem
+				has_country_modifier = quantity_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -76,18 +71,16 @@ country_decisions = {
             army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
-			hidden = {
-			    NOT = {
-			        has_country_modifier = offensive_stratagem
-			        calc_true_if = {
-				    has_country_modifier = traditional_stratagem
-				    has_country_modifier = quantity_stratagem
-				    has_country_modifier = strategic_stratagem
-				    has_country_modifier = defensive_stratagem
-				    has_country_modifier = quality_stratagem
-				    amount = 2
-				    }
-			    }
+			NOT = {
+				has_country_modifier = offensive_stratagem
+				calc_true_if = {
+				has_country_modifier = traditional_stratagem
+				has_country_modifier = quantity_stratagem
+				has_country_modifier = strategic_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -110,18 +103,16 @@ country_decisions = {
             army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
-			hidden = {
-			    NOT = {
-			        has_country_modifier = defensive_stratagem
-			        calc_true_if = {
-				    has_country_modifier = traditional_stratagem
-				    has_country_modifier = quantity_stratagem
-				    has_country_modifier = offensive_stratagem
-				    has_country_modifier = strategic_stratagem
-				    has_country_modifier = quality_stratagem
-				    amount = 2
-				    }
-			    }
+			NOT = {
+				has_country_modifier = defensive_stratagem
+				calc_true_if = {
+				has_country_modifier = traditional_stratagem
+				has_country_modifier = quantity_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = strategic_stratagem
+				has_country_modifier = quality_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -144,18 +135,16 @@ country_decisions = {
             army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
-			hidden = {
-			    NOT = {
-			        has_country_modifier = quality_stratagem
-			        calc_true_if = {
-				    has_country_modifier = traditional_stratagem
-				    has_country_modifier = quantity_stratagem
-				    has_country_modifier = offensive_stratagem
-				    has_country_modifier = defensive_stratagem
-				    has_country_modifier = strategic_stratagem
-				    amount = 2
-				    }
-			    }
+			NOT = {
+				has_country_modifier = quality_stratagem
+				calc_true_if = {
+				has_country_modifier = traditional_stratagem
+				has_country_modifier = quantity_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = strategic_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
@@ -178,18 +167,16 @@ country_decisions = {
             army_professionalism = 0.25
 			is_at_war = yes
 			tooltip = "stratagem_restrictions"
-			hidden = {
-			    NOT = {
-			        has_country_modifier = quantity_stratagem
-			        calc_true_if = {
-				    has_country_modifier = traditional_stratagem
-				    has_country_modifier = strategic_stratagem
-				    has_country_modifier = offensive_stratagem
-				    has_country_modifier = defensive_stratagem
-				    has_country_modifier = quality_stratagem
-				    amount = 2
-				    }
-			    }
+			NOT = {
+				has_country_modifier = quantity_stratagem
+				calc_true_if = {
+				has_country_modifier = traditional_stratagem
+				has_country_modifier = strategic_stratagem
+				has_country_modifier = offensive_stratagem
+				has_country_modifier = defensive_stratagem
+				has_country_modifier = quality_stratagem
+				amount = 2
+				}
 			}
 		}
 		effect = {
