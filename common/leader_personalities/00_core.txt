@@ -23,12 +23,12 @@ born_to_the_saddle_personality = {
 	cavalry_flanking = 0.5
 }
 
-defensive_planner_personality = {
-	allow = {
-		is_admiral = no
-	}
-	shock_damage_received = -0.1
-}
+#defensive_planner_personality = {
+#	allow = {
+#		is_admiral = no
+#	}
+#	shock_damage_received = -0.1
+#}
 
 battlefield_medic_personality = {
 	allow = {
