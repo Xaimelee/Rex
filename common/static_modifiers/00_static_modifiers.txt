@@ -871,7 +871,7 @@ over_extension = {
 	global_unrest = 5
 	bureaucrats_influence = 0.5
 	mr_guilds_influence = 0.5
-	yearly_corruption = 0.5
+	yearly_corruption = 0.25
 }
 
 territory_very_easy_difficulty = { # Penalties for territories on very easy difficulty
