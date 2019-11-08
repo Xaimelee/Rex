@@ -37,12 +37,12 @@ battlefield_medic_personality = {
 	reinforce_speed = 0.35
 }
 
-ruthless_personality = {
-	allow = {
-		is_admiral = no
-	}
-	fire_damage = 0.1
-}
+#ruthless_personality = {
+#	allow = {
+#		is_admiral = no
+#	}
+#	fire_damage = 0.1
+#}
 
 inspirational_leader_general_personality = {
 	allow = {
