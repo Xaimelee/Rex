@@ -879,23 +879,23 @@ territory_very_easy_difficulty = { # Penalties for territories on very easy diff
 }
 
 territory_easy_difficulty = { # Penalties for territories on easy difficulty
-	yearly_corruption = 0.01
+
 }
 
 territory_normal_difficulty = { # Penalties for territories on normal difficulty
-	yearly_corruption = 0.02
+
 }
 
 territory_hard_difficulty = { # Penalties for territories on hard difficulty
-	yearly_corruption = 0.02
+
 }
 
 territory_very_hard_difficulty = { # Penalties for territories on very hard difficulty
-	yearly_corruption = 0.02
+
 }
 
 territory_ai_difficulty = { #Penalties for territories owned by AI regardless of difficulty.
-	yearly_corruption = 0.02
+
 }
 
 prestige = {
