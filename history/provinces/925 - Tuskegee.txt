@@ -1,6 +1,6 @@
 #925 - Tuskegee
 
-\
+
 culture = creek
 religion = totemism
 capital = "Tuskegee"
