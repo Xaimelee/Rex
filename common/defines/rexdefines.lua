@@ -112,6 +112,8 @@ NDefines.NEconomy.LARGE_COLONIAL_NATION_LIMIT = 15
 -- Military Defines
 -- Land
 
+NDefines.NMilitary.REVANCHISM_DEVASTATION_IMPACT = -0.05
+
 NDefines.NMilitary.SLACKEN_AP_DROP = -0.05
 NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 0.5
 
