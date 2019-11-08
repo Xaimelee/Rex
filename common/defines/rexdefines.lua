@@ -27,6 +27,7 @@ NDefines.NDiplomacy.ANNUL_TREATIES_YEARS = 20
 
 NDefines.NDiplomacy.PEACE_COST_WAR_REPARATIONS = 20
 NDefines.NDiplomacy.PEACE_COST_ANNUL = 20
+NDefines.NDiplomacy.PEACE_COST_ENFORCED_MILITARY_ACCESS = 10
 
 -- Country Defines
 
