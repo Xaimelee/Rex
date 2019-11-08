@@ -34,7 +34,7 @@ battlefield_medic_personality = {
 	allow = {
 		is_admiral = no
 	}
-	reinforce_speed = 0.33
+	reinforce_speed = 0.35
 }
 
 ruthless_personality = {
