@@ -209,8 +209,10 @@ age_of_discovery = {
 		ab_denmark_reduced_lib_desire = {
 		
 			allow = {
-				technology_group = muslim
-				technology_group = ottoman
+			    OR = {
+				    technology_group = muslim
+				    technology_group = ottoman
+				}
 			}
 			modifier = {
 				siege_ability = 0.20
@@ -223,8 +225,8 @@ age_of_discovery = {
 		
 			allow = {
 			    OR = {
-				technology_group = sub_saharan
-				technology_group = east_african
+				    technology_group = sub_saharan
+				    technology_group = east_african
 				}
 			}
 			modifier = {
@@ -325,7 +327,7 @@ age_of_reformation = {
 		ab_allow_religion_enforced = {
 			modifier = {
 				idea_cost = -0.05
-				technology_group = -0.05
+				technology_cost = -0.05
 			}
 			ai_will_do = {
 				factor = 0
@@ -427,8 +429,10 @@ age_of_reformation = {
 		
 		ab_persia_reinforce = {
 			allow = {
-				technology_group = muslim
-				technology_group = ottoman
+			    OR = {
+				    technology_group = muslim
+				    technology_group = ottoman
+				}
 			}
 			modifier = {
 				reinforce_cost_modifier = -0.20
@@ -615,8 +619,10 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
-				technology_group = muslim
-				technology_group = ottoman
+			    OR = {
+				    technology_group = muslim
+				    technology_group = ottoman
+				}
 			}
 			modifier = {
 				global_manpower_modifier = 0.15
@@ -807,8 +813,10 @@ age_of_revolutions = {
 		}
 		ab_russia_boost = {
 			allow = {
-				technology_group = muslim
-				technology_group = ottoman
+			    OR = {
+				    technology_group = muslim
+				    technology_group = ottoman
+				}
 			}
 			modifier = {
 				land_morale = 0.10
