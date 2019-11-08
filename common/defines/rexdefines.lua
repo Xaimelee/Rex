@@ -174,7 +174,7 @@ NDefines.NMilitary.LOOTED_SCALE = 3
 NDefines.NMilitary.LOOTED_MAX = 10
 NDefines.NMilitary.LOOTED_RECOVERY = 0.1	
 
-NDefines.NMilitary.RESERVE_TICK_DAMAGE = 0.2
+NDefines.NMilitary.RESERVE_TICK_DAMAGE = 0.3
 
 NDefines.NMilitary.STACKWIPE_MANPOWER_RETURN_FRACTION = 0.25
 
