@@ -61,7 +61,7 @@ NDefines.NCountry.CORE_LOSE_PRESTIGE = -0
 NDefines.NCountry.ABANDON_CORE_PRESTIGE = -0
 
 NDefines.NCountry.MONTHS_TO_CORE_MAXIMUM = 24
-NDefines.NCountry.MONTHS_TO_CORE = 12
+NDefines.NCountry.MONTHS_TO_CORE = 18
 NDefines.NCountry.MONTHS_TO_CORE_MINIMUM = 12
 NDefines.NCountry.MONTHS_TO_CHANGE_CULTURE = 6
 
