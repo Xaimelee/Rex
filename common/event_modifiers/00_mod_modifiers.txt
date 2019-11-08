@@ -10,7 +10,7 @@ completed_colonial_region = {
 	naval_forcelimit = 5
 
 exhausted_overlord = {
-	war_exhaustion = 0.15
+	war_exhaustion = 0.10
 }
 
 ## Sanction Expedition
