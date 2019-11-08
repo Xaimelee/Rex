@@ -25,6 +25,8 @@ NDefines.NDiplomacy.DISHONORABLE_PEACE_MONTHS = 0
 
 NDefines.NDiplomacy.ANNUL_TREATIES_YEARS = 20
 
+NDefines.NDiplomacy.PEACE_COST_WAR_REPARATIONS = 20
+
 -- Country Defines
 
 NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
