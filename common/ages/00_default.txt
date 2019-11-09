@@ -447,7 +447,7 @@ age_of_reformation = {
 				technology_group = indian
 			}
 			modifier = {
-				artillery_cost = -0.25
+				artillery_cost = -0.20
 			}
 			ai_will_do = {
 				factor = 100
