@@ -219,7 +219,7 @@ mexico={
 	outgoing={
 		name="nippon"
 		path={
-			1390 1695
+			1391 1551
 		}
 		control={
 		}
@@ -1168,7 +1168,7 @@ alexandria={
 	outgoing={
 		name="ragusa"
 		path={
-			1310 1315 1312
+			1315 144 4174
 		}
 		control={
 		}
