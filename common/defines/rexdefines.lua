@@ -30,6 +30,7 @@ NDefines.NDiplomacy.PEACE_COST_ANNUL = 20
 NDefines.NDiplomacy.PEACE_COST_ENFORCED_MILITARY_ACCESS = 10
 
 NDefines.NDiplomacy.AE_PROVINCE_CAP = 20
+NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 0.60
 
 -- Country Defines
 
