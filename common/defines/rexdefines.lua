@@ -91,7 +91,11 @@ NDefines.NCountry.DIVERT_TRADE_LIBERTY = 30
 
 NDefines.NCountry.SIPHON_INCOME_LIBERTY = 30
 
+NDefines.NCountry.SCRIPTED_ADVISOR_DISCOUNT = 0.35
+
 -- Economy Defines
+
+NDefines.NEconomy.ADVISOR_COST = 0.8
 
 NDefines.NEconomy.DEBASE_MONTHS_PER_CHARGE = 36
 
