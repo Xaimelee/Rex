@@ -119,6 +119,7 @@ NDefines.NEconomy.LARGE_COLONIAL_NATION_LIMIT = 15
 
 NDefines.NEconomy.TRADE_ADDED_VALUE_MODIFER = 0.03
 NDefines.NEconomy.TRADE_PROPAGATE_DIVIDER = 7
+NDefines.NEconomy.TRADE_MERCHANT_PRESENT = 0.05
 
 -- Military Defines
 -- Land
