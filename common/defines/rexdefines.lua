@@ -31,6 +31,7 @@ NDefines.NDiplomacy.PEACE_COST_ENFORCED_MILITARY_ACCESS = 10
 
 NDefines.NDiplomacy.AE_PROVINCE_CAP = 20
 NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 0.60
+NDefines.NDiplomacy.PO_RETURN_CORES_AE = 0.35
 
 -- Country Defines
 
