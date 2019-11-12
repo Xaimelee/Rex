@@ -176,7 +176,7 @@ NDefines.NMilitary.CAV_LOOT = 1.0
 NDefines.NMilitary.ART_LOOT = 0.0
 NDefines.NMilitary.LOOTED_DAYS = 730
 NDefines.NMilitary.LOOTED_SCALE = 3
-NDefines.NMilitary.LOOTED_MAX = 10
+NDefines.NMilitary.LOOTED_MAX = 5
 NDefines.NMilitary.LOOTED_RECOVERY = 0.1	
 
 NDefines.NMilitary.RESERVE_TICK_DAMAGE = 0.3
