@@ -29,6 +29,8 @@ NDefines.NDiplomacy.PEACE_COST_WAR_REPARATIONS = 20
 NDefines.NDiplomacy.PEACE_COST_ANNUL = 20
 NDefines.NDiplomacy.PEACE_COST_ENFORCED_MILITARY_ACCESS = 10
 
+NDefines.NDiplomacy.AE_PROVINCE_CAP = 20
+
 -- Country Defines
 
 NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
