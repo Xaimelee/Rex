@@ -1,0 +1,14 @@
+english_infertile = {
+    potential = {
+	    tag = ENG
+		NOT = { has_country_flag = war_of_the_roses_ended }
+	}
+	
+	trigger = {
+	    tag = ENG
+		NOT = { has_country_flag = war_of_the_roses_ended }
+	}
+	
+	heir_chance = -2
+
+}
