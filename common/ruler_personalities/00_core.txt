@@ -1850,7 +1850,7 @@ navigator_personality = {
 	custom_ai_explanation = "AI_RULER_PICK_IDEA_GROUPS"
 	wants_explorers = yes
 	
-	ship_durability = 0.1
+	ship_durability = 0.05
 	nation_designer_cost = 2
 } #1 better event
 
