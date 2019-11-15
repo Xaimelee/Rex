@@ -11,7 +11,7 @@ historical_friend = ARA
 capital = 219 # Toledo
 national_focus = MIL
 
-add_army_professionalism = 0.1
+#add_army_professionalism = 0.1
 
 1390.10.9 = {
 	monarch = {

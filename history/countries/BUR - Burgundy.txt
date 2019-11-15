@@ -6,7 +6,7 @@ add_accepted_culture = wallonian
 religion = catholic
 technology_group = western
 capital = 192	# Dijon
-add_army_professionalism = 0.1
+#add_army_professionalism = 0.1
 
 1363.1.1 = {
 	monarch = {
