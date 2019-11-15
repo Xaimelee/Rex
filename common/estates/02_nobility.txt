@@ -568,6 +568,7 @@ estate_nobles =
 		years_between_use = 15
 		
 		potential = {
+		    num_of_colonists = 1
 			NOT = { has_disaster = estate_church_disaster }
 			NOT = { has_disaster = estate_burghers_disaster }
 		}

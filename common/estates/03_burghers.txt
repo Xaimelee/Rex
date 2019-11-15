@@ -853,7 +853,7 @@ estate_burghers =
 		potential = {
 			NOT = { has_disaster = estate_church_disaster }
 			NOT = { has_disaster = estate_nobility_disaster }
-			has_idea_group = exploration_ideas
+			num_of_colonists = 1
 		}
 		
 		trigger = {
