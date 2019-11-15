@@ -257,7 +257,7 @@ innovativeness_ideas = {
 	}
 	dynamic_court = {
 		advisor_pool = 1
-		advisor_cost = -0.10
+		advisor_cost = -0.05
 		female_advisor_chance = 1
 	}
 	optimism = {
@@ -569,7 +569,7 @@ spy_ideas = {
 
 	efficient_spies = {
 		global_spy_defence = 0.33
-		advisor_cost = -0.10
+		advisor_cost = -0.05
 	}	
 	privateers = {
 		global_regiment_cost = -0.05
@@ -707,7 +707,7 @@ imperialism_ideas = {
 		legitimacy = 1
 	}
 	buffer_states = {
-	    advisor_cost = -0.10
+	    advisor_cost = -0.05
 		prestige = 0.5
 	}
 	diplomatic_influence = {
