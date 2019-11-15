@@ -1308,9 +1308,11 @@ expansionist_personality = {
 			}
 		}
 		modifier = {
-			factor = 1
-			has_idea_group = exploration_ideas
-			has_idea_group = expansion_ideas
+			factor = 0.5
+			OR = {
+				num_of_colonists = 1
+				num_of_colonists = 2
+			}
 		}
 	}
 	
