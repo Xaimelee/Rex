@@ -229,11 +229,15 @@ can_expel_minority_from = {
 # Called by can_add_province_to_hre
 is_possible_hre_province = {
 	condition = {
-		tooltip = "APH_ONLY_EUROPE"
+		tooltip = "rex_hre_restriction"
 		potential = {
 		}
 		allow = {
-			continent = europe
+		    OR = {
+				region = north_german_region
+				region = south_german_region
+				region = italy_region
+			}
 		}
 	}
 }
