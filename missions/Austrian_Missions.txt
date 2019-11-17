@@ -16,15 +16,12 @@ hab_holy_roman_ambitions = {
 		
 		trigger = {
 			is_emperor = yes
-			custom_trigger_tooltip = {
-				tooltip = secure_the_imperial_crown.tooltip
-				calc_true_if = {
-					all_elector = {
-						preferred_emperor = ROOT
-						has_opinion = { who = ROOT value = 100 }
-					}
-					amount = 2
+			calc_true_if = {
+				all_elector = {
+					preferred_emperor = ROOT
+					has_opinion = { who = ROOT value = 100 }
 				}
+				amount = 2
 			}
 		}
 		effect = {
