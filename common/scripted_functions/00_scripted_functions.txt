@@ -237,7 +237,20 @@ is_possible_hre_province = {
 				region = north_german_region
 				region = south_german_region
 				region = italy_region
+				region = low_countries_region
+				area = silesia_area
 			}
+		}
+	}
+	condition = {
+		tooltip = "rex_outside_hre_restriction"
+		potential = {
+		    owner = {
+		        is_part_of_hre = no
+			}
+		}
+		allow = {
+		    always = no
 		}
 	}
 }
