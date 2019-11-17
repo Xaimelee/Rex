@@ -74,7 +74,7 @@
 
 guaranteeaction = {
     condition = {
-		tooltip = guarantee_restriction
+		tooltip = rex_guarantee_restriction
 		potential = {
 		}
 		allow = {
@@ -217,7 +217,7 @@ form_coalition = {
 
 allianceaction = {
 	condition = {
-		tooltip = cn_ally_restriction
+		tooltip = rex_cn_ally_restriction
 		potential = {
 			is_colonial_nation = no
 		}
@@ -226,7 +226,7 @@ allianceaction = {
 		}
 	}
 	condition = {
-		tooltip = cn_ally_restriction
+		tooltip = rex_cn_ally_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -238,7 +238,7 @@ allianceaction = {
 
 declarewar = {
 	condition = {
-		tooltip = cn_declarewar_restriction
+		tooltip = rex_cn_declarewar_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -250,7 +250,7 @@ declarewar = {
 
 support_independence_action = {
 	condition = {
-		tooltip = cn_offer_support_restriction
+		tooltip = rex_cn_offer_support_restriction
 		potential = {
 			is_colonial_nation = no
 		}
@@ -259,7 +259,7 @@ support_independence_action = {
 		}
 	}
 	condition = {
-		tooltip = cn_support_restriction
+		tooltip = rex_cn_support_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -272,7 +272,7 @@ support_independence_action = {
 		
 vassalaction = {
 	condition = {
-		tooltip = vassalize_restriction
+		tooltip = rex_vassalize_restriction
 		potential = {
 		}
 		allow = {
@@ -283,7 +283,7 @@ vassalaction = {
 
 transfer_trade_power = {
 	condition = {
-		tooltip = transfertrade_restriction
+		tooltip = rex_transfertrade_restriction
 		potential = {
 		}
 		allow = {
@@ -293,7 +293,7 @@ transfer_trade_power = {
 }
 infiltrate_administration = {
 	condition = {
-		tooltip = infiltrate_restriction
+		tooltip = rex_infiltrate_restriction
 		potential = {
 		}
 		allow = {
@@ -303,7 +303,7 @@ infiltrate_administration = {
 }
 sabotage_reputation = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -314,7 +314,7 @@ sabotage_reputation = {
 }
 support_rebels = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -325,7 +325,7 @@ support_rebels = {
 }
 sow_discontent = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -336,7 +336,7 @@ sow_discontent = {
 }
 study_technology = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -347,7 +347,7 @@ study_technology = {
 }
 agitate_for_liberty = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -358,7 +358,7 @@ agitate_for_liberty = {
 }
 slander_merchants = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -369,7 +369,7 @@ slander_merchants = {
 }
 sabotage_recruitment = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -380,7 +380,7 @@ sabotage_recruitment = {
 }
 corrupt_officials = {
 	condition = {
-		tooltip = cn_spyaction_restriction
+		tooltip = rex_cn_spyaction_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -391,7 +391,7 @@ corrupt_officials = {
 }
 warsubsidy = {
 	condition = {
-		tooltip = cn_gift_restriction
+		tooltip = rex_cn_gift_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -402,7 +402,7 @@ warsubsidy = {
 		}
 	}
 	condition = {
-		tooltip = cn_gift_receive_restriction
+		tooltip = rex_cn_gift_receive_restriction
 		potential = {
 			is_colonial_nation = no
 		}
@@ -416,7 +416,7 @@ warsubsidy = {
 }
 offerloan = {
 	condition = {
-		tooltip = cn_gift_restriction
+		tooltip = rex_cn_gift_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -427,7 +427,7 @@ offerloan = {
 		}
 	}
 	condition = {
-		tooltip = cn_gift_receive_restriction
+		tooltip = rex_cn_gift_receive_restriction
 		potential = {
 			is_colonial_nation = no
 		}
@@ -441,7 +441,7 @@ offerloan = {
 }
 giftaction = {
 	condition = {
-		tooltip = cn_gift_restriction
+		tooltip = rex_cn_gift_restriction
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -452,7 +452,7 @@ giftaction = {
 		}
 	}
 	condition = {
-		tooltip = cn_gift_receive_restriction
+		tooltip = rex_cn_gift_receive_restriction
 		potential = {
 			is_colonial_nation = no
 		}

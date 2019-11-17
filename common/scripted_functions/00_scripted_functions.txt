@@ -22,7 +22,7 @@ can_harsh_treatment = {
 
 can_reduce_war_exhaustion = {
 	condition = {
-		tooltip = "r_we_restriction"
+		tooltip = "rex_we_restriction"
 		potential = {
 		}
 		allow = {
@@ -75,7 +75,7 @@ can_decrease_autonomy = {
 
 can_make_core = {
     condition = {
-	    tooltip = "cn_core_restriction"
+	    tooltip = "rex_cn_core_restriction"
 	    potential = {
 			FROM = {
 				is_colonial_nation = yes
@@ -131,7 +131,7 @@ can_move_capital = {
 		}
 	}
 	condition = {
-		tooltip = "move_capital_restriction"
+		tooltip = "rex_move_capital_restriction"
 		potential = {
 		}
 		allow = {
@@ -164,7 +164,7 @@ can_garrison_sorties = {
 
 can_seize_colony = {
     condition = {
-        tooltip = "cn_seizecolony_restriction"
+        tooltip = "rex_cn_seizecolony_restriction"
 	    potential = {
 			FROM = {
 				is_colonial_nation = yes
@@ -185,7 +185,7 @@ can_burn_colony = {
 
 can_colonize_province = {
     condition = {
-	    tooltip = "cn_colonize_restriction"
+	    tooltip = "rex_cn_colonize_restriction"
 	    potential = {
 			FROM = {
 				is_colonial_nation = yes
