@@ -6,7 +6,7 @@ add_accepted_culture = sicilian
 religion = catholic
 technology_group = western
 capital = 220 # Valencia
-historical_friend = ARA
+historical_friend = CAS
 add_army_professionalism = 0.05
 
 1396.5.19 = {
