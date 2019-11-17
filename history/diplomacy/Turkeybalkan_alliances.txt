@@ -1,10 +1,10 @@
 #Albania guaranteed by Venice
-guarantee = {
-	first = VEN
-	second = ALB
-	start_date = 1444.1.1
-	end_date = 1468.1.1
-}
+#guarantee = {
+#	first = VEN
+#	second = ALB
+#	start_date = 1444.1.1
+#	end_date = 1468.1.1
+#}
 
 #Trebizond guaranteed by Georgia
 guarantee = {
