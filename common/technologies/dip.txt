@@ -12,7 +12,7 @@ technology = { #Early Ships
 	year = 1350
 	
 	naval_morale			=	2.0
-	range					=	100
+	range					=	50
 	may_fabricate_claims = yes
 
 }
@@ -46,7 +46,7 @@ technology = { #The Early Carrack
 
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.02
-	range					= 	100
+	range					= 	50
 	trade_efficiency 		= 	0.02
 	global_colonial_growth	= 	15
 	
@@ -88,7 +88,7 @@ technology = { #Naval Ambitions
 	year = 1492
 	
 	naval_morale			=	0.3
-	range					= 	50
+	range					= 	100
 	
 }
 
@@ -109,7 +109,7 @@ technology = { #Carracks & Caravel
 	year = 1518
 	
 	naval_maintenance		= 	0.02
-	range					=	50
+	range					=	100
 	
 	enable = carrack
 	enable = caravel
