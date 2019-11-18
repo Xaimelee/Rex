@@ -176,7 +176,7 @@ vassal = {
 	can_be_annexed = yes
 	has_power_projection = no
 	gets_help_with_rebels = yes
-	transfer_trade_power = yes
+	#transfer_trade_power = yes
 
 	max_government_rank = 1
 
