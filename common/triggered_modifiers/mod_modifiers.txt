@@ -12,3 +12,20 @@ english_infertile = {
 	heir_chance = -2
 
 }
+
+imperial_elector = {
+    potential = {
+	    is_elector = yes
+	}
+
+	trigger = {
+	    is_elector = yes
+		was_player = yes
+		NOT = { is_emperor = yes }
+	}
+
+	prestige = 0.5
+	ae_impact = -0.1
+	global_tax_income = 12
+	manpower_recovery_speed = 0.1
+}
