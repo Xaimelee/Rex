@@ -186,7 +186,7 @@ vassal = {
 	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0.1
 
-	relative_power_class = 2
+	relative_power_class = 1.9
 	
 	restoration_cb = cb_disloyal_vassal
 
