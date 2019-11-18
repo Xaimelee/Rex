@@ -537,7 +537,7 @@ privateering = {
 }
 
 negative_stability = {
-	global_unrest = -2					#-1% EXTRA revolt risk each step
+	global_unrest = -1					#-1% EXTRA revolt risk each step
 	legitimacy = 1
 	interest = -1
 	migration_cooldown = 0.1
