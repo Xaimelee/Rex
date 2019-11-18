@@ -27,5 +27,4 @@ imperial_elector = {
 	prestige = 0.5
 	ae_impact = -0.1
 	global_tax_income = 12
-	manpower_recovery_speed = 0.1
 }
