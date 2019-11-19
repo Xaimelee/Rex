@@ -1,0 +1,16 @@
+rex_protector_of_the_hre = {
+    type = take_capital
+	
+	badboy_factor = 1
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	
+	peace_options = {
+		po_gold
+		po_concede_defeat
+		po_trade_power
+		po_steer_trade
+		po_annul_treaties
+		po_humiliate
+	}
+}

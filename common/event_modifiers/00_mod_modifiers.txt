@@ -2,6 +2,12 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+## Protector of the HRE
+
+rex_protector_of_hre = {
+
+}
+
 ## CN Subject Modifiers
 
 completed_colonial_region = {

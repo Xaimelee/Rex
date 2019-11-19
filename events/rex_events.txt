@@ -1,1 +1,54 @@
 namespace = rex_events
+
+country_event = {
+	id = rex_events.10
+	title = rex_events.10.title
+	desc = rex_events.10.desc
+	picture = HRE_eventPicture
+	
+	major = yes
+	
+	trigger = {
+	    AND = {
+			has_reform = rex_hreprotector_reform
+			OR = {
+				any_elector = {
+					war_score_against = {
+						who = ROOT
+						value = 80
+						casus_belli = rex_cb_revoke_protector
+					}
+				}
+				any_elector = {
+					war_score_against = {
+						who = ROOT
+						casus_belli = rex_cb_revoke_protector
+					}
+					capital_scope = {
+						NOT = { controlled_by = ROOT }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+
+		modifier = {
+			factor = 1000
+			war_score = -99
+		}
+		modifier = {
+			factor = 1000
+			war_score = -100
+		}
+	}
+	
+	option = {
+		name = rex_events.10.a
+		remove_government_reform = rex_hreprotector_reform
+		add_prestige = -10
+		add_stability = -1
+	}
+}

@@ -1458,6 +1458,7 @@ austrian_monarchy = {
 	trigger = {
 		tag = HAB
 		government = monarchy
+		NOT = { has_reform = rex_hreprotector_reform }
 	}
 }
 

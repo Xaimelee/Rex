@@ -21,3 +21,24 @@ r_dominion_government = {
 	}
 	duration = 4
 }
+
+rex_hreprotector_reform = {
+	icon = "soldiers_6"
+	valid_for_nation_designer = no
+	fixed_rank = 2
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	potential = {
+	    AND = {
+			has_reform = rex_hreprotector_reform
+		}
+	}
+
+	modifiers = {
+		discipline = 1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

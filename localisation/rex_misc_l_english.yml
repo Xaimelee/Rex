@@ -1,0 +1,17 @@
+﻿l_english:
+ #HRE
+ R_DUCHY:0 "Duchy"
+ R_KINGDOM:0 "Kingdom"
+ R_EMPIRE:0 "Empire"
+ R_LORD_PROTECTOR:0 "Lord-Protector"
+ R_KING_PROTECTOR:0 "King-Protector"
+ R_EMPEROR_PROTECTOR:0 "Emperor-Protector"
+ R_LORD_PROTECTOR_fem:0 "Lady-Protector"
+ R_KING_PROTECTOR_fem:0 "Queen-Protector"
+ R_EMPEROR_PROTECTOR_fem:0 "Empress-Protector"
+ #CB
+ rex_cb_revoke_protector:0 "Abolish Protector of the HRE"
+ rex_cb_revoke_protector_desc:0 "They have assumed too much power for themselves and it is our duty to maintain the balance of power within the Holy Roman Empire."
+ #Government
+ rex_hreprotector_reform:0 "Protector of the Empire"
+ rex_hreprotector_reform_desc:0 "Charged with the defense of the Holy Roman Empire from any internal and external threats. This role was usurped or bestowed to any elector that was able to rise above all others after the Empire completed enacting it's reforms."

@@ -21,3 +21,27 @@ r_dominion_government = {
 		has_reform = r_dominion_government
 	}
 }
+
+rex_hreprotector_reform = {
+	rank = {
+		1 = R_DUCHY
+		2 = R_KINGDOM
+		3 = R_EMPIRE
+	}
+
+	ruler_male = {
+		1 = R_LORD_PROTECTOR
+		2 = R_KING_PROTECTOR
+		3 = R_EMPEROR_PROTECTOR
+	}
+
+	ruler_female = {
+		1 = R_LORD_PROTECTOR_fem
+		2 = R_KING_PROTECTOR_fem
+		3 = R_EMPEROR_PROTECTOR_fem
+	}
+
+	trigger = {
+		has_reform = rex_hreprotector_reform
+	}
+}

@@ -33,10 +33,28 @@ rex_become_protector = {
 		}
 		
 		effect = {
-			add_prestige = 5
-			add_legitimacy = 5
+			add_prestige = 10
+			add_legitimacy = 10
+			#add_country_modifier = { 
+			#	name = rex_protector_of_hre
+			#	duration = -1  
+			#	#desc = rex_protector_description
+			#	hidden = yes
+			#}
 			add_government_reform = rex_hreprotector_reform
 			add_country_flag = hreprotector
+			every_elector  = {
+			    if = {
+				    limit = {
+					    NOT = { has_reform = rex_hreprotector_reform }
+					}
+					add_casus_belli = {	
+						target = ROOT
+						type = rex_cb_revoke_protector
+						months = 240
+					}
+                }					
+			}
 		}
 	}
 }
