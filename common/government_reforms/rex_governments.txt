@@ -35,7 +35,7 @@ rex_hreprotector_reform = {
 	}
 
 	modifiers = {
-		land_morale = 0.05
+		army_tradition = 0.5
 		prestige = 0.75
 		monarch_military_power = 1
 	}
