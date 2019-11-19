@@ -72,6 +72,17 @@
 # counterespionage
 # abandon_union_action
 
+remove_electorate = {
+    condition = {
+		tooltip = rex_revoke_elector_restriction
+		potential = {
+		}
+		allow = {
+			FROM = { ai = yes }
+		}
+	}
+}
+
 guaranteeaction = {
     condition = {
 		tooltip = rex_guarantee_restriction

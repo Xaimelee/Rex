@@ -19,5 +19,6 @@
  rex_hre_restriction:0 "You may only add provinces to the HRE if they're apart of the North German Region, South German Region, Low Countries Region, Italy Region or Silesia Area."
  rex_outside_hre_restriction:0 "You may not add provinces to the HRE if you're not already a member."
  rex_guarantee_restriction:0 "You may not guarantee the independence of other players."
+ rex_revoke_elector_restriction:0 "You may not revoke Elector status from other players."
 #Stratagem restrictions
  rex_stratagem_restrictions:0 "You may only have 2 stratagems active at the same time while conscription has not been enacted."
