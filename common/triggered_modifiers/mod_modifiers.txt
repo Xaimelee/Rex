@@ -22,9 +22,25 @@ imperial_elector = {
 	    is_elector = yes
 		was_player = yes
 		NOT = { is_emperor = yes }
+		NOT = { has_reform = rex_hreprotector_reform }
 	}
 
 	prestige = 0.5
 	ae_impact = -0.1
 	global_tax_income = 12
 }
+
+imperial_protector = {
+    potential = {
+	    is_elector = yes
+	}
+
+	trigger = {
+	    has_reform = rex_hreprotector_reform
+	}
+
+	land_forcelimit_modifier = 0.20
+	manpower_recovery_speed = 0.10
+	infantry_power = 0.10
+	war_exhaustion = -0.03
+]

@@ -26,6 +26,7 @@ rex_become_protector = {
 				}
 				amount = 5
 			}
+			NOT = { is_emperor = yes }
 			NOT = { has_country_flag = hreprotector }
 			any_country = {
 			    NOT = { has_reform = rex_hreprotector_reform }

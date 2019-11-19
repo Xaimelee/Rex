@@ -35,7 +35,8 @@ rex_hreprotector_reform = {
 	}
 
 	modifiers = {
-		discipline = 1
+		army_tradition = 0.25
+		prestige = 0.75
 	}
 
 	custom_attributes = {
