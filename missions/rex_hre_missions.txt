@@ -1,0 +1,42 @@
+rex_become_protector = {
+
+	slot = 5
+	
+	potential = {
+		capital_scope = {
+			continent = europe
+		}
+		is_part_of_hre = yes
+		is_elector = yes
+	}
+	has_country_shield = no
+	
+	rex_become_protector = {
+		icon = mission_monarch_in_throne_room
+		position = 6
+		
+		trigger = {
+			hre_reform_level = 4
+			is_elector = yes
+			num_of_electors = 6
+			total_development = 500
+			calc_true_if = {
+			    all_elector = {
+				    NOT = { total_development = ROOT }
+				}
+				amount = 5
+			}
+			NOT = { has_country_flag = hreprotector }
+			any_country = {
+			    NOT = { has_reform = rex_hreprotector_reform }
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			add_legitimacy = 5
+			add_government_reform = rex_hreprotector_reform
+			add_country_flag = hreprotector
+		}
+	}
+}
