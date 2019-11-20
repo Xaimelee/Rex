@@ -102,12 +102,12 @@ monarchy = {
 			reforms = {
 				#political_absolutism_reform
 				#legislative_houses_reform
-				#become_a_republic_reform
-				#install_theocratic_government_reform
 				rex_militarism_9
 				rex_militarism_10
 				rex_liberalism_7
 				rex_liberalism_10
+				become_a_republic_reform
+				install_theocratic_government_reform
 			}
 		}
 	}
@@ -287,6 +287,8 @@ republic = {
 				#moral_principle_reform
 				rex_republicanism_9
 				rex_republicanism_10
+				proclaim_divine_guidance_reform
+				strengthen_executive_powers_reform
 			}
 		}
 		#electorate = {

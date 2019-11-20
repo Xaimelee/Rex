@@ -158,7 +158,7 @@ crown_leader_reform = {
 	}
 	effect = {
 		set_country_flag = populists_in_government
-		lose_reforms = 2
+		#lose_reforms = 2
 		change_government = monarchy
 	}
 	ai = {
@@ -174,7 +174,7 @@ proclaim_republic_reform = {
 	}
 	effect = {
 		set_country_flag = populists_in_government
-		lose_reforms = 1
+		#lose_reforms = 1
 		change_government = republic
 	}
 	ai = {
