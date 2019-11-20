@@ -3,7 +3,21 @@ country_decisions = {
 	irish_nation = {
 		major = yes
 		potential = {
-			always = no
+			OR = {
+				tag = TRY
+				tag = TYR
+				tag = ULS
+				tag = SLN
+				tag = FLY
+				tag = MTH
+				tag = KID
+				tag = MNS
+				tag = CNN
+				tag = DMS
+				tag = MCM
+				tag = ORD
+				tag = LEI
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
