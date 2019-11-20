@@ -43,12 +43,7 @@ merchants_reform = {
 	nation_designer_cost = 40
 	legacy_equivalent = merchant_republic
 	potential = {
-		NOT = {
-			AND = {
-				tag = VEN
-				NOT = { map_setup = map_setup_random }
-			}
-		}
+		has_reform = merchants_reform
 	}
 	boost_income = yes
 	duration = 4
