@@ -2,31 +2,7 @@ country_decisions = {
 	scottish_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_scotland_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = {
-				tag = SCO
-			}
-			NOT = { tag = HLR }
-			NOT = { tag = PAP }
-			NOT = { tag = GBR }
-			OR = {
-				primary_culture = scottish
-				primary_culture = highland_scottish
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
-			}
+			always = no
 		}
 		provinces_to_highlight = {
 			OR = {
