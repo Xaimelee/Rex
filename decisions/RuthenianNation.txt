@@ -3,35 +3,7 @@ country_decisions = {
 	ruthenian_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_ruthenia_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }			
-			NOT = { exists = UKR }
-			OR = {
-				primary_culture = byelorussian
-				primary_culture = ruthenian
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 3
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
-			}
+			tag = LIT
 		}
 		provinces_to_highlight = {
 			OR = {	
