@@ -106,58 +106,7 @@ country_decisions = {
 	algiers_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_algiers_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = MOR }
-			NOT = { tag = TUN }
-			NOT = { tag = TLC }
-			NOT = { tag = ALG }
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }
-			OR = {
-				primary_culture = algerian
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = algiers_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = hautes_plaines_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = ouled_nail_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = kabylia_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = north_saharan_area }
-				}
-			}
-			OR = {
-				ai = no
-				AND = {
-					NOT = { exists = ALG }
-					ai = yes
-					num_of_cities = 5
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
-			}
+			always = no
 		}
 		provinces_to_highlight = {
 			OR = {
