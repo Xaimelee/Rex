@@ -1,0 +1,231 @@
+
+## Republics
+
+rex_republicanism_1 = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		global_unrest = -1
+		republican_tradition = 0.25
+	}
+}
+
+rex_republicanism_2 = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		global_own_trade_power = 0.1
+		republican_tradition = 0.25
+	}
+}
+
+#
+
+rex_republicanism_3 = {
+	icon = "merchant_ship"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		light_ship_cost = -0.10
+		global_ship_trade_power = 0.1
+	}
+}
+
+rex_republicanism_4 = {
+	icon = "war_against_the_world"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		galley_cost = -0.1
+		galley_power = 0.10
+	}
+}
+
+#
+
+rex_republicanism_5 = {
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		max_states = 2
+	}
+}
+
+rex_republicanism_6 = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		global_trade_power = 0.1
+	}
+}
+
+rex_republicanism_7 = {
+	icon = "dutch_flag"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		manpower_recovery_speed = 0.10
+		infantry_cost = -0.10
+	}
+}
+
+rex_republicanism_8 = {
+	icon = "peasant_republic"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		land_morale = 0.05
+		naval_morale = 0.05
+	}
+}
+
+#
+
+rex_republicanism_9 = {
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		max_states = 3
+		state_maintenance_modifier = -0.35
+	}
+}
+
+rex_republicanism_10 = {
+	icon = "parliament"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		global_unrest = -1
+	}
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+}
+
+

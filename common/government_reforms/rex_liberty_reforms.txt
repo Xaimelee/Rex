@@ -1,0 +1,216 @@
+
+##liberalism
+
+rex_liberalism_1 = {
+	icon = "man_on_podium"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		num_accepted_cultures = 1
+		promote_culture_cost = -0.5
+	}
+}
+
+rex_liberalism_2 = {
+	icon = "nobleman"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		global_tax_modifier = 0.10
+	}
+}
+
+rex_liberalism_3 = {
+	icon = "peasants"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		production_efficiency = 0.10
+	}
+}
+
+rex_liberalism_4 = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		trade_efficiency = 0.10
+	}
+}
+
+#
+
+rex_liberalism_5 = {
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		free_dip_policy = 1
+		possible_dip_policy = 1
+	}
+}
+
+rex_liberalism_6 = {
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		free_adm_policy = 1
+		possible_adm_policy = 1
+	}
+}
+
+#
+
+rex_liberalism_7 = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		merchants = 1
+	}
+}
+
+rex_liberalism_8 = {
+	icon = "landscape"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		development_cost = -0.05
+	}
+}
+
+
+rex_liberalism_9 = {
+	icon = "paper_with_seal_3"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		land_maintenance_modifier = -0.1
+		naval_maintenance_modifier = -0.1
+		land_attrition = -0.1
+	}
+}
+
+rex_liberalism_10 = {
+	icon = "parliament"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		global_unrest = -1
+	}
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+}
