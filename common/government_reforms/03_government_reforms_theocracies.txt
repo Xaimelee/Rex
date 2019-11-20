@@ -67,8 +67,7 @@ internal_mission_reform = {
 	icon = "clergyman"
 	allow_normal_conversion = yes
 	modifiers = {
-		tolerance_own = 1
-		global_missionary_strength = 0.03
+		land_morale = 0.075
 	}
 }
 
@@ -76,7 +75,7 @@ external_mission_reform = {
 	icon = "soldiers"
 	allow_normal_conversion = yes
 	modifiers = {
-		warscore_cost_vs_other_religion = -0.25
+		shock_damage = 0.10
 	}
 }
 
@@ -86,7 +85,7 @@ safeguard_holy_sites_reform = {
 	icon = "church"
 	allow_normal_conversion = yes
 	modifiers = {
-		prestige = 0.75
+		prestige = 1
 	}
 }
 
@@ -94,7 +93,7 @@ combat_heresy_reform = {
 	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		land_morale = 0.05
+		land_forcelimit_modifier = 0.10
 	}
 }
 
