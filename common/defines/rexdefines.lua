@@ -36,6 +36,8 @@ NDefines.NDiplomacy.AE_PROVINCE_CAP = 20
 NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 0.60
 NDefines.NDiplomacy.PO_RETURN_CORES_AE = 0.35
 
+NDefines.NDiplomacy.PO_REVOKE_REFORM_PEACE_COST = 50
+
 -- Country Defines
 
 NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
