@@ -94,8 +94,8 @@ monarchy = {
 				#regional_representation_reform
 				rex_militarism_7
 				rex_militarism_8
-				rex_liberalism_7
 				rex_liberalism_8
+				rex_liberalism_9
 			}
 		}
 		separation_of_power = {
@@ -106,7 +106,7 @@ monarchy = {
 				#install_theocratic_government_reform
 				rex_militarism_9
 				rex_militarism_10
-				rex_liberalism_9
+				rex_liberalism_7
 				rex_liberalism_10
 			}
 		}

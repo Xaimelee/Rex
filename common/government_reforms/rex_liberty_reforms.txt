@@ -144,7 +144,7 @@ rex_liberalism_7 = {
 		}
 	}
 	modifiers = {
-		merchants = 1
+		global_trade_goods_size_modifier = 0.1
 	}
 }
 
@@ -185,9 +185,8 @@ rex_liberalism_9 = {
 		}
 	}
 	modifiers = {
-		land_maintenance_modifier = -0.1
-		naval_maintenance_modifier = -0.1
-		land_attrition = -0.1
+		global_regiment_cost = -0.05
+		global_ship_cost = -0.05
 	}
 }
 
