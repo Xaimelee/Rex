@@ -407,7 +407,7 @@ pirate_republic = {
 	}
 	
 	potential = {	
-		has_dlc = "Golden Century"
+		always = no
 	}
 	
 	factions_frame = 9
@@ -449,7 +449,7 @@ pirate_kingdom = {
 	republic = yes
 	
 	potential = {	
-		has_dlc = "Golden Century"
+		always = no
 	}
 	
 	nation_designer_trigger = {
