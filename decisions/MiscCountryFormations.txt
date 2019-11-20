@@ -3,36 +3,9 @@ country_decisions = {
 	hannoverian_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_hannover_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = HLR }
-			NOT = { tag = PAP }
-			NOT = { tag = GER }
-			NOT = { tag = PRU }
-			NOT = { tag = HSA }
-			NOT = { exists = HAN }
-			primary_culture = hannoverian #Westphalian
-			is_colonial_nation = no
-			OR = {
-				ai = no
-				AND = {
-					owns_core_province = 53	# Lüneburg
-					owns_core_province = 54	# Stade
-					owns_core_province = 1758	# Hannover
-					owns_core_province = 2971	# Hoya
-				}
-			}			
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
+		    OR = {
+			    tag = DAN
+				tag = HES
 			}
 		}
 		provinces_to_highlight = {
