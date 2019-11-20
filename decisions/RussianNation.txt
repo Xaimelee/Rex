@@ -3,41 +3,7 @@ country_decisions = {
 	russian_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_russia_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = POL }
-			NOT = { tag = RUS }
-			OR = {
-				NOT = { exists = RUS }
-				ai = no
-			}
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }
-			OR = {
-				primary_culture = russian
-				primary_culture = novgorodian
-				primary_culture = ryazanian
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 3
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
-			}
+			tag = MOS
 		}
 		provinces_to_highlight = {
 			OR = {
