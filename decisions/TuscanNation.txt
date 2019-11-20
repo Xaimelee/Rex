@@ -3,7 +3,7 @@ country_decisions = {
 	tuscan_nation = {
 		major = yes
 		potential = {
-			always = no
+			tag = LAN
 		}
 		provinces_to_highlight = {
 			OR = {
