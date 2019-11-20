@@ -3,49 +3,11 @@ country_decisions = {
 	german_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_germany_flag }
 			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { exists = GER }
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }
-			NOT = { tag = ROM }
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 15
-					adm_tech = 20
-				}
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					NOT = { government = theocracy }
-				}
-			}
-			OR = {  
-				primary_culture = hannoverian #Westphalian
-				primary_culture = pommeranian
-				primary_culture = hessian
-				primary_culture = saxon
-				primary_culture = bavarian
-				primary_culture = prussian
-				primary_culture = swabian
-				primary_culture = franconian
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
+			    tag = BRA
+				tag = PRU
+				tag = HAB
+				tag = HES
 			}
 		}
 		provinces_to_highlight = {

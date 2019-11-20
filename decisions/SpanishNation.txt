@@ -3,8 +3,10 @@ country_decisions = {
 	spanish_nation = {
 		major = yes
 		potential = {
-			tag = CAS
-			tag = POR
+		    OR = {
+				tag = CAS
+				tag = POR
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
