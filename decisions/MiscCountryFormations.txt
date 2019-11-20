@@ -349,33 +349,7 @@ country_decisions = {
 	icelandic_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			owns = 370
-			owns = 371
-			NOT = { has_country_flag = formed_iceland } #Only once
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			OR = {
-				ai = no
-				NOT = { num_of_cities = 4 }
-			}
-			NOT = { tag = HLR }
-			NOT = { tag = ROM }
-			NOT = { tag = PAP }
-			NOT = { tag = TUR }
-			NOT = { tag = BYZ }
-			NOT = { exists = ICE }
-			is_colonial_nation = no		
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
-			}
+			always = no
 		}
 		provinces_to_highlight = {
 			OR = {
