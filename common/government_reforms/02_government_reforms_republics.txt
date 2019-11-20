@@ -100,14 +100,7 @@ venice_merchants_reform = {
 	nation_designer_cost = 40
 	legacy_equivalent = venetian_merchant_republic
 	potential = {
-		NOT = { map_setup = map_setup_random }
-		OR = {
-			tag = VEN
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = venice_merchants_reform
-			}
-		}
+		has_reform = venice_merchants_reform
 	}
 	boost_income = yes
 	factions = {
