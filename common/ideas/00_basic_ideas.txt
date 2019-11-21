@@ -393,15 +393,17 @@ expansion_ideas = {
 
 	bonus = {
  		max_states = 5
+		cb_on_overseas = yes
 	}
 
 
 	faster_colonists = {
-		global_sailors_modifier = 0.10
-		naval_maintenance_modifier = -0.05
+		global_sailors_modifier = 0.20
+		naval_maintenance_modifier = -0.1
 	}
 	additional_merchants = {
 		merchants = 1
+		trade_range_modifier = 0.25
 	}
 	factories = {
 		num_accepted_cultures = 2
