@@ -700,7 +700,7 @@ imperialism_ideas = {
 
 	tribute_system = {
 		vassal_income = 0.20
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 	}
     additional_loyalist_recruitment = {
 		diplomatic_upkeep = 2
@@ -720,8 +720,8 @@ imperialism_ideas = {
 		land_forcelimit_modifier = 0.10
 	}
 	marcher_lords = {
-		unjustified_demands = -0.2
-		province_warscore_cost = -0.1
+		unjustified_demands = -0.1
+		province_warscore_cost = -0.2
 	}
 
 	ai_will_do = {
