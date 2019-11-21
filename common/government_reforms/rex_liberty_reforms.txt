@@ -38,7 +38,7 @@ rex_liberalism_2 = {
 		}
 	}
 	modifiers = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 	}
 }
 
@@ -58,7 +58,7 @@ rex_liberalism_3 = {
 		}
 	}
 	modifiers = {
-		production_efficiency = 0.10
+		global_trade_goods_size_modifier = 0.1
 	}
 }
 
@@ -185,13 +185,14 @@ rex_liberalism_9 = {
 		}
 	}
 	modifiers = {
-		global_regiment_cost = -0.05
-		global_ship_cost = -0.05
+		land_maintenance_modifier = -0.05
+		naval_maintenance_modifier = -0.05
+		build_cost = -0.05
 	}
 }
 
 rex_liberalism_10 = {
-	icon = "parliament"
+	icon = "parliament_hall"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {

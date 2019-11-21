@@ -23,7 +23,7 @@ rex_militarism_1 = {
 }
 
 rex_militarism_2 = {
-	icon = "soldiers_5"
+	icon = "soldiers_4"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -46,7 +46,7 @@ rex_militarism_2 = {
 #
 
 rex_militarism_3 = {
-	icon = "soldiers_4"
+	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
