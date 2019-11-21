@@ -571,27 +571,28 @@ spy_ideas = {
 
 	efficient_spies = {
 		global_spy_defence = 0.33
-		advisor_cost = -0.05
+		spy_offence = 0.33
+		envoy_travel_time = -0.33
 	}	
 	privateers = {
 		global_regiment_cost = -0.05
 	}
 	agent_training = {
-		yearly_corruption = -0.20
+		yearly_corruption = -0.15
 	}
 	state_propaganda = {
 		fort_maintenance_modifier = -0.10
+		defensiveness = 0.10
 	}
 	vetting = {
 		diplomats = 2
 		fabricate_claims_cost= -0.33
 	}
+	claim_fabrication = {
+		global_manpower_modifier = 0.10
+	}
 	audit_checks = {
 		war_exhaustion_cost = -0.20
-	}
-	claim_fabrication = {
-		spy_offence = 0.33
-		envoy_travel_time = -0.33
 	}
 
 	ai_will_do = {
