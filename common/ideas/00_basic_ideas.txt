@@ -539,7 +539,7 @@ religious_ideas = {
 		global_missionary_strength = 0.03
 	}
 	religious_tradition = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 	}
 	inquisition = {
 		missionary_maintenance_cost = -0.5
