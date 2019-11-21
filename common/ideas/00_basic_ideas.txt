@@ -201,22 +201,23 @@ strategic_ideas = {
 	category = MIL
 
 	bonus = {
-		leader_land_fire = 1
+		yearly_army_professionalism = 0.0025
 	}
 
+	
 	abolished_serfdom = {
-		reinforce_cost_modifier = -0.10
-		loot_amount = 0.35
+		land_maintenance_modifier = -0.05
+		land_morale = 0.05
 	}
 	tradition_of_payment = {
 		cavalry_power = 0.10
+		loot_amount = 0.35
 	}
 	free_subjects = {
 		mil_tech_cost_modifier = -0.10
 	}
 	emancipation = {
-		land_maintenance_modifier = -0.05
-		land_morale = 0.05
+		leader_land_fire = 1
 	}
 	free_cities = {
 		war_exhaustion = -0.05
@@ -226,7 +227,7 @@ strategic_ideas = {
 	}
 	bill_of_rights = {
 		possible_mil_policy = 1
-		mil_advisor_cost = -0.2
+		mil_advisor_cost = -0.15
 	}
 	
 
