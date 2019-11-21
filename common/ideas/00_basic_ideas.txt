@@ -292,7 +292,7 @@ economic_ideas = {
 	category = ADM
 
 	bonus = {
-		build_cost = -0.05
+		build_cost = -0.1
 	}
 
 	bureaucracy = {
@@ -308,10 +308,10 @@ economic_ideas = {
 		global_autonomy = -0.05
 	}
 	organised_construction = {
-		trade_company_investment_cost = -0.33
+		trade_company_investment_cost = -0.35
 	}
 	debt_and_loans = {
-		yearly_corruption = -0.10
+		yearly_corruption = -0.15
 	}
 	smithian_economics = {
 		global_regiment_cost = -0.1
