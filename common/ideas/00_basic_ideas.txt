@@ -791,7 +791,7 @@ maritime_ideas = {
 	}
 
 	bonus = {
-		ship_durability = 0.05
+		naval_forcelimit_modifier = 0.20
 	}
 
 	naval_glory = {
@@ -815,8 +815,8 @@ maritime_ideas = {
 		leader_naval_fire = 1
 	}	
 	superior_seamanship = {
-		global_naval_engagement_modifier = 0.10
 		naval_morale = 0.10
+		ship_durability = 0.05
 	}
 
 	ai_will_do = {
