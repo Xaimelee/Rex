@@ -498,7 +498,7 @@ infrastructure_ideas = {
 		land_forcelimit = 10
 	}
 	ecumenism = {
-		global_manpower = 5
+		global_manpower = 7.5
 	}
 
 	ai_will_do = {
