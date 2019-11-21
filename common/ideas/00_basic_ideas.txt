@@ -297,7 +297,7 @@ economic_ideas = {
 	}
 
 	bureaucracy = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 	}
 	nationalistic_enthusiasm = {
 		war_taxes_cost_modifier = -0.5
@@ -315,7 +315,7 @@ economic_ideas = {
 		yearly_corruption = -0.15
 	}
 	smithian_economics = {
-		global_regiment_cost = -0.1
+		global_regiment_cost = -0.05
 		global_ship_cost = -0.1
  	}
 
