@@ -352,23 +352,23 @@ administrative_ideas = {
 	}
 
 
-	organised_mercenary_payment = {
-		state_maintenance_modifier = -0.25
+    bookkeeping = {
+		adm_tech_cost_modifier = -0.10
 	}
 	benefits_for_mercenaries = {
-		reinforce_speed = 0.25
-		global_ship_repair = 0.10
+		reinforce_speed = 0.20
+		global_ship_repair = 0.20
 	}
-	adaptability = {
-		reform_progress_growth = 0.30
-		stability_cost_modifier = -0.10
-	}
-	bookkeeping = {
-		autonomy_change_time = -0.50
+	organised_mercenary_payment = {
+		state_maintenance_modifier = -0.33
 		min_autonomy_in_territories = -0.1
 	}
 	organised_mercenary_recruitment = {
 		reinforce_cost_modifier = -0.10
+	}
+	adaptability = {
+		reform_progress_growth = 0.33
+		stability_cost_modifier = -0.10
 	}
 	administrative_efficiency_idea = {
 		land_forcelimit_modifier = 0.10
