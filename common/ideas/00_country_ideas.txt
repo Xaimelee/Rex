@@ -12592,36 +12592,35 @@ TUN_ideas = {
 		galley_power = 0.2		
 	}
 	bonus = {
-		naval_forcelimit_modifier = 0.25
+		shock_damage = 0.10
 	}
 	trigger = {
 		tag = TUN
 	}
 	free = yes
 	tun_catalan_guard = {
-		mercenary_discipline = 0.05
-		infantry_power = 0.05
+		infantry_power = 0.10
+		movement_speed_onto_off_boat_modifier = -0.25
 	}
 	dual_diplomacy = {
-		diplomatic_upkeep = 1
-	}
-	corsairs = {
-		navy_tradition = 1
-		privateer_efficiency = 0.10
-	}
-	tun_attract_foreign_pirates = {
-		global_sailors_modifier = 0.25
-	}
-	tun_board_of_captains = {
-		leader_naval_fire = 1
+		naval_forcelimit_modifier = 0.25
 	}
 	tun_export_monopolies = {
 		global_own_trade_power = 0.2
-		trade_efficiency = 0.05
 	}
-	tun_caliphate = {
-		tolerance_own = 1
+	tun_board_of_captains = {
+		leader_land_shock = 1
+	}
+	corsairs = {
+		navy_tradition = 0.5
+		privateer_efficiency = 0.25
+	}
+    tun_caliphate = {
+	    global_missionary_strength = 0.02
 		monthly_piety = 0.001
+	}
+	tun_attract_foreign_pirates = {
+		global_sailors_modifier = 0.25
 	}
 }
 
