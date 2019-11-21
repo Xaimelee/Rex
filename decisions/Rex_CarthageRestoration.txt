@@ -1,0 +1,59 @@
+country_decisions = {
+
+	carthage_restoration = {
+		major = yes
+		potential = {
+			OR = {
+				tag = TUN
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+			    area = sicily_area
+				area = corsica_sardinia_area
+				area = baleares_area
+				area = northern_morocco_area
+				area = western_morocco_area
+				area = marrekesh_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			sicily_area = {
+				type = all
+				owned_by = ROOT
+			}
+			corsica_sardinia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			baleares_area = {
+				type = all
+				owned_by = ROOT
+			}
+            northern_morocco_area = {
+				type = all
+				owned_by = ROOT
+			}
+			western_morocco_area = {
+				type = all
+				owned_by = ROOT
+			}
+			marrekesh_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			change_tag = CTH
+			set_country_flag = formed_carthage
+			341 = {
+			    change_province_name = "Carthage"
+			}
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}

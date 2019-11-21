@@ -7,7 +7,10 @@ gc_tunis_1 = {
 	}
 	potential = {
 		has_dlc = "Golden Century"
-		tag = TUN
+		OR = {
+		    tag = TUN
+			tag = CTH
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -239,7 +242,10 @@ gc_tunis_2 = {
 	}
 	potential = {
 		has_dlc = "Golden Century"
-		tag = TUN
+		OR = {
+		    tag = TUN
+			tag = CTH
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -306,7 +312,10 @@ gc_tunis_3 = {
 	}
 	potential = {
 		has_dlc = "Golden Century"
-		tag = TUN
+		OR = {
+		    tag = TUN
+			tag = CTH
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -519,7 +528,10 @@ gc_tunis_4 = {
 	}
 	potential = {
 		has_dlc = "Golden Century"
-		tag = TUN
+		OR = {
+		    tag = TUN
+			tag = CTH
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -674,7 +686,10 @@ gc_tunis_5 = {
 	}
 	potential = {
 		has_dlc = "Golden Century"
-		tag = TUN
+		OR = {
+		    tag = TUN
+			tag = CTH
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
