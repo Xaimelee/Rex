@@ -44,7 +44,8 @@ ship_boarding =
 	}
 
 	country_modifier = {
-		capture_ship_chance = 0.33
+		capture_ship_chance = 0.25
+		movement_speed_onto_off_boat_modifier = -0.25
 	}
 	
 	button_gfx = 4
