@@ -71,13 +71,10 @@ grand_armada =
 {
 	can_select = {
 		is_primitive = no
-		NOT = {
-			OR = {
-				primary_culture = portugese
-				primary_culture = brazilian
-			}
+		OR = {
+		    tag = SPA
+			tag = CAS
 		}
-		culture_group = iberian
 	}
 
 	country_modifier = {
