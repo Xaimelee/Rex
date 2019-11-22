@@ -162,7 +162,7 @@ christian = {
 				}
 			}			
 			proclaim_holy_war = {
-				cost = 50
+				cost = 75
 				potential = {
 					NOT = { tag = PAP }
 				}
