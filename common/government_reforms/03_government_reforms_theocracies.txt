@@ -154,7 +154,7 @@ crown_leader_reform = {
 	icon = "crown_highlighted"
 	allow_normal_conversion = yes
 	trigger = {
-		NOT = { has_government_attribute_short_desc = locked_government_type }
+		#NOT = { has_government_attribute_short_desc = locked_government_type }
 	}
 	effect = {
 		set_country_flag = populists_in_government
@@ -170,7 +170,7 @@ proclaim_republic_reform = {
 	icon = "parliament_highlighted"
 	allow_normal_conversion = yes
 	trigger = {
-		NOT = { has_government_attribute_short_desc = locked_government_type }
+		#NOT = { has_government_attribute_short_desc = locked_government_type }
 	}
 	effect = {
 		set_country_flag = populists_in_government
