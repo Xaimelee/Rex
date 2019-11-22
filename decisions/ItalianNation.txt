@@ -76,21 +76,7 @@ country_decisions = {
 	gods_kingdom = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { exists = ITA }
-			tag = PAP
-			NOT = { has_country_modifier = kingdom_of_god }
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 15
-				}
-			}
+			always = no
 		}
 		provinces_to_highlight = {
 			OR = {
