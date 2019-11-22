@@ -1096,7 +1096,9 @@ subject_nation = {
 
 vassal_nation = {
     possible_mercenaries = -2
-	global_tax_income = -24
+	global_tax_income = -36
+	land_forcelimit	= -2
+	naval_forcelimit = -4
 }
 
 primitive_nation = {
