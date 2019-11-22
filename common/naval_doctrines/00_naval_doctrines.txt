@@ -18,7 +18,7 @@ free_oarsmen =
 	}
 
 	country_modifier = {
-		galley_power = 0.15
+		galley_power = 0.10
 	}
 	
 	button_gfx = 2
