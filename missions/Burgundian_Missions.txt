@@ -17,7 +17,7 @@ bur_conquest = {
 		
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = bur_subjects.tooltip
+				tooltip = rex_burgundy_subjects_tooltip
 				NOT = {
 					any_subject_country = {
 						liberty_desire = 20
