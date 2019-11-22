@@ -28,11 +28,11 @@
 # Tier 1, 15th Century Buildings
 ################################################
 marketplace = {
-	cost = 100
+	cost = 80
 	time = 12
 	
 	modifier = {
-		province_trade_power_modifier = 0.5
+		province_trade_power_modifier = 0.4
 	}
 	
 	ai_will_do = {
@@ -41,10 +41,10 @@ marketplace = {
 }
 
 workshop = {
-	cost = 100
+	cost = 80
 	time = 12
 	modifier = {
-		local_production_efficiency = 0.5
+		local_production_efficiency = 0.4
 	}
 	
 	allow_in_gold_provinces = no
@@ -55,7 +55,7 @@ workshop = {
 }
 
 temple = {
-	cost = 100
+	cost = 80
 	time = 12
 	modifier = {
 		local_tax_modifier = 0.4
@@ -67,10 +67,10 @@ temple = {
 }
 
 barracks = {
-	cost = 100
+	cost = 80
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 0.4
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -102,15 +102,16 @@ barracks = {
 }		
 
 shipyard = {
-	cost = 100
+	cost = 80
 	time = 12
 	trigger = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 2
+		naval_forcelimit = 1
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
+		allowed_num_of_buildings = 1
 	}
 	
 	ai_will_do = {
@@ -182,13 +183,14 @@ courthouse = {
 }
 
 dock = {
-	cost = 100
+	cost = 80
 	time = 12
 	trigger = {
 		has_port = yes
 	}
 	modifier = {
 		local_sailors_modifier = 0.5
+		allowed_num_of_buildings = 1
 	}
 	
 	ai_will_do = {
@@ -197,10 +199,10 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 200
+	cost = 80
 	time = 12
 	modifier = {
-		land_forcelimit = 1
+		land_forcelimit = 0.5
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -285,11 +287,11 @@ fort_16th = {
 cathedral = {
 	make_obsolete = temple
 	
-	cost = 300
+	cost = 160
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
-		local_tax_modifier = 0.6
+		local_tax_modifier = 0.8
 	}
 	
 	ai_will_do = {
@@ -299,10 +301,10 @@ cathedral = {
 
 
 university = {
-	cost = 300
+	cost = 150
 	time = 12
 	modifier = {
-		local_development_cost = -0.20
+		local_development_cost = -0.10
 		allowed_num_of_buildings = 1
 	}
 	
@@ -341,13 +343,13 @@ university = {
 }
 
 trade_depot = {
-	cost = 300
+	cost = 160
 	time = 12
 	
 	make_obsolete = marketplace
 	
 	modifier = {
-		province_trade_power_modifier = 1
+		province_trade_power_modifier = 0.8
 	}
 	
 	ai_will_do = {
@@ -356,7 +358,7 @@ trade_depot = {
 }
 
 grand_shipyard = {
-	cost = 300
+	cost = 160
 	time = 12
 	
 	make_obsolete = shipyard
@@ -365,9 +367,10 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 4
+		naval_forcelimit = 2
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
+		allowed_num_of_buildings = 1
 	}
 	
 	ai_will_do = {
@@ -384,7 +387,7 @@ grand_shipyard = {
 }
 
 training_fields = {
-	cost = 300
+	cost = 160
 	time = 12
 	
 	make_obsolete = barracks
@@ -413,7 +416,7 @@ training_fields = {
 #	}
 	
 	modifier = {
-		local_manpower_modifier = 1
+		local_manpower_modifier = 0.8
 	}
 	
 	ai_will_do = {
@@ -470,13 +473,13 @@ fort_17th = {
 # Tier 4, 18th Century Buildings
 ################################################
 stock_exchange = {
-	cost = 400
+	cost = 240
 	time = 12
 	
 	make_obsolete = trade_depot
 	
 	modifier = {
-		province_trade_power_modifier = 1.25
+		province_trade_power_modifier = 1.2
 	}
 	
 	ai_will_do = {
@@ -485,12 +488,12 @@ stock_exchange = {
 }
 
 counting_house = {
-	cost = 400
+	cost = 160
 	time = 12
 	
 	make_obsolete = workshop
 	modifier = {
-		local_production_efficiency = 1
+		local_production_efficiency = 0.8
 	}
 	
 	allow_in_gold_provinces = no
@@ -520,7 +523,7 @@ town_hall = {
 }
 
 drydock = {
-	cost = 300
+	cost = 160
 	time = 12
 	
 	make_obsolete = dock
@@ -531,6 +534,7 @@ drydock = {
 	
 	modifier = {
 		local_sailors_modifier = 1.0
+		allowed_num_of_buildings = 1
 	}	
 	
 	ai_will_do = {
@@ -539,7 +543,7 @@ drydock = {
 }
 
 conscription_center = {
-	cost = 400
+	cost = 160
 	time = 12
 	
 	
@@ -569,7 +573,7 @@ conscription_center = {
 #	}
 	
 	modifier = {
-		land_forcelimit = 2
+		land_forcelimit = 1
 	}
 	
 	ai_will_do = {
@@ -635,10 +639,10 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 500
+	cost = 400
 	time = 60
 	modifier = {
-		trade_goods_size = 1.0
+		trade_goods_size = 0.8
 	}
 }
 
