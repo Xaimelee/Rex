@@ -332,15 +332,14 @@ NED_ideas = {
 	}
 }
 
-
 DAN_ideas = {
 	start = {
-		ship_durability = 0.05
-		legitimacy = 1
+		defensiveness = 0.10
+		naval_morale = 0.10
 	}
 	
 	bonus = {
-		light_ship_power = 0.15
+		manpower_recovery_speed = 0.15
 	}
 	
 	trigger = {
@@ -348,28 +347,30 @@ DAN_ideas = {
 	}
 	free = yes		#will be added at load.
 
-	vornedskab = {
-		manpower_recovery_speed = 0.1
+    old_naval_traditions = {
+		galley_power = 0.20
 	}
-	old_naval_traditions = {
-		navy_tradition = 1
+	vornedskab = {
+		diplomatic_upkeep = 1
+		diplomatic_annexation_cost = -0.15
 	}
 	rentekammer = {
-		global_tax_modifier = 0.10
+		global_trade_power = 0.10
 	}	
-	klaedekammer = {
-		naval_maintenance_modifier = -0.10
-		sailor_maintenance_modifer = -0.10
-	}
-	expanded_dockyards = {
-		naval_forcelimit_modifier = 0.5
-	}
 	den_danske_lov = {
-		global_unrest = -1
+		fire_damage = 0.1
+		shock_damage_received = -0.1
+	}
+	klaedekammer = {
+		navy_tradition = 0.5
+		ship_durability = 0.05
 	}
 	religious_orthodoxy = {
 		tolerance_own = 2
 		church_power_modifier = 0.10
+	}
+	expanded_dockyards  = {
+		naval_forcelimit_modifier = 0.5
 	}
 }
 
