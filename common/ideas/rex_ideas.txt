@@ -1,3 +1,48 @@
+#Brandenburg
+
+BRA_ideas = {
+	start = {
+		infantry_power = 0.10
+		ae_impact = -0.10
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = BRA
+		}
+	}
+	free = yes		#will be added at load.
+	
+	rex_kammergericht = {
+		same_culture_advisor_cost = -0.2
+	}
+	rex_army_professionalism = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	rex_goose_step = {
+		vassal_forcelimit_bonus = 0.25
+		vassal_income = 0.25
+	}
+	rex_divided_estates = {
+		shock_damage_received = -0.10
+		shock_damage = 0.10
+	}
+	rex_noble_cadets = {
+		mil_tech_cost_modifier  = -0.1
+	}
+	rex_regimental_cantons = {
+		tolerance_heretic = 2
+	}
+	rex_religious_toleration = {
+		global_regiment_recruit_speed = -0.20
+		war_exhaustion = -0.03
+	}
+}
+
 #Colonial regions
 
 #Alaska

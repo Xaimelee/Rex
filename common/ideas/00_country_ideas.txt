@@ -514,7 +514,7 @@ PRU_ideas = {
 	trigger = {
 		OR = {
 			tag = PRU
-			tag = BRA
+			#tag = BRA
 		}
 	}
 	free = yes		#will be added at load.
