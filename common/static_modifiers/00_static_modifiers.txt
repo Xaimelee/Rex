@@ -818,8 +818,7 @@ horde_unity = {
 devotion = {
 	papal_influence = 2
 	church_power_modifier = 0.25
-	prestige = 2
-	global_tax_modifier = 0.50
+	global_tax_modifier = 0.30
 }
 
 # Multiplied by current meritocracy - 50
