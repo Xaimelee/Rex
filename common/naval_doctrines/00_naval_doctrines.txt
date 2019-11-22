@@ -88,10 +88,7 @@ portuguese_marines =
 {
 	can_select = {
 		is_primitive = no
-		OR = {
-			primary_culture = portugese
-			primary_culture = brazilian
-		}
+		tag = POR
 	}
 
 	country_modifier = {
