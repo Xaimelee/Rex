@@ -54,7 +54,10 @@ wooden_wall =
 {
 	can_select = {
 		is_primitive = no
-		culture_group = british
+		OR = {
+		    tag = GBR
+			tag = ENG
+		}
 	}
 
 	country_modifier = {
