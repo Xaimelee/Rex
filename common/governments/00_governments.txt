@@ -415,17 +415,17 @@ theocracy = {
 				papacy_reform
 			}
 		}
-		internal_vs_external_mission = {
-			reforms = {
-				internal_mission_reform
-				external_mission_reform
-			}
-		}
 		divine_cause = {
 			reforms = {
 				safeguard_holy_sites_reform
 				combat_heresy_reform
 				expel_heathens_reform
+			}
+		}
+		internal_vs_external_mission = {
+			reforms = {
+				internal_mission_reform
+				external_mission_reform
 			}
 		}
 		clergy_in_administration = {
@@ -434,6 +434,12 @@ theocracy = {
 				religious_administrators_reform
 				permanent_marathas_council_reform
 				governmental_purbias_register_reform
+			}
+		}
+		growth_of_administration = {
+			reforms = {
+				rex_militarism_5
+				rex_militarism_6
 			}
 		}
 		secularization = {
