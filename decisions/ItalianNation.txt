@@ -46,6 +46,12 @@ country_decisions = {
 				}
 			}
 			if = {
+			    limit = {
+				    has_country_modifier = pap_swiss_guard
+				}
+				remove_country_modifier = pap_swiss_guard
+			}
+			if = {
 				limit = {
 					NOT = { government_rank = 2 }
 				}
