@@ -20,14 +20,13 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-			navy_tradition = 0.25
-			heavy_ship_power = 0.10
+		heavy_ship_power = 0.10
 	}
 	eltham_ordinance = {
-			production_efficiency = 0.1
+		production_efficiency = 0.1
 	}
 	secretaries_of_state = {
-		diplomatic_upkeep = 1
+		global_colonial_growth = 10
 	}
 	navigation_acts = {
 		trade_efficiency = 0.1
