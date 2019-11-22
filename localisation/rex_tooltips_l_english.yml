@@ -22,3 +22,5 @@
  rex_revoke_elector_restriction:0 "You may not revoke Elector status from other players."
 #Stratagem restrictions
  rex_stratagem_restrictions:0 "You may only have 2 stratagems active at the same time while conscription has not been enacted."
+#Mission Tooltips
+ rex_burgundy_subjects:0 "All subjects have less than 20% Liberty Desire."
