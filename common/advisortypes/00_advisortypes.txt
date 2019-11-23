@@ -403,7 +403,8 @@ fortification_expert = {
 	monarch_power = MIL
 	
 	# Bonus
-	defensiveness = 0.2
+	defensiveness = 0.1
+	fort_maintenance_modifier = -0.05
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
