@@ -779,7 +779,7 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-	monthly_militarized_society = -0.015
+	monthly_militarized_society = -0.012
 
 }
 
