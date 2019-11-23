@@ -1004,11 +1004,11 @@ JAP_ideas = {
 MAM_ideas = {
 	start = {
 		trade_steering = 0.25
-		cavalry_power = 0.10
+		cavalry_power = 0.20
 	}
 	
 	bonus = {
-		global_prov_trade_power_modifier = 0.25
+		global_manpower_modifier = 0.25
 	}
 	
 	trigger = {
@@ -1017,8 +1017,7 @@ MAM_ideas = {
 	free = yes
 	
 	red_sea_trade = {
-		global_trade_power = 0.05
-		trade_range_modifier = 0.10
+		global_trade_power = 0.1
 	}
 	monuments_to_greatness = {
 		prestige = 1
@@ -1026,14 +1025,14 @@ MAM_ideas = {
 	purchase_new_mamelukes = {
 		manpower_recovery_speed = 0.15
 	}
+	reformed_succession = {
+		stability_cost_modifier = -0.10
+	}
 	mam_army_reform = {
 		discipline = 0.05
 	}
 	reform_fellah_system = {
 		production_efficiency = 0.1
-	}
-	reformed_succession = {
-		stability_cost_modifier = -0.15
 	}
 	mam_monopoly_ports = {
 		trade_efficiency = 0.10
