@@ -629,9 +629,9 @@ peace = {
 	global_institution_spread = 0.1
 	rr_girondists_influence = -0.1
 	pr_smugglers_influence = 0.1
-	interest = -0.5
-	manpower_recovery_speed = 0.1
-	yearly_army_professionalism = 0.0025
+	interest = -0.25
+	manpower_recovery_speed = 0.15
+	yearly_army_professionalism = 0.00125
 }
 
 unconditional_surrender = {
