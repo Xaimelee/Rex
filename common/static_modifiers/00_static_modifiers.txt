@@ -699,7 +699,7 @@ army_tradition = {
 	temples_influence = 0.1
 	mr_aristocrats_influence = 0.1
 	rr_girondists_influence = 0.1
-	monthly_militarized_society = 0.1
+	monthly_militarized_society = 0.15
 }
 
 navy_tradition = {
