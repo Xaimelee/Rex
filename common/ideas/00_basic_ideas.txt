@@ -72,7 +72,7 @@ offensive_ideas = {
 		land_morale = 0.15
 	}
 	glorious_arms = {
-		artillery_cost = -0.20
+		artillery_cost = -0.10
 	}
     superior_firepower = {
 		land_attrition = -0.10
