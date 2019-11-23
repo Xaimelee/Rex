@@ -381,7 +381,7 @@ recruitmaster = {
 	monarch_power = MIL
 	
 	# Bonus
-	global_manpower_modifier = 0.10
+	global_manpower_modifier = 0.15
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
