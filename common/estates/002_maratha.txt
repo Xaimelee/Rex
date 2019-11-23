@@ -70,10 +70,11 @@ estate_maratha = {
 		army_tradition = 0.5
 	}
 	country_modifier_neutral = {
-		army_tradition = 0.5
+		army_tradition = 0.25
 	}	
 	country_modifier_angry = {
 		army_tradition = -0.5
+		cavalry_power = -0.10
 	}
 	
 	# These do not scale, but only applied in provinces owned by the estate
