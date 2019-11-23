@@ -170,12 +170,12 @@ MOS_ideas = {
 
 RUS_ideas = {
 	start = {
-		core_creation = -0.10
-		global_manpower_modifier = 0.33
+		core_creation = -0.20
+		global_manpower_modifier = 0.30
 	}
 
 	bonus = {
-		legitimacy = 1
+		fort_maintenance_modifier = -0.10
 	}
 
 	trigger = {
@@ -184,7 +184,7 @@ RUS_ideas = {
 	free = yes		#will be added at load.
 
 	land_of_the_rus = {
-		ae_impact = -0.1
+		land_maintenance_modifier = -0.10
 	}
 	siberian_frontier = {
 		may_establish_frontier = yes
@@ -192,22 +192,20 @@ RUS_ideas = {
 	}
 	russian_artillery_yard = {
 		artillery_cost = -0.1
-		artillery_power = 0.1
 	}
 	life_long_conscription  = {
 		land_forcelimit_modifier = 0.50
 	}
-
 	abolish_the_mestnichestvo = {
-		yearly_corruption = -0.1
+		yearly_corruption = -0.10
 	}
 	table_of_ranks = {
-		advisor_cost = -0.10
+		advisor_cost = -0.1
 		army_tradition = 0.25
 	}	
 	curriculum_of_the_cadet_corps = {
-		land_morale = 0.05
-		fire_damage_received = -0.1
+		land_morale = 0.10
+		fire_damage_received = -0.10
 	}
 }
 
