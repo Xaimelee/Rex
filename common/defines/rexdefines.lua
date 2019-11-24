@@ -136,7 +136,7 @@ NDefines.NEconomy.TRADE_MERCHANT_PRESENT = 0.05
 -- Military Defines
 -- Land
 
-NDefines.NMilitary.REVANCHISM_DEVASTATION_IMPACT = -0.05
+NDefines.NMilitary.REVANCHISM_DEVASTATION_IMPACT = -0.1
 
 NDefines.NMilitary.SLACKEN_AP_DROP = 0.05
 NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 0.5
