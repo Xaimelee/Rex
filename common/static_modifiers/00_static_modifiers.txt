@@ -901,8 +901,8 @@ territory_ai_difficulty = { #Penalties for territories owned by AI regardless of
 
 prestige = {
 	global_trade_power = 0.10			#+15/-15 total bonus from prestige.
-	land_morale = 0.15
-	naval_morale = 0.15
+	land_morale = 0.10
+	naval_morale = 0.10
 	global_spy_defence = 0.1				#+10/-10
 	mercenary_cost = -0.20					#-33 to +33%
 	legitimacy = 1.0
