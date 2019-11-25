@@ -204,7 +204,7 @@ nobles_in_navy_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	leader_naval_shock = 1
+	navy_tradition = 0.5
 	shock_damage = 0.05
 
 
