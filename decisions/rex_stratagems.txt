@@ -5,7 +5,7 @@ country_decisions = {
             full_idea_group = traditional_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.35
 			is_at_war = yes
 			tooltip = "rex_stratagem_restrictions"
 			NOT = {
@@ -21,11 +21,12 @@ country_decisions = {
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.20
+            add_army_professionalism = -0.35
 			add_country_modifier = {
 			    name = traditional_stratagem
 				duration = 730
 			}
+			add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -37,7 +38,7 @@ country_decisions = {
             full_idea_group = strategic_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.35
 			is_at_war = yes
 			NOT = {
 				has_country_modifier = strategic_stratagem
@@ -52,11 +53,12 @@ country_decisions = {
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.20
+            add_army_professionalism = -0.35
 			add_country_modifier = {
 			    name = strategic_stratagem
 				duration = 730
 			}
+			add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -68,7 +70,7 @@ country_decisions = {
             full_idea_group = offensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.35
 			is_at_war = yes
 			tooltip = "rex_stratagem_restrictions"
 			NOT = {
@@ -84,11 +86,12 @@ country_decisions = {
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.20
+            add_army_professionalism = -0.35
 			add_country_modifier = {
 			    name = offensive_stratagem
 				duration = 730
 			}
+			add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -100,7 +103,7 @@ country_decisions = {
             full_idea_group = defensive_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.35
 			is_at_war = yes
 			tooltip = "rex_stratagem_restrictions"
 			NOT = {
@@ -116,11 +119,12 @@ country_decisions = {
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.20
+            add_army_professionalism = -0.35
 			add_country_modifier = {
 			    name = defensive_stratagem
 				duration = 730
 			}
+			add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -132,7 +136,7 @@ country_decisions = {
             full_idea_group = quality_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.35
 			is_at_war = yes
 			tooltip = "rex_stratagem_restrictions"
 			NOT = {
@@ -148,11 +152,12 @@ country_decisions = {
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.20
+            add_army_professionalism = -0.35
 			add_country_modifier = {
 			    name = quality_stratagem
 				duration = 730
 			}
+			add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -164,7 +169,7 @@ country_decisions = {
             full_idea_group = quantity_ideas
 		}
 		allow = {
-            army_professionalism = 0.25
+            army_professionalism = 0.35
 			is_at_war = yes
 			tooltip = "rex_stratagem_restrictions"
 			NOT = {
@@ -180,11 +185,12 @@ country_decisions = {
 			}
 		}
 		effect = {
-            add_army_professionalism = -0.20
+            add_army_professionalism = -0.35
 			add_country_modifier = {
 			    name = quantity_stratagem
 				duration = 730
 			}
+			add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
