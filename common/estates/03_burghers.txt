@@ -829,7 +829,7 @@ estate_burghers =
 		
 		effect = {
 			create_admiral = {
-				tradition = 40
+				tradition = 30
 			}
 			add_estate_influence_modifier = {
 				estate = estate_burghers
