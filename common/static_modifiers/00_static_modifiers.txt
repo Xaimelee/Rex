@@ -1242,7 +1242,7 @@ support_loyalists = {
 
 send_officers = {
 	discipline = 0.05
-	land_morale = 0.15
+	land_morale = 0.10
 }
 
 divert_trade = {
