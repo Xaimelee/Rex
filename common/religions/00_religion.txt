@@ -529,7 +529,7 @@ christian = {
 			tolerance_own = 1
 		}
 		province = {
-			local_missionary_strength = -0.01
+			#local_missionary_strength = -0.01
 		}
 		
 		
@@ -668,7 +668,7 @@ christian = {
 			defensiveness = 0.1
 		}
 		province = {
-			local_missionary_strength = -0.02
+			#local_missionary_strength = -0.02
 		}
 		
 		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
@@ -1003,7 +1003,7 @@ muslim = {
 			heir_chance = 1.0
 		}
 		province = {
-			local_missionary_strength = -0.02
+			#local_missionary_strength = -0.02
 		}
 		
 		heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
@@ -1024,7 +1024,7 @@ muslim = {
 			advisor_cost = -0.1
 		}
 		province = {
-			local_missionary_strength = -0.02
+			#local_missionary_strength = -0.02
 		}
 		
 		heretic = { DRUZE HURUFI ZAIDI }
@@ -1045,7 +1045,7 @@ muslim = {
 			advisor_cost = -0.1
 		}
 		province = {
-			local_missionary_strength = -0.02
+			#local_missionary_strength = -0.02
 		}
 		
 		heretic = { HARURI SUFRI NAJADAT AZRAQI }
@@ -1183,7 +1183,7 @@ eastern = {
 			may_explore = yes
 		}
 		province = {
-			local_missionary_strength = -0.02
+			#local_missionary_strength = -0.02
 		}
 		country_as_secondary = {
 			discipline = 0.05
@@ -1254,7 +1254,7 @@ dharmic = {
 			global_unrest = -1
 		}
 		province = {
-			local_missionary_strength = -0.01
+			#local_missionary_strength = -0.01
 		}
 		
 		on_convert = {
@@ -1465,7 +1465,7 @@ jewish_group = {
 			advisor_cost = -0.1
 		}
 		province = {
-			local_missionary_strength = -0.02
+			#local_missionary_strength = -0.02
 		}
 		
 		heretic = { SAMARITAN KARAITE }
@@ -1484,7 +1484,7 @@ zoroastrian_group = {
 		icon = 26
 		color = { 127 178 51 }
 		province = {
-			local_missionary_strength = -0.02
+			#local_missionary_strength = -0.02
 		}
 		country = {
 			tolerance_own = 2
