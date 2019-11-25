@@ -324,7 +324,7 @@ estate_maratha = {
 				custom_tooltip = maratha_general.tooltip
 				hidden_effect = {
 					create_general = {
-						tradition = 40
+						tradition = 30
 						add_shock = 1
 						culture = marathi
 					}
