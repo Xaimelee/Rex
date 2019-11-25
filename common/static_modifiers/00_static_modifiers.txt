@@ -1036,6 +1036,7 @@ low_army_professionalism = {
 high_army_professionalism = {
 	discipline = 0.05
 	land_maintenance_modifier = 0.1
+	siege_ability = 0.10
 }
 
 streltsy_modifier = {
