@@ -70,7 +70,7 @@ christian = {
 				effect = {
 					add_country_modifier = {
 						name = "papal_sanction_for_church_taxes"
-						duration = 7300
+						duration = 5475
 					}
 				}
 				ai_will_do = {
