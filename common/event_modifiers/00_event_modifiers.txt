@@ -1460,7 +1460,7 @@ religious_zeal_at_conv = {
 }
 
 papal_sanction_for_church_taxes = {
-	global_tax_modifier = 0.10
+	global_tax_modifier = 0.15
 	religion = yes
 }
 
