@@ -49,7 +49,7 @@ strategic_stratagem = {
 }
 
 offensive_stratagem = {
-    land_attrition = -0.20
+    land_attrition = -0.10
 	siege_ability = 0.10
 	land_maintenance_modifier = 0.20
 }
