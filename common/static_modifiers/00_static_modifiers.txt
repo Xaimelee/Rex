@@ -1388,7 +1388,7 @@ supply_depot_area = {
 ########################################
 
 efficient_tax_farming_modifier = {
-	global_tax_modifier = 0.10
+	global_tax_modifier = 0.15
 }
 
 land_acquisition_modifier = {
