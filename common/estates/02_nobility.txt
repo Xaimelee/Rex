@@ -585,7 +585,7 @@ estate_nobles =
 		}
 		
 		effect = {
-			create_conquistador = 40		
+			create_conquistador = 30		
 			add_estate_influence_modifier = {
 				estate = estate_nobles
 				desc = EST_VAL_RECRUITED_CONQUISTADOR
