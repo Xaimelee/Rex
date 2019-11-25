@@ -216,7 +216,7 @@ spymaster = {
 	monarch_power = DIP
 	
 	# Bonus
-	war_exhaustion = -0.02
+	war_exhaustion = -0.03
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
