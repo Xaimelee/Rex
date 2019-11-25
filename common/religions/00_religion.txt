@@ -59,7 +59,7 @@ christian = {
 			seat_of_papacy = 118 # rome
 			
 			levy_church_tax = {
-				cost = 50
+				cost = 75
 				potential = {
 					NOT = { tag = PAP }
 				}
