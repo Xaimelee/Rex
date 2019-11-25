@@ -532,7 +532,8 @@ new_world_i = {
 	penalty = 0.5
 
 	bonus = {
-		colonists = 1
+		colonist_placement_chance = 0.03
+		range = 0.2
 	}
 
 	trade_company_efficiency = 0.0
