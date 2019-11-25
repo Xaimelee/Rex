@@ -66,7 +66,7 @@ quality_stratagem = {
 }
 
 quantity_stratagem = {
-    land_morale = 0.15
+    land_morale = 0.10
 	land_maintenance_modifier = 0.20
 }
 
