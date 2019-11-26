@@ -101,6 +101,8 @@ NDefines.NCountry.SCRIPTED_ADVISOR_DISCOUNT = 0.65
 
 NDefines.NCountry.GALLEY_INLAND_SEA_COAST_RATIO = 0.60
 
+NDefines.NCountry.MINIMUM_POLICY_TIME = 5
+
 -- Economy Defines
 
 NDefines.NEconomy.ADVISOR_COST = 0.8
