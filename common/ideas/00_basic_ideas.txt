@@ -220,7 +220,7 @@ strategic_ideas = {
 		leader_land_fire = 1
 	}
 	free_cities = {
-		war_exhaustion = -0.05
+		war_exhaustion = -0.03
 	}
 	free_merchants = {
 		artillery_power = 0.10
