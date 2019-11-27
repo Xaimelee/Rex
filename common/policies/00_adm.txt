@@ -692,7 +692,7 @@ overseas_dominions = {
 	}
 	
 	trade_company_investment_cost = -0.15
-	global_colonial_growth = 20
+	global_colonial_growth = 15
 
 	
 	ai_will_do = {
