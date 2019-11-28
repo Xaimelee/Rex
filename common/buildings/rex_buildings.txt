@@ -1,0 +1,525 @@
+## REX ##
+
+## Military
+
+military_infras_base = {
+	cost = 1
+	time = 12
+	
+	modifier = {
+		local_manpower_modifier = 0.05
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## M - Left Path
+
+military_left_1 = {
+	cost = 
+	time = 
+	make_obsolete = military_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+military_left_2 = {
+	cost = 
+	time =
+	make_obsolete = military_left_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+military_left_3 = {
+	cost = 
+	time =
+	make_obsolete = military_left_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## M - Right Path
+
+military_right_1 = {
+	cost = 
+	time =
+	make_obsolete = military_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+military_right_2 = {
+	cost = 
+	time =
+	make_obsolete = military_right_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+military_right_3 = {
+	cost = 
+	time =
+	make_obsolete = military_right_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## Industry
+
+industry_infras_base = {
+	cost = 1
+	time = 12
+	
+	modifier = {
+		local_production_efficiency = 0.05
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## I - Left Path
+
+industry_left_1 = {
+	cost = 
+	time =
+	make_obsolete = industry_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+industry_left_2 = {
+	cost = 
+	time =
+	make_obsolete = industry_left_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+industry_left_3 = {
+	cost = 
+	time =
+	make_obsolete = industry_left_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## I - Right Path
+
+industry_right_1 = {
+	cost = 
+	time =
+	make_obsolete = industry_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+industry_right_2 = {
+	cost = 
+	time =
+	make_obsolete = industry_right_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+industry_right_3 = {
+	cost = 
+	time =
+	make_obsolete = industry_right_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## Government
+
+government_infras_base = {
+	cost = 1
+	time = 12
+	
+	modifier = {
+		local_tax_modifier = 0.05
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## G - Left Path
+
+government_left_1 = {
+	cost = 
+	time =
+	make_obsolete = government_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+government_left_2 = {
+	cost = 
+	time =
+	make_obsolete = government_left_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+government_left_3 = {
+	cost = 
+	time =
+	make_obsolete = government_left_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## G - Right Path
+
+government_right_1 = {
+	cost = 
+	time =
+	make_obsolete = government_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+government_right_2 = {
+	cost = 
+	time =
+	make_obsolete = government_right_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+government_right_3 = {
+	cost = 
+	time =
+	make_obsolete = government_right_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## Naval
+
+naval_infras_base = {
+	cost = 1
+	time = 12
+	
+	modifier = {
+		local_sailors_modifier = 0.05
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## N - Left Path
+
+naval_left_1 = {
+	cost = 
+	time =
+	make_obsolete = naval_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+naval_left_2 = {
+	cost = 
+	time =
+	make_obsolete = naval_left_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+naval_left_3 = {
+	cost = 
+	time =
+	make_obsolete = naval_left_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+## N - Right Path
+
+naval_right_1 = {
+	cost = 
+	time =
+	make_obsolete = naval_infras_base
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+naval_right_2 = {
+	cost = 
+	time =
+	make_obsolete = naval_right_1
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
+
+naval_right_3 = {
+	cost = 
+	time =
+	make_obsolete = naval_right_2
+	
+	modifier = {
+		
+	}
+	
+	trigger = {
+	
+	}
+	
+	ai_will_do = {
+		
+	}
+}
