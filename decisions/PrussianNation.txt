@@ -6,20 +6,13 @@ country_decisions = {
 			tag = BRA
 		}
 		provinces_to_highlight = {
-			OR = {
-				province_id = 41	# Königsberg
-				AND = {
-					province_id = 43	# Danzig
-					ROOT = { NOT = { owns_core_province = 2995 } }
-				}
-				AND = {
-					province_id = 2995
-					ROOT = { NOT = { owns_core_province = 2995 } }
-				}
+			west_prussia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+			east_prussia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		allow = {
@@ -29,10 +22,15 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 			}
-			owns_core_province = 41			# Königsberg
-			OR = {
-				owns_core_province = 43		# Danzig
-				owns_core_province = 2995	# Stolp
+			west_prussia_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			east_prussia_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
 			}
 			is_at_war = no
 		}
