@@ -1734,7 +1734,7 @@ ETH_ideas = {
 	
 	bonus = {
 		leader_land_manuever = 1
-	
+	}
 	trigger = {
 		tag = ETH
 	}
