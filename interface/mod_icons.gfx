@@ -65,4 +65,144 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_military_infras_base"
+		texturefile = "gfx//interface//buildings//latin_conscription_center.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_military_left_1"
+		texturefile = "gfx//interface//buildings//latin_barracks.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_military_left_2"
+		texturefile = "gfx//interface//buildings//latin_barracks.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_military_left_3"
+		texturefile = "gfx//interface//buildings//latin_barracks.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_military_right_1"
+		texturefile = "gfx//interface//buildings//latin_regimental_camp.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_military_right_2"
+		texturefile = "gfx//interface//buildings//latin_regimental_camp.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_military_right_3"
+		texturefile = "gfx//interface//buildings//latin_regimental_camp.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industry_infras_base"
+		texturefile = "gfx//interface//buildings//latin_stock_exchange.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industry_left_1"
+		texturefile = "gfx//interface//buildings//latin_workshop.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industry_left_2"
+		texturefile = "gfx//interface//buildings//latin_workshop.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industry_left_3"
+		texturefile = "gfx//interface//buildings//latin_workshop.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industry_right_1"
+		texturefile = "gfx//interface//buildings//latin_road_network.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industry_right_2"
+		texturefile = "gfx//interface//buildings//latin_road_network.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industry_right_3"
+		texturefile = "gfx//interface//buildings//latin_road_network.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_government_infras_base"
+		texturefile = "gfx//interface//buildings//latin_treasury_office.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_government_left_1"
+		texturefile = "gfx//interface//buildings//latin_mint.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_government_left_2"
+		texturefile = "gfx//interface//buildings//latin_mint.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_government_left_3"
+		texturefile = "gfx//interface//buildings//latin_mint.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_government_right_1"
+		texturefile = "gfx//interface//buildings//latin_constable.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_government_right_2"
+		texturefile = "gfx//interface//buildings//latin_constable.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_government_right_3"
+		texturefile = "gfx//interface//buildings//latin_constable.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_infras_base"
+		texturefile = "gfx//interface//buildings//latin_naval_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_left_1"
+		texturefile = "gfx//interface//buildings//latin_dock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_left_2"
+		texturefile = "gfx//interface//buildings//latin_dock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_left_3"
+		texturefile = "gfx//interface//buildings//latin_dock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_right_1"
+		texturefile = "gfx//interface//buildings//latin_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_right_2"
+		texturefile = "gfx//interface//buildings//latin_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_right_3"
+		texturefile = "gfx//interface//buildings//latin_shipyard.tga"
+		loadType = "INGAME"
+	}
 }

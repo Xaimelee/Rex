@@ -16,7 +16,7 @@
  building_military_right_3_desc:0 "§YThis building is mutually exclusive with §!§RArmy Conscript Infrastructure [I] [II] [III].§!"
 #Industry
  building_industry_infras_base:0 "Commercial Hub"
- building_industry_infras_base_desc:0 "§YConstruction of this building requires the province to have atleast §!§G15§!§Y total development.§YThis building can only be constructed §!§Gonce§!§Y per state and it is mutually exclusive with §!§RConscription Center, State Administration and Grand Shipyard.§!"
+ building_industry_infras_base_desc:0 "§YConstruction of this building requires the province to have atleast §!§G15§!§Y total development.§! §YThis building can only be constructed §!§Gonce§!§Y per state and it is mutually exclusive with §!§RConscription Center, State Administration and Grand Shipyard.§!"
  building_industry_left_1:0 "Industrial Infrastructure [I]"
  building_industry_left_1_desc:0 "§YThis building is mutually exclusive with §!§RDevelop Infrastructure [I] [II] [III].§!"
  building_industry_left_2:0 "Industrial Infrastructure [II]"
@@ -31,7 +31,7 @@
  building_industry_right_3_desc:0 "§YThis building is mutually exclusive with §!§RIndustrial Infrastructure [I] [II] [III].§!"
 #Government
  building_government_infras_base:0 "State Administration"
- building_government_infras_base_desc:0 "§YConstruction of this building requires the province to have atleast §!§G15§!§Y total development.§YThis building can only be constructed §!§Gonce§!§Y per state and it is mutually exclusive with §!§RConscription Center, Commercial Hub and Grand Shipyard.§!"
+ building_government_infras_base_desc:0 "§YConstruction of this building requires the province to have atleast §!§G15§!§Y total development.§! §YThis building can only be constructed §!§Gonce§!§Y per state and it is mutually exclusive with §!§RConscription Center, Commercial Hub and Grand Shipyard.§!"
  building_government_left_1:0 "State Infrastructure [I]"
  building_government_left_1_desc:0 "§YThis building is mutually exclusive with §!§RTaxation Infrastructure [I] [II] [III].§!"
  building_government_left_2:0 "State Infrastructure [II]"
@@ -46,7 +46,7 @@
  building_government_right_3_desc:0 "§YThis building is mutually exclusive with §!§RState Infrastructure [I] [II] [III].§!"
 #Naval
  building_naval_infras_base:0 "Grand Shipyard"
- building_naval_infras_base_desc:0 "§YConstruction of this building requires the province to have atleast §!§G15§!§Y total development.§YThis building can only be constructed §!§Gonce§!§Y per state and it is mutually exclusive with §!§RConscription Center, Commercial Hub and State Administration.§!"
+ building_naval_infras_base_desc:0 "§YConstruction of this building requires the province to have atleast §!§G15§!§Y total development.§! §YThis building can only be constructed §!§Gonce§!§Y per state and it is mutually exclusive with §!§RConscription Center, Commercial Hub and State Administration.§!"
  building_naval_left_1:0 "Naval Conscript Infrastructure [I]"
  building_naval_left_1_desc:0 "§YThis building is mutually exclusive with §!§RNaval Logistic Infrastructure [I] [II] [III].§!"
  building_naval_left_2:0 "Naval Conscript Infrastructure [II]"
