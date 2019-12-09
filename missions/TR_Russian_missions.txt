@@ -22,10 +22,10 @@ tr_russia_religious_missions = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				value = 20
+				value = 10
 				OR = {
-					has_building = temple
-					has_building = cathedral
+					has_building = government_left_1
+					has_building = government_right_1
 				}
 			}
 		}
