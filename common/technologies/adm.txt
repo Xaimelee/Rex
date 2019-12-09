@@ -69,6 +69,11 @@ technology = { #National Ideas
 
 	allowed_idea_groups = 1
 	production_efficiency	 =	0.02
+	
+	government_left_1 = yes
+	government_right_1 = yes
+	industry_left_1 = yes
+	industry_right_1 = yes
 }
 
 technology = { #Workshop
@@ -113,6 +118,8 @@ technology = { #Modern Theocracy
 	
 	allowed_idea_groups = 3
 	theocratic_government = yes
+	government_infras_base = yes
+	industry_infras_base = yes
 }
 
 technology = { #Textile Manufactory
@@ -156,6 +163,10 @@ technology = { #Military Administration
 	year = 1596
 	
 	may_force_march = yes
+	government_left_2 = yes
+	government_right_2 = yes
+	industry_left_2 = yes
+	industry_right_2 = yes
 	
 }
 
@@ -245,6 +256,10 @@ technology = { #Improved Production
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
+	government_left_3 = yes
+	government_right_3 = yes
+	industry_left_3 = yes
+	industry_right_3 = yes
 }
 
 technology = { #Separation of Powers

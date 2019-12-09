@@ -132,6 +132,9 @@ technology = {
 	enable = ha_reformed_xantican_warrior
 	
 	combat_width = 2
+	
+	military_left_1 = yes
+	military_right_1 = yes
 }
 
 technology = {
@@ -237,6 +240,8 @@ technology = {
 	enable = indian_elephant	
 	enable = steppe_riders
 	enable = high_american_rifle_cavalry
+	
+	military_infras_base  = yes
 }
 
 technology = {
@@ -344,6 +349,9 @@ technology = {
 	enable = adal_gunpowder_warfare		
 	enable = ethiopian_gunpowder_warfare	
 	enable = steppe_musketeers
+	
+	military_left_2 = yes
+	military_right_2 = yes
 }
 
 technology = {
@@ -524,7 +532,10 @@ technology = {
 	artillery_shock 	=	0.1
 	artillery_fire		=	1.0
 	
-	enable = royal_mortar	
+	enable = royal_mortar
+	
+	military_left_3 = yes
+	military_right_3 = yes
 }
 
 technology = {

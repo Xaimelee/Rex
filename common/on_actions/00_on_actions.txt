@@ -12,6 +12,17 @@ on_startup = {
 		}
 		remove_country_modifier = tur_janissary
 	}
+	#if = {
+	#    limit = {
+	#	    is_year = 1444
+	#	}
+	#	every_province = { 
+	#	    add_building = naval_infras_base
+	#		add_building = industry_infras_base
+	#		add_building = military_infras_base
+	#		add_building = government_infras_base
+	#	}
+	#}
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
 }
 
@@ -3026,6 +3037,54 @@ on_province_owner_change = {
 		ARA = {
 			set_country_flag = ARA_defeat_saruhan
 		}
+	}
+	if = {
+	    limit = {
+		    has_building = military_infras_base
+		}
+		remove_building = military_infras_base
+	}
+	if = {
+	    limit = {
+		    has_building = industry_infras_base
+		}
+		remove_building = industry_infras_base
+	}
+	if = {
+	    limit = {
+		    has_building = government_infras_base
+		}
+		remove_building = government_infras_base
+	}
+	if = {
+	    limit = {
+		    has_building = naval_infras_base
+		}
+		remove_building = naval_infras_base
+	}
+	if = {
+	    limit = {
+		    has_building = fort_15th
+		}
+		remove_building = fort_15th
+	}
+	if = {
+	    limit = {
+		    has_building = fort_16th
+		}
+		remove_building = fort_16th
+	}
+	if = {
+	    limit = {
+		    has_building = fort_17th
+		}
+		remove_building = fort_17th
+	}
+	if = {
+	    limit = {
+		    has_building = fort_18th
+		}
+		remove_building = fort_18th
 	}
 }
 

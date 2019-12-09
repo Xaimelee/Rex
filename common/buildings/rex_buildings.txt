@@ -3,15 +3,44 @@
 ## Military
 
 military_infras_base = {
-	cost = 1
-	time = 12
+	cost = 300
+	time = 36
 	
 	modifier = {
-		local_manpower_modifier = 0.05
+		local_manpower_modifier = 0.25
+		local_defensiveness = 0.1
+		local_manpower = 1
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	      OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = naval_infras_base
+					}
+					any_province_in_state = {
+						has_building = military_infras_base
+					}
+					any_province_in_state = {
+						has_building = industry_infras_base
+					}
+					any_province_in_state = {
+						has_building = government_infras_base
+					}
+				}
+			}
+			AND = {
+				has_building = military_infras_base
+			}
+		}
+		development = 15
 	}
 	
 	ai_will_do = {
@@ -22,16 +51,20 @@ military_infras_base = {
 ## M - Left Path
 
 military_left_1 = {
-	cost = 
-	time = 
-	make_obsolete = military_infras_base
+	cost = 50
+	time = 12
 	
 	modifier = {
-		
+		local_manpower_modifier = 0.25
+		local_defensiveness = 0.05
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = military_right_1
+			has_building = military_right_2
+			has_building = military_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -40,16 +73,21 @@ military_left_1 = {
 }
 
 military_left_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = military_left_1
 	
 	modifier = {
-		
+		local_manpower_modifier = 0.50
+		local_defensiveness = 0.075
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = military_right_1
+			has_building = military_right_2
+			has_building = military_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -58,16 +96,21 @@ military_left_2 = {
 }
 
 military_left_3 = {
-	cost = 
-	time =
+	cost = 150
+	time = 12
 	make_obsolete = military_left_2
 	
 	modifier = {
-		
+		local_manpower_modifier = 0.75
+		local_defensiveness = 0.1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = military_right_1
+			has_building = military_right_2
+			has_building = military_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -78,16 +121,20 @@ military_left_3 = {
 ## M - Right Path
 
 military_right_1 = {
-	cost = 
-	time =
-	make_obsolete = military_infras_base
+	cost = 50
+	time = 12
 	
 	modifier = {
-		
+		land_forcelimit = 1
+		regiment_recruit_speed = -0.1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = military_left_1
+			has_building = military_left_2
+			has_building = military_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -96,16 +143,21 @@ military_right_1 = {
 }
 
 military_right_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = military_right_1
 	
 	modifier = {
-		
+		land_forcelimit = 1.5
+		regiment_recruit_speed = -0.2
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = military_left_1
+			has_building = military_left_2
+			has_building = military_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -114,16 +166,21 @@ military_right_2 = {
 }
 
 military_right_3 = {
-	cost = 
-	time =
+	cost = 150
+	time = 12
 	make_obsolete = military_right_2
 	
 	modifier = {
-		
+		land_forcelimit = 2
+		regiment_recruit_speed = -0.3
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = military_left_1
+			has_building = military_left_2
+			has_building = military_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -134,15 +191,45 @@ military_right_3 = {
 ## Industry
 
 industry_infras_base = {
-	cost = 1
-	time = 12
+	cost = 300
+	time = 36
+	allow_in_gold_provinces = no
 	
 	modifier = {
-		local_production_efficiency = 0.05
+		trade_value_modifier = 0.35
+		trade_goods_size_modifier = 0.35
+		province_trade_power_value = 0.7
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	   OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = naval_infras_base
+					}
+					any_province_in_state = {
+						has_building = military_infras_base
+					}
+					any_province_in_state = {
+						has_building = industry_infras_base
+					}
+					any_province_in_state = {
+						has_building = government_infras_base
+					}
+				}
+			}
+			AND = {
+				has_building = industry_infras_base
+			}
+		}
+		development = 15
 	}
 	
 	ai_will_do = {
@@ -153,16 +240,21 @@ industry_infras_base = {
 ## I - Left Path
 
 industry_left_1 = {
-	cost = 
-	time =
-	make_obsolete = industry_infras_base
+	cost = 50
+	time = 12
+	allow_in_gold_provinces = no
 	
 	modifier = {
-		
+		local_production_efficiency = 0.25
+		province_trade_power_modifier = 0.1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = industry_right_1
+			has_building = industry_right_2
+			has_building = industry_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -171,16 +263,22 @@ industry_left_1 = {
 }
 
 industry_left_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = industry_left_1
+	allow_in_gold_provinces = no
 	
 	modifier = {
-		
+		local_production_efficiency = 0.5
+		province_trade_power_modifier = 0.2
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = industry_right_1
+			has_building = industry_right_2
+			has_building = industry_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -189,16 +287,22 @@ industry_left_2 = {
 }
 
 industry_left_3 = {
-	cost = 
-	time =
+	cost = 150
+	time = 12
 	make_obsolete = industry_left_2
+	allow_in_gold_provinces = no
 	
 	modifier = {
-		
+		local_production_efficiency = 0.75
+		province_trade_power_modifier = 0.3
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = industry_right_1
+			has_building = industry_right_2
+			has_building = industry_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -209,16 +313,20 @@ industry_left_3 = {
 ## I - Right Path
 
 industry_right_1 = {
-	cost = 
-	time =
-	make_obsolete = industry_infras_base
+	cost = 50
+	time = 12
 	
 	modifier = {
-		
+		local_development_cost = -0.1
+		local_build_cost = -0.10
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = industry_left_1
+			has_building = industry_left_2
+			has_building = industry_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -227,16 +335,21 @@ industry_right_1 = {
 }
 
 industry_right_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = industry_right_1
 	
 	modifier = {
-		
+		local_development_cost = -0.15
+		local_build_cost = -0.20
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = industry_left_1
+			has_building = industry_left_2
+			has_building = industry_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -245,16 +358,21 @@ industry_right_2 = {
 }
 
 industry_right_3 = {
-	cost = 
-	time =
+	cost = 150
+	time = 12
 	make_obsolete = industry_right_2
 	
 	modifier = {
-		
+		local_development_cost = -0.2
+		local_build_cost = -0.30
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = industry_left_1
+			has_building = industry_left_2
+			has_building = industry_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -265,15 +383,44 @@ industry_right_3 = {
 ## Government
 
 government_infras_base = {
-	cost = 1
-	time = 12
+	cost = 300
+	time = 36
 	
 	modifier = {
-		local_tax_modifier = 0.05
+		local_state_maintenance_modifier = -0.35
+		tax_income = 1
+		local_tax_modifier = 0.25
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = naval_infras_base
+					}
+					any_province_in_state = {
+						has_building = military_infras_base
+					}
+					any_province_in_state = {
+						has_building = industry_infras_base
+					}
+					any_province_in_state = {
+						has_building = government_infras_base
+					}
+				}
+			}
+			AND = {
+				has_building = government_infras_base
+			}
+		}
+		development = 15
 	}
 	
 	ai_will_do = {
@@ -284,16 +431,20 @@ government_infras_base = {
 ## G - Left Path
 
 government_left_1 = {
-	cost = 
-	time =
-	make_obsolete = government_infras_base
+	cost = 50
+	time = 12
 	
 	modifier = {
-		
+		local_tax_modifier = 0.25
+		local_autonomy = -0.025
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = government_right_1
+			has_building = government_right_2
+			has_building = government_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -302,16 +453,21 @@ government_left_1 = {
 }
 
 government_left_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = government_left_1
 	
 	modifier = {
-		
+		local_tax_modifier = 0.5
+		local_autonomy = -0.05
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = government_right_1
+			has_building = government_right_2
+			has_building = government_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -320,16 +476,20 @@ government_left_2 = {
 }
 
 government_left_3 = {
-	cost = 
-	time =
-	make_obsolete = government_left_2
+	cost = 150
+	time = 12make_obsolete = government_left_2
 	
 	modifier = {
-		
+		local_tax_modifier = 0.75
+		local_autonomy = -0.075
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = government_right_1
+			has_building = government_right_2
+			has_building = government_right_3
+		}
 	}
 	
 	ai_will_do = {
@@ -340,16 +500,20 @@ government_left_3 = {
 ## G - Right Path
 
 government_right_1 = {
-	cost = 
-	time =
-	make_obsolete = government_infras_base
+	cost = 50
+	time = 12
 	
 	modifier = {
-		
+		tax_income = 1
+		local_institution_spread = 0.25
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = government_left_1
+			has_building = government_left_2
+			has_building = government_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -358,16 +522,21 @@ government_right_1 = {
 }
 
 government_right_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = government_right_1
 	
 	modifier = {
-		
+		tax_income = 1.5
+		local_institution_spread = 0.5
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = government_left_1
+			has_building = government_left_2
+			has_building = government_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -376,16 +545,21 @@ government_right_2 = {
 }
 
 government_right_3 = {
-	cost = 
-	time =
+	cost = 150
+	time = 12
 	make_obsolete = government_right_2
 	
 	modifier = {
-		
+		tax_income = 2
+		local_institution_spread = 0.75
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = government_left_1
+			has_building = government_left_2
+			has_building = government_left_3
+		}
 	}
 	
 	ai_will_do = {
@@ -396,15 +570,45 @@ government_right_3 = {
 ## Naval
 
 naval_infras_base = {
-	cost = 1
-	time = 12
+	cost = 300
+	time = 36
 	
 	modifier = {
-		local_sailors_modifier = 0.05
+		ship_recruit_speed = -0.35
+		local_ship_repair = 0.35
+		local_sailors = 250
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    has_port = yes
+	    OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = naval_infras_base
+					}
+					any_province_in_state = {
+						has_building = military_infras_base
+					}
+					any_province_in_state = {
+						has_building = industry_infras_base
+					}
+					any_province_in_state = {
+						has_building = government_infras_base
+					}
+				}
+			}
+			AND = {
+				has_building = naval_infras_base
+			}
+		}
+		development = 15
 	}
 	
 	ai_will_do = {
@@ -415,16 +619,22 @@ naval_infras_base = {
 ## N - Left Path
 
 naval_left_1 = {
-	cost = 
-	time =
-	make_obsolete = naval_infras_base
+	cost = 50
+	time = 12
 	
 	modifier = {
-		
+		local_sailors_modifier = 0.5
+		local_ship_repair = 0.05
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = naval_right_1
+			has_building = naval_right_2
+			has_building = naval_right_3
+		}
+		has_port = yes
 	}
 	
 	ai_will_do = {
@@ -433,16 +643,23 @@ naval_left_1 = {
 }
 
 naval_left_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = naval_left_1
 	
 	modifier = {
-		
+		local_sailors_modifier = 1
+		local_ship_repair = 0.1
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = naval_right_1
+			has_building = naval_right_2
+			has_building = naval_right_3
+		}
+		has_port = yes
 	}
 	
 	ai_will_do = {
@@ -451,16 +668,23 @@ naval_left_2 = {
 }
 
 naval_left_3 = {
-	cost = 
-	time =
+	cost = 150
+	time = 12
 	make_obsolete = naval_left_2
 	
 	modifier = {
-		
+		local_sailors_modifier = 1.5
+		local_ship_repair = 0.15
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = naval_right_1
+			has_building = naval_right_2
+			has_building = naval_right_3
+		}
+		has_port = yes
 	}
 	
 	ai_will_do = {
@@ -471,16 +695,22 @@ naval_left_3 = {
 ## N - Right Path
 
 naval_right_1 = {
-	cost = 
-	time =
-	make_obsolete = naval_infras_base
+	cost = 50
+	time = 12
 	
 	modifier = {
-		
+		naval_forcelimit = 1
+		ship_recruit_speed = -0.05
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = naval_left_1
+			has_building = naval_left_2
+			has_building = naval_left_3
+		}
+		has_port = yes
 	}
 	
 	ai_will_do = {
@@ -489,16 +719,23 @@ naval_right_1 = {
 }
 
 naval_right_2 = {
-	cost = 
-	time =
+	cost = 100
+	time = 12
 	make_obsolete = naval_right_1
 	
 	modifier = {
-		
+		naval_forcelimit = 2
+		ship_recruit_speed = -0.10
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = naval_left_1
+			has_building = naval_left_2
+			has_building = naval_left_3
+		}
+		has_port = yes
 	}
 	
 	ai_will_do = {
@@ -507,16 +744,23 @@ naval_right_2 = {
 }
 
 naval_right_3 = {
-	cost = 
-	time =
+	cost = 150
+	time = 12
 	make_obsolete = naval_right_2
 	
 	modifier = {
-		
+		naval_forcelimit = 3
+		ship_recruit_speed = -0.15
+		allowed_num_of_buildings = 1
 	}
 	
 	trigger = {
-	
+	    NOT = {
+		    has_building = naval_left_1
+			has_building = naval_left_2
+			has_building = naval_left_3
+		}
+		has_port = yes
 	}
 	
 	ai_will_do = {

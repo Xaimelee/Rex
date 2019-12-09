@@ -70,7 +70,7 @@ barracks = {
 	cost = 80
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.4
+		global_manpower_modifier = 0.4
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -128,10 +128,11 @@ shipyard = {
 }
 
 fort_15th = {
-	cost = 200
+	cost = 100
 	time = 30
 	modifier = {
 		fort_level = 2
+		allowed_num_of_buildings = 1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -159,6 +160,35 @@ fort_15th = {
 	
 	onmap = yes
 	influencing_fort = yes
+	
+	trigger = {
+	    OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = fort_15th
+					}
+					any_province_in_state = {
+						has_building = fort_16th
+					}
+					any_province_in_state = {
+						has_building = fort_17th
+					}
+					any_province_in_state = {
+						has_building = fort_18th
+					}
+				}
+			}
+			AND = {
+				has_building = fort_15th
+			}
+		}
+	}
 	
 	ai_will_do = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
@@ -242,11 +272,12 @@ regimental_camp = {
 }
 
 fort_16th = {
-	cost = 400
+	cost = 200
 	time = 30
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
+		allowed_num_of_buildings = 1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -271,6 +302,36 @@ fort_16th = {
 #			}
 #		}
 #	}
+
+	trigger = {
+	    OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = fort_15th
+					}
+					any_province_in_state = {
+						has_building = fort_16th
+					}
+					any_province_in_state = {
+						has_building = fort_17th
+					}
+					any_province_in_state = {
+						has_building = fort_18th
+					}
+				}
+			}
+			OR = {
+				has_building = fort_16th
+				has_building = fort_15th
+			}
+		}
+	}
 
 	onmap = yes
 	
@@ -416,7 +477,7 @@ training_fields = {
 #	}
 	
 	modifier = {
-		local_manpower_modifier = 0.8
+		global_manpower_modifier = 0.8
 	}
 	
 	ai_will_do = {
@@ -426,13 +487,14 @@ training_fields = {
 
 
 fort_17th = {
-	cost = 600
+	cost = 300
 	time = 30
 	
 	make_obsolete = fort_16th
 	
 	modifier = {
 		fort_level = 6
+		allowed_num_of_buildings = 1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -457,6 +519,36 @@ fort_17th = {
 #			}
 #		}
 #	}
+    trigger = {
+	    OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = fort_15th
+					}
+					any_province_in_state = {
+						has_building = fort_16th
+					}
+					any_province_in_state = {
+						has_building = fort_17th
+					}
+					any_province_in_state = {
+						has_building = fort_18th
+					}
+				}
+			}
+			AND = {
+				has_building = fort_17th
+				has_building = fort_16th
+				has_building = fort_15th
+			}
+		}
+	}
 
 	onmap = yes
 	
@@ -592,7 +684,7 @@ conscription_center = {
 
 
 fort_18th = {
-	cost = 800
+	cost = 400
 	time = 30
 	
 	
@@ -600,6 +692,7 @@ fort_18th = {
 	
 	modifier = {
 		fort_level = 8
+		allowed_num_of_buildings = 1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -625,6 +718,38 @@ fort_18th = {
 #		}
 #	}
 
+	trigger = {
+	    OR = {
+		    AND = {
+				NOT = {
+					any_province_in_state = {
+						has_construction = building
+					}
+				}
+				NOT = {
+					any_province_in_state = {
+						has_building = fort_15th
+					}
+					any_province_in_state = {
+						has_building = fort_16th
+					}
+					any_province_in_state = {
+						has_building = fort_17th
+					}
+					any_province_in_state = {
+						has_building = fort_18th
+					}
+				}
+			}
+			AND = {
+				has_building = fort_18th
+				has_building = fort_17th
+				has_building = fort_16th
+				has_building = fort_15th
+			}
+		}
+	}
+
 	onmap = yes
 	
 	influencing_fort = yes
@@ -639,10 +764,11 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 400
+	cost = 300
 	time = 60
 	modifier = {
-		trade_goods_size = 0.8
+		trade_goods_size = 0.6
+		allowed_num_of_buildings = 1
 	}
 }
 
@@ -777,11 +903,11 @@ furnace = {
 	}
 
 	potential = {
-		has_dlc = "Rule Britannia"
 	}
 
 	modifier = {
-		global_trade_goods_size_modifier = 0.05 #National Bonus
+		global_trade_goods_size_modifier = 0.025 #National Bonus
+		allowed_num_of_buildings = 1
 	}
 	onmap = yes
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
