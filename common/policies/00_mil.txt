@@ -1,5 +1,5 @@
 privy_council_establishment_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 
 	potential = {
@@ -12,8 +12,8 @@ privy_council_establishment_act = {
 		full_idea_group = defensive_ideas
 	}
 
-    global_spy_defence = 0.5
-	fort_maintenance_modifier = -0.10
+    manpower_recovery_speed = 0.15
+	war_exhaustion = -0.03
 	
 	ai_will_do = {
 		factor = 0.6
@@ -629,8 +629,8 @@ terms_of_surrender_statute = {
 	}	
 	
 
-    defensiveness = 0.15
-	land_morale = 0.05
+    defensiveness = 0.10
+	land_morale = 0.075
 	
 	ai_will_do = {
 		factor = 0.6
@@ -1008,8 +1008,8 @@ military_allotment_act = {
 		full_idea_group = strategic_ideas
 	}
 
-    siege_ability = 0.15
-	spy_offence = 0.5
+    land_morale = 0.075
+	war_taxes_cost_modifier = -0.5
 
 	ai_will_do = {
 		factor = 0.8

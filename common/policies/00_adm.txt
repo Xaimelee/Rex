@@ -142,7 +142,7 @@ the_espionage_act = {
 		full_idea_group = spy_ideas
 	}
 
-    defensiveness = 0.15
+    defensiveness = 0.10
 	technology_cost = -0.05
 	
 	ai_will_do = {
@@ -211,8 +211,8 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-    defensiveness = 0.15
-	army_tradition = 0.5
+    defensiveness = 0.10
+	army_tradition = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -462,7 +462,7 @@ the_education_act = {
 		full_idea_group = strategic_ideas
 	}
 
-    siege_ability = 0.15
+    siege_ability = 0.10
 	artillery_bonus_vs_fort = 2
 	
 	ai_will_do = {

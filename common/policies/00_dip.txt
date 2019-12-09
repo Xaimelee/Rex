@@ -760,7 +760,7 @@ the_foreign_support_act = {
 }
 
 black_chamber_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = spy_ideas
@@ -772,8 +772,8 @@ black_chamber_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	siege_ability = 0.15
-	reinforce_speed = 0.20
+	siege_ability = 0.10
+	movement_speed = 0.15
 
 
 	ai_will_do = {
