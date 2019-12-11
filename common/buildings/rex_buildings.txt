@@ -7,7 +7,7 @@ military_infras_base = {
 	time = 36
 	
 	modifier = {
-		local_manpower_modifier = 0.25
+		local_manpower_modifier = 0.15
 		local_defensiveness = 0.1
 		local_manpower = 1
 		allowed_num_of_buildings = 1
@@ -51,11 +51,11 @@ military_infras_base = {
 ## M - Left Path
 
 military_left_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	
 	modifier = {
-		local_manpower_modifier = 0.25
+		local_manpower_modifier = 0.2
 		local_defensiveness = 0.05
 	}
 	
@@ -73,12 +73,12 @@ military_left_1 = {
 }
 
 military_left_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = military_left_1
 	
 	modifier = {
-		local_manpower_modifier = 0.50
+		local_manpower_modifier = 0.4
 		local_defensiveness = 0.075
 	}
 	
@@ -96,12 +96,12 @@ military_left_2 = {
 }
 
 military_left_3 = {
-	cost = 150
+	cost = 180
 	time = 12
 	make_obsolete = military_left_2
 	
 	modifier = {
-		local_manpower_modifier = 0.75
+		local_manpower_modifier = 0.6
 		local_defensiveness = 0.1
 	}
 	
@@ -121,7 +121,7 @@ military_left_3 = {
 ## M - Right Path
 
 military_right_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	
 	modifier = {
@@ -143,7 +143,7 @@ military_right_1 = {
 }
 
 military_right_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = military_right_1
 	
@@ -166,7 +166,7 @@ military_right_2 = {
 }
 
 military_right_3 = {
-	cost = 150
+	cost = 180
 	time = 12
 	make_obsolete = military_right_2
 	
@@ -198,7 +198,7 @@ industry_infras_base = {
 	modifier = {
 		trade_value_modifier = 0.35
 		trade_goods_size_modifier = 0.35
-		province_trade_power_value = 0.7
+		province_trade_power_modifier = 0.75
 		allowed_num_of_buildings = 1
 	}
 	
@@ -240,13 +240,13 @@ industry_infras_base = {
 ## I - Left Path
 
 industry_left_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	allow_in_gold_provinces = no
 	
 	modifier = {
-		local_production_efficiency = 0.25
-		province_trade_power_modifier = 0.1
+		local_production_efficiency = 0.20
+		province_trade_power_modifier = 0.05
 	}
 	
 	trigger = {
@@ -263,14 +263,14 @@ industry_left_1 = {
 }
 
 industry_left_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = industry_left_1
 	allow_in_gold_provinces = no
 	
 	modifier = {
-		local_production_efficiency = 0.5
-		province_trade_power_modifier = 0.2
+		local_production_efficiency = 0.40
+		province_trade_power_modifier = 0.1
 	}
 	
 	trigger = {
@@ -287,14 +287,14 @@ industry_left_2 = {
 }
 
 industry_left_3 = {
-	cost = 150
+	cost = 180
 	time = 12
 	make_obsolete = industry_left_2
 	allow_in_gold_provinces = no
 	
 	modifier = {
-		local_production_efficiency = 0.75
-		province_trade_power_modifier = 0.3
+		local_production_efficiency = 0.60
+		province_trade_power_modifier = 0.15
 	}
 	
 	trigger = {
@@ -313,11 +313,11 @@ industry_left_3 = {
 ## I - Right Path
 
 industry_right_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	
 	modifier = {
-		local_development_cost = -0.1
+		local_development_cost = -0.05
 		local_build_cost = -0.10
 	}
 	
@@ -335,13 +335,13 @@ industry_right_1 = {
 }
 
 industry_right_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = industry_right_1
 	
 	modifier = {
-		local_development_cost = -0.15
-		local_build_cost = -0.20
+		local_development_cost = -0.075
+		local_build_cost = -0.15
 	}
 	
 	trigger = {
@@ -358,13 +358,13 @@ industry_right_2 = {
 }
 
 industry_right_3 = {
-	cost = 150
+	cost = 180
 	time = 12
 	make_obsolete = industry_right_2
 	
 	modifier = {
-		local_development_cost = -0.2
-		local_build_cost = -0.30
+		local_development_cost = -0.1
+		local_build_cost = -0.20
 	}
 	
 	trigger = {
@@ -388,8 +388,8 @@ government_infras_base = {
 	
 	modifier = {
 		local_state_maintenance_modifier = -0.35
-		tax_income = 1
-		local_tax_modifier = 0.25
+		tax_income = 2
+		local_tax_modifier = 0.15
 		allowed_num_of_buildings = 1
 	}
 	
@@ -431,11 +431,11 @@ government_infras_base = {
 ## G - Left Path
 
 government_left_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	
 	modifier = {
-		local_tax_modifier = 0.25
+		local_tax_modifier = 0.20
 		local_autonomy = -0.025
 	}
 	
@@ -453,12 +453,12 @@ government_left_1 = {
 }
 
 government_left_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = government_left_1
 	
 	modifier = {
-		local_tax_modifier = 0.5
+		local_tax_modifier = 0.4
 		local_autonomy = -0.05
 	}
 	
@@ -476,11 +476,11 @@ government_left_2 = {
 }
 
 government_left_3 = {
-	cost = 150
+	cost = 180
 	time = 12make_obsolete = government_left_2
 	
 	modifier = {
-		local_tax_modifier = 0.75
+		local_tax_modifier = 0.6
 		local_autonomy = -0.075
 	}
 	
@@ -500,11 +500,11 @@ government_left_3 = {
 ## G - Right Path
 
 government_right_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	
 	modifier = {
-		tax_income = 1
+		tax_income = 0.8
 		local_institution_spread = 0.25
 	}
 	
@@ -522,12 +522,12 @@ government_right_1 = {
 }
 
 government_right_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = government_right_1
 	
 	modifier = {
-		tax_income = 1.5
+		tax_income = 1.2
 		local_institution_spread = 0.5
 	}
 	
@@ -545,12 +545,12 @@ government_right_2 = {
 }
 
 government_right_3 = {
-	cost = 150
+	cost = 180
 	time = 12
 	make_obsolete = government_right_2
 	
 	modifier = {
-		tax_income = 2
+		tax_income = 1.6
 		local_institution_spread = 0.75
 	}
 	
@@ -619,7 +619,7 @@ naval_infras_base = {
 ## N - Left Path
 
 naval_left_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	
 	modifier = {
@@ -643,12 +643,12 @@ naval_left_1 = {
 }
 
 naval_left_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = naval_left_1
 	
 	modifier = {
-		local_sailors_modifier = 1
+		local_sailors_modifier = 0.75
 		local_ship_repair = 0.1
 		allowed_num_of_buildings = 1
 	}
@@ -668,12 +668,12 @@ naval_left_2 = {
 }
 
 naval_left_3 = {
-	cost = 150
+	cost = 180
 	time = 12
 	make_obsolete = naval_left_2
 	
 	modifier = {
-		local_sailors_modifier = 1.5
+		local_sailors_modifier = 1
 		local_ship_repair = 0.15
 		allowed_num_of_buildings = 1
 	}
@@ -695,7 +695,7 @@ naval_left_3 = {
 ## N - Right Path
 
 naval_right_1 = {
-	cost = 50
+	cost = 60
 	time = 12
 	
 	modifier = {
@@ -719,12 +719,12 @@ naval_right_1 = {
 }
 
 naval_right_2 = {
-	cost = 100
+	cost = 120
 	time = 12
 	make_obsolete = naval_right_1
 	
 	modifier = {
-		naval_forcelimit = 2
+		naval_forcelimit = 1.5
 		ship_recruit_speed = -0.10
 		allowed_num_of_buildings = 1
 	}
@@ -744,12 +744,12 @@ naval_right_2 = {
 }
 
 naval_right_3 = {
-	cost = 150
+	cost = 180
 	time = 12
 	make_obsolete = naval_right_2
 	
 	modifier = {
-		naval_forcelimit = 3
+		naval_forcelimit = 2
 		ship_recruit_speed = -0.15
 		allowed_num_of_buildings = 1
 	}
