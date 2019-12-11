@@ -633,7 +633,6 @@ peace = {
 	pr_smugglers_influence = 0.1
 	interest = -0.25
 	manpower_recovery_speed = 0.15
-	yearly_army_professionalism = 0.00125
 }
 
 unconditional_surrender = {
