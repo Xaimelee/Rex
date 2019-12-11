@@ -716,15 +716,15 @@ navy_tradition = {
 
 positive_piety = { #As of 1.23 Legalism
 	technology_cost = -0.05
-	global_manpower_modifier = 0.10
-	global_tax_modifier = 0.20
+	manpower_recovery_speed = 0.10
+	global_tax_modifier = 0.15
 }
 
 #For convenience, its multiplied by negative piety in code.
 negative_piety = { #As of 1.23 Mysticism
-	land_morale = 0.10
+	land_morale = 0.075
 	global_missionary_strength = 0.03
-	defensiveness = 0.20
+	defensiveness = 0.10
 }
 
 defender_of_faith = {
