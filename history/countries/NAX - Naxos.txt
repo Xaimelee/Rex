@@ -6,6 +6,7 @@ add_accepted_culture = greek
 religion = catholic
 technology_group = western
 capital = 164	# Naxos
+historical_rival = BYZ
 fixed_capital = 164 # Cannot move capital away from this province & no power cost to move to it
 
 # Dukes of Naxos
