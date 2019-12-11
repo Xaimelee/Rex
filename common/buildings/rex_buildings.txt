@@ -3,7 +3,7 @@
 ## Military
 
 military_infras_base = {
-	cost = 300
+	cost = 360
 	time = 36
 	
 	modifier = {
@@ -191,7 +191,7 @@ military_right_3 = {
 ## Industry
 
 industry_infras_base = {
-	cost = 300
+	cost = 360
 	time = 36
 	allow_in_gold_provinces = no
 	
@@ -383,7 +383,7 @@ industry_right_3 = {
 ## Government
 
 government_infras_base = {
-	cost = 300
+	cost = 360
 	time = 36
 	
 	modifier = {
@@ -570,7 +570,7 @@ government_right_3 = {
 ## Naval
 
 naval_infras_base = {
-	cost = 300
+	cost = 360
 	time = 36
 	
 	modifier = {
