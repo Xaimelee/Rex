@@ -31,7 +31,7 @@ religious_school = hanafi_school
 		name = "Mehmed II Fatih"
 		dynasty = Osmanoglu
 		birth_date = 1432.3.30
-		adm = 6
+		adm = 4
 		dip = 4
 		mil = 6
 	}
