@@ -650,7 +650,7 @@ the_maritime_intelligencer_unit = {
 		full_idea_group = strategic_ideas
 	}	
 	
-    global_unrest = -2
+    global_unrest = -1
 	years_of_nationalism = -5
 	
 	ai_will_do = {
@@ -675,7 +675,7 @@ the_nautic_education_act = {
 		full_idea_group = innovativeness_ideas
 	}	
 	
-    global_unrest = -2
+    global_unrest = -1
 	dip_advisor_cost = -0.15
 	
 	ai_will_do = {

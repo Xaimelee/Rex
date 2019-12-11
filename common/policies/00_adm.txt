@@ -858,7 +858,7 @@ fortified_trading_posts = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	global_unrest = -2
+	global_unrest = -1
 	idea_cost = -0.10
 	
 	ai_will_do = {
@@ -900,7 +900,7 @@ harbour_administration = {
 	}
 	
 	advisor_cost = -0.05
-	all_power_cost = -0.025
+	all_power_cost = -0.01
 	
 	ai_will_do = {
 		factor = 1
@@ -1003,7 +1003,7 @@ the_licensing_of_the_press_act = {
 	}
 	
 	production_efficiency = 0.10
-	global_unrest = -2
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 0.8
