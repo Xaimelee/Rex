@@ -40,7 +40,7 @@ categories =  {
 		supply_limit = 2		
 		local_development_cost = 0.5
 		nation_designer_cost_multiplier = 0.75	
-        allowed_num_of_buildings = 1		
+        allowed_num_of_buildings = 2		
 		
 		terrain_override = {		
 			1034 1035 1104 1105 2074 2128 2129 2025 2440 2574
@@ -56,7 +56,7 @@ categories =  {
 		movement_cost = 1.10
 		local_development_cost = -0.05
 		supply_limit = 10
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
@@ -129,7 +129,7 @@ categories =  {
 		supply_limit = 4
 		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.9
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		combat_width = -0.25
 		
@@ -161,7 +161,7 @@ categories =  {
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 		defence = 1
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		combat_width = -0.25
 		
@@ -224,7 +224,7 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9
 		supply_limit = 6
 		defence = 1
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		terrain_override = {
 			206 1851 # Spain
@@ -284,7 +284,7 @@ categories =  {
 		local_development_cost = 0.30
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		combat_width = -0.50
 		
@@ -359,7 +359,7 @@ categories =  {
 		movement_cost = 1.0
 		supply_limit = 8
 		nation_designer_cost_multiplier = 1
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		terrain_override = {
 			2666 # North America
@@ -417,7 +417,7 @@ categories =  {
 		local_development_cost = 0.20
 		nation_designer_cost_multiplier = 0.8
 		supply_limit = 5
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		terrain_override = {
 			1237 1245 2703 #South East Asia
@@ -456,7 +456,7 @@ categories =  {
 		local_development_cost = 0.25
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		combat_width = -0.25
 
@@ -491,7 +491,7 @@ categories =  {
 		supply_limit = 4
 		local_development_cost = 0.50
 		nation_designer_cost_multiplier = 0.8
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		terrain_override = {
 			503 2078 2088 #India
@@ -519,7 +519,7 @@ categories =  {
 		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 0.9		
 		supply_limit = 4
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 
 		terrain_override = {
 			792 793 796 805 806 2821 2822 2840 2841
@@ -543,7 +543,7 @@ categories =  {
 		local_development_cost = 0.25
 		nation_designer_cost_multiplier = 0.85		
 		supply_limit = 6 
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		terrain_override = {
 			957 962 2554 2561 2578 #n am
@@ -577,8 +577,8 @@ categories =  {
 		local_development_cost = 0.05
 		nation_designer_cost_multiplier = 0.95
 		supply_limit = 7
-		allowed_num_of_buildings = 1
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
+		allowed_num_of_buildings = 2
 
 		terrain_override = {
 			1749 224
@@ -626,7 +626,7 @@ categories =  {
 		local_defensiveness = 0.1
 		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.9
-		allowed_num_of_buildings = 1		
+		allowed_num_of_buildings = 2		
 		
 		combat_width = -0.25
 
@@ -676,7 +676,7 @@ categories =  {
 		movement_cost = 1.00
 		local_development_cost = 0.15
 		nation_designer_cost_multiplier = 0.95
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		terrain_override = {
 			768 776 1800 2805 2809 2810 2812 2814 2815 2855 2859 2879 2884 2887 
@@ -713,7 +713,7 @@ categories =  {
 		local_development_cost = 0.20
 		nation_designer_cost_multiplier = 0.9	
 		supply_limit = 6
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		
 		terrain_override = {
 			2195 463 2197 2417 466 2367 470 472 2353 2369 2358 476 2354 479 2357 1966 2420
