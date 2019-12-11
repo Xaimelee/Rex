@@ -6,6 +6,7 @@ primary_culture = lombard
 add_accepted_culture = greek
 religion = catholic
 capital = 142
+historical_rival = BYZ
 fixed_capital = 142 # Cannot move capital away from this province & no power cost to move to it
 
 1381.1.1 = {
