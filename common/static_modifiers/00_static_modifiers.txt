@@ -469,7 +469,7 @@ scorched_earth = {
 
 base_values = {
 	max_absolutism = 65
-	merc_maintenance_modifier = 1.5
+	merc_maintenance_modifier = 1
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
