@@ -910,6 +910,7 @@ prestige = {
 	monthly_fervor_increase = 1
 	ae_impact = -0.10
 	embracement_cost = -0.1
+	possible_mercenaries = 0.10
 }
 
 no_debate_in_parliament = {
