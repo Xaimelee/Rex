@@ -196,7 +196,7 @@ NDefines.NMilitary.INFANTRY_SPEED = 1
 NDefines.NMilitary.CAVALRY_SPEED = 1
 NDefines.NMilitary.ARTILLERY_SPEED = 1
 
-NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 0.8
+NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1.0
 
 NDefines.NMilitary.INF_LOOT = 0.3
 NDefines.NMilitary.CAV_LOOT = 1.0
