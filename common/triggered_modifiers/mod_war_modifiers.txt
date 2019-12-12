@@ -1,13 +1,14 @@
-#war_exhaustion_modifier_1 = {
-#	potential = {
-#        is_at_war = yes
-#	}
-#
-#	trigger = {
-#	    is_at_war = yes
-#		NOT = { manpower_percentage = 0.15 }
-#	}
-#	
-#	war_exhaustion = 0.05
-#	war_exhaustion_cost = 0.25
-#}
+war_exhaustion_modifier_1 = {
+	potential = {
+        is_at_war = yes
+	}
+
+	trigger = {
+	    is_at_war = yes
+		is_in_war = {
+			duration = 3650
+		}
+	}
+	
+	war_exhaustion = 0.05
+}
