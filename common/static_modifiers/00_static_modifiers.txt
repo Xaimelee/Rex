@@ -1171,6 +1171,7 @@ dishonoured_alliance =  {
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
+	land_maintenance_modifier = 0.10
 }
 
 ##################################################################################################
