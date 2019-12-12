@@ -332,7 +332,7 @@ non_accepted_culture_republic = {
 }
 
 occupied = {
-	local_tax_modifier = -0.75
+	local_tax_modifier = -1
 	trade_goods_size_modifier = -0.75
 	province_trade_power_modifier = -0.75
 	local_manpower_modifier = -1
