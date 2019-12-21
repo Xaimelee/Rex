@@ -249,6 +249,30 @@ vij_south_conquest = {
 	}
 	has_country_shield = yes
 	
+	r_vij_reconquest_capital = {
+		icon = mission_city_of_victory_vij
+		provinces_to_highlight = {
+			area = rayalaseema_area
+			NOT = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			rayalaseema_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			set_capital = 541
+			541 = {
+				add_building = fort_15th
+				add_base_manpower = 2
+			}
+		}
+	}
+	
 	vij_integrate_jaffna = {
 		icon = mission_integrate_jaffna
 		required_missions = { vij_tamil_trade }
@@ -452,6 +476,13 @@ vij_tamil_conquest = {
 				}
 			}
 			mysore_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			rayalaseema_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}

@@ -151,11 +151,31 @@ sunni_rebels = {
 					NOT = { religion = sunni }
 					is_reformation_center = no
 					NOT = { owner = { religion = sunni } }
+					NOT = {
+					    OR = {
+							owner = { technology_group = western }
+							owner = { technology_group = eastern }
+							owner = { technology_group = indian }
+						}
+					}
 				}
 				change_religion = sunni
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
+				}
+			}
+			if = {
+				limit = {
+					NOT = { religion = sunni }
+					is_reformation_center = no
+					NOT = { owner = { religion = sunni } }
+					OR = {
+							owner = { technology_group = western }
+							owner = { technology_group = eastern }
+							owner = { technology_group = indian }
+						}
+					}
 				}
 			}
 		}
@@ -209,6 +229,13 @@ sunni_rebels = {
 		else_if = {
 			limit = {
 				NOT = { religion = sunni }
+				NOT = {
+					OR = {
+						owner = { technology_group = western }
+						owner = { technology_group = eastern }
+						owner = { technology_group = indian }
+					}
+				}
 				dominant_religion = sunni
 			}
 			change_religion = sunni

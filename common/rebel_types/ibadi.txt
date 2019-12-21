@@ -151,11 +151,31 @@ ibadi_rebels = {
 					NOT = { religion = ibadi }
 					is_reformation_center = no
 					NOT = { owner = { religion = ibadi } }
+					NOT = {
+					    OR = {
+							owner = { technology_group = western }
+							owner = { technology_group = eastern }
+							owner = { technology_group = indian }
+						}
+					}
 				}
 				change_religion = ibadi
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
+				}
+			}
+			if = {
+				limit = {
+					NOT = { religion = ibadi }
+					is_reformation_center = no
+					NOT = { owner = { religion = ibadi } }
+					OR = {
+							owner = { technology_group = western }
+							owner = { technology_group = eastern }
+							owner = { technology_group = indian }
+						}
+					}
 				}
 			}
 		}
@@ -211,6 +231,13 @@ ibadi_rebels = {
 			limit = {
 				NOT = { religion = ibadi }
 				dominant_religion = ibadi
+				NOT = {
+					OR = {
+						owner = { technology_group = western }
+						owner = { technology_group = eastern }
+						owner = { technology_group = indian }
+					}
+				}
 			}
 			change_religion = ibadi
 			force_converted = yes

@@ -151,11 +151,31 @@ shiite_rebels = {
 					NOT = { religion = shiite }
 					is_reformation_center = no
 					NOT = { owner = { religion = shiite } }
+					NOT = {
+					    OR = {
+							owner = { technology_group = western }
+							owner = { technology_group = eastern }
+							owner = { technology_group = indian }
+						}
+					}
 				}
 				change_religion = shiite
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
+				}
+			}
+			if = {
+				limit = {
+					NOT = { religion = shiite }
+					is_reformation_center = no
+					NOT = { owner = { religion = shiite } }
+					OR = {
+							owner = { technology_group = western }
+							owner = { technology_group = eastern }
+							owner = { technology_group = indian }
+						}
+					}
 				}
 			}
 		}
@@ -211,6 +231,13 @@ shiite_rebels = {
 			limit = {
 				NOT = { religion = shiite }
 				dominant_religion = shiite
+				NOT = {
+					OR = {
+						owner = { technology_group = western }
+						owner = { technology_group = eastern }
+						owner = { technology_group = indian }
+					}
+				}
 			}
 			change_religion = shiite
 			force_converted = yes

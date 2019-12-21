@@ -42,4 +42,36 @@ imperial_protector = {
 	land_forcelimit_modifier = 0.20
 	global_manpower_modifier = 0.20
 	infantry_power = 0.10
-]
+}
+
+rise_of_player_india = {
+    potential = {
+	    OR = {
+			tag = VIJ
+			tag = BAH
+			tag = MLW
+			tag = MER
+			tag = PUN
+			tag = BNG
+			tag = JNP
+		}
+		NOT = { is_year = 1500 }
+	}
+
+	trigger = {
+		OR = {
+			tag = VIJ
+			tag = BAH
+			tag = MLW
+			tag = MER
+			tag = PUN
+			tag = BNG
+			tag = JNP
+		}
+		NOT = { is_year = 1500 }
+	}
+
+	land_forcelimit = 6
+	global_tax_income = 12
+	ae_impact = -0.10
+}
