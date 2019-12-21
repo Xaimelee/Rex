@@ -1941,11 +1941,11 @@ LIT_ideas = {
 MAR_ideas = {
 	start = {
 		manpower_recovery_speed = 0.15
-		global_manpower_modifier = 0.10
+		global_manpower_modifier = 0.25
 	}
 	
 	bonus = {
-		stability_cost_modifier = -0.1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -1961,19 +1961,21 @@ MAR_ideas = {
 	free = yes
 	
 	tradition_of_military_service = {
-		cavalry_power = 0.15
+		cavalry_power = 0.2
 	}
 	forts_of_maharashtra = {
-		defensiveness = 0.20
+		defensiveness = 0.10
+		fort_maintenance_modifier = -0.1
 	}
 	peasant_soldiers = {
-		infantry_cost = -0.2
+		infantry_power = 0.10
 	}
 	office_of_the_peshwa = {
 		core_creation = -0.15
+		max_states = 3
 	}
 	encourage_ties_with_brahmin_financial_families = {
-		reform_progress_growth = 0.15
+		fire_damage = 0.10
 	}
 	reform_the_bureaucracy = {
 		global_trade_goods_size_modifier = 0.1
