@@ -8172,14 +8172,14 @@ MLW_ideas = {
 		global_tax_modifier = 0.15
 	}
 	mlw_rajputs_of_malwa = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.15
 	}
 	mlw_nimatnama = {
 		religious_unity = 0.25
-		prestige = 1
+		prestige = 0.5
 	}
 	mlw_fortified_strongholds = {
-		defensiveness = 0.15
+		defensiveness = 0.10
 		fort_maintenance_modifier = -0.10
 	}
 	mlw_black_soil = {
