@@ -17,10 +17,9 @@ the_proper_old_ways = {
 }
 
 eth_mil_aid_from_portugal = {
-	land_morale = 0.25
-	mil_tech_cost_modifier = -0.25
-	discipline = 0.05
-	global_manpower_modifier = 0.25
+	land_morale = 0.1
+	mil_tech_cost_modifier = -0.1
+	global_manpower_modifier = 0.1
 }
 
 incompetent_fabrication = {
@@ -107,8 +106,8 @@ forced_conversion = {
 }
 
 decreased_morale = {
-	land_morale = -0.10
-	naval_morale = -0.10
+	land_morale = -0.05
+	naval_morale = -0.05
 }
 
 domestic_improvements = {
@@ -127,8 +126,8 @@ restrict_serfdom = {
 }
 
 disarmament = {
-	global_manpower_modifier = -0.25
-	land_morale = -0.25
+	global_manpower_modifier = -0.1
+	land_morale = -0.1
 }
 
 support_monarch = {
@@ -208,19 +207,19 @@ suppress_minority = {
 }
 
 army_reform = {
-	land_morale = 0.20
+	land_morale = 0.05
 	mil_tech_cost_modifier = -0.10
 }
 naval_reform = {
-	naval_morale = 0.20
+	naval_morale = 0.05
 	dip_tech_cost_modifier = -0.10
 }
 
 military_reform = {
 	dip_tech_cost_modifier = -0.05
 	mil_tech_cost_modifier = -0.05
-	naval_morale = 0.10
-	land_morale = 0.10
+	naval_morale = 0.05
+	land_morale = 0.05
 }
 
 competitive_advantage = {
@@ -481,13 +480,12 @@ colonial_tensions = {
 }
 
 morale_boost = {
-	land_morale = 0.10
-	discipline = 0.05
+	land_morale = 0.05
 	recover_army_morale_speed = 0.2
 }
 
 deserters = {
-	land_morale = -0.10
+	land_morale = -0.05
 }
 
 battle_preparations = {
@@ -919,8 +917,7 @@ long_term_boost = {
 }
 
 decreased_military_funding = {
-	land_morale = -0.10
-	discipline = -0.05
+	land_morale = -0.05
 	global_manpower_modifier = -0.05
 }
 
@@ -1130,7 +1127,7 @@ navigator_boost = {
 }
 
 grand_captain_boost = {
-	land_morale = 0.20
+	land_morale = 0.05
 }
 
 army_organiser_boost = {
@@ -1138,7 +1135,7 @@ army_organiser_boost = {
 }
 
 commandant_boost = {
-	discipline = 0.1
+	discipline = 0.025
 }
 
 quartermaster_boost = {
@@ -1256,7 +1253,7 @@ sunday_schools = {
 }
 
 bad_discipline = {
-	discipline = -0.05
+	discipline = -0.025
 }
 
 good_discipline = {
@@ -1381,9 +1378,9 @@ guild_of_st_luke = {
 }
 
 the_last_joust = {
-	army_tradition = 1
+	army_tradition = 0.5
 	prestige = 0.5
-	land_morale = 0.1
+	land_morale = 0.05
 }
 
 florentine_school = {
@@ -1391,7 +1388,7 @@ florentine_school = {
 }
 
 byzantine_influx = {
-	technology_cost = -0.10
+	technology_cost = -0.05
 }
 
 epic_to_monarch = {
@@ -1681,7 +1678,7 @@ offensive_modifier = {
 }
 
 defensive_modifier = {
-	defensiveness = 0.20
+	defensiveness = 0.10
 }
 
 land_modifier = {
@@ -1696,12 +1693,12 @@ naval_modifier = {
 }
 
 quality_modifier = {
-	discipline = 0.05
+	discipline = 0.025
 	global_manpower_modifier = -0.1
 }
 
 quantity_modifier = {
-	discipline = -0.05
+	discipline = -0.025
 	global_manpower_modifier = 0.25
 }
 
@@ -2114,13 +2111,13 @@ justices_of_peace = {
 }
 
 the_admirality = {
-	navy_tradition = 0.5
+	navy_tradition = 0.25
 	prestige_from_naval = 0.05
 }
 
 the_royal_army = {
-	army_tradition = 0.3
-	prestige_from_land = 0.03
+	army_tradition = 0.25
+	prestige_from_land = 0.05
 }
 
 the_heresy_act = {
@@ -2398,7 +2395,7 @@ dhimmi_building_restrictions = {
 
 pomjestija_reform = {
 	mil_tech_cost_modifier = -0.10
-	land_morale = 0.1
+	land_morale = 0.05
 }
 
 novgorodian_reform = {
@@ -2469,7 +2466,7 @@ complete_serfdom = {
 }
 
 increased_freedom = {
-	land_morale = 0.1
+	land_morale = 0.05
 }
 
 restricted_serfdom = {
@@ -3178,12 +3175,12 @@ pru_enlightenment_reforms = {
 	
 }
 pru_prutenic_tables = {
-	technology_cost = -0.25
-	idea_cost = -0.25
+	technology_cost = -0.2
+	idea_cost = -0.2
 	
 }
 pru_reaction_reforms = {
-	technology_cost = -0.25
+	technology_cost = -0.1
 	
 }
 bra_berliner_unwille = {
@@ -3224,8 +3221,8 @@ pol_pact_conventa = {
 	inflation_action_cost = 0.5
 }
 pol_sejm_veto = {
-	idea_cost = 0.1
-	technology_cost = 0.1
+	idea_cost = 0.05
+	technology_cost = 0.05
 	stability_cost_modifier = 0.1
 }
 pol_sejm_comply_policies = {
@@ -3250,7 +3247,7 @@ pol_merkuriusz_polski_ordynaryjny = {
 	
 }
 pol_konfederacja = {
-	idea_cost = 0.25
+	idea_cost = 0.1
 	global_unrest = -2
 	
 }
@@ -3463,7 +3460,7 @@ jap_trade_reform = {
 }
 jap_military_reform = {
 	global_manpower_modifier = 0.1
-	land_morale = 0.1
+	land_morale = 0.05
 	
 }
 jap_economic_reform = {
@@ -3490,7 +3487,7 @@ jap_gossip_spies = {
 }
 
 japanese_downprioritized_military = {
-	land_morale = -0.1
+	land_morale = -0.05
 }
 
 japanese_jokamachi = {
@@ -3777,7 +3774,7 @@ mercenaries_to_the_standard = {
 }
 
 for_freedom = {
-	land_morale = 0.1
+	land_morale = 0.05
 }
 
 our_rights = {
@@ -3844,7 +3841,7 @@ love_of_devoted = {
 }
 
 full_elan = {
-	land_morale = 0.15
+	land_morale = 0.05
 }
 
 finest_infantry = {
@@ -3875,7 +3872,7 @@ payment_demands = {
 }
 
 relentless_drill = {
-	land_morale = 0.15
+	land_morale = 0.05
 }
 
 regimental_pride = {
@@ -3887,7 +3884,7 @@ prepared_defence = {
 }
 
 to_the_last_man = {
-	defensiveness = 0.25
+	defensiveness = 0.15
 }
 
 regimental_spirit = {
@@ -4769,7 +4766,7 @@ unified_islam = {
 # New Idea Group Events
 
 hardened_oak = {
-	ship_durability = 0.10
+	ship_durability = 0.05
 }
 
 patriotic_curriculum = {
@@ -4789,7 +4786,7 @@ heavy_ship_veterans = {
 }
 
 grieving_sailors = {
-	naval_morale = -0.10
+	naval_morale = -0.05
 }
 
 repairing_decayed_ships = {
@@ -5257,7 +5254,7 @@ guru_arjan = {
 }
 
 guru_hargobind = {
-	discipline = 0.05
+	discipline = 0.025
 	religion = yes
 }
 
@@ -5617,7 +5614,7 @@ traders_look_abroad = {
 }
 
 aristocracy_united = {
-	discipline = 0.05
+	discipline = 0.025
 	global_unrest = -1
 }
 
@@ -5798,7 +5795,7 @@ bng_delta_reclaimed = {
 
 bng_delhian_refugees = {
 	global_unrest = 1
-	army_tradition = 1
+	army_tradition = 0.25
 }
 
 bng_port_of_calcutta = {
@@ -5851,7 +5848,7 @@ arw_preparing_defences = {
 }
 
 joined_league_war = {
-	army_tradition = 0.5
+	army_tradition = 0.25
 	mil_tech_cost_modifier = -0.05
 }
 
@@ -5888,12 +5885,12 @@ golden_age_transylvania = {
 }
 
 god_is_spanish = {
-	land_morale = 0.15	
+	land_morale = 0.05
 	prestige = 1
 }
 
 god_wants_peace = {
-	land_morale = -0.15	
+	land_morale = -0.05
 	war_exhaustion = 0.05
 }
 
@@ -5902,7 +5899,7 @@ in_league_for_land = {
 }
 
 in_league_for_faith = {
-	land_morale = 0.10
+	land_morale = 0.05
 }
 
 distrusts_heathens = {
@@ -6479,7 +6476,7 @@ no_tribal_leaders = {
 }
 
 armed_cossacks = {
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.1
 }
 
 ### Women in History ###
@@ -9245,14 +9242,14 @@ reassessement_provinces = {
 
 gunpowder_core = {
     drill_gain_modifier = 0.15
-	yearly_army_professionalism = 0.0025
-	land_maintenance_modifier = 0.10
+	yearly_army_professionalism = 0.0005
+	land_maintenance_modifier = 0.05
 }
 
 standardized_uniforms_modifier = {
 	drill_gain_modifier = 0.30
-	yearly_army_professionalism = 0.005
-	land_maintenance_modifier = 0.15
+	yearly_army_professionalism = 0.001
+	land_maintenance_modifier = 0.1
 }
 
 #Muslim Schools
@@ -10399,7 +10396,7 @@ mayan_ufo_support = {
 }
 
 swiss_guard_last_stand = {
-	discipline = 0.1
+	discipline = 0.025
 }
 
 expelled_minority = {
