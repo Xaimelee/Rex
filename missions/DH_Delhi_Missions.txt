@@ -10,6 +10,7 @@ dlh_slot_1 = {
 			tag = DLH
 			tag = PUN
 			tag = JNP
+			tag = NEP
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -76,6 +77,7 @@ dlh_east_missions = {
 			tag = DLH
 			tag = PUN
 			tag = JNP
+			tag = NEP
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -435,6 +437,7 @@ dlh_west_missions = {
 			tag = DLH
 			tag = PUN
 			tag = JNP
+			tag = NEP
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -779,6 +782,7 @@ dlh_slot_4 = {
 			tag = DLH
 			tag = PUN
 			tag = JNP
+			tag = NEP
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
