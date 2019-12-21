@@ -12182,7 +12182,7 @@ MER_ideas = {
 		prestige = 1
 	}
 	mer_kumbhalgarh = {
-		defensiveness = 0.15
+		defensiveness = 0.10
 		fort_maintenance_modifier = -0.10
 	}
 	mer_city_of_lakes = {
