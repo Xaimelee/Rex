@@ -618,6 +618,7 @@ bankruptcy = {
 	global_regiment_cost = 0.25
 	discipline = -0.25
 	possible_mercenaries = -3.0
+	defensiveness = -0.5
 }
 
 
