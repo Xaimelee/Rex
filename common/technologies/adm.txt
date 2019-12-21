@@ -58,8 +58,7 @@ technology = { #Medieval Administration
 technology = { #Temples
 	# Tech 4
 	year = 1453
-	# Temple
-	temple = yes
+	production_efficiency	 =	0.02
 	
 }
 
@@ -68,7 +67,6 @@ technology = { #National Ideas
 	year = 1466
 
 	allowed_idea_groups = 1
-	production_efficiency	 =	0.02
 	
 	government_left_1 = yes
 	government_right_1 = yes
