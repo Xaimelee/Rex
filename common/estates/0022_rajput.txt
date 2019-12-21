@@ -39,6 +39,7 @@ estate_rajput = {
 			}
 			culture_group = hindusthani
 			culture_group = central_indic
+			tag = BHA
 		}
 		NOT = { has_government_attribute = is_merchant_republic }
 		NOT = { has_reform = trading_city }
