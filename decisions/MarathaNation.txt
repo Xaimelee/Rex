@@ -3,7 +3,10 @@ country_decisions = {
 	maratha_nation = {
 		major = yes
 		potential = {
-			tag = BAH
+			OR = {
+				tag = BAH
+				tag = VIJ
+			}
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_maratha_flag }
@@ -34,14 +37,13 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 516 #Broach
-				province_id = 546 #Nagpur
-				province_id = 1946 #Satara
-				province_id = 2033 #Savanur
-				province_id = 2034 #Pune
-				province_id = 4429 #Rajapur
-				province_id = 2026 #Tanjore
-				province_id = 4431 #Kolhapur
+				region = deccan_region
+				area = madura_area
+				area = kongu_area
+				area = tanjore_area
+				area = south_carnatic_area
+				area = north_carnatic_area
+				area = andhra_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -51,33 +53,39 @@ country_decisions = {
 		allow = {
 			NOT = { exists = MAR }
 			is_at_war = no
-			adm_tech = 20
+			adm_tech = 10
 			is_free_or_tributary_trigger = yes
-			owns_core_province = 546 #Nagpur
-			owns_core_province = 1946 #Satar
-			owns_core_province = 2033 #Savanur
-			owns_core_province = 2034 #Pune
-			owns_core_province = 4429 #Rajapur
-			owns_core_province = 4431 #Kolhapur
-			OR = {
-				owns_core_province = 2026 #Tanjore
-				owns_core_province = 516 #Broach
+			deccan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			madura_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			kongu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			tanjore_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			south_carnatic_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			north_carnatic_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			andhra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
 			}
 		}
 		effect = {
 			change_tag = MAR
-			deccan_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = MAR
-			}
-			west_india_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = MAR
-			}
 			add_prestige = 25
 			if = {
 				limit = {
