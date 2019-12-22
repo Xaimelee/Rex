@@ -1109,6 +1109,14 @@ persia={
 		control={ 
 		}
 	}
+	outgoing={
+		name="basra"
+		path={
+			414 412
+		}
+		control={ 
+		}
+	}
 	members={
 		435 2224 2229 2230 #sistan_area
 		436 4334 4336 #birjand_area
