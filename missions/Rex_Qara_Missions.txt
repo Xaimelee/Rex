@@ -1,0 +1,263 @@
+rex_qara_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = QAR
+	}
+	has_country_shield = yes
+	#White Sheep Eliminated
+	rex_qara_1 = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = al_jazira_area
+				area = north_kurdistan_area 
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			al_jazira_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			north_kurdistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "r_qara_aggression"
+				duration = 5475
+			}
+			aleppo_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			syria_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			syrian_desert_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	#Syria Secured
+	rex_qara_2 = {
+		icon = mission_persian_soldiers
+		required_missions = { rex_qara_1 }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				area = syria_area
+				area = syrian_desert_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			aleppo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			syria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			syrian_desert_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "r_qara_syria"
+				duration = 5475
+			}
+			377 = {
+				add_permanent_province_modifier = { 
+					name = r_qara_halab_fortified
+					duration = -1 
+				}
+			}
+			dulkadir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			rum_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			karaman_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}			
+		}
+	}
+	#Eastern Anatolian Frontier
+	rex_qara_3 = {
+		icon = mission_arabian_fort
+		required_missions = { rex_qara_2 }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = karaman_area
+				area = rum_area 
+				area = dulkadir_area 
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			dulkadir_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			rum_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			karaman_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "r_qara_frontier"
+				duration = 3650
+			}
+			anatolia_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}	
+			thrace_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}	
+		}
+	}
+	#Restored Sultanate of Rum
+	rex_qara_4 = {
+		icon = rex_qara_rum_mission
+		required_missions = { rex_qara_3 }
+		
+		provinces_to_highlight = {
+			OR = {
+				region = anatolia_region
+				area = thrace_area 
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			anatolia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "r_qara_rum_legacy"
+				duration = 18250
+			}
+			add_country_modifier = {
+				name = "r_qara_heretics"
+				duration = 3650
+			}
+			bulgaria_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}	
+			macedonia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}	
+			northern_greece_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}	
+		}
+	}
+}
+
+rex_qara_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = QAR
+	}
+	has_country_shield = yes
+	#Persian Trade
+	rex_qara_5 = {
+		icon = mission_fatimid_caliphate
+		required_missions = { }
+		
+		
+		trigger = {
+			416 = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "r_qara_persia"
+				duration = 9125
+			}
+			416 = {
+				add_permanent_province_modifier = { 
+					name = r_qara_tabriz
+					duration = -1 
+				}
+			}
+		}
+	}
+}

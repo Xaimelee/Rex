@@ -2,3 +2,21 @@
 #HRE
  rex_become_protector_title:0 "Claim the Title of Protector"
  rex_become_protector_desc:0 "Having asended in becoming the strongest nation out of all the Electors, we can now without contest bestow upon ourselves the titular title Protector of all Germans and the Holy Roman Empire. -------------------------------------------------------------------§RThe reform §!§YProtector of the Empire§!§R can be abolished by an event being triggered when your capital is occupied or you have negative 80% warscore while the §!§YAbolish Protector of the Empire Casus Belli§!§R is being used against you.§!"
+#India
+ r_vij_reconquest_capital_title:0 "Reconquer Vijayanagar"
+ r_vij_reconquest_capital_desc:0 ""
+ r_bahmanis_reconquer_title:0 "Reconquer Bidar"
+ r_bahmanis_reconquer_desc:0 ""
+ r_mlw_reconquer_malwa_title:0 "Reconquer Malwa"
+ r_mlw_reconquer_malwa_desc:0 ""
+#Qara
+ rex_qara_1_title:0 "White Sheep Eliminated"
+ rex_qara_1_desc:0 "The Aq Qoyunlu or Ak Koyunlu, also called the White Sheep Turkomans was a Persianate Sunni Oghuz Turkic tribal confederation that ruled parts of Eastern Turkey. Defeating them will secure our western expansion!"
+ rex_qara_2_title:0 "Syria Secured"
+ rex_qara_2_desc:0 "Syria is the natural expression of our western ambitions, and the Mamluk Sultanate Is on the decline. The valuable Syrian trade ports and Mediterranean access will boost our income."
+ rex_qara_3_title:0 "Anatolian Frontier"
+ rex_qara_3_desc:0 "We have routed the Ottoman Turks, and are close to our objective of securing Anatolia for the rightful Turkomans! We shall not rest until the legacy of the Rumi Seljuks is restored."
+ rex_qara_4_title:0 "Sultanate of Rum"
+ rex_qara_4_desc:0 "The Seljuk sultanate once stretched across the Middle East, and bore the brunt of the Crusader assaults. We must carry on their legacy and take the fight to the heathens of Europe!"
+ rex_qara_5_title:0 "Persian Trade"
+ rex_qara_5_desc:0 "The Persian trade routes carry spices and valuable goods from the far East to the Middle East and Europe. Securing major markets in this region will boost our economy significantly!"

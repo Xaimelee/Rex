@@ -205,4 +205,8 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//latin_shipyard.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "rex_qara_rum_mission"
+		texturefile = "gfx//rex_missions//rex_qara_rum_mission.dds"
+	}
 }

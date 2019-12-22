@@ -2,6 +2,49 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+## Missions
+
+## Qara
+
+r_qara_aggression = {
+	ae_impact = -0.1
+	core_creation = -0.1
+	land_morale = 0.05
+}
+
+r_qara_syria = {
+	trade_efficiency = 0.1
+	diplomatic_reputation = 2
+}
+
+r_qara_halab_fortified = {
+	local_defensiveness = 0.1
+}
+
+r_qara_frontier = {
+	core_creation = -0.1
+	fort_maintenance_modifier = -0.1
+}
+
+r_qara_rum_legacy = {
+	prestige = 1
+}
+
+r_qara_heretics = {
+	global_heretic_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.25
+}
+
+r_qara_persia = {
+	global_trade_power = 0.1
+	trade_range_modifier = 0.33
+}
+
+r_qara_tabriz = {
+	province_trade_power_value = 5
+	local_development_cost = -0.1
+}
+
 ## Protector of the HRE
 
 rex_protector_of_hre = {
