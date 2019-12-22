@@ -983,6 +983,14 @@ hormuz={
 			3687.000000 1082.000000 3650.000000 1073.000000 
 		}
 	}
+	outgoing={
+		name="persia"
+		path={
+			431 2216 
+		}
+		control={
+		}
+	}
 	members={
 		397 398 404 2333 #pirate_coast_area
 		432 2220 2234 4345 #kerman_area
