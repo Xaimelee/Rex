@@ -4,7 +4,7 @@
 shiva =
 {
 	# (Diplomatic - War)
-	ae_impact = -0.20
+	ae_impact = -0.10
 	core_creation = -0.15
 	
 	allow = { religion = hinduism }
