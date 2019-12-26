@@ -155,7 +155,7 @@ religious_school = hanafi_school
 		name = "Nasir-ud-Din Mahmud"
 		dynasty = "Ilyas Shahi"
 		ADM = 4
-		DIP = 3
+		DIP = 5
 		MIL = 3
 	}
 	clear_scripted_personalities = yes
