@@ -67,7 +67,7 @@ capital = 518	# Chittogarh
 	#add_ruler_personality = inspiring_leader_personality
 	add_ruler_personality = architectural_visionary_personality
 	#add_ruler_personality = scholar_personality
-	add_heir_personality = malevolent_personality #Murders own father, very unpopular with influential nobles
+	#add_heir_personality = malevolent_personality #Murders own father, very unpopular with influential nobles
 	heir = {
 		name = "Udai"
 		monarch_name = "Udai Singh I"
@@ -77,7 +77,7 @@ capital = 518	# Chittogarh
 		claim = 95
 		DIP = 3
 		MIL = 5
-		ADM = 4
+		ADM = 3
 	}
 	queen = {
 		country_of_origin = CMP #Idar
