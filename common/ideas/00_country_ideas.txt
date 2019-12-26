@@ -1336,7 +1336,7 @@ VIJ_ideas = {
 		global_trade_power = 0.10
 	}
 	arab_horses = {
-		cavalry_power = 0.20
+		cavalry_power = 0.15
 	}
 	harsh_penal_code = {
 		stability_cost_modifier = -0.1
@@ -2231,7 +2231,7 @@ PUN_ideas = {
 	}
 
 	bonus = {
-		cavalry_power = 0.2
+		cavalry_power = 0.15
 	}
 	
 	trigger = {
@@ -5502,7 +5502,7 @@ KHI_ideas = {
 
 BAH_ideas = {
 	start = {
-		cavalry_power = 0.2
+		cavalry_power = 0.15
 		army_tradition = 0.25
 	}
 
