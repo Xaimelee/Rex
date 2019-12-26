@@ -3207,10 +3207,6 @@ country_event = {
 					}
 				}
 			}
-			set_religious_school = {
-				group = muslim
-				school = zaidi_school
-			}
 		}
 		else_if = { #Final fallbacks
 			limit = { NOT = { religion = shiite } }
@@ -3279,17 +3275,6 @@ country_event = {
 		set_religious_school = {
 			group = muslim
 			school = ismaili_school
-		}
-	}
-	option = {
-		name = muslim_school_events.20.h #Zaidi
-		trigger = {
-			NOT = { religion = sunni }
-			ai = no
-		}
-		set_religious_school = {
-			group = muslim
-			school = zaidi_school
 		}
 	}
 }
