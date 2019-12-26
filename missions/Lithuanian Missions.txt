@@ -28,15 +28,13 @@ lithuanian_missions_1 = {
 			}
 		}
 		effect = {
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						region = ruthenia_region
-					}
-					add_province_modifier = {
-						name = restored_ruthenia
-						duration = -1
-					}
+			every_owned_province = {
+				limit = {
+					region = ruthenia_region
+				}
+				add_province_modifier = {
+					name = restored_ruthenia
+					duration = -1
 				}
 			}
 		}
