@@ -7,22 +7,12 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {	
-				AND = {
-					ROOT = { DIP = 5 }
-					OR = {
-						province_id = 280		#Kiev -center
-					province_id = 283		#Zaporozhie -eastern/southern center of rebellions
-					}
-				}
-				AND = {
-					ROOT = { NOT = { DIP = 5 } }
-					OR = {
-						province_id = 280		#Kiev -center
-						province_id = 283		#Zaporozhie -eastern/southern center of rebellions
-						province_id = 261		#Ruthenia/Lvov -western
-						province_id = 279		#Volhynia -western
-					}
-				}
+				region = ruthenia_region
+				area = oka_area
+				area = moscow_area
+				area = tver_area
+				area = pskov_area
+				area = novgorod_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -34,60 +24,51 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			
-			OR = {
-				#owns everything
-				AND = {
-					owns_core_province = 280		#Kiev -center
-					owns_core_province = 261		#Ruthenia/Lvov -western
-					owns_core_province = 279		#Volhynia -western
-					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
-				}
-				#or owns only core-core stuff but has god like ruler
-				AND = {
-					owns_core_province = 280		#Kiev -center				
-					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
-					dip = 5
-				}
+			ruthenia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			oka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			moscow_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			tver_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			pskov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			novgorod_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
 			}
 		}
 		effect = {
 			280 = {
 				move_capital_effect = yes
 			}
-			ruthenia_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = { is_claim = ROOT }
-				}
-				add_permanent_claim = UKR
-			}
-			red_ruthenia_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = { is_claim = ROOT }
-				}
-				add_permanent_claim = UKR
-			}
 			add_prestige = 25
 			change_tag = UKR
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
-			if = {
-				limit = {
-					OR = {
-						has_reform = veche_republic
-						has_reform = principality
-					}
-				}
-				change_government = monarchy
-				set_government_rank = 3
-				add_government_reform = tsardom
-			}
 			set_country_flag = formed_ruthenia_flag
+			set_government_rank = 2
+			add_government_reform = rex_ruthenia_government
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			russia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = RUS
 			}
 		}
 		ai_importance = 500		
