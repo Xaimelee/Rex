@@ -170,7 +170,7 @@ religious_school = hanafi_school
 		claim = 95
 		ADM = 4
 		DIP = 4
-		MIL = 5
+		MIL = 3
 	}
 }
 
