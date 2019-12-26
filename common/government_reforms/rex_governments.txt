@@ -42,3 +42,24 @@ rex_hreprotector_reform = {
 		locked_government_type = yes
 	}
 }
+
+rex_ruthenia_government = {
+	icon = "king"
+	allow_normal_conversion = no
+	potential = {
+		tag = UKR
+	}
+
+	modifiers = {
+		land_forcelimit_modifier = 0.10
+		cavalry_cost = -0.10
+		max_states = 3
+	}
+
+	conditional = {
+		allow = { has_dlc = "Third Rome" }
+		government_abilities = {
+			russian_mechanic
+		}
+	}
+}

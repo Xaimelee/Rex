@@ -28,6 +28,7 @@ monarchy = {
 				mandala_reform
 				revolutionary_empire_reform
 				rex_hreprotector_reform
+				rex_ruthenia_government
 			}
 		}
 		hereditary_vs_nobility = {
