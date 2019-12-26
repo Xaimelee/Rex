@@ -10018,8 +10018,8 @@ KHO_ideas = {
 		diplomatic_reputation = 1
 		diplomatic_annexation_cost = -0.1
 	}
-	kho_princely_appanages = {
-		global_manpower_modifier = 0.15
+	kho_rein_in_the_turko_mongol_emirs = {
+		shock_damage_received = -0.1
 	}
 	kho_protect_the_caravan_routes = {
 		trade_efficiency = 0.10
@@ -10030,8 +10030,8 @@ KHO_ideas = {
 	kho_great_sheiks_of_khorasan = {
 		global_unrest = -1
 	}
-	kho_rein_in_the_turko_mongol_emirs = {
-		shock_damage_received = -0.1
+	kho_princely_appanages = {
+		global_manpower_modifier = 0.15
 	}
 	kho_irrigation_network = {
 		global_trade_goods_size_modifier = 0.1
