@@ -74,7 +74,7 @@ religious_school = hanafi_school
 		dynasty = "Khalji"
 		ADM = 5
 		DIP = 5
-		MIL = 6
+		MIL = 5
 	}
 	clear_scripted_personalities = yes
 	#add_ruler_personality = just_personality
