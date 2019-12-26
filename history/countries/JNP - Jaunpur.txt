@@ -75,8 +75,8 @@ religious_school = hanafi_school
 		name = "Mahmud Shah"
 		dynasty = "Sharqi"
 		ADM = 5
-		DIP = 2
-		MIL = 3
+		DIP = 3
+		MIL = 4
 	}
 	clear_scripted_personalities = yes
 	#add_ruler_personality = craven_personality
