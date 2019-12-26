@@ -543,7 +543,7 @@ christian = {
 
 			icon_michael = {
 				discipline = 0.025
-				manpower_recovery_speed = 0.1
+				manpower_recovery_speed = 0.15
 				
 				allow = {
 					always = yes
@@ -562,7 +562,7 @@ christian = {
 			}
 
 			icon_eleusa = {
-				global_unrest = -3
+				global_unrest = -2
 				harsh_treatment_cost = -0.25
 				
 				allow = {
@@ -606,8 +606,8 @@ christian = {
 			}
 	
 			icon_nicholas = {
-				improve_relation_modifier = 0.25
-				ae_impact = -0.1
+				diplomatic_reputation = 1
+				diplomatic_annexation_cost = -0.1
 				allow = {
 					always = yes
 				}
