@@ -1374,10 +1374,7 @@ ruthenian_ideas = {
 	}
  
 	trigger = {
-		OR = {
-			primary_culture = ruthenian
-			primary_culture = byelorussian
-		}
+		tag = UKR
 	}
 	free = yes
  
