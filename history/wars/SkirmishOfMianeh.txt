@@ -1,0 +1,24 @@
+name = "Skirmish of Mianeh"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 4300
+}
+
+1443.1.1 = {
+	add_attacker = QAR
+	add_attacker = BTL
+	add_attacker = MLK
+	add_defender = QOM
+	add_defender = ARD
+	add_defender = LRI
+}
+
+1444.10.10 = {
+	rem_attacker = QAR
+	rem_attacker = BTL
+	rem_attacker = MLK
+	rem_defender = QOM
+	add_defender = ARD
+	rem_defender = LRI
+}
