@@ -1,14 +1,14 @@
 #Shah Rokhs Empire
 
 #Abdallah bin Ibrahim, the Child ruler.
-alliance = {
+vassal = {
 	first = TIM
 	second = FRS
 	start_date = 1444.1.1
 	end_date = 1447.3.13 #Death of Shah Rokh
 }
 
-alliance = {
+vassal = {
 	first = TIM
 	second = ISF
 	start_date = 1444.1.1
