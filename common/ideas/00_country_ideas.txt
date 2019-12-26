@@ -10001,7 +10001,7 @@ AKK_ideas = {
 
 KHO_ideas = {
 	start = {
-		cavalry_power = 0.15
+		army_tradition = 0.25
 		land_morale = 0.1
 	}
 	bonus = {
@@ -10014,24 +10014,25 @@ KHO_ideas = {
 	
 	kho_land_of_the_rising_sun = {
 		diplomatic_reputation = 1
-	}
-	kho_rein_in_the_turko_mongol_emirs = {
-		army_tradition = 0.5
+		diplomatic_annexation_cost = -0.1
 	}
 	kho_princely_appanages = {
-		global_manpower_modifier = 0.1
-	}
-	kho_dynastic_chronicles = {
-		legitimacy = 1
-	}
-	kho_irrigation_network = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	kho_great_sheiks_of_khorasan = {
-		tolerance_own = 2
+		global_manpower_modifier = 0.15
 	}
 	kho_protect_the_caravan_routes = {
 		trade_efficiency = 0.10
+	}
+	kho_dynastic_chronicles = {
+		prestige = 0.5
+	}
+	kho_great_sheiks_of_khorasan = {
+		global_unrest = -1
+	}
+	kho_rein_in_the_turko_mongol_emirs = {
+		shock_damage_received = -0.1
+	}
+	kho_irrigation_network = {
+		global_trade_goods_size_modifier = 0.1
 	}
 }
 
