@@ -18,13 +18,10 @@ lithuanian_missions_1 = {
 			}
 		}
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = develop_ukraine_tooltip
-				num_of_owned_provinces_with = {
-					region = ruthenia_region
-					development = 10
-					value = 10
-				}
+			num_of_owned_provinces_with = {
+				region = ruthenia_region
+				development = 10
+				value = 10
 			}
 		}
 		effect = {
@@ -469,23 +466,6 @@ lithuanian_missions_slot = {
 				name = "baltic_ambition_new"
 				duration = 7300
 			}
-			if = {
-				limit = {
-					government = monarchy
-					exists = POL
-					is_subject = no
-					religion_group = christian
-					POL = {
-						is_subject = no
-						government = monarchy
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = POL
-				}
-			}
 			else = {
 				malopolska_area = {
 					limit = {
@@ -555,76 +535,40 @@ lithuanian_missions_slot = {
 			}
 		}
 		effect = {
-			if = {
+			moscow_area = {
 				limit = {
-					government = monarchy
-					exists = RUS
-					is_subject = no
-					religion_group = christian
-					RUS = {
-						is_subject = no
-						government = monarchy
-					}
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = RUS
-				}
+				add_permanent_claim = ROOT
 			}
-			else_if = {
+			oka_area = {
 				limit = {
-					government = monarchy
-					exists = MOS
-					is_subject = no
-					religion_group = christian
-					MOS = {
-						is_subject = no
-						government = monarchy
-					}
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = MOS
-				}
+				add_permanent_claim = ROOT
 			}
-			else = {
-				moscow_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
+			vladimir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				oka_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
+				add_permanent_claim = ROOT
+			}
+			suzdal_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				vladimir_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
+				add_permanent_claim = ROOT
+			}
+			ryazan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				suzdal_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-				ryazan_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
