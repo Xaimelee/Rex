@@ -16,6 +16,8 @@ religious_school = hanafi_school
 		dip = 5
 		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
 }
 #1451 falls to Babur bin Baysonqor
 
