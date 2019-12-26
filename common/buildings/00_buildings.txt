@@ -89,8 +89,8 @@ fort_15th = {
 			AND = {
 				has_building = fort_15th
 			}
-			is_state_core = ROOT
 		}
+		is_state_core = ROOT
 	}
 	
 	ai_will_do = {
@@ -163,8 +163,8 @@ fort_16th = {
 				has_building = fort_16th
 				has_building = fort_15th
 			}
-			is_state_core = ROOT
 		}
+		is_state_core = ROOT
 	}
 
 	onmap = yes
@@ -242,8 +242,8 @@ fort_17th = {
 				has_building = fort_16th
 				has_building = fort_15th
 			}
-			is_state_core = ROOT
 		}
+		is_state_core = ROOT
 	}
 
 	onmap = yes
@@ -326,8 +326,8 @@ fort_18th = {
 				has_building = fort_16th
 				has_building = fort_15th
 			}
-			is_state_core = ROOT
 		}
+		is_state_core = ROOT
 	}
 
 	onmap = yes
