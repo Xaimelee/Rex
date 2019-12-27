@@ -808,7 +808,7 @@ BUR_Ideas = {
 	}
 	
 	bonus = {
-		global_trade_goods_size_modifier = 0.10
+		leader_land_shock = 1
 	}
 	
 	trigger = {
@@ -817,11 +817,12 @@ BUR_Ideas = {
 	free = yes
 	
 	golden_fleece = {
-		prestige = 1
+		prestige = 0.5
 		diplomatic_annexation_cost = -0.15
 	}
 	compagnies_ordonnance = {
 		land_morale = 0.1
+		cavalry_power = 0.15
 	}
 	bur_estates_general = {
 		army_tradition_decay = -0.01
@@ -836,8 +837,7 @@ BUR_Ideas = {
 		discipline = 0.05
 	}
 	bur_regimental_system = {
-		manpower_recovery_speed = 0.15
-		leader_land_shock = 1
+		global_trade_goods_size_modifier = 0.10
 	}
 }
 
