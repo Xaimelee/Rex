@@ -52,6 +52,13 @@ r_bur_lorraine = {
 	unjustified_demands = -0.1
 }
 
+## Austria
+
+r_austria_bohemia = {
+	ae_impact = -0.1
+	province_warscore_cost = -0.15
+}
+
 ## Protector of the HRE
 
 rex_protector_of_hre = {
