@@ -29,6 +29,7 @@ monarchy = {
 				revolutionary_empire_reform
 				rex_hreprotector_reform
 				rex_ruthenia_government
+				mughal_government
 			}
 		}
 		hereditary_vs_nobility = {
