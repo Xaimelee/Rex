@@ -10,3 +10,10 @@
  rex_events.10.title:0 "Fall of the Protector"
  rex_events.10.desc:0 "With much of our country having been seized by the traitors of the Empire, we have now been forced to abdicate our role of Protector. This is a dark day not only for $COUNTRY$ but also the entire Holy Roman Empire."
  rex_events.10.a:0 "The rightful Protector of all Germans and the Holy Roman Empire has fallen."
+#Rum Capital Decision
+ rex_events.20.title:0 "Capital of Rum"
+ rex_events.20.desc:0 "With our conquest of Thrace and Anatolia, we have now been able to declare ourselves the true successors to the once mighty and feared Seljuk dynasty. The Ottoman Empire has fallen, now the Sultanate of Rum will rise to take it's place. This now puts us in a position where we should consider the question of moving our capital to ensure better administration and control over our new territories."
+ rex_events.20.a:0 "Constantinople was the crown jewel of the Ottomans and now it will be ours."
+ rex_events.20.b:0 "Hudavendigar is the gateway into Anatolia, this will be our seat of power."
+ rex_events.20.c:0 "We shall restore the once mighty and ancient capital of Rum to it's former glory."
+ rex_events.20.d:0 "Nonsense, our current capital shall remain as the heart of this restored Rum."

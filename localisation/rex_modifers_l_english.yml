@@ -11,3 +11,8 @@
 #Expeditions
  sanctioned_exploration:0 "State Sanctioned Exploration"
  sanctioned_colonizing:0 "State Funded Colonization"
+#Events
+#Rum
+ r_rum_hudavendigar:0 "Gateway to Anatolia"
+ r_rum_ankara:0 "Restored Capital of Rum"
+ r_rum_successor:0 "Successor to the Seljuk Dynasty"
