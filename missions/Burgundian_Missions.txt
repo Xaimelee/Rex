@@ -34,6 +34,10 @@ bur_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_country_modifier = {
+				name = "r_bur_lorraine"
+				duration = 1825
+			}
 		}
 	}
 	

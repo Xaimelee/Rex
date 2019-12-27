@@ -45,6 +45,13 @@ r_qara_tabriz = {
 	local_development_cost = -0.1
 }
 
+## Burgundy
+
+r_bur_lorraine = {
+	ae_impact = -0.1
+	unjustified_demands = -0.1
+}
+
 ## Protector of the HRE
 
 rex_protector_of_hre = {
