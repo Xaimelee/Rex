@@ -7,5 +7,5 @@ ap_from_war = {
 		is_at_war = yes
 	}
 	
-	yearly_army_professionalism = 0.0005
+	yearly_army_professionalism = 0.0025
 }
