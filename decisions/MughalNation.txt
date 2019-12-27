@@ -58,6 +58,7 @@ country_decisions = {
 			NOT = { exists = MUG }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
+			adm_tech = 10
 			khorasan_region = {
 			    type = all
 				owned_by = ROOT
