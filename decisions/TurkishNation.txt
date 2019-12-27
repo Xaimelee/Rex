@@ -19,7 +19,10 @@ country_decisions = {
 			NOT = { tag = PRU }
 			NOT = { tag = ENG }
 			is_emperor_of_china = no
-			primary_culture = turkish
+			OR = {
+				tag = QAR
+				tag = MAM
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -31,14 +34,18 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 151		# Constantinople
-				province_id = 316		# Iznik
-				province_id = 323		# Konya
-				province_id = 326		# Ankara
-				province_id = 329		# Sivas
-				province_id = 331		# Erzurum
-				province_id = 2301		# Kayseri
-				province_id = 4312		# Eskeshehir
+				area = hudavendigar_area
+				area = aydin_area
+				area = kastamonu_area
+				area = germiyan_area
+				area = ankara_area
+				area = rum_area
+				area = karaman_area
+				area = dulkadir_area
+				area = aleppo_area
+				area = thrace_area
+				province_id = 2302
+				province_id = 327
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -51,16 +58,62 @@ country_decisions = {
 			is_nomad = no
 			religion_group = muslim
 			NOT = { exists = RUM }
-			NOT = { exists = TUR }
-			NOT = { exists = BYZ }
-			owns_core_province = 151		# Constantinople
-			owns_core_province = 316		# Iznik
-			owns_core_province = 323		# Konya
-			owns_core_province = 326		# Ankara
-			owns_core_province = 329		# Sivas
-			owns_core_province = 331		# Erzurum
-			owns_core_province = 2301		# Kayseri
-			owns_core_province = 4312		# Eskeshehir
+			hudavendigar_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			aydin_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			kastamonu_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			germiyan_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			rum_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			karaman_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			dulkadir_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			aleppo_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			thrace_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			2302 = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			327 = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			
 		}
 		effect = {
 			change_tag = RUM
@@ -79,13 +132,6 @@ country_decisions = {
 					NOT = { government_rank = 2 }
 				}
 				set_government_rank = 2
-			}
-			anatolia_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = RUM
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
