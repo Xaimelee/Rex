@@ -1,0 +1,144 @@
+country_decisions = {
+
+	mughal_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_mughal_empire_flag }
+			NOT = { has_reform = celestial_empire }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = PER }
+			NOT = { tag = MUG }
+			NOT = { tag = TUR }
+			NOT = { tag = HLR }
+			tag = AFG
+			OR = {
+				NOT = { exists = MUG }
+				ai = no
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 5
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = khorasan_region
+				area = sind_sagar_area
+				area = multan_area
+				area = lahore_area
+				area = sirhind_area
+				area = upper_doab_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			religion_group = muslim
+			NOT = { exists = MUG }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			khorasan_region = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			sind_sagar_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			multan_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			lahore_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			sirhind_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			upper_doab_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			522 = {
+				move_capital_effect = yes
+			}
+			change_tag = MUG
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			change_primary_culture = kanauji
+			set_government_rank = 3
+			522 = {
+			 	add_base_tax = 1
+				add_base_production = 1
+			 	add_base_manpower = 1
+			}
+			hindusthan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MUG
+			}
+			add_prestige = 25
+
+			if = {
+				limit = {
+					NOT = { technology_group = indian }
+				}
+				change_technology_group = indian
+				change_unit_type = indian
+			}
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
+			if = {
+				limit = {
+					has_dlc = "Dharma"
+				}
+				add_government_reform = mughal_government
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_mughal_empire_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 600
+	}
+
+}
