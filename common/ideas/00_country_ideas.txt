@@ -8473,17 +8473,17 @@ YUA_ideas = {
 		core_creation = -0.25
 	}
 	yua_a_savage_kingdom_holy_and_enchanted = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	yua_the_three_teachings_and_nine_schools_respected = {
-		technology_cost = -0.1
+		technology_cost = -0.05
 	}
 	yua_keshik_and_weijun = {
-		shock_damage = 0.1
+		shock_damage = 0.2
 	}
 	yua_a_thousand_miles_as_if_at_home = {
-		movement_speed = 0.15
-		envoy_travel_time = -0.1
+		movement_speed = 0.1
+		envoy_travel_time = -0.25
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05
