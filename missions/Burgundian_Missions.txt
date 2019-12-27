@@ -58,13 +58,7 @@ bur_conquest = {
 			93 = {
 				add_permanent_claim = ROOT
 			}
-			1878 = {
-				add_permanent_claim = ROOT
-			}
 			2974 = {
-				add_permanent_claim = ROOT
-			}
-			1742 = {
 				add_permanent_claim = ROOT
 			}
 		}
@@ -78,9 +72,7 @@ bur_conquest = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 93
-				province_id = 1878
 				province_id = 2974
-				province_id = 1742
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -89,13 +81,7 @@ bur_conquest = {
 			93 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			1878 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			2974 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			1742 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -113,6 +99,13 @@ bur_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+			netherlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -122,12 +115,19 @@ bur_conquest = {
 		position = 5
 		
 		provinces_to_highlight = {
-			area = frisia_area
+			OR = {
+				area = frisia_area
+				area = netherlands_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		trigger = {
 			frisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			netherlands_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
