@@ -306,10 +306,11 @@ economic_ideas = {
 		inflation_reduction = 0.1
 	}
 	centralization = {
-		global_autonomy = -0.05
+		land_maintenance_modifier = -0.05
+		naval_maintenance_modifier = -0.10
 	}
 	organised_construction = {
-		trade_company_investment_cost = -0.35
+		trade_company_investment_cost = -0.25
 	}
 	debt_and_loans = {
 		yearly_corruption = -0.15
