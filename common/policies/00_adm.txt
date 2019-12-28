@@ -296,8 +296,8 @@ enforce_religious_law = {
 		full_idea_group = spy_ideas
 	}
 
-    cavalry_cost = -0.1
-	movement_speed = 0.1
+    global_tax_income = 12
+	war_exhaustion = -0.03
 
 	ai_will_do = {
 		factor = 1
