@@ -210,7 +210,7 @@ sailors = {
 
 # Caps at 600
 horde_development = {
-	horde_unity = -3
+	horde_unity = -1.5
 }
 
 province_razed = {
