@@ -38,8 +38,7 @@ the_mercenary_registration_act = {
 		full_idea_group = quantity_ideas
 	}
 
-    manpower_recovery_speed = 0.15
-	land_attrition = -0.10
+    fire_damage_received = -0.1
 	
 	ai_will_do = {
 		factor = 1
