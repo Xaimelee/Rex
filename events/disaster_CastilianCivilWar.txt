@@ -625,8 +625,9 @@ country_event = {
 				adm = 5
 				dip = 6
 				mil = 3
-				age = 0
+				age = 5
 				female = yes
+				fixed = yes
 			}
 		}
 	}
