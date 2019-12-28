@@ -68,7 +68,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = noble_rebels
-					size = 1
+					size = 0.5
 					win = yes
 				}
 			}
@@ -96,7 +96,7 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				friend = ARA
-				size = 1
+				size = 0.5
 				win = yes
 			}
 			clr_province_flag = cas_civil_war_start
@@ -111,7 +111,7 @@ country_event = {
 			spawn_rebels = {
 				friend = ARA
 				type = pretender_rebels
-				size = 1
+				size = 0.5
 				win = yes
 			}
 			clr_province_flag = cas_civil_war_2
@@ -150,7 +150,7 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				friend = POR
-				size = 1
+				size = 0.5
 				win = yes
 			}
 			clr_province_flag = cas_civil_war_start
@@ -165,7 +165,7 @@ country_event = {
 			spawn_rebels = {
 				friend = POR
 				type = pretender_rebels
-				size = 1
+				size = 0.5
 				win = yes
 			}
 			clr_province_flag = cas_civil_war_2
