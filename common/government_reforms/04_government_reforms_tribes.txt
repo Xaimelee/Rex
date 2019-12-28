@@ -35,10 +35,10 @@ steppe_horde = {
 		global_manpower_modifier = 0.2
 		land_forcelimit_modifier = 0.2
 		loot_amount = 0.50
-		global_institution_spread = -0.15
-		reinforce_cost_modifier = -0.5
-		cav_to_inf_ratio = 0.25
-		movement_speed = 0.2
+		#global_institution_spread = -0.15
+		reinforce_cost_modifier = -0.25
+		cav_to_inf_ratio = 0.4
+		movement_speed = 0.1
 		years_of_nationalism = -5
 	}
 	ai = {
