@@ -76,6 +76,7 @@ country_event = {
 		151 = {
 			move_capital_effect = yes
 			change_religion = ROOT
+			change_culture = ROOT
 			rename_capital = Kostantiniyye
 		}
 		
@@ -97,6 +98,7 @@ country_event = {
 		317 = {
 			move_capital_effect = yes
 			change_religion = ROOT
+			change_culture = ROOT
 			rename_capital = Iznik
 		}
 		
@@ -125,6 +127,7 @@ country_event = {
 		326 = {
 			move_capital_effect = yes
 			change_religion = ROOT
+			change_culture = ROOT
 		}
 		
 		ankara_area = {
