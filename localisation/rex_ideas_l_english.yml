@@ -1,11 +1,17 @@
 ﻿l_english:
 #Ideagroups
  traditional_ideas:0 "Traditional Ideas"
+ traditional_ideas_bonus:0 "Full Traditional"
  strategic_ideas:0 "Strategic Ideas"
+ strategic_ideas_bonus:0 "Full Strategic"
  imperialism_ideas:0 "Imperialism Ideas"
+ imperialism_ideas_bonus:0 "Full Imperialism"
  culturalism_ideas:0 "Culturalism Ideas"
+ culturalism_ideas_bonus:0 "Full Culturalism"
  mercantilist_ideas:0 "Mercantilist Ideas"
+ mercantilistl_ideas_bonus:0 "Full Mercantilist"
  infrastructure_ideas:0 "Infrastructure Ideas"
+ infrastructure_ideas_bonus:0 "Full Infrastructure"
 #Brandenburg
  BRA_ideas:0 "Brandenburg Ideas"
  BRA_ideas_start:0 "Brandenburg Traditions"
