@@ -119,24 +119,25 @@ longterm_bankruptcy_effects = {
 ## Stratagems - AP mechanic
 
 traditional_stratagem = {
-    shock_damage = 0.10
+    shock_damage = 0.15
 	land_maintenance_modifier = 0.20
 }
 
 strategic_stratagem = {
     artillery_power = 0.10
+	cavalry_power = 0.15
 	land_maintenance_modifier = 0.20
 }
 
 offensive_stratagem = {
-    land_attrition = -0.10
-	siege_ability = 0.10
+    land_attrition = -0.15
+	siege_ability = 0.15
 	land_maintenance_modifier = 0.20
 }
 
 defensive_stratagem = {
-    shock_damage_received = -0.05
-	fire_damage_received = -0.05
+    shock_damage_received = -0.1
+	fire_damage_received = -0.1
 	land_maintenance_modifier = 0.20
 }
 
