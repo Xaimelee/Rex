@@ -52,7 +52,7 @@ rex_become_protector = {
 					add_casus_belli = {	
 						target = ROOT
 						type = rex_cb_revoke_protector
-						months = 240
+						months = 600
 					}
                 }					
 			}
