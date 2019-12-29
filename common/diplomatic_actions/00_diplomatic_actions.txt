@@ -72,6 +72,18 @@
 # counterespionage
 # abandon_union_action
 
+sellprov = {
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 remove_electorate = {
     condition = {
 		tooltip = rex_revoke_elector_restriction
