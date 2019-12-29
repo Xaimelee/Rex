@@ -1,11 +1,4 @@
 ﻿l_english:
-#AP Generals
- general_recruit_tier_1_title:0 "£icon_ap_stratagems£ Commission from the Ranks"
- general_recruit_tier_1_desc:0 ""
- general_recruit_tier_2_title:0 "£icon_ap_stratagems£ Commission from the Cadet Academy"
- general_recruit_tier_2_desc:0 ""
- general_recruit_tier_3_title:0 "£icon_ap_stratagems£ Commission from the Royal Academy"
- general_recruit_tier_3_desc:0 ""
 #AP War
  ap_from_war:0 "Lessons of War"
 #AP Stratagems
@@ -21,6 +14,3 @@
  quality_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
  quantity_stratagem_title:0 "£icon_ap_stratagems£ Enact Quantity Stratagem"
  quantity_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
-#AP Conscription
- conscription_title:0 "£icon_ap_stratagems£ Enact Nationwide Conscription"
- conscription_desc:0 " "

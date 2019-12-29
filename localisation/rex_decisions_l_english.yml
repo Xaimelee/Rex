@@ -1,7 +1,4 @@
 ﻿l_english:
-#Sanction Expedition
- rex_sanction_expedition_title:0 "Colonial Expeditions"
- rex_sanction_expedition_desc:0 ""
 #CN Dominion
  establish_dominion_title:0 "Obtain Dominion Status"
  establish_dominion_desc:0 "Having consolidated our colonial region, we have gained enough power and influence to demand more autonomy and representation thus giving us an identity and administration seperate from our overlord."

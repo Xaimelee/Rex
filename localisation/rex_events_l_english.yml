@@ -1,11 +1,4 @@
 ﻿l_english:
-#Sanctioned Exploration
- sanction_expedition.1.title:0 "Colonial Expeditions"
- sanction_expedition.1.desc:0 ""
- sanction_expedition.1.a:0 "Sanction Exploration of Oceans"
- sanction_expedition.1.b:0 "Sanction Continental Expedition"
- sanction_expedition.1.c:0 "Fund Establishment of Colonies"
- sanction_expedition.1.d:0 "Nonsense, the Old World is our power."
 #HRE Removal of Protector
  rex_events.10.title:0 "Fall of the Protector"
  rex_events.10.desc:0 "With much of our country having been seized by the traitors of the Empire, we have now been forced to abdicate our role of Protector. This is a dark day not only for $COUNTRY$ but also the entire Holy Roman Empire."
