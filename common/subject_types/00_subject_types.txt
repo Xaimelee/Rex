@@ -504,6 +504,9 @@ tributary_state = {
 			is_nomad = yes
 			religion_group = eastern
 		}
+		NOT = {
+			tag = MNG
+		}
 	}
 	
 	# Graphics:
