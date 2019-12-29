@@ -10006,8 +10006,8 @@ AKK_ideas = {
 
 KHO_ideas = {
 	start = {
-		army_tradition = 0.25
 		land_morale = 0.1
+		shock_damage_received = -0.1
 	}
 	bonus = {
 		technology_cost = -0.05
@@ -10022,7 +10022,8 @@ KHO_ideas = {
 		diplomatic_annexation_cost = -0.1
 	}
 	kho_rein_in_the_turko_mongol_emirs = {
-		shock_damage_received = -0.1
+		army_tradition = 0.25
+		cavalry_power = 0.15
 	}
 	kho_protect_the_caravan_routes = {
 		trade_efficiency = 0.10
