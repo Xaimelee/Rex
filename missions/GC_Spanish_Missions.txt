@@ -2235,4 +2235,88 @@ gc_spain_5_c = {
 			}
 		}
 	}
+	#Enforced Treaty Port of Canton
+	rex_spa_china_1 = {
+		icon = mission_galleys_in_port
+		required_missions = { }
+		position = 7
+		
+		provinces_to_highlight = {
+			province_id = 667
+			NOT = { controlled_by = ROOT }
+		}
+		
+		trigger = {
+			667 = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		
+		effect = {
+			country_event = { id = rex_events.100 }
+			add_prestige = 10
+			zhejiang_area = {
+				add_claim = ROOT
+			}
+		}
+	}
+	
+	#Enforced Treaty Port of Ningpo
+	rex_spa_china_2 = {
+		icon = mission_asian_trader
+		required_missions = { rex_spa_china_1 }
+		position = 4
+		
+		provinces_to_highlight = {
+			province_id = 2149
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			2149 = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		
+		effect = {
+			2113 = {
+				add_claim = ROOT
+			}
+			country_event = { id = rex_events.101 }
+		}
+	}
+	
+	#Southern China Secured
+	rex_spa_china_3 = {
+		icon = mission_conquer_50_development
+		required_missions = { rex_spa_china_2 }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = fujian_area
+			}
+			NOT = { controlled_by = ROOT  }
+		}
+		
+		trigger = {
+			fujian_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "r_china_control"
+				duration = 18250 #50 Years
+			}
+		}
+	}
 }

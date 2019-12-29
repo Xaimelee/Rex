@@ -178,6 +178,61 @@ french_missions_north = {
 			}
 		}
 	}
+		#Enforced Treaty Port of Ningpo
+	rex_fra_china_1 = {
+		icon = mission_asian_trader
+		required_missions = { }
+		position = 7
+		
+		provinces_to_highlight = {
+			province_id = 2149
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			2149 = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		
+		effect = {
+			fujian_area = {
+				add_claim = ROOT
+			}
+			country_event = { id = rex_events.101 }
+		}
+	}
+	#Southern China Secured
+	rex_fra_china_2 = {
+		icon = mission_conquer_50_development
+		required_missions = { rex_fra_china_1 }
+		position = 8
+		
+		provinces_to_highlight = {
+			OR = {
+				area = fujian_area
+			}
+			NOT = { controlled_by = ROOT  }
+		}
+		
+		trigger = {
+			fujian_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "r_china_control"
+				duration = 18250 #50 Years
+			}
+		}
+	}
 }
 
 french_mission_slot_2 = {

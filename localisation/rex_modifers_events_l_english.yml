@@ -1,0 +1,11 @@
+﻿l_english:
+#Events
+#Rum
+ r_rum_hudavendigar:0 "Gateway to Anatolia"
+ r_rum_ankara:0 "Restored Capital of Rum"
+ r_rum_successor:0 "Successor to the Seljuk Dynasty"
+#England
+ r_canton_trade:0 "Trade Port of Canton"
+ r_canton_fortify:0 "Develop Port of Canton"
+ r_ningpo_fortify:0 "Fortified Port of Ningpo"
+ r_ningpo_expand:0 "Expanded Port of Ningpo"

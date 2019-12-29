@@ -12,3 +12,10 @@
  r_bur_lorraine:0 "Conquest of Lorraine"
 #Austria Missions
  r_austria_bohemia:0 "Bohemian Succession"
+#English Missions
+ r_eng_china_expansionism:0 "Chinese Expansionism"
+#China Missions
+ r_china_control:0 "Chinese Trade Control"
+ r_pacific_fleet:0 "Pacific Fleet Bases Secure"
+#Russia Missions
+ r_rus_pacific_fleet:0 "Pacific Fleet Bases Secure"

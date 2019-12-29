@@ -59,7 +59,62 @@ r_austria_bohemia = {
 	province_warscore_cost = -0.15
 }
 
+## England
+
+r_eng_china_expansionism = {
+	land_morale = 0.05
+	core_creation = -0.10
+}
+
+## Russia
+
+r_rus_pacific_fleet = {
+	naval_morale = 0.05
+	ship_durability = 0.05
+	global_ship_recruit_speed = -0.35
+}
+
+## China Ports
+
+r_china_control = {
+	trade_steering = 0.15
+	merchants = 1
+	trade_efficiency = 0.05
+}
+
+r_pacific_fleet = {
+	naval_morale = 0.05
+	naval_maintenance_modifier = -0.15
+}
+
 ## Events
+
+## China Ports
+
+r_canton_trade = {
+	province_trade_power_value = 15
+	trade_goods_size_modifier = 0.25
+}
+
+r_canton_fortify = {
+	ship_recruit_speed = -0.30
+	local_ship_cost = -0.1
+	local_development_cost = -0.1
+	local_defensiveness = 0.25
+}
+
+r_ningpo_fortify = {
+	local_defensiveness = 0.25
+	land_forcelimit = 4
+	naval_forcelimit = 4
+}
+
+r_ningpo_expand = {
+	province_trade_power_value = 10
+	trade_goods_size_modifier = 0.10
+	local_development_cost = -0.05
+	local_build_cost = -0.05
+}
 
 ## Rum
 

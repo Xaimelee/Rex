@@ -150,3 +150,89 @@ country_event = {
 		add_stability_or_adm_power = yes
 	}
 }
+
+# China Mission - 1
+
+country_event = {
+	id = rex_events.100
+	title = rex_events.100.title
+	desc = rex_events.100.desc
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Canton Trade
+	option = {
+		name = rex_events.100.a
+		
+		trigger = {
+			owns = 667
+		}
+		
+		667 = {
+			add_province_modifier = { 
+				name = r_canton_trade
+				duration = -1 
+			}
+		}
+	}
+	
+	#Fortify Canton
+	option = {
+		name = rex_events.100.b
+		
+		trigger = {
+			owns = 667
+		}
+		
+		667 = {
+			add_province_modifier = { 
+				name = r_canton_fortify
+				duration = -1 
+			}
+		}
+	}
+}
+
+# China Mission - 2
+
+country_event = {
+	id = rex_events.101
+	title = rex_events.101.title
+	desc = rex_events.101.desc
+	picture = FORT_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Fortify Ningpo
+	option = {
+		name = rex_events.101.a
+		
+		trigger = {
+			owns = 667
+		}
+		
+		667 = {
+			add_province_modifier = { 
+				name = r_ningpo_fortify
+				duration = -1 
+			}
+		}
+	}
+	
+	#Expand Ningpo
+	option = {
+		name = rex_events.101.b
+		
+		trigger = {
+			owns = 667
+		}
+		
+		667 = {
+			add_province_modifier = { 
+				name = r_ningpo_expand
+				duration = -1 
+			}
+		}
+	}
+}

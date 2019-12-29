@@ -1632,9 +1632,38 @@ tr_siberia_missions = {
 			}
 		}
 	}
+	#Rex China
+	#Port Arthur Established
+	rex_rus_china_1 = {
+		icon = mission_invade_island
+		required_missions = { tr_russian_colony_in_east_siberia }
+		position = 5
+		
+		provinces_to_highlight = {
+			province_id = 2113
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			2113 = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "r_rus_pacific_fleet"
+				duration = 9125 #25 Years
+			}
+		}
+	}
+	#Rex China End
 	rus_alaskan_colony = {
 		icon = mission_colonize_alaska
-		required_missions = { tr_russian_colony_in_east_siberia }
+		required_missions = { rex_rus_china_1 }
 		provinces_to_highlight = {
 			colonial_region = colonial_california
 			NOT = {
