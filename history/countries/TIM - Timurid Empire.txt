@@ -74,7 +74,7 @@ religious_school = hanafi_school
 	clear_scripted_personalities = yes
 	add_ruler_personality = scholar_personality
 	add_ruler_personality = architectural_visionary_personality
-	add_ruler_personality = benevolent_personality
+	add_ruler_personality = craven_personality
 	queen = {
 		name = "Goharshad"
 		birth_date = 1370.1.1
@@ -101,6 +101,8 @@ religious_school = hanafi_school
 		dip = 3
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = craven_personality
 }
 
 1447.3.13 = { # Death of Shah Rukh. The Timurid Empire is broken apart.
