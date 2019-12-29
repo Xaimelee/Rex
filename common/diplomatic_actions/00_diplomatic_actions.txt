@@ -92,6 +92,15 @@ guaranteeaction = {
 			FROM = { ai = yes }
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 royal_marriage = {
@@ -101,6 +110,15 @@ royal_marriage = {
 		}
 		allow = {
 			NOT = { war_with = FROM }
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
 		}
 	}
 }
@@ -187,6 +205,15 @@ vassalaction = {
 			FROM = { is_at_war = no }
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 abandon_union_action = {
@@ -224,6 +251,15 @@ form_coalition = {
 			}
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 allianceaction = {
@@ -245,6 +281,17 @@ allianceaction = {
 			FROM = { is_colonial_nation = no }
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+		}
+		allow = {
+			NOT = {
+				FROM = { tag = MNG }
+				ROOT = { tag = MNG }
+			}
+		}
+	}
 }
 
 declarewar = {
@@ -255,6 +302,15 @@ declarewar = {
 		}
 		allow = {
 			FROM = { same_continent = ROOT }
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
 		}
 	}
 }
@@ -278,6 +334,15 @@ support_independence_action = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 		
 		
@@ -288,6 +353,15 @@ vassalaction = {
 		}
 		allow = {
 			FROM = { ai = yes }
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
 		}
 	}
 }
