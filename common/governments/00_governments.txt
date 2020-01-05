@@ -29,6 +29,7 @@ monarchy = {
 				revolutionary_empire_reform
 				rex_hreprotector_reform
 				rex_ruthenia_government
+				rex_china_warlord_reform
 				mughal_government
 			}
 		}

@@ -19,5 +19,7 @@
  rex_hreprotector_reform_desc:0 "Charged with the defense of the Holy Roman Empire from any internal and external threats. This role was usurped or bestowed to any elector that was able to rise above all others after the Empire completed enacting it's reforms."
  rex_ruthenia_government:0 "Regnum Russiae"
  rex_ruthenia_government_desc:0 "The Kingdom of Ruthenia also known as Regnum Russiae was a state in the regions of Galicia and Volhynia that historically existed from 1199 to 1349."
+ rex_china_warlord_reform:0 "Chinese Warlord"
+ rex_china_warlord_reform_desc:0 "Warlords are states to the West whom have split off from the crumbling Ming Dynasty. Their independence is maintained through share might and warrior prowess."
  #India
  rise_of_player_india:0 "Rise of Indian Claimants"

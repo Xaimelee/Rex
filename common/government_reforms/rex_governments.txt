@@ -46,6 +46,7 @@ rex_hreprotector_reform = {
 rex_ruthenia_government = {
 	icon = "king"
 	allow_normal_conversion = no
+	lock_level_when_selected = yes
 	potential = {
 		tag = UKR
 	}
@@ -61,5 +62,27 @@ rex_ruthenia_government = {
 		government_abilities = {
 			russian_mechanic
 		}
+	}
+}
+
+rex_china_warlord_reform = {
+	icon = "tribal_centralize_power"
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			tag = CXI
+			has_reform = rex_china_warlord_reform
+		}
+	}
+
+	modifiers = {
+		infantry_power = 0.10
+		manpower_recovery_speed = 0.15
+		max_states = 1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
 	}
 }
