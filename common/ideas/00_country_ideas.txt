@@ -7547,7 +7547,7 @@ MED_ideas = {
 CDL_ideas = {
 	start = {
 		land_morale = 0.1
-		global_manpower_modifier = 0.15
+		land_forcelimit_modifier = 0.15
 	}
 
 	bonus = {
