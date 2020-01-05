@@ -1,0 +1,46 @@
+country_decisions = {
+
+	rex_siam_formable = {
+		major = yes
+		potential = {
+			OR = {
+				tag = KHM
+				tag = PEG
+				tag = CDL
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+			    region = indo_china_region
+				region = burma_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			indo_china_region = {
+				type = all
+				owned_by = ROOT
+			}
+			burma_region = {
+				type = all
+				owned_by = ROOT
+			}
+			NOT = { exists = SIA }
+			NOT = ( exists = CDL }
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = SIA
+			set_country_flag = formed_siam
+			set_government_rank = 3
+			add_government_reform = mandala_reform
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}
