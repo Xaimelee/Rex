@@ -1,4 +1,49 @@
-#Mongaol
+#Siam
+
+SIA_ideas = {
+	start = {
+		trade_efficiency = 0.1
+		land_morale = 0.15
+	}
+	
+	bonus = {
+		fire_damage_received = -0.1
+	}
+	
+	trigger = {
+		tag = SIA
+	}
+	free = yes
+	
+	rex_siam_i = {
+		caravan_power = 0.25
+		global_trade_power = 0.10
+	}
+	rex_siam_ii = {
+		land_forcelimit_modifier = 0.25
+	}
+	rex_siam_iii = {
+		ship_durability = 0.05
+		global_ship_cost = -0.1
+	}
+	rex_siam_iv = {
+		discipline = 0.05
+		shock_damage_received = -0.1
+	}
+	rex_siam_v = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	rex_siam_vi = {
+		development_cost = -0.1
+	}
+	rex_siam_vii = {
+		tolerance_heathen = 2
+		tolerance_heretic = 2
+	}
+}
+
+
+#Mongol
 
 KHA_ideas = {
 	start = {
