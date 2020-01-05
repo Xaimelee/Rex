@@ -1,0 +1,42 @@
+country_decisions = {
+
+	rex_unite_chinese_warlords = {
+		major = yes
+		potential = {
+			OR = {
+				tag = CDL
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+			    area = shaanxi_area
+				area = gansu_area 
+				region = xinan_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			shaanxi_area = {
+				type = all
+				owned_by = ROOT
+			}
+			gansu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			xinan_region = {
+				type = all
+				owned_by = ROOT
+			}
+			NOT = { exists = CXI }
+		}
+		effect = {
+			add_prestige = 25
+			add_government_reform = rex_china_warlord_reform
+			change_tag = CXI
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}
