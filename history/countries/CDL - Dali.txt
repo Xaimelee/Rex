@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = bai
+religion = buddhism
+technology_group = chinese
+capital = 661	# Dali
+
+1444.1.1 = {
+	monarch = {
+		name = "Qizhen"
+		dynasty = "Cao"
+		birth_date = 1422.1.1
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = inspiring_leader_personality
+}
