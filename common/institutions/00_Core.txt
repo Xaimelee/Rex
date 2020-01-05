@@ -111,6 +111,14 @@ feudalism = {
 					NOT = { has_reform = steppe_horde }
 				}
 			}
+			AND = {
+				owner = {
+					OR = {
+						tag = SHY
+						tag = KHA
+					}
+				}
+			}
 			is_year = 1700
 		}
 	}
