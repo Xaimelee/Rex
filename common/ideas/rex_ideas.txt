@@ -1,3 +1,48 @@
+#Mongaol
+
+KHA_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		cavalry_power = 0.15
+	}
+	
+	bonus = {
+		land_maintenance_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = KHA
+	}
+	free = yes
+	
+	ghostly_horses_of_the_plain = {
+		cavalry_cost = -0.1
+	}
+	ikh_mongol_uls = {
+		ae_impact = -0.15
+		years_of_nationalism = -5
+	}
+	life_of_steppe_warrior = {
+		land_attrition = -0.10
+	}
+	MNG_kheshig = {
+		leader_land_shock = 1
+		shock_damage = 0.1
+	}
+	northern_yuan = {
+		core_creation = -0.15
+		max_states = 3
+	}
+	yams_of_the_great_khan = {
+		envoy_travel_time = -0.25
+		reinforce_cost_modifier = -0.25
+	}
+	mongolian_mobility = {
+		leader_land_manuever = 1
+		movement_speed = 0.1
+	}
+}
+
 #Uzbek
 
 uzbek_ideas = {
