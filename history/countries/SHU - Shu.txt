@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = rex_china_warlord_reform
 technology_group = chinese
 religion = confucianism
 primary_culture = sichuanese
