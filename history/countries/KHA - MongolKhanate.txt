@@ -264,9 +264,18 @@ historical_rival = OIR #so they will try to break free
 		dip = 5
 		mil = 5
 		birth_date = 1428.1.1
+		leader = {
+			name = "Tayisung"
+			type = general
+
+			fire = 2
+			shock = 5
+			manuever = 3
+			siege = 0
+			personality = born_to_the_saddle_personality
+		}
 	}
 	add_ruler_personality = bold_fighter_personality
-	clear_scripted_personalities = yes
 }
 
 #1433.1.1 = {
