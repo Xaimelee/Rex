@@ -6816,7 +6816,7 @@ MLB_ideas = {
 
 PEG_ideas = {
 	start = {
-		global_prov_trade_power_modifier = 0.10
+		naval_morale = 0.1
 		merchants = 1
 	}
 
@@ -6829,6 +6829,10 @@ PEG_ideas = {
 	}
 	free = yes
 	
+	peg_dynamic_warfare = {
+		mil_tech_cost_modifier = -0.1
+		shock_damage_received = -0.1
+	}
 	peg_riches_of_pegu = {
 		trade_efficiency = 0.1
 	}
@@ -6838,17 +6842,15 @@ PEG_ideas = {
 	peg_dhammazedi_pyatton = {
 		tolerance_own = 2
 	}
+	peg_buddhist_traditions = {
+		prestige = 0.5
+	}
 	peg_rammanadesa = {
 		land_morale = 0.1
 	}
-	peg_dynamic_warfare = {
-		mil_tech_cost_modifier = -0.1
-	}
-	peg_buddhist_traditions = {
-		legitimacy = 1
-	}
 	peg_mon_diaspora = {
 		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
 	}
 }
 
