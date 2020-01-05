@@ -11,6 +11,7 @@ country_decisions = {
 			OR = {
 			    area = shaanxi_area
 				area = gansu_area 
+				area = shanxi_area
 				region = xinan_region
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -21,6 +22,10 @@ country_decisions = {
 				owned_by = ROOT
 			}
 			gansu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shanxi_area = {
 				type = all
 				owned_by = ROOT
 			}
