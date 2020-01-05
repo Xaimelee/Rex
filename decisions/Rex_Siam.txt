@@ -13,6 +13,7 @@ country_decisions = {
 			OR = {
 			    region = indo_china_region
 				region = burma_region
+				region = xinan_region
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -25,8 +26,11 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 			}
+			xinan_region = {
+				type = all
+				owned_by = ROOT
+			}
 			NOT = { exists = SIA }
-			NOT = ( exists = CDL }
 		}
 		effect = {
 			add_prestige = 25
