@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = sichuanese
+capital = 679	#Chengdu
+
+1444.1.1 = {
+	monarch = {
+		name = "Shang"
+		dynasty = "Zheng"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

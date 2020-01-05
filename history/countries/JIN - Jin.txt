@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = jin
+capital = 693	#Taiyuan
+
+1444.1.1 = {
+	monarch = {
+		name = "Youshan"
+		dynasty = "Bai"
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}
