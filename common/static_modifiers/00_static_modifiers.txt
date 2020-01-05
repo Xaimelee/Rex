@@ -1259,18 +1259,21 @@ divert_trade = {
 
 karma_just_right =
 {
-	diplomatic_reputation = 2
-	discipline = 0.05
+	discipline = 0.025
 }
 
 karma_too_high =
 {
-	diplomatic_reputation = 1
+	global_tax_modifier = 0.15
+	global_autonomy = -0.05
+	prestige = 0.5
 }
 
 karma_too_low =
 {
-	discipline = 0.025
+	discipline = 0.05
+	army_tradition = 0.25
+	defensiveness = 0.1
 }
 
 ########################################
