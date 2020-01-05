@@ -7546,8 +7546,8 @@ MED_ideas = {
 
 CDL_ideas = {
 	start = {
-		tolerance_heretic = 2
-		global_manpower_modifier = 0.1
+		land_morale = 0.1
+		global_manpower_modifier = 0.15
 	}
 
 	bonus = {
@@ -7559,17 +7559,19 @@ CDL_ideas = {
 	}
 	free = yes
 	
+	cdl_confucian_influences = {
+		global_tax_modifier = 0.15
+	}
 	cdl_renovate_the_city_of_jumie = {
-		prestige = 1
+		prestige = 0.5
+		legitimacy = 1
 	}
 	cdl_tea_horse_route = {
-		caravan_power = 0.2
-	}
-	cdl_confucian_influences = {
-		global_tax_modifier = 0.1
+		caravan_power = 0.15
 	}
 	cdl_buddhas_teachings = {
 		global_unrest = -1
+		tolerance_heretic = 2
 	}
 	cdl_benzhu_worship = {
 		stability_cost_modifier = -0.1
