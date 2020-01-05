@@ -69,7 +69,7 @@ capital = 682	# Wuchang
 
 1405.1.1 = { leader = {	name = "Zheng He"	type = explorer	fire = 1	shock = 1	manuever = 6	siege = 0	death_date = 1433.1.1 } }
 
-1421.1.1 = { capital = 1816 } # Beijing
+#1421.1.1 = { capital = 1816 } # Beijing
 
 1424.8.12 = {
 	monarch = {
