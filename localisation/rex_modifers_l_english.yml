@@ -4,6 +4,7 @@
  rex_japan_dev_penalty_i:0 "Japanese Isolationism"
  rex_japan_dev_penalty_ii:0 "Japanese Isolationism"
  rex_japan_dev_penalty_iii:0 "Japanese Isolationism"
+ rex_china_trade_province:0 "Chinese Tradeports"
 #AP Stratagems
  traditional_stratagem:0 "Traditional Stratagem"
  strategic_stratagem:0 "Strategic Stratagem"
