@@ -3323,11 +3323,10 @@ GEO_ideas = {
 javan_ideas = {
 	start = {
 		tolerance_heathen = 2
-		prestige_decay = -0.01	
-	}
+		infantry_power = 0.1
 	
 	bonus = {
-		naval_maintenance_modifier = -0.2
+		naval_maintenance_modifier = -0.1
 	}
 	
 	trigger = {
@@ -3339,17 +3338,18 @@ javan_ideas = {
 	free = yes
 	
 	candi_shrines = {
-		religious_unity = 0.20
+		religious_unity = 0.25
 	}
 	indianization = {
-		global_institution_spread = 0.1
+		global_institution_spread = 0.25
 	}
 	dharmasastra = {
 		global_missionary_strength = 0.02
+		missionaries = 1
 	}
 	pan_asian_trade = {
 		merchants = 1
-		trade_steering = 0.10
+		trade_steering = 0.15
 	}
 	bi_yearly_harvest = {
 		global_trade_goods_size_modifier = 0.10
