@@ -1,0 +1,90 @@
+#Hojo - Imagawa & Takeda
+alliance = {
+	first = HJO
+	second = IMG
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = HJO
+	second = TKD
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = IMG
+	second = TKD
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}
+
+#Shiba-Oda
+alliance = {
+	first = SBA
+	second = ODA
+	start_date = 1444.1.1
+	end_date = 1532.1.1
+}
+
+#Anti Uesugi Alliance
+alliance = {
+	first = STK
+	second = UTN
+	start_date = 1444.1.1
+	end_date = 1483.1.6
+}
+alliance = {
+	first = STK
+	second = CBA
+	start_date = 1444.1.1
+	end_date = 1483.1.6
+}
+alliance = {
+	first = UTN
+	second = CBA
+	start_date = 1444.1.1
+	end_date = 1483.1.6
+}
+
+#Hosokawa-Tokugawa
+alliance = {
+	first = HSK
+	second = TKG
+	start_date = 1444.1.1
+	end_date = 1478.1.1
+}
+
+#Hatakeyama-Tsutsui
+alliance = {
+	first = HSK
+	second = HTK
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+#Marriages
+royal_marriage = {
+	first = IMG
+	second = TKD
+	start_date = 1552.1.1
+	end_date = 1568.1.1
+}
+
+royal_marriage = {
+	first = HJO
+	second = TKD
+	start_date = 1553.1.1
+	end_date = 1568.1.1
+}
+
+royal_marriage = {
+	first = HJO
+	second = IMG
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}
+
+# Daimyo Vassals
+#1573.7.3 -> Oda
+#1600.10.21 -> Tokugawa
+
