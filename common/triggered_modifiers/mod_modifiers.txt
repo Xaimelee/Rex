@@ -75,3 +75,19 @@ rise_of_player_india = {
 	global_tax_income = 12
 	ae_impact = -0.10
 }
+
+rex_ming = {
+	potential = {
+		tag = MNG
+	}
+	trigger = {
+		tag = MNG
+	}
+	
+	manpower_recovery_speed = 0.25
+	land_forcelimit_modifier = 0.25
+	global_unrest = -10
+	global_manpower_modifier = 0.25
+	land_maintenance_modifier = -0.25
+	discipline = -0.05
+}
