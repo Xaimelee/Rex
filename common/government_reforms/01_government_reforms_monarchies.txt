@@ -178,21 +178,7 @@ indep_daimyo = {
 	icon = "samurai"
 	allow_normal_conversion = no
 	potential = {
-		NOT = { has_country_flag = formed_japan_flag }
-		OR = {
-			AND = {
-				OR = {
-					is_subject = no
-					overlord = { NOT = { has_reform = shogunate } }
-				}
-				capital_scope = { region = japan_region }
-				culture_group = japanese_g
-			}
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = indep_daimyo
-			}
-		}
+		has_reform = indep_daimyo
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -205,9 +191,8 @@ indep_daimyo = {
 	maintain_dynasty = yes
 
 	modifiers = {
-		land_morale = 0.1
 		infantry_power = 0.1
-		max_states = -3
+		max_states = -5
 	}
 	custom_attributes = {
 		locked_government_type = yes
