@@ -3326,7 +3326,7 @@ javan_ideas = {
 		infantry_power = 0.1
 	}
 	bonus = {
-		naval_maintenance_modifier = -0.1
+		colonists = 1
 	}
 	
 	trigger = {
