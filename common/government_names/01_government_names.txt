@@ -340,17 +340,35 @@ gov_indep_daimyo = {
 
 gov_shogunate = {
 	rank = {
-		2 = SHOGUNATE
+		3 = EMPIRE
+		2 = KINGDOM
+		1 = DAIMYO
 	}
 
 	ruler_male = {
-		2 = SHOGUN
+		3 = SHOGUN
+		2 = KING
+		1 = LORD		
 	}
 	
 	ruler_female = {
-		2 = SHOGUNESS
+		3 = SHOGUNESS
+		2 = QUEEN
+		1 = LADY		
 	}
 	
+	consort_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+	}
+
+	consort_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+	}
+
 	trigger = {
 		has_reform = shogunate
 	}

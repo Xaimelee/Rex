@@ -429,7 +429,7 @@ japanese_shogunate = {
 	trigger = {
 		tag = JAP
 		government = monarchy
-		NOT = { has_reform = shogunate }
+		#NOT = { has_reform = shogunate }
 	}
 }
 
