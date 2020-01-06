@@ -12,17 +12,19 @@ on_startup = {
 		}
 		remove_country_modifier = tur_janissary
 	}
-	#if = {
-	#    limit = {
-	#	    is_year = 1444
-	#	}
-	#	every_province = { 
-	#	    add_building = naval_infras_base
-	#		add_building = industry_infras_base
-	#		add_building = military_infras_base
-	#		add_building = government_infras_base
-	#	}
-	#}
+	if = {
+	    limit = {
+		    is_year = 1444
+		}
+		japan_region = {
+			every_province = { 
+				add_permanent_province_modifier = {
+					name = rex_japan_dev_penalty_i
+					duration = -1
+				}
+			}
+		}
+	}
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
 }
 
