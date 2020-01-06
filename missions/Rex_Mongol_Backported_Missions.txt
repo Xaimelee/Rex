@@ -109,21 +109,11 @@ mongol_missions_1 = {
 		provinces_to_highlight = {
 			OR = {
 				region = xinan_region
-				region = south_china_region
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = "reconquer_china_tt"
-				num_of_owned_provinces_with = {
-					OR = {
-						region = xinan_region
-						region = south_china_region
-					}
-					value = 40
-				}
-			}
+			region = xinan_region
 		}
 		effect = {
 			if = {
