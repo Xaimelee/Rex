@@ -152,8 +152,7 @@ daimyo = {
 	icon = "daimyo"
 	allow_normal_conversion = no
 	potential = {
-		NOT = { has_country_flag = formed_japan_flag }
-		overlord = { has_reform = shogunate }
+		always = no
 	}
 	legacy_equivalent = daimyo_legacy
 	fixed_rank = 1
