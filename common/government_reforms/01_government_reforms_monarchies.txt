@@ -120,20 +120,7 @@ shogunate = {
 	icon = "shogunate"
 	allow_normal_conversion = yes
 	potential = {
-		NOT = { has_country_flag = formed_japan_flag }
-		OR = {
-			AND = {
-				capital_scope = {
-					province_id = 1020
-				}
-				culture_group = japanese_g
-				NOT = { exists = JAP }
-			}
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = shogunate
-			}
-		}
+		has_reform = shogunate
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
@@ -144,16 +131,16 @@ shogunate = {
 		owns = 1020
 	}
 	legacy_equivalent = shogunate_legacy
-	fixed_rank = 2
+	#fixed_rank = 2
 	maintain_dynasty = yes
-	allow_vassal_war = yes
-	allow_vassal_alliance = yes
+	#allow_vassal_war = yes
+	#allow_vassal_alliance = yes
 	lock_level_when_selected = yes
 
 	modifiers = {
-		diplomats = 1
-		envoy_travel_time = -0.25
-		max_absolutism = 5
+		max_states = 3
+		core_creation = -0.1
+		administrative_efficiency = 0.05
 	}
 
 	custom_attributes = {
