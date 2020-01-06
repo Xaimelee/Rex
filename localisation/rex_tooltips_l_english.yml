@@ -25,3 +25,6 @@
  rex_stratagem_restrictions:0 "You may only have 2 stratagems active at the same time while conscription has not been enacted."
 #Mission Tooltips
  rex_burgundy_subjects_tooltip:0 "All subjects have less than 20% Liberty Desire."
+#Japan Tooltips
+ rex_japan_tooltip_i:0 "Forming Japan will decrease the penalties to development cost in the Japan region."
+ rex_japan_tooltip_ii:0 "Completing this mission will remove the penalties to development cost in the Japan region."

@@ -209,9 +209,9 @@ quantity_stratagem = {
 ## Japan Dev Penalties
 
 rex_japan_dev_penalty_i = {
-	local_development_cost = 0.20
+	local_development_cost = 0.30
 }
 
 rex_japan_dev_penalty_ii = {
-	local_development_cost = 0.10
+	local_development_cost = 0.15
 }

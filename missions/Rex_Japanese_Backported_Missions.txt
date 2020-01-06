@@ -168,6 +168,99 @@ japanse_missions_sea = {
 			}
 		}
 	}
+	rex_jap_asia = {
+		icon = mission_japanese_samurai
+		required_missions = { }
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {
+				region = japan_region
+				region = korea_region
+				region = manchuria_region
+				region = moluccas_region
+				region = indonesia_region
+				area = taiwan_area
+				area = guangdong_area
+				area = fujian_area
+				area = zhejiang_area
+				area = south_jiangsu_area
+				area = hebei_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			japan_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			korea_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			manchuria_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			moluccas_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			indonesia_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			taiwan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			guangdong_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			fujian_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			zhejiang_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			south_jiangsu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			hebei_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 25
+			add_navy_tradition = 25
+			add_army_tradition = 25
+			custom_tooltip = rex_japan_tooltip_ii
+			hidden_effect = {
+				japan_region = {
+					every_province = { 
+						remove_province_modifier = rex_japan_dev_penalty_ii
+					}
+				}
+			}
+		}
+	}
 }
 
 japanse_missions_china = {
