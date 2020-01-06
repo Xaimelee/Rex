@@ -33,7 +33,15 @@ country_decisions = {
 			OR = {
 				region = indonesia_region
 				region = malaya_region
-				region = moluccas_region
+				area = south_sulawesi_area
+				area = sulawesi_area
+				area = west_mindanao_area
+				area = mindanao_area
+				area = visayas_area
+				area = southern_luzon_area
+				area = luzon_area
+				area = palawan_area
+				area = timor_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -55,7 +63,47 @@ country_decisions = {
 				is_core = ROOT
 				owned_by = ROOT
 			}
-			moluccas_region = {
+			south_sulawesi_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			sulawesi_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			west_mindanao_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			mindanao_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			visayas_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			southern_luzon_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			luzon_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			palawan_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			timor_area = {
 				type = all
 				is_core = ROOT
 				owned_by = ROOT
