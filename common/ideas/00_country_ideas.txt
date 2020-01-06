@@ -963,7 +963,7 @@ HUN_ideas = {
 
 JAP_ideas = {
 	start = {
-		stability_cost_modifier = -0.1
+		land_morale = 0.15
 		discipline = 0.05
 	}
 	
@@ -993,7 +993,7 @@ JAP_ideas = {
 		prestige = 1
 	}
 	jap_kaitakudan = {
-		global_colonial_growth = 25
+		global_colonial_growth = 10
 		colonists = 1
 	}
 	jap_great_power_diplomacy = {
