@@ -32,6 +32,17 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
+			hidden_effect = {
+				japan_region = {
+					every_province = { 
+						add_permanent_province_modifier = {
+							name = rex_japan_dev_penalty_ii
+							duration = -1
+						}
+						remove_province_modifier = rex_japan_dev_penalty_i
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
