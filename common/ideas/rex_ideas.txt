@@ -1,3 +1,49 @@
+#Malaya
+
+MSA_ideas = {
+	start = {
+		naval_morale = 0.1
+		global_ship_cost = -0.1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = MSA
+	}
+	free = yes
+	
+	rex_indian_ocean_trade = {
+		merchants = 1
+		trade_steering = 0.25
+	}
+	rex_sufi_legacy = {
+		infantry_power = 0.10
+		movement_speed_onto_off_boat_modifier = -0.25
+	}
+	rex_mal_spice_islands = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	rex_classical_malay = {
+		idea_cost = -0.1
+		technology_cost = -0.05
+	}
+	rex_trading_fleets = {
+		ship_durability = 0.05
+		sailor_maintenance_modifer = -0.15
+	}
+	rex_heirs_of_pasai = {
+		prestige = 1
+		development_cost = -0.1
+	}
+	rex_settle_the_islands = {
+		global_colonial_growth = 10
+		colonists = 1
+	}
+}
+
 #Siam
 
 SIA_ideas = {
