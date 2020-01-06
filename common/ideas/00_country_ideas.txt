@@ -8789,20 +8789,21 @@ HSK_ideas = {
 	}
 	
 	bonus = {
-		global_institution_spread = 0.1
+		global_institution_spread = 0.25
 	}
 
 	trigger = {
 		tag = HSK
 	}
 	free = yes
-	
-	hsk_kanrei = {
-		legitimacy = 1
-	}
+
 	
 	hsk_branches_and_retainers = {
 		global_unrest = -1
+	}
+	
+	hsk_horeki_reform = {
+		global_tax_modifier = 0.15
 	}
 	
 	hsk_sakai_city = {
@@ -8810,19 +8811,19 @@ HSK_ideas = {
 	}
 	
 	hsk_leader_of_eastern_army = {
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.15
 	}
 	
 	hsk_ashigaru = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.15
 	}
 	
 	hsk_yamabushi = {
-		spy_offence = 0.2
+		spy_offence = 0.25
 	}
 	
-	hsk_horeki_reform = {
-		development_cost = -0.1
+	hsk_kanrei = {
+		legitimacy = 1
 	}
 	
 }
