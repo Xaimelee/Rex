@@ -33,6 +33,11 @@ country_decisions = {
 				region = central_asia_region
 				region = mongolia_region
 				region = manchuria_region
+				area = hebei_area
+				area = shanxi_area
+				area = shaanxi_area
+				area = gansu_area
+				area = west_gansu_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -55,6 +60,31 @@ country_decisions = {
 				is_core = ROOT
 			}
 			manchuria_region = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			hebei_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			shanxi_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			shaanxi_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			gansu_area = {
+			    type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			west_gansu_area = {
 			    type = all
 				owned_by = ROOT
 				is_core = ROOT
