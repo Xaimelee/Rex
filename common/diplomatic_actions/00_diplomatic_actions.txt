@@ -72,6 +72,18 @@
 # counterespionage
 # abandon_union_action
 
+warningaction = {
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 offermilaccess = {
 	condition = {
 		tooltip = rex_ming_restriction
@@ -397,6 +409,14 @@ support_independence_action = {
 		}
 		allow = {
 			always = no
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+		}
+		allow = {
+			FROM = { NOT = { tag = MNG } }
 		}
 	}
 }
