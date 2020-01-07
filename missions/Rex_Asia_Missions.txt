@@ -1,0 +1,122 @@
+rex_dali_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CDL
+			tag = CXI
+		}
+	}
+	has_country_shield = yes
+	#
+	rex_dali_1 = {
+		icon = mission_chinese_general_riding
+		required_missions = { }
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			army_size_percentage = 1
+			num_of_generals = 1
+			stability = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = r_dali_northern_conquest
+				duration = 3650 #10 Years
+			}
+			sichuan_area = {
+				add_claim = ROOT
+			}
+			chuanbei_area = {
+				add_claim = ROOT
+			}
+		}
+	}
+	#
+	rex_dali_2 = {
+		icon = mission_japanese_fort
+		required_missions = { rex_dali_1 }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = sichuan_area
+				area = chuanbei_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			sichuan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			chuanbei_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			gansu_area = {
+				add_claim = ROOT
+			}
+			shaanxi_area = {
+				add_claim = ROOT
+			}
+			shanxi_area = {
+				add_claim = ROOT
+			}
+			2169 = {
+				add_building = fort_15th
+			}
+		}
+	}
+	#
+	rex_dali_3 = {
+		icon = mission_great_wall
+		required_missions = { rex_dali_2 }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = gansu_area
+				area = shaanxi_area
+				area = shanxi_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			gansu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			shaanxi_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			shanxi_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			ordos_area = {
+				add_claim = ROOT
+			}
+			inner_mongolia_area = {
+				add_claim = ROOT
+			}
+			hebei_area = {
+				add_claim = ROOT
+			}
+			add_army_tradition = 15
+		}
+	}
+}

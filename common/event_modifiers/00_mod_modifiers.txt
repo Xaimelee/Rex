@@ -4,6 +4,13 @@
 
 ## Missions
 
+## Xi
+
+r_dali_northern_conquest = {
+	province_warscore_cost = -0.20
+	core_creation = -0.1
+}
+
 ## Qara
 
 r_qara_aggression = {
