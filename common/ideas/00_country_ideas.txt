@@ -12652,7 +12652,7 @@ TUN_ideas = {
 		galley_power = 0.2		
 	}
 	bonus = {
-		shock_damage = 0.10
+		discipline = 0.05
 	}
 	trigger = {
 		tag = TUN
@@ -12660,7 +12660,7 @@ TUN_ideas = {
 	free = yes
 	tun_catalan_guard = {
 		infantry_power = 0.10
-		movement_speed_onto_off_boat_modifier = -0.25
+		movement_speed_onto_off_boat_modifier = -0.15
 	}
 	dual_diplomacy = {
 		naval_forcelimit_modifier = 0.25
@@ -12670,6 +12670,7 @@ TUN_ideas = {
 	}
 	tun_board_of_captains = {
 		leader_land_shock = 1
+		shock_damage = 0.10
 	}
 	corsairs = {
 		navy_tradition = 0.5
