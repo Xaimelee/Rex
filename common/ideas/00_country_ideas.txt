@@ -7087,12 +7087,12 @@ ORL_ideas = {
 
 ORM_ideas = {
 	start = {
-		merchants = 1
-		global_foreign_trade_power = 0.1
+		trade_steering = 0.15
+		cavalry_cost = -0.1
 	}
 
 	bonus = {
-		sailor_maintenance_modifer = -0.1
+		sunk_ship_morale_hit_recieved = -0.1
 	}
 	
 	trigger = {
@@ -7104,10 +7104,10 @@ ORM_ideas = {
 		trade_efficiency = 0.1
 	}
 	orm_protecting_the_islands = {
-		defensiveness = 0.2
+		defensiveness = 0.15
 	}
 	orm_moqarrariya = {
-		stability_cost_modifier = -0.1
+		cavalry_power = 0.15
 	}
 	orm_far_reaching_diplomacy = {
 		diplomatic_upkeep = 1
