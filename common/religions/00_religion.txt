@@ -1497,7 +1497,17 @@ zoroastrian_group = {
 			tolerance_own = 1
 		}
 		
-		heretic = { MAZDAKI MANICHEAN }	
+		heretic = { MAZDAKI MANICHEAN }
+		
+		holy_sites = { 4332 4341 377 450 4294 }
+		blessings = {
+			
+			rex_zoro_i
+			rex_zoro_ii
+			rex_zoro_iii
+			rex_zoro_iv
+			rex_zoro_v
+		}
 	}
 	
 	harmonized_modifier = harmonized_zoroastrian_group

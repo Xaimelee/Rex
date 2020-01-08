@@ -1,0 +1,64 @@
+rex_zoro_i = {
+	is_blessing = yes
+
+	modifier = {
+		infantry_power = 0.1
+		reinforce_cost_modifier = 2.0
+		
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+rex_zoro_ii = {
+	is_blessing = yes
+
+	modifier = {
+		global_unrest = 1
+		global_manpower_modifier = 0.15
+		
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+rex_zoro_iii = {
+	is_blessing = yes
+
+	modifier = {
+		cavalry_cost = 0.20
+		cavalry_power = 0.15
+		
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+rex_zoro_iv = {
+	is_blessing = yes
+
+	modifier = {
+		core_creation = -0.15
+		ae_impact = 0.10
+		
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+rex_zoro_v = {
+	is_blessing = yes
+
+	modifier = {
+		defensiveness = 0.15
+		fort_maintenance_modifier = 0.1
+		
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
