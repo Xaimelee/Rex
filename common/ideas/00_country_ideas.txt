@@ -5721,24 +5721,24 @@ KHM_ideas = {
 	}
 	free = yes
 	
+	khm_river_trade = {
+		trade_efficiency = 0.1
+	}
 	preah_ko_preah_keo = {
 		land_morale = 0.1
-	}
-	khm_theravada = {
-		tolerance_heathen = 2
 	}
 	khm_cham_migration = {
 		navy_tradition = 0.5
 		naval_tradition_from_battle = 0.5
 	}
-	khm_river_trade = {
-		trade_efficiency = 0.1
+	khm_restore_angkor = {
+		prestige = 0.5
 	}
 	khm_european_mercenaries = {
 		discipline = 0.05
 	}
-	khm_restore_angkor = {
-		prestige = 0.5
+	khm_theravada = {
+		tolerance_heathen = 3
 	}
 	khm_modern_navy = {
 		ship_durability = 0.05
