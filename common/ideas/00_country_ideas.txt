@@ -1734,7 +1734,7 @@ NOV_ideas = {
 ETH_ideas = {
 	start = {
 		missionaries = 1
-		land_morale = 0.10
+		manpower_recovery_speed = 0.15
 	}
 	
 	bonus = {
@@ -1749,7 +1749,7 @@ ETH_ideas = {
 		prestige = 1
 	}
 	nagusa_negast = {
-		manpower_recovery_speed = 0.15
+		land_morale = 0.15
 		infantry_cost = -0.1
 	}
 	diplomatic_demeanor = {
@@ -1757,14 +1757,13 @@ ETH_ideas = {
 		legitimacy = 1
 	}
 	hostile_borders = {
-		defensiveness = 0.10
-		fort_maintenance_modifier = -0.10
+		defensiveness = 0.15
 	}
 	the_ark_of_the_covenant = {
 		global_autonomy = -0.05
 	}
 	eth_expansionist_policy = {
-		core_creation = -0.10
+		core_creation = -0.15
 		max_states = 3
 	}
 	eth_reformed_armies = {
