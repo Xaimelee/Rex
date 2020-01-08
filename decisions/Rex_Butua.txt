@@ -48,6 +48,7 @@ country_decisions = {
 				is_core = ROOT
 			}
 			NOT = { exists = RZW }
+			adm_tech = 10
 		}
 		effect = {
 			add_prestige = 25
