@@ -234,7 +234,7 @@ BRA_ideas = {
 	}
 	
 	bonus = {
-		discipline = 0.05
+		shock_damage_received = -0.10
 	}
 	
 	trigger = {
@@ -255,7 +255,6 @@ BRA_ideas = {
 		vassal_income = 0.25
 	}
 	rex_divided_estates = {
-		shock_damage_received = -0.10
 		shock_damage = 0.10
 	}
 	rex_noble_cadets = {
