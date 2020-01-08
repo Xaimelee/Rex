@@ -35,7 +35,7 @@ traditional_ideas = {
 	international_nobility = {
 		infantry_power = 0.10
 	}
-	noble_resilience = {
+	rex_noble_resilience = {
 		recover_army_morale_speed = 0.10
 	}
 	
@@ -77,7 +77,7 @@ offensive_ideas = {
     superior_firepower = {
 		land_attrition = -0.10
 	}
-	napoleonic_warfare = {
+	rex_napoleonic_warfare = {
 		leader_land_manuever = 1
 		movement_speed = 0.10
 	}
@@ -114,7 +114,7 @@ defensive_ideas = {
 	supply_trains = {
 		fire_damage_received = -0.10
 	}
-	improved_foraging = {
+	rex_improved_foraging = {
 		global_manpower_modifier = 0.10
 	}
 
@@ -150,7 +150,7 @@ quality_ideas = {
 		land_morale = 0.05
 		naval_morale = 0.05
 	}
-	finest_of_horses = {
+	rex_finest_of_horses = {
 		drill_decay_modifier = -0.1
 	}
 
@@ -186,7 +186,7 @@ quantity_ideas = {
 	expanded_supply_trains = {
 		land_attrition = -0.1
 	}
-	the_old_and_infirm = {
+	rex_the_old_and_infirm = {
 		land_maintenance_modifier = -0.1
 		naval_maintenance_modifier = -0.1
 	}
@@ -225,7 +225,7 @@ strategic_ideas = {
 	free_merchants = {
 		artillery_power = 0.10
 	}
-	bill_of_rights = {
+	rex_bill_of_rights = {
 		possible_mil_policy = 1
 		mil_advisor_cost = -0.15
 	}
