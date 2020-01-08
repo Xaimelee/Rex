@@ -13,8 +13,8 @@ religious_school = maliki_school
 		name = "Fakhr al-Din"
 		dynasty = "Turani"
 		dip = 4
-		mil = 2
-		adm = 2
+		mil = 3
+		adm = 4
 	}
 	add_piety = 0.1
 }
