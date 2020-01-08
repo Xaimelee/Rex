@@ -60,8 +60,8 @@
  building_naval_right_3:0 "Naval Logistic Infrastructure [III]"
  building_naval_right_3_desc:0 "§YThis building is mutually exclusive with §!§RNaval Conscript Infrastructure [I] [II] [III].§!"
 #Forts
- building_fort_15th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§!"
- building_fort_16th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§!"
- building_fort_17th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§!"
- building_fort_18th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§!"
+ building_fort_15th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§! §RConquering a province with a fort constructed in it will result in the fort being destroyed.§!"
+ building_fort_16th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§! §RConquering a province with a fort constructed in it will result in the fort being destroyed.§!"
+ building_fort_17th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§! §RConquering a province with a fort constructed in it will result in the fort being destroyed.§!"
+ building_fort_18th_desc:0 "§YThis building can only be constructed §!§Gonce§!§Y per state.§! §RConquering a province with a fort constructed in it will result in the fort being destroyed.§!"
 #Tooltips
