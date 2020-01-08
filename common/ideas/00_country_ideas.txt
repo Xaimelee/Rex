@@ -3390,17 +3390,16 @@ AFG_ideas = {
 	}
 	afghan_diaspora = {
 		diplomatic_reputation = 1
-		diplomatic_annexation_cost = -0.1
+		vassal_forcelimit_bonus = 0.25
 	}
 	shadows_of_the_hindu_kush = {
-		defensiveness = 0.10
-		fort_maintenance_modifier = -0.10
+		defensiveness = 0.15
 	}
 	tureh = {
 		land_morale = 0.1
 	}
 	institutionalized_loya_jirga = {
-		legitimacy = 1
+		development_cost = -0.1
 	}
 	graveyard_of_empires = {
 		hostile_attrition = 1
