@@ -91,7 +91,7 @@ country_decisions = {
 	westfalian_nation = {
 		major = yes
 		potential = {
-			tag = HES
+			always = no
 		}
 		provinces_to_highlight = {
 			OR = {
