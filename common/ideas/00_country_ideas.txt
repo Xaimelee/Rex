@@ -146,7 +146,7 @@ MOS_ideas = {
 	}
 	descendants_of_byzantine_emperors = {
 		diplomatic_reputation = 1
-		diplomatic_annexation_cost = -0.1
+		diplomatic_annexation_cost = -0.15
 	}
 	seat_of_metropolitan_bishop  = {
 		tolerance_own = 1
