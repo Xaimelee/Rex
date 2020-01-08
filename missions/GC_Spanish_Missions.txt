@@ -312,31 +312,14 @@ gc_spain_2 = {
 
 		trigger = {
 			210 = {
-				country_or_non_sovereign_subject_holds = ROOT
+				has_building = fort_15th
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					210 = {
-						NOT = {
-							OR = {
-								has_building = fort_15th
-								has_building = fort_16th
-								has_building = fort_17th
-								has_building = fort_18th
-							}
-						}
-					}
-				}
-				210 = {
-					add_building = fort_15th
-				}
-			}
 			210 = {
 				add_province_modifier = {
 					name = "fortified_navarra"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
