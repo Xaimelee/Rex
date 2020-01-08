@@ -12,9 +12,9 @@ religious_school = maliki_school
 	monarch = {
 		name = "Fakhr al-Din"
 		dynasty = "Turani"
-		dip = 4
+		dip = 6
 		mil = 3
-		adm = 4
+		adm = 5
 	}
 	add_piety = 0.1
 }
