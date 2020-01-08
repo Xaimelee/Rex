@@ -957,7 +957,7 @@ central_indic_ideas = { #Gond Ideas
 
 swahili_ideas = {
 	start = {
-		defensiveness = 0.15
+		land_morale = 0.1
 		global_ship_cost = -0.1
 	}
 
