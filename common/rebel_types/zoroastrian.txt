@@ -133,27 +133,8 @@ zoroastrian_rebels = {
 		custom_tooltip = religious_rebels_seige_effect_tooltip
 			hidden_effect = {
 			if = {
-				limit = {
-					OR = {
-						religion = zoroastrian
-						is_reformation_center = yes
-						owner = { religion = zoroastrian }
-					}
-				}
 				add_province_modifier = {
 					name = "religious_violence"
-					duration = 730
-				}
-			}
-			if = {
-				limit = {
-					NOT = { religion = zoroastrian }
-					is_reformation_center = no
-					NOT = { owner = { religion = zoroastrian } }
-				}
-				change_religion = zoroastrian
-				add_province_modifier = {
-					name = "forced_conversion"
 					duration = 730
 				}
 			}
@@ -205,16 +186,6 @@ zoroastrian_rebels = {
 				name = "religious_intolerance_enforced"
 				duration = 3650
 			}
-		}
-		
-		else_if = {
-			limit = {
-				NOT = { religion = zoroastrian }
-				dominant_religion = zoroastrian
-				NOT = { tag = PAP }
-			}
-			change_religion = zoroastrian
-			force_converted = yes
 		}
 		else = { add_stability = -1 }
 		if = {
