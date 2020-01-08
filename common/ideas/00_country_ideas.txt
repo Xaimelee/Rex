@@ -8199,17 +8199,17 @@ MLW_ideas = {
 		prestige = 0.5
 	}
 	mlw_fortified_strongholds = {
-		defensiveness = 0.10
-		fort_maintenance_modifier = -0.10
+		defensiveness = 0.15
 	}
 	mlw_black_soil = {
 		global_trade_goods_size_modifier = 0.1
+		build_cost = -0.05
 	}
 	mlw_reliance_on_jain_bankers = {
 		inflation_reduction = 0.1
 	}
 	mlw_surat_delhi_route = {
-		global_prov_trade_power_modifier = 0.1
+		global_trade_power = 0.1
 	}
 }
 
