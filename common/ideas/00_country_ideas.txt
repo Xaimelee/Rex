@@ -8105,7 +8105,7 @@ RZW_ideas = {
 	free = yes
   
 	rzw_legacy_of_zimbabwe = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	rzw_strict_gold_regulations = {
 		inflation_reduction = 0.1
@@ -8124,7 +8124,7 @@ RZW_ideas = {
 	}
 	rzw_vashambadzi = {
 		core_creation = -0.15
-		max_states = 5
+		max_states = 3
 	}
 }
 
