@@ -147,7 +147,7 @@ technology = {
 	infantry_fire 		= 	0.20
 	
 	
-	barracks = yes
+	#barracks = yes
 
 
 	enable = african_somali_cavalry
@@ -187,7 +187,7 @@ technology = {
 	cavalry_shock		=	0.8
 
 	
-	regimental_camp = yes
+	#regimental_camp = yes
 }
 
 technology = {
@@ -363,7 +363,7 @@ technology = {
 	artillery_fire 		= 	1.0	
 
 
-	training_fields = yes
+	#training_fields = yes
 	
 	combat_width = 1
 	
@@ -467,7 +467,7 @@ technology = {
 	
 	combat_width = 2
 	
-	conscription_center = yes
+	#conscription_center = yes
 
 	
 	enable = polish_winged_hussar	

@@ -714,8 +714,12 @@ tau_slot_4 = {
 		required_missions = { tau_universal_ruler }
 		trigger = {
 			OR = {
-				temple = 15
-				cathedral = 15
+				government_left_1 = 10
+				government_left_2 = 10
+				government_left_3 = 10
+				government_right_1 = 10
+				government_right_2 = 10
+				government_right_3 = 10
 			}
 			estate_influence = {
 				estate = estate_church

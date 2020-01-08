@@ -213,7 +213,7 @@ mlw_slot_3 = {
 			}
 		}
 		effect = {
-			prestige = 20
+			add_prestige = 20
 			gird_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -560,7 +560,14 @@ mlw_slot_5 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			temple = 10
+			OR = {
+				government_left_1 = 5
+				government_left_2 = 5
+				government_left_3 = 5
+				government_right_1 = 5
+				government_right_2 = 5
+				government_right_3 = 5
+			}
 		}
 		effect = {
 			add_prestige = 20
@@ -573,7 +580,6 @@ mlw_slot_5 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			university = 5
 			natural_scientist = 3
 		}
 		effect = {

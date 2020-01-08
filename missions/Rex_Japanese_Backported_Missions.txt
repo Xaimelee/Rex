@@ -336,13 +336,13 @@ japanse_missions_china = {
 				}
 				add_permanent_claim = ROOT
 			}
-			furdan_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
+			#furdan_area = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			pyongan_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -373,7 +373,7 @@ japanse_missions_china = {
 			OR = {
 				area = ningguta_area
 				area = central_jilin_area
-				area = furdan_area
+				#area = furdan_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -392,10 +392,10 @@ japanse_missions_china = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			furdan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			#furdan_area = {
+			#	type = all
+			#	country_or_non_sovereign_subject_holds = ROOT
+			#}
 		}
 		effect = {
 			add_mil_power = 100

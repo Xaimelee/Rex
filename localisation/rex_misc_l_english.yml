@@ -29,3 +29,5 @@
  rex_zoro_iii:0 "Zoroastrian Noble Dominance"
  rex_zoro_iv:0 "Persian Hegemony"
  rex_zoro_v:0 "Reinforce the Frontier"
+ #Ages
+ rex_obj_universities:0 "Have 3 state unique buildings constructed."

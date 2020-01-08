@@ -63,7 +63,7 @@ cb_loan_cancelled = {
 	
 	prerequisites = {
 		FROM = {
-				NOT = { tag = MNG }
+			NOT = { tag = MNG }
 		}
 	}
 }
@@ -854,7 +854,8 @@ cb_tribal_feud = {
 		FROM = {
 			is_nomad = yes
 		}
-		is_neighbor_of = FROMFROM = {
+		is_neighbor_of = FROM
+		FROM = {
 			NOT = { tag = MNG }
 		}
 		is_revolution_target = no

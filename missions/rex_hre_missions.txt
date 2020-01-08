@@ -43,7 +43,7 @@ rex_become_protector = {
 			#	hidden = yes
 			#}
 			add_government_reform = rex_hreprotector_reform
-			add_country_flag = hreprotector
+			set_country_flag = hreprotector
 			every_elector  = {
 			    if = {
 				    limit = {

@@ -858,7 +858,6 @@ tr_novgorod_5 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			cathedral = 10
 			religious_unity = 1
 		}
 		effect = {

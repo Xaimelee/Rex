@@ -705,7 +705,6 @@ gen_hindu = {
 		}
 		
 		trigger = {
-			university = 5
 			has_institution = printing_press
 		}
 		
@@ -1601,7 +1600,14 @@ gen_north_india_4 = {
 				}
 			}
 			else = {
-				cathedral = 5
+				OR = {
+					government_left_1 = 10
+					government_left_2 = 10
+					government_left_3 = 10
+					government_right_1 = 10
+					government_right_2 = 10
+					government_right_3 = 10
+				}
 			}
 		}
 		
@@ -1687,8 +1693,12 @@ gen_south_india_4 = {
 		
 		trigger = {
 			OR = {
-				workshop = 10
-				counting_house = 10
+				industry_left_1 = 5
+				industry_left_2 = 5
+				industry_left_3 = 5
+				industry_right_1 = 5
+				industry_right_2 = 5
+				industry_right_3 = 5
 			}
 		}
 		

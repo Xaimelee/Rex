@@ -887,11 +887,6 @@ guj_mercantile_and_industry = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			OR = {
-				marketplace = 5
-				trade_depot = 5
-				stock_exchange = 5
-			}
 			ahmedabad_area = {
 				type = all
 				owned_by = ROOT

@@ -80,7 +80,7 @@ technology = { #Workshop
 	
 	#Workshop
 	farm_estate = yes
-	workshop = yes
+	#workshop = yes
 }
 
 technology = { #Renaissance Thought
@@ -95,7 +95,7 @@ technology = { #Courthouse
 	# Tech 8
 
 	year = 1505
-	courthouse = yes
+	#courthouse = yes
 	max_states = 3
 
 }
@@ -182,7 +182,7 @@ technology = { #University
 	# Tech 17
 	year = 1622
 	
-	university = yes	
+	#university = yes	
 	max_states = 5
 	
 	administrative_efficiency = 0.05
@@ -201,7 +201,7 @@ technology = { #Cathedral
 	year = 1648	
 	
 	#Cathedral
-	cathedral = yes
+	#cathedral = yes
 }
 
 technology = { #Absolute Rulership
@@ -229,7 +229,7 @@ technology = { #The Constitution
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
-	town_hall = yes
+	#town_hall = yes
 }
 
 technology = { #Measuring the World
@@ -244,7 +244,7 @@ technology = { #Bonds and Tontines
 	# Tech 24
 	year = 1715
 	
-	counting_house = yes  
+	#counting_house = yes  
 	max_states = 5
 }
 

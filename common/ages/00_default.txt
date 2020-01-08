@@ -491,8 +491,13 @@ age_of_absolutism = {
 			num_of_trade_companies = 3
 		}
 		
-		obj_universities = {
-			university = 10
+		rex_obj_universities = {
+			OR = {
+				military_infras_base = 3
+				industry_infras_base = 3
+				government_infras_base = 3
+				naval_infras_base = 3
+			}
 		}
 	
 		obj_large_forcelimit = {

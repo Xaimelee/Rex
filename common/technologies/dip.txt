@@ -60,7 +60,7 @@ technology = { #Marketplace
 	year = 1453
 		
 	trade_range	= 10
-	marketplace = yes 
+	#marketplace = yes 
 	
 	
 }
@@ -81,7 +81,7 @@ technology = { #Shipyards
 	# Tech 6
 	year = 1479
 	
-	dock = yes	
+	#dock = yes	
 	may_steal_maps = yes
 
 }
@@ -100,7 +100,7 @@ technology  = { #Docks
 	year = 1505
 	
 	num_accepted_cultures = 1
-	shipyard = yes
+	#shipyard = yes
 
 	trade_range				=	10
 	naval_morale			=	0.2
@@ -206,7 +206,7 @@ technology = { #Merchantman
 	range					=	50
 	
 	
-	trade_depot = yes 
+	#trade_depot = yes 
 
 
 	enable = merchantman
@@ -230,7 +230,7 @@ technology = { #The War Galleon
 	naval_maintenance		= 	0.02	
 	range					=	50
 	
-	drydock = yes 
+	#drydock = yes 
 	
 	
 	enable = wargalleon

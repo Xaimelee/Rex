@@ -981,7 +981,11 @@ mer_army_tree = {
 				estate = estate_rajput
 				loyalty = 70
 			}
-			barracks = 5
+			OR = {
+				military_left_1 = 5
+				military_left_2 = 5
+				military_left_3 = 5
+			}
 			livestock = 5
 		}
 		effect = {

@@ -672,7 +672,7 @@ ori_religious_missions = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			university = 5
+			is_year = 1650
 		}
 		effect = {
 			if = {
