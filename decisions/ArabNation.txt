@@ -1,0 +1,143 @@
+country_decisions = {
+	
+	arab_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_arabia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ARB }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			tag = ORM
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = medina_area
+				area = qasim_area
+				area = bahrain_area
+				area = mecca_area
+				area = yamamah_area
+				area = yemen_area
+				area = upper_yemen_area
+				area = tihama_al_yemen_area
+				area = hadramut_area
+				area = mahra_area
+				area = dhofar_area
+				area = oman_area
+				area = mascat_area
+				area = pirate_coast_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			adm_tech = 10
+			medina_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			qasim_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			bahrain_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			mecca_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			yamamah_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			yemen_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			upper_yemen_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			tihama_al_yemen_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			hadramut_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			mahra_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			dhofar_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			oman_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			mascat_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			pirate_coast_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_prestige = 25
+			set_country_flag = formed_arabia_flag
+			change_tag = ARB
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
