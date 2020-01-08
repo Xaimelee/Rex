@@ -116,6 +116,9 @@ feudalism = {
 					OR = {
 						tag = SHY
 						tag = KHA
+						tag = KON
+						tag = MAL
+						tag = SON
 					}
 				}
 			}
