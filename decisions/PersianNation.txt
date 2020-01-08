@@ -27,6 +27,7 @@ country_decisions = {
 				tag = KHO
 				tag = AFG
 				tag = QAR
+				tag = ORM
 			}
 			is_colonial_nation = no
 			OR = {
