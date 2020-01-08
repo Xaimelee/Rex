@@ -902,10 +902,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_ismaili"
 
-			horde_unity = 1
-			legitimacy = 1
-			republican_tradition = 0.5
-			devotion = 1
+			global_tax_modifier = 0.10
 		}
 		jafari_school = {
 			potential_invite_scholar = {
