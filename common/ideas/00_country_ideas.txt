@@ -1248,7 +1248,7 @@ MLO_ideas = {
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.15
 	}
 	
 	trigger = {
@@ -1265,7 +1265,7 @@ MLO_ideas = {
 		idea_cost = -0.1
 	}
 	patron_of_music = {
-		prestige = 1
+		prestige = 0.5
 	}
 	lowered_power_of_barons = {
 		development_cost = -0.1
