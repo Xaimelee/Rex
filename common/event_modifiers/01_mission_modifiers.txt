@@ -1921,7 +1921,7 @@ spa_plus_ultra = {
 }
 
 fortified_navarra = {
-	local_defensiveness = 0.2
+	local_defensiveness = 0.1
 }
 
 viceroyalty_of_new_spain = {
