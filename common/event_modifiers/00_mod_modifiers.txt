@@ -4,6 +4,15 @@
 
 ## Missions
 
+## Mongolia
+
+r_kha_restore_capital = {
+	local_development_cost = -0.4
+	local_manpower_modifier = 0.25
+	local_tax_modifier = 0.25
+	local_defensiveness = 0.1
+}
+
 ## Xi
 
 r_dali_northern_conquest = {
