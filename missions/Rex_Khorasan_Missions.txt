@@ -1,0 +1,34 @@
+rex_kho_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = KHO
+	}
+	has_country_shield = yes
+	#Isfahan
+	rex_kho_1 = {
+		icon = mission_persianate_empire
+		required_missions = { }
+		
+		provinces_to_highlight = {
+			area = isfahan_area
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			isfahan_area = {
+				type = all
+				owned_by = ROOT	
+				is_core = ROOT
+			}
+		}
+		effect = {
+			country_event = {
+				id = rex_events.200
+				days = -1
+			}
+			add_prestige = 10
+		}
+	}
+}

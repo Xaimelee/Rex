@@ -236,3 +236,58 @@ country_event = {
 		}
 	}
 }
+
+#Khorasan Zoroastrian
+
+country_event = {
+	id = rex_events.200
+	title = rex_events.200.title
+	desc = rex_events.200.desc
+	picture = REFORM_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Embrace Zoroastrian
+	option = {
+		name = rex_events.200.a	
+		change_religion = zoroastrian
+		add_government_reform = autocracy_reform
+		add_stability = -1
+		add_prestige = 15
+		ROOT = {
+			set_dynasty = Achaemenid
+		}
+		add_ruler_modifier = {
+			name = r_kho_zoroastrian
+			duration = -1
+		}
+		capital_scope = {
+			change_religion = zoroastrian
+			add_permanent_province_modifier = {
+				name = r_kho_zoroastrian_converted
+				duration = 3650 #10 Years
+			}
+		}
+	}
+	
+	#Destroy Zoroastrian
+	option = {
+		name = rex_events.200.b
+		add_years_of_income = 2
+		add_stability = 1
+		add_country_modifier = {
+			name = r_kho_destroy_zoroastrian
+			duration = 7300 #20 Years
+		}
+		every_owned_province = {
+			limit = {
+				religion = zoroastrian
+			}
+			change_religion = shiite
+			add_permanent_province_modifier = {
+				name = r_kho_zoroastrian_converted
+				duration = 3650 #10 Years
+			}
+		}
+	}
+}

@@ -1,4 +1,9 @@
 ﻿l_english:
+#Khorasan Zoroastrian
+ rex_events.200.title:0 "Question of Zoroastrian"
+ rex_events.200.desc:0 "With our ambition being to eventually unite all Persian people under one flag and religion. The Persian Empires of the ancient world followed the Zoroastrian religion, most notably the Achaemenid Empire. It would cause us great discontent to restore this once mighty religion to it's former glory but should we want to dominate the Middle East with an iron fist, perhaps this is the best choice."
+ rex_events.200.a:0 "Embrace Zoroastrian"
+ rex_events.200.b:0 "Eliminate Zoroastrian"
 #HRE Removal of Protector
  rex_events.10.title:0 "Fall of the Protector"
  rex_events.10.desc:0 "With much of our country having been seized by the traitors of the Empire, we have now been forced to abdicate our role of Protector. This is a dark day not only for $COUNTRY$ but also the entire Holy Roman Empire."

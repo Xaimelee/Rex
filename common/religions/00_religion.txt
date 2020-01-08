@@ -1499,7 +1499,7 @@ zoroastrian_group = {
 		
 		heretic = { MAZDAKI MANICHEAN }
 		
-		holy_sites = { 4332 4341 377 450 4294 }
+		holy_sites = { 4327 4341 377 450 4294 }
 		blessings = {
 			
 			rex_zoro_i
