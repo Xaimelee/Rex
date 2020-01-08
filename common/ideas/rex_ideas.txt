@@ -271,42 +271,6 @@ BRA_ideas = {
 
 #Colonial regions
 
-#Alaska
-
-alaska_region_ideas = {
-
-	start = {
-	}	
-	bonus = {
-	}
-	
-	trigger = {
-	    AND = {
-		    has_country_flag = cn_dominion
-			capital_scope = {
-			    colonial_region = colonial_alaska
-			}
-		}
-	}
-	
-	free = yes
-	
-	a_1 = {
-	}
-	a_2 = {
-	}
-	a_3 = {
-	}
-	a_4 = {
-	}
-	a_5 = {
-	}
-	a_6 = {
-	}
-	a_7 = {
-	}
-}
-
 #Canada
 
 canada_region_ideas = {
