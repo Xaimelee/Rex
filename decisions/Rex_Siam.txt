@@ -16,7 +16,7 @@ country_decisions = {
 				region = burma_region
 				region = xinan_region
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			indo_china_region = {
