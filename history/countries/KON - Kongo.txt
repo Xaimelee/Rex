@@ -20,24 +20,11 @@ capital = 1170	# M'banza Kongo
 	}
 }
 
-1399.1.1 = {
-	heir = {
-		name = "Nkuwu"
-		monarch_name = "Nkuwu"
-		dynasty = "Lukeni"
-		birth_date = 1390.1.1
-		death_Date = 1457.1.1
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 3
-	}
-}
-
 1419.1.1 = {
 	monarch = {
 		name = "Nkuwu"
 		dynasty = "Lukeni"
+		birth_date = 1418.1.1
 		adm = 4
 		dip = 5
 		mil = 3
