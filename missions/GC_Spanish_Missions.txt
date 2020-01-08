@@ -1220,34 +1220,57 @@ gc_spain_4 = {
 		trigger = {
 			valencia_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = ROOT
+				is_core = ROOT
 			}
 			catalonia_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = ROOT
+				is_core = ROOT
 			}
 			aragon_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 
 		effect = {
 			if = {
 				limit = {
-					exists = POR
-					is_subject = no
-					government = monarchy
-					religion_group = christian
-					POR = {
-						is_subject = no
-						government = monarchy
+					aragon_area = {
+						OR = {
+							NOT = { has_building = fort_15th }
+							NOT = { has_building = fort_16th }
+							NOT = { has_building = fort_17th }
+							NOT = { has_building = fort_18th }
+						}
+					}
+					catalonia_area = {
+						OR = {
+							NOT = { has_building = fort_15th }
+							NOT = { has_building = fort_16th }
+							NOT = { has_building = fort_17th }
+							NOT = { has_building = fort_18th }
+						}
+					}
+					valencia_area = {
+						OR = {
+							NOT = { has_building = fort_15th }
+							NOT = { has_building = fort_16th }
+							NOT = { has_building = fort_17th }
+							NOT = { has_building = fort_18th }
+						}
 					}
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = POR
+				211 = {
+					add_building = fort_15th
+				}
+				197 = {
+					add_building = fort_15th
+				}
+				220 = {
+					add_building = fort_15th
 				}
 			}
 			else = {
