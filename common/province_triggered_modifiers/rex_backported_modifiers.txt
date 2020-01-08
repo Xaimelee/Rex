@@ -1,0 +1,27 @@
+mongol_kurultai = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_global_flag = mongol_kurultai_flag
+	}
+	trigger = {
+		owner = {
+			OR = {
+				has_reform = steppe_horde
+				has_reform = great_mongol_state_reform
+				AND = {
+					government = monarchy
+					NOT = { is_emperor_of_china = yes }
+				}
+			}
+			OR = {
+				primary_culture = mongol
+				primary_culture = chahar
+				primary_culture = khalkha
+				primary_culture = oirats
+			}
+		}
+	}
+	
+	horde_unity = 1
+	legitimacy = 1
+}

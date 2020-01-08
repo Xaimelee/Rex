@@ -160,3 +160,6 @@
  desc_JAP_cadastral_surveys:0 "Surveying the countryside for unreported properties has revealed new sources of income for the government."
  desc_JAP_currency_regulations:0 "Secure loans have made it easier than ever to fund new construction projects across the country."
  desc_JAP_sengoku_contender:1 "Among all the warring realms, we have proven ourselves to be a power to be reckoned with, and our strength has been recognized both within and beyond our domain."
+ # Mongol Triggered Modifier
+ mongol_kurultai:0 "Annual Kurultai"
+ desc_mongol_kurultai:0 "A great Kurultai shall be hosted here annually, where all the tribes must pledge their loyalty to our Khan."
