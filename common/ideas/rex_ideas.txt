@@ -1,3 +1,48 @@
+#Zanzibar
+
+ZZN_ideas = {
+	start = {
+		land_morale = 0.10
+		defensiveness = 0.15
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	trigger = {
+		tag = ZZN
+	}
+	free = yes
+	
+	rex_zanzibar_i = {
+		naval_forcelimit_modifier = 0.25
+		naval_morale = 0.1
+	}
+	rex_zanzibar_ii = {
+		global_trade_power = 0.1
+		trade_efficiency = 0.1
+	}
+	rex_zanzibar_iii = {
+		navy_tradition = 0.50
+		ship_durability = 0.05
+	}
+	rex_zanzibar_iv = {
+		merc_maintenance_modifier = -0.15
+		mercenary_discipline = 0.05
+	}
+	rex_zanzibar_v = {
+		global_ship_cost = -0.1
+	}
+	rex_zanzibar_vi = {
+		range = 0.5
+		colonists = 1
+	}
+	rex_zanzibar_vii = {
+		development_cost = -0.1
+	}
+}
+
 #Malaya
 
 MSA_ideas = {
