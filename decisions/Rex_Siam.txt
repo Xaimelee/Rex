@@ -22,14 +22,17 @@ country_decisions = {
 			indo_china_region = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			burma_region = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			xinan_region = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = SIA }
 		}
