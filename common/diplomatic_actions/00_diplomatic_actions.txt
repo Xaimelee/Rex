@@ -72,6 +72,35 @@
 # counterespionage
 # abandon_union_action
 
+designate_march  = {
+	condition = {
+		tooltip = rex_march_restriction_i
+		potential = {
+			ROOT = { NOT = { full_idea_group = imperialism_ideas } }
+		}
+		allow = {
+			NOT = {
+				ROOT = {
+					march = 3
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = rex_march_restriction_ii
+		potential = {
+			ROOT = { full_idea_group = imperialism_ideas }
+		}
+		allow = {
+			NOT = {
+				ROOT = {
+					march = 5
+				}
+			}
+		}
+	}
+}
+
 warningaction = {
 	condition = {
 		tooltip = rex_ming_restriction
