@@ -265,7 +265,7 @@ technology = { #Limes
 	naval_maintenance		= 	0.02
 	
 
-	stock_exchange = yes
+	#stock_exchange = yes
 
 	reduced_naval_attrition = yes
 	enable = twodecker
@@ -289,7 +289,7 @@ technology = { #The Archipelago Frigate
 	year = 1715
 	
 	
-	grand_shipyard = yes 
+	#grand_shipyard = yes 
 
 	
 	trade_efficiency 		= 	0.02
