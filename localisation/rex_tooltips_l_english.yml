@@ -21,6 +21,7 @@
  rex_guarantee_restriction:0 "You may not guarantee the independence of other players."
  rex_revoke_elector_restriction:0 "You may not revoke Elector status from other players."
  rex_ming_restriction:0 "Ming may not interact with the ROTW."
+ rex_march_restriction:0 "You may not request to become a March."
  rex_march_restriction_i:0 "You are limited to having 3 marches without Imperialism ideas completed."
  rex_march_restriction_ii:0 ""You are limited to having 5 marches with Imperialism ideas completed."
 #Stratagem restrictions

@@ -72,6 +72,17 @@
 # counterespionage
 # abandon_union_action
 
+ask_for_march = {
+    condition = {
+        tooltip = rex_march_restriction
+        potential = {
+        }
+        allow = {
+            always = no
+        }
+    }
+}
+
 designate_march  = {
 	condition = {
 		tooltip = rex_march_restriction_i
