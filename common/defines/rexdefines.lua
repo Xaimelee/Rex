@@ -1,8 +1,8 @@
 -- Rex Custom Defines
 -- Diplomacy Defines
 
-NDefines.NDiplomacy.MIN_ASKED_TRADE_POWER = 1
-NDefines.NDiplomacy.MAX_ASKED_TRADE_POWER = 50
+-- NDefines.NDiplomacy.MIN_ASKED_TRADE_POWER = 1
+-- NDefines.NDiplomacy.MAX_ASKED_TRADE_POWER = 50
 
 NDefines.NDiplomacy.ABANDON_UNION_PRESTIGE = -0
 NDefines.NDiplomacy.REVANCHISM_MONTHLY_DECAY = 0.335
