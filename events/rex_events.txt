@@ -1,5 +1,64 @@
 namespace = rex_events
 
+#Mamluk Fleet
+
+country_event = {
+	id = rex_events.9
+	title = rex_events.9.title
+	desc = rex_events.9.desc
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rex_events.9.a
+		2315 = {
+			kill_units = {
+				who = controller
+				type = galley
+				amount = 8
+			}
+			kill_units = {
+				who = controller
+				type = transport
+				amount = 12
+			}
+			kill_units = {
+				who = controller
+				type = light_ship
+				amount = 3
+			}
+		}
+		358 = {
+			 light_ship = ROOT
+			 light_ship = ROOT
+			 light_ship = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 transport = ROOT
+			 galley = ROOT
+			 galley = ROOT
+			 galley = ROOT
+			 galley = ROOT
+			 galley = ROOT
+			 galley = ROOT
+			 galley = ROOT
+			 galley = ROOT
+		}
+	}
+}
+
 #Protector
 
 country_event = {
