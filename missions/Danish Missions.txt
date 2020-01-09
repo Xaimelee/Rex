@@ -188,6 +188,13 @@ danish_missions_baltic = {
 				}
 				add_permanent_claim = ROOT
 			}
+			define_admiral = {
+				shock = 3
+				fire = 3
+				manuever = 2
+				siege = 0
+				trait = ram_raider_personality
+			}
 		}
 	}
 	control_osel = {
