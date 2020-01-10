@@ -2,7 +2,7 @@ gen_europe = {
 
 	slot = 5
 	generic = yes
-	ai = yes
+	ai = no
 	
 	potential = {
 		capital_scope = {
@@ -57,7 +57,7 @@ gen_europe_hre = {
 
 	slot = 5
 	generic = yes
-	ai = yes
+	ai = no
 	
 	potential = {
 		capital_scope = {
@@ -118,7 +118,7 @@ gen_europe_hre_ban = {
 
 	slot = 5
 	generic = yes
-	ai = yes
+	ai = no
 	
 	potential = {
 		capital_scope = {
