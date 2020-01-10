@@ -5,6 +5,11 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_rex_obj_universities"
+		texturefile = "gfx//interface//ages//rex_obj_universities.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
 		name = "GFX_obj_muslim_mecca"
 		texturefile = "gfx//interface//ages//obj_muslim_mecca.dds"
 		loadType = "INGAME"
