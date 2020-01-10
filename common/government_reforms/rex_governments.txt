@@ -31,11 +31,14 @@ rex_hreprotector_reform = {
 	potential = {
 	    AND = {
 			has_reform = rex_hreprotector_reform
+			is_elector = yes
+			is_part_of_hre = yes
 		}
 	}
 
 	modifiers = {
 		prestige = 1
+		army_tradition = 0.25
 	}
 
 	custom_attributes = {
