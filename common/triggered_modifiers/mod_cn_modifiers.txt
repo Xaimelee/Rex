@@ -89,10 +89,10 @@ human_cn_colony = {
 	
 	development_cost = 0.20
 	sailors_recovery_speed = -0.50
-	naval_forcelimit_modifier = -0.50
-	global_sailors_modifier = -0.50
-	global_ship_cost = 0.20
-	global_regiment_cost = 0.10
+	naval_forcelimit_modifier = -0.75
+	global_sailors_modifier = -0.75
+	global_ship_cost = 0.25
+	global_regiment_cost = 0.25
 	possible_mercenaries = -1
 	reinforce_speed = -0.15
 }
@@ -121,8 +121,7 @@ human_cn_military = {
 		is_colonial_nation = yes
 		NOT = { has_country_flag = cn_dominion }
 	}
-	
-	global_regiment_cost = 0.10
+
 	reinforce_speed = -0.15
 	possible_mil_policy = -1
 	yearly_army_professionalism = -0.005
