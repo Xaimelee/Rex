@@ -1,4 +1,4 @@
-edict_centralization_effort = {
+rex_edict_centralization_effort = {
 	potential = {
 		always = yes		#we support "potential" if modders want to have lots and just show some.
 	}
@@ -8,7 +8,7 @@ edict_centralization_effort = {
 	}
 	
 	modifier = {
-		local_autonomy = -0.05
+		local_monthly_devastation = -0.25
 	}
 	
 	color = {  220 178 155 }

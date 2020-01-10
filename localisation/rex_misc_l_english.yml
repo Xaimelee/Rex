@@ -31,3 +31,5 @@
  rex_zoro_v:0 "Reinforce the Frontier"
  #Ages
  rex_obj_universities:0 "Have 3 state unique buildings constructed."
+ #State Edicts
+ rex_edict_centralization_effort:0 "Reconstruction Effort"
