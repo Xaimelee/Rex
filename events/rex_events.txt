@@ -1,5 +1,35 @@
 namespace = rex_events
 
+#Protector
+
+country_event = {
+	id = rex_events.8
+	title = rex_events.8.title
+	desc = rex_events.8.desc
+	picture = HRE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_reform = rex_hreprotector_reform
+				is_elector = no
+				is_part_of_hre = no
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = rex_events.8.a
+		remove_government_reform = rex_hreprotector_reform
+	}
+}
+
 #Mamluk Fleet
 
 country_event = {
@@ -70,7 +100,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-	    AND = {
+		AND = {
 			has_reform = rex_hreprotector_reform
 			OR = {
 				any_elector = {
