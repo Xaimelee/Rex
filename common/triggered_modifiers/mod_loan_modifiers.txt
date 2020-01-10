@@ -1,6 +1,5 @@
 military_funding_penalty_1 = {
 	potential = {
-	    num_of_loans = 10
 		NOT = { has_country_modifier = military_funding_penalty_2 }
 		NOT = { has_country_modifier = military_funding_penalty_3 }
 		NOT = { has_country_modifier = military_funding_penalty_4 }
