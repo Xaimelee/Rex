@@ -643,8 +643,8 @@ age_of_absolutism = {
 				technology_group = chinese
 			}
 			modifier = {
-				yearly_corruption = -0.2
-				max_states = 5
+				administrative_efficiency = 0.05
+				land_forcelimit_modifier = 0.1
 			}
 			ai_will_do = {
 				factor = 100
