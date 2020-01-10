@@ -18,16 +18,17 @@ rex_become_protector = {
 		trigger = {
 			hre_reform_level = 4
 			is_elector = yes
-			num_of_electors = 6
+			#num_of_electors = 6
 			total_development = 500
-			calc_true_if = {
-			    all_elector = {
-				    NOT = { total_development = ROOT }
-				}
-				amount = 5
-			}
+			#calc_true_if = {
+			#    all_elector = {
+			#	    NOT = { total_development = ROOT }
+			#	}
+			#	amount = 5
+			#}
 			NOT = { is_emperor = yes }
 			NOT = { has_country_flag = hreprotector }
+			NOT = { hre_reform_level = 8 }
 			any_country = {
 			    NOT = { has_reform = rex_hreprotector_reform }
 			}
