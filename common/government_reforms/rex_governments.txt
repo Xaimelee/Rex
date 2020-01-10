@@ -31,8 +31,6 @@ rex_hreprotector_reform = {
 	potential = {
 	    AND = {
 			has_reform = rex_hreprotector_reform
-			is_elector = yes
-			is_part_of_hre = yes
 		}
 	}
 

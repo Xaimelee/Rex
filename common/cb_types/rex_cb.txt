@@ -1,5 +1,12 @@
 rex_cb_revoke_protector = {
-	is_triggered_only = yes
+	#is_triggered_only = yes
+	prerequisites = {
+		AND = {
+			FROM = { has_reform = rex_hreprotector_reform }
+			ROOT = { is_elector = yes }
+		}
+	}
+	
 	months = 120
 
 	war_goal = rex_protector_of_the_hre

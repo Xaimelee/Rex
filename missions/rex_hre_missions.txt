@@ -45,18 +45,18 @@ rex_become_protector = {
 			#}
 			add_government_reform = rex_hreprotector_reform
 			set_country_flag = hreprotector
-			every_elector  = {
-			    if = {
-				    limit = {
-					    NOT = { has_reform = rex_hreprotector_reform }
-					}
-					add_casus_belli = {	
-						target = ROOT
-						type = rex_cb_revoke_protector
-						months = 600
-					}
-                }					
-			}
+			#every_elector  = {
+			#    if = {
+			#	    limit = {
+			#		    NOT = { has_reform = rex_hreprotector_reform }
+			#		}
+			#		add_casus_belli = {	
+			#			target = ROOT
+			#			type = rex_cb_revoke_protector
+			#			months = 600
+			#		}
+            #    }					
+			#}
 		}
 	}
 }
