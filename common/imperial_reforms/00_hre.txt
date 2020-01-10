@@ -1,13 +1,16 @@
-reichsreform = {
+##Administration
+rex_hre_reform_i = {
 	empire = hre
 	member = {
-        build_cost = -0.05
-		global_tax_income = 12
+		global_tax_income = 6
+		global_unrest = -1
 	}
+	
 	emperor = {
-	    build_cost = -0.05
-        global_manpower = 7.5
+		global_manpower = 3.75
+		global_unrest = -1
 	}
+	
 	on_effect = {
 		imperial_ban_allowed = yes
 	}
@@ -16,39 +19,150 @@ reichsreform = {
 	}
 }
 
-reichsregiment = {
+##Defense
+rex_hre_reform_ii = {
 	empire = hre
 	member = {
-        global_unrest = -1
-		global_tax_income = 12
+		global_tax_income = 6
+		defensiveness = 0.1
 	}
+	
 	emperor = {
-	    global_unrest = -1
-        global_manpower = 7.5
+		global_manpower = 3.75
+		defensiveness = 0.1
+	}
+	
+	on_effect = {
+	
+	}
+	off_effect = {
+	
 	}
 }
 
-hofgericht = { 
+##Centralization
+rex_hre_reform_iii = {
 	empire = hre
 	member = {
-        development_cost = -0.05
-		global_tax_income = 12
+		global_tax_income = 6
+		stability_cost_modifier = -0.1
 	}
+	
 	emperor = {
-	    development_cost = -0.05
-        global_manpower = 7.5
+		global_manpower = 3.75
+		stability_cost_modifier = -0.1
+	}
+	
+	on_effect = {
+	
+	}
+	off_effect = {
+	
 	}
 }
 
-gemeinerpfennig = {
+##Economic
+rex_hre_reform_iv= {
 	empire = hre
 	member = {
-        land_morale = 0.05
-		global_tax_income = 12
+		global_tax_income = 6
+		hostile_attrition = 0.5
 	}
+	
 	emperor = {
-	    land_morale = 0.05
-        global_manpower = 7.5
+		global_manpower = 3.75
+		hostile_attrition = 0.5
+	}
+	
+	on_effect = {
+	
+	}
+	off_effect = {
+	
+	}
+}
+
+##Stability
+rex_hre_reform_v = {
+	empire = hre
+	member = {
+		global_tax_income = 6
+		advisor_cost = -0.10
+	}
+	
+	emperor = {
+		global_manpower = 3.75
+		advisor_cost = -0.10
+	}
+	
+	on_effect = {
+	
+	}
+	off_effect = {
+	
+	}
+}
+
+##Levies
+rex_hre_reform_vi = {
+	empire = hre
+	member = {
+		global_tax_income = 6
+		land_forcelimit = 10
+	}
+	
+	emperor = {
+		global_manpower = 3.75
+		land_forcelimit_modifier = 0.10
+	}
+	
+	on_effect = {
+	
+	}
+	off_effect = {
+	
+	}
+}
+
+#Army Reform
+rex_hre_reform_vii = {
+	empire = hre
+	member = {
+		global_tax_income = 6
+		development_cost = -0.075
+	}
+	
+	emperor = {
+		global_manpower = 3.75
+		development_cost = -0.075
+	}
+	
+	on_effect = {
+	
+	}
+	off_effect = {
+	
+	}
+}
+
+#Last Reform
+rex_hre_reform_viii = {
+	empire = hre
+	member = {
+		global_tax_income = 18
+		army_tradition = 0.25
+	}
+	
+	emperor = {
+		global_manpower = 3.75
+		infantry_power = 0.1
+	}
+	
+	on_effect = {
+	
+	}
+	off_effect = {
+	
 	}
 }
 
