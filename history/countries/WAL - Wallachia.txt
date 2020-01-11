@@ -7,7 +7,6 @@ technology_group = eastern
 capital = 161 # Tîrgoviste
 historical_rival = BYZ
 
-
 1386.1.1 = {
 	monarch = {
 		name = "Mircea I"

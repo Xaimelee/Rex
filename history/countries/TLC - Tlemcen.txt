@@ -7,11 +7,11 @@ capital = 336 # Tlemcen
 fixed_capital = 336 # Cannot move capital away from this province & no power cost to move to it
 religious_school = maliki_school
 
-historical_rival_with = MOR
-historical_rival_with = CAS
-historical_rival_with = ARA
-historical_rival_with = POR
-historical_rival_with = TUN
+historical_rival = MOR
+historical_rival = CAS
+historical_rival = ARA
+historical_rival = POR
+historical_rival = TUN
 
 1395.1.1 = {
 	monarch = {
