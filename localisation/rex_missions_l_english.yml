@@ -14,7 +14,7 @@
  rex_jap_asia_desc:0 ""
 #HRE
  rex_become_protector_title:0 "Claim the Title of Protector"
- rex_become_protector_desc:0 "Having asended in becoming the strongest nation out of all the Electors, we can now without contest bestow upon ourselves the titular title Protector of all Germans and the Holy Roman Empire. -------------------------------------------------------------------§RThe reform §!§YProtector of the Empire§!§R can be abolished by an event being triggered when your capital is occupied or you have negative 80% warscore while the §!§YAbolish Protector of the Empire Casus Belli§!§R is being used against you.§!"
+ rex_become_protector_desc:0 "Having asended in becoming the strongest nation out of all the Electors, we can now without contest bestow upon ourselves the titular title Protector of all Germans and the Holy Roman Empire. -------------------------------------------------------------------§RThe reform §!§YProtector of the Empire§!§R can be abolished by an event being triggered when your capital is occupied or you have negative 80% warscore while the §!§YAbolish Protector of the Empire Casus Belli§!§R is being used against you. After being enacted there will be a 15 year cooldown before this title can be claimed by another nation should the Protector fall.§!"
 #India
  r_vij_reconquest_capital_title:0 "Reconquer Vijayanagar"
  r_vij_reconquest_capital_desc:0 ""

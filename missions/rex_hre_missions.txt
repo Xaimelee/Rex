@@ -32,6 +32,7 @@ rex_become_protector = {
 			any_country = {
 			    NOT = { has_reform = rex_hreprotector_reform }
 			}
+			NOT = { has_global_flag = hreprotectorcooldown }
 		}
 		
 		effect = {
@@ -45,6 +46,7 @@ rex_become_protector = {
 			#}
 			add_government_reform = rex_hreprotector_reform
 			set_country_flag = hreprotector
+			set_global_flag = hreprotectorcooldown
 			#every_elector  = {
 			#    if = {
 			#	    limit = {

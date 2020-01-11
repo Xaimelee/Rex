@@ -1,5 +1,32 @@
 namespace = rex_events
 
+#Protector Cooldown
+
+country_event = {
+	id = rex_events.7
+	title = rex_events.7.title
+	desc = rex_events.7.desc
+	picture = HRE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		had_global_flag = {
+			flag = hreprotectorcooldown
+			days = 5475 #15 Years
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = rex_events.8.a
+		clr_global_flag = hreprotectorcooldown
+	}
+}
+
 #Protector
 
 country_event = {
