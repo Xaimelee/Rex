@@ -1,0 +1,209 @@
+country_decisions = {
+
+	construct_kiel_canal = {
+		major = yes
+		potential = {
+			1775 = {
+				owned_by = ROOT
+				NOT = { has_great_project = kiel_canal }
+				NOT = { has_construction = canal }
+			}
+			4141 = {
+				owned_by = ROOT
+				NOT = { has_great_project = kiel_canal }
+				NOT = { has_construction = canal }
+			}
+			adm_tech = 10
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1775
+				province_id = 4141
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			1775 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4141 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			is_subject = no			
+			adm_tech = 10
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			1775 = {	# Holstein
+				add_great_project = kiel_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	construct_suez_canal = {
+		major = yes
+		potential = {
+			4316 = {
+				owned_by = ROOT
+				NOT = { has_great_project = suez_canal }
+				NOT = { has_construction = canal }
+			}
+			adm_tech = 10
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4316
+				province_id = 2315
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			4316 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			2315 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			is_subject = no
+			adm_tech = 10
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			4316 = {	# Sharqiya
+				add_great_project = suez_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	construct_panama_canal = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			835 = {
+				owned_by = ROOT
+				NOT = { has_great_project = panama_canal }
+				NOT = { has_construction = canal }
+			}
+			adm_tech = 10
+		}
+		provinces_to_highlight = {
+			province_id = 835
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			835 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			is_subject = no
+			adm_tech = 10
+			years_of_income = 5
+		}
+		effect = {
+			add_years_of_income = -5
+			835 = {	# Panama
+				add_great_project = panama_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_kiel_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 1775
+			is_subject = no
+			1775 = {
+				has_construction = canal
+			}
+		}
+		allow = {
+			1775 = {
+				has_construction = canal
+			}
+		}
+		effect = {
+			1775 = {	# Holstein
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cancel_suez_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 4316
+			is_subject = no
+			4316 = {
+				has_construction = canal
+			}
+		}
+		allow = {
+			4316 = {
+				has_construction = canal
+			}
+		}
+		effect = {
+			4316 = {	# Sharqiya
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cancel_panama_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 835
+			is_subject = no
+			835 = {
+				has_construction = canal
+			}
+		}
+		allow = {
+			835 = {
+				has_construction = canal
+			}
+		}
+		effect = {
+			835 = {	# Panama
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}
