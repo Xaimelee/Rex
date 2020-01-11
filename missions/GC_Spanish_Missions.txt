@@ -753,7 +753,7 @@ gc_spain_3 = {
 		trigger = {
 			northern_morocco_area = {
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 
