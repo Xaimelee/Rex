@@ -516,8 +516,12 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		cb_on_religious_enemies = yes
-		warscore_cost_vs_other_religion = -0.10
+		tolerance_own = 1
+		papal_influence = 2
+		devotion = 0.5
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.2
+		monthly_karma = 0.25
 	}
 
 	
@@ -530,12 +534,8 @@ religious_ideas = {
 		prestige_per_development_from_conversion = 0.25
 	}
 	devoutness = {
-		tolerance_own = 1
-		papal_influence = 2
-		devotion = 0.5
-		monthly_fervor_increase = 0.25
-		church_power_modifier = 0.2
-		monthly_karma = 0.25
+		cb_on_religious_enemies = yes
+		warscore_cost_vs_other_religion = -0.10
 	}
 	divine_supremacy = {
 		global_missionary_strength = 0.03
