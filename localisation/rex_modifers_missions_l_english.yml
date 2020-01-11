@@ -23,6 +23,9 @@
 #China Missions
  r_china_control:0 "Chinese Trade Control"
  r_pacific_fleet:0 "Pacific Fleet Bases Secure"
+ r_por_hegemony:0 "Portuguese Hegemony in China"
+ r_por_china_access:0 "Access to Chinese Trade"
+ r_fortalez_macau:0 "Fortaleza do Monte"
 #Russia Missions
  r_rus_pacific_fleet:0 "Pacific Fleet Bases Secure"
 #Mongolia Missions

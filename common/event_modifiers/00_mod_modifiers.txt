@@ -4,6 +4,18 @@
 
 ## Missions
 
+##Portugal
+
+r_por_china_access = {
+	trade_efficiency = 0.05
+	caravan_power = 0.1
+}
+
+r_por_hegemony = {
+	trade_steering = 0.1
+	merchants = 1
+}
+
 ## Khorasan
 
 r_kho_zoroastrian = {
@@ -150,6 +162,12 @@ r_ningpo_expand = {
 	trade_goods_size_modifier = 0.10
 	local_development_cost = -0.05
 	local_build_cost = -0.05
+}
+
+r_fortalez_macau = {
+	ship_recruit_speed = -0.50
+	local_ship_repair = 0.50
+	local_defensiveness = 0.30
 }
 
 ## Rum

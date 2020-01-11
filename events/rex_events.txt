@@ -326,6 +326,75 @@ country_event = {
 	}
 }
 
+# China Mission - 3
+
+country_event = {
+	id = rex_events.102
+	title = rex_events.102.title
+	desc = rex_events.102.desc
+	picture = FORT_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Fortaleza
+	option = {
+		name = rex_events.102.a
+		
+		trigger = {
+			owns = 668
+		}
+		
+		667 = {
+			add_province_modifier = { 
+				name = r_fortalez_macau
+				duration = -1 
+			}
+		}
+	}
+	
+	#Entrepot
+	option = {
+		name = rex_events.102.b
+		
+		trigger = {
+			owns = 668
+		}
+		
+		667 = {
+			add_province_modifier = { 
+				name = rex_china_trade_province
+				duration = -1 
+			}
+		}
+	}
+}
+
+# China Modifier Removal
+
+country_event = {
+	id = rex_events.105
+	title = rex_events.105.title
+	desc = rex_events.105.desc
+	picture = FORT_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			has_country_modifier = r_por_hegemony
+			668 = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+	}
+
+	option = {
+		name = rex_events.102.a
+		
+		remove_country_modifier = r_por_hegemony
+	}
+}
+
 #Khorasan Zoroastrian
 
 country_event = {

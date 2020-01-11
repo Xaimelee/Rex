@@ -590,70 +590,6 @@ gc_por_3 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	gc_por_english_alliance = {
-		icon = mission_anglo_portuguese_alliance
-		required_missions = {  }
-		
-		trigger = {
-			if = {
-				limit = {
-					NOT = {
-						exists = GBR
-					}
-				}
-				OR = {
-					AND = {
-						alliance_with = ENG
-						reverse_has_opinion = {
-							who = ENG
-							value = 100
-						}
-					}
-					is_rival = ENG
-					NOT = { exists = ENG }
-				}
-			}
-			else = {
-				OR = {
-					AND = {
-						alliance_with = GBR
-						reverse_has_opinion = {
-							who = GBR
-							value = 100
-						}
-					}
-					is_rival = GBR
-				}
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					alliance_with = ENG
-				}
-				POR = {
-					add_opinion = {
-						who = ROOT
-						modifier = anglo_portuguese_alliance
-					}
-				}
-			}
-			galicia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			asturias_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
 }
 	
 gc_por_3_b = {
@@ -1016,100 +952,92 @@ gc_por_4 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	gc_por_flagship = {
-		icon = mission_launch_a_flagship
+	#Rex
+	#Ningpo
+	rex_por_china_i = {
+		icon = mission_asian_trader
 		required_missions = {  }
 		
+		provinces_to_highlight = {
+			province_id = 2149
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		trigger = {
-			has_flagship = yes
+			2149 = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
 		}
 		effect = {
-			add_navy_tradition = 20
-			leon_area = {
+			country_event = { id = rex_events.101 }
+			fujian_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
-			}
-			lower_andalucia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
 			}
 		}
 	}
-	gc_por_intervene_in_castile = {
-		icon = mission_intervene_in_castile
-		required_missions = { gc_por_flagship gc_por_english_alliance }
+	#Advance Down the Chinese Coast
+	rex_por_china_ii = {
+		icon = mission_launch_a_flagship
+		required_missions = { rex_por_china_i }
 		
 		provinces_to_highlight = {
-			OR = {
-				area = leon_area
-				area = lower_andalucia_area
-				area = galicia_area
-				area = asturias_area
-			}
+			area = fujian_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		trigger = {
-			leon_area = {
+			fujian_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			lower_andalucia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			galicia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			asturias_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
-			iberia_region = {
+			668 = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
+			}
+			add_country_modifier = {
+				name = r_por_china_access
+				duration = 9125 #25 Years
 			}
 		}
 	}
-	gc_por_lusitanian_empire = {
-		icon = mission_lusitanian_empire
-		required_missions = { gc_por_intervene_in_castile }
+	#The Treaty Port of Macau
+	rex_por_china_iii = {
+		icon = mission_galleys_in_port
+		required_missions = { rex_por_china_ii }
 		
 		provinces_to_highlight = {
-			region = iberia_region
+			province_id = 668
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		trigger = {
-			iberia_region = {
+			668 = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						government_rank = 3
-					}
-				}
-				set_government_rank = 3
+			country_event = { id = rex_events.102 }
+			add_prestige = 10
+			add_country_modifier = {
+				name = r_por_hegemony
+				duration = -1
 			}
-			add_prestige = 25
 		}
 	}
+	#Rex End
 	gc_por_discovers_horn_africa = {
 		icon = mission_establish_high_seas_navy
 		required_missions = { gc_por_discovers_cape_good_hope }
