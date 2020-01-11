@@ -1833,14 +1833,6 @@ chesapeake_bay={
 		}
 	}
 	outgoing={
-		name="english_channel"
-		path={
-			1570 1573 1568 1564 1563 
-		}
-		control={
-		}
-	}
-	outgoing={
 	    name="bordeaux"
 		path={
 		    1572 1582 1290
