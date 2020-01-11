@@ -262,7 +262,7 @@ innovativeness_ideas = {
 		female_advisor_chance = 1
 	}
 	optimism = {
-		monthly_splendor = 3
+		monthly_splendor = 2
 	}
 	scientific_revolution = {
 		technology_cost = -0.05
@@ -487,7 +487,7 @@ infrastructure_ideas = {
 		global_tax_income = 48
 	}
 	indirect_rule = {
-		monthly_splendor = 3
+		monthly_splendor = 2
 	}
 	cultural_ties = {
 		prestige_decay = -0.01
@@ -500,7 +500,7 @@ infrastructure_ideas = {
 		land_forcelimit = 10
 	}
 	ecumenism = {
-		global_manpower = 7.5
+		global_manpower = 10
 	}
 
 	ai_will_do = {
@@ -611,13 +611,13 @@ trade_ideas = {
 	}
 
 	shrewd_commerce_practise = {
- 		global_trade_power = 0.2
+ 		global_trade_power = 0.1
   	}
   	free_trade = {
   		merchants = 1
   	}
 	merchant_adventures = {
-		trade_range_modifier = 0.35
+		trade_range_modifier = 0.5
 	}
 	trade_manipulation = {
 		naval_forcelimit_modifier = 0.2
@@ -631,7 +631,7 @@ trade_ideas = {
 	}
 	fast_negotiations = {
 		transport_cost = -0.10
-		global_ship_repair = 0.20
+		global_ship_repair = 0.10
 	}
 
 	ai_will_do = {
@@ -768,15 +768,15 @@ culturalism_ideas = {
 	}
 	sea_hawks = {
 		years_of_nationalism = -5
-		max_states = 2
+		max_states = 3
 	}
 	grand_navy = {
 		diplomatic_reputation = 2
 		liberty_desire_from_subject_development = -10
 	}
 	ships_penny = {
-		tolerance_heretic = 2
-		tolerance_heathen = 2
+		tolerance_heretic = 1
+		tolerance_heathen = 1
 	}
 	naval_fighting_instruction = {
 		development_cost = -0.10
