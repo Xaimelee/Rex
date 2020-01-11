@@ -387,7 +387,7 @@ production_quota_act = {
 }
 
 encouragement_of_merchant_navy = {
-	monarch_power = DIP
+	monarch_power = ADM
 	potential = {
 		has_idea_group = trade_ideas
 		has_idea_group = expansion_ideas
@@ -398,7 +398,7 @@ encouragement_of_merchant_navy = {
 		full_idea_group = expansion_ideas
 	}
 	
-    global_trade_goods_size_modifier = 0.10
+    production_efficiency = 0.15
  
 
 	ai_will_do = {
