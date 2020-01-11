@@ -1046,10 +1046,8 @@ streltsy_modifier = {
 }
 
 power_projection = {
-	defensiveness = 0.1
-	siege_ability = 0.1
 	global_trade_power = 0.2
-	prestige = 0.5
+	prestige = 1
 	land_morale = 0.10
 	naval_morale = 0.10
 	legitimacy = 0.5
