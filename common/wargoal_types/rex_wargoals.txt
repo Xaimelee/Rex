@@ -16,7 +16,7 @@ rex_protector_of_the_hre = {
 }
 
 rex_china_conquest = {
-	type = take_capital
+	type = take_province
 	
 	badboy_factor = 1
 	prestige_factor = 1

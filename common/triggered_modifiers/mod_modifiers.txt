@@ -100,7 +100,7 @@ rex_imperial_penalty = {
 		any_country = { has_reform = rex_hreprotector_reform }
 	}
 	
-	imperial_authority = -0.75
+	imperial_authority = -0.5
 }
 
 rex_hre_penalty_elector_i = {
