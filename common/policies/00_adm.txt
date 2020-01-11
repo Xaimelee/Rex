@@ -190,7 +190,7 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-    reinforce_speed = 0.25
+    reinforce_speed = 0.15
 	war_exhaustion = -0.03
 	
 	ai_will_do = {
@@ -275,8 +275,8 @@ the_spy_discovery_act = {
 		full_idea_group = administrative_ideas
 	}
 
-    development_cost = -0.05
-	production_efficiency = 0.10
+    reform_progress_growth = 0.15
+	global_tax_modifier = 0.15
 
 	ai_will_do = {
 		factor = 0.6 #Keep in mind lower stab cost is probably pretty weak given this costs ADM...
@@ -421,7 +421,7 @@ land_inheritance_act = {
 	}
 
     infantry_power = 0.075
-	global_tax_modifier = 0.15
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -648,9 +648,8 @@ vassal_integration_act = {
 		full_idea_group = administrative_ideas
 	}
 	
-	global_manpower_modifier = 0.15
+	global_manpower_modifier = 0.10
 	vassal_forcelimit_bonus = 0.5
-
 	
 	ai_will_do = {
 		factor = 1
@@ -1147,7 +1146,7 @@ taxation_with_representation = {
 	}
 	
 	cavalry_power = 0.15
-	global_regiment_recruit_speed = -0.25
+	global_regiment_recruit_speed = -0.15
 
 	ai_will_do = {
 		factor = 1
