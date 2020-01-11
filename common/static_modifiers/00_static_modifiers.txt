@@ -1027,8 +1027,9 @@ in_golden_era = {
 
 absolutism = {
 	administrative_efficiency = 0.20
-	global_manpower_modifier = 0.20
+	manpower_recovery_speed = 0.15
 	land_forcelimit_modifier = 0.20
+	discipline = 0.025
 }
 
 low_army_professionalism = {
