@@ -55,8 +55,8 @@ adult_baptism_aspect = {
 
 holy_sacraments_aspect = {
 	cost = 100
-	modifier = { 
-		shock_damage_received = -0.05
+	modifier = {
+		fire_damage_received = -0.05
 	}
 	ai_will_do = {
 		factor = 12
@@ -128,7 +128,7 @@ legalised_divorces_aspect = {
 heretics_deported_aspect = {
 	cost = 100
 	modifier = {
-		global_colonial_growth = 20
+		global_colonial_growth = 10
 	}
 	ai_will_do = {
 		factor = 10
