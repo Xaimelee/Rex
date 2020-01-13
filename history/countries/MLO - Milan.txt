@@ -118,9 +118,9 @@ fixed_capital = 104 # Cannot move capital away from this province & no power cos
 		birth_date = 1411.1.1
 		death_date = 1469.2.22
 		female = yes
-		adm = 1
-		dip = 1
-		mil = 1
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 

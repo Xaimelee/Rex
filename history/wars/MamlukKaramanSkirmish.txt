@@ -1,0 +1,16 @@
+name = "Mamluk and Karaman Border War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 2302
+}
+
+1443.1.1 = {
+	add_attacker = MAM
+	add_defender = KAR
+}
+
+1444.10.10 = {
+	rem_attacker = MAM
+	rem_defender = KAR
+}

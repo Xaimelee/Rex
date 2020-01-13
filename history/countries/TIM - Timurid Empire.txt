@@ -10,7 +10,7 @@ capital = 454 # Samarkand
 historical_rival = DLH
 historical_rival = MUL
 historical_friend = FRS
-historical_friend = ISF
+historical_rival = ISF
 religious_school = hanafi_school
 
 1370.1.1 = {

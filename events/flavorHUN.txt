@@ -94,6 +94,7 @@ country_event = {
 	trigger = {
 		tag = HUN
 		is_year = 1454
+		NOT = { is_year 1454 )
 		NOT = { personal_union = 1 }
 		has_government_attribute = heir
 	}

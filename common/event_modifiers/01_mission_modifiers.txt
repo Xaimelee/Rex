@@ -791,7 +791,8 @@ gen_hre_emperor_mod = {
 }
 
 gen_hre_imperial_ban_mod = {
-	imperial_authority_value = 0.1
+	prestige = 1
+	legitimacy = 1
 }
 
 eng_rb_imperial_ban_mod = {

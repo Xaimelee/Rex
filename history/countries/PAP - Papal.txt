@@ -60,8 +60,8 @@ fixed_capital = 118  # Cannot move capital away from this province & no power co
 		name = "Eugenius IV"
 		culture = venetian
 		birth_date = 1383.1.1
-		adm = 1
-		dip = 1
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 }

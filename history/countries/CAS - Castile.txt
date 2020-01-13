@@ -51,8 +51,8 @@ national_focus = MIL
 		name = "Juan II"
 		dynasty = "de Trastámara"
 		birth_date = 1405.3.6
-		adm = 1
-		dip = 1
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 	queen = {

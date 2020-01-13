@@ -209,17 +209,7 @@ exhausted_overlord = {
 	war_exhaustion = 0.10
 }
 
-## Sanction Expedition
-
-sanctioned_exploration = {
-	range = 0.20
-	naval_attrition = -0.20
-}
-
-sanctioned_colonizing = {
-    colonist_placement_chance = 0.03
-	global_colonial_growth = 10
-}
+## Misc
 
 longterm_bankruptcy_effects = {
 	interest = 3

@@ -702,9 +702,6 @@ cb_trade_war = {
 			}
 		}
 		is_revolution_target = no
-		FROM = {
-			NOT = { tag = MNG }
-		}
 	}
 
 	war_goal = superiority_trade_mutual
@@ -1071,9 +1068,6 @@ cb_humiliate_rotw = {
 		ai = no
 		is_rival = FROM
 		is_revolution_target = no
-		FROM = {
-			NOT = { tag = MNG }
-		}
 	}
 
 	attacker_disabled_po = {

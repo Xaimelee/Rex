@@ -8,6 +8,7 @@ country_decisions = {
 				tag = PRU
 				tag = HAB
 				tag = HES
+				tag = HAN
 			}
 		}
 		provinces_to_highlight = {

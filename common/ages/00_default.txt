@@ -272,7 +272,7 @@ age_of_reformation = {
 		
 		obj_humanism_religious = {
 			OR = {
-				full_idea_group = humanist_ideas
+				full_idea_group = culturalism_ideas
 				full_idea_group = religious_ideas
 			}
 		}
@@ -509,7 +509,50 @@ age_of_absolutism = {
 		}
 		
 		obj_emperor_of_china = {
-			local_autonomy_above_min = 20
+			OR = {
+				AND = {
+					666 = {
+						is_core = ROOT
+						owned_by = ROOT
+						type = all
+					}
+					2160 = {
+						is_core = ROOT
+						owned_by = ROOT
+						type = all
+					}
+					2139 = {
+						is_core = ROOT
+						owned_by = ROOT
+						type = all
+					}
+				}
+				guangdong_area = {
+					is_core = ROOT
+					owned_by = ROOT
+					type = all
+				}
+				fujian_area = {
+					is_core = ROOT
+					owned_by = ROOT
+					type = all
+				}
+				zhejiang_area = {
+					is_core = ROOT
+					owned_by = ROOT
+					type = all
+				}
+				south_jiangsu_area = {
+					is_core = ROOT
+					owned_by = ROOT
+					type = all
+				}
+				liaoning_area = {
+					is_core = ROOT
+					owned_by = ROOT
+					type = all
+				}
+			}
 		}
 		
 		obj_cultures_accepted = {
@@ -694,7 +737,7 @@ age_of_revolutions = {
 		obj_disc_army = {
 			has_global_modifier_value = {
 				which = discipline
-				value = 0.15
+				value = 0.10
 				extra_shortcut = yes
 			}
 		}

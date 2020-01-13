@@ -2289,7 +2289,7 @@ gc_spain_5_c = {
 		}
 		
 		effect = {
-			2113 = {
+			fujian_area = {
 				add_claim = ROOT
 			}
 			country_event = { id = rex_events.101 }

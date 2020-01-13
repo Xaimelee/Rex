@@ -9242,13 +9242,13 @@ reassessement_provinces = {
 
 gunpowder_core = {
     drill_gain_modifier = 0.15
-	yearly_army_professionalism = 0.0005
+	yearly_army_professionalism = 0.005
 	land_maintenance_modifier = 0.05
 }
 
 standardized_uniforms_modifier = {
 	drill_gain_modifier = 0.30
-	yearly_army_professionalism = 0.001
+	yearly_army_professionalism = 0.01
 	land_maintenance_modifier = 0.1
 }
 
