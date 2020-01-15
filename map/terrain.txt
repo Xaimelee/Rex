@@ -280,13 +280,13 @@ categories =  {
 
 		movement_cost = 1.5
 		defence = 1
-		local_defensiveness = 0.25
+		local_defensiveness = 0.10
 		local_development_cost = 0.20
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 		allowed_num_of_buildings = 2
 		
-		combat_width = -0.50
+		combat_width = -0.25
 		
 		terrain_override = {
 			210	226 # Spain
