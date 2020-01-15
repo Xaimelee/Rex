@@ -10,9 +10,12 @@
 #CN Overlord WE Penalty
  exhausted_overlord:0 "Exhausted Colonial Overlord"
 #CN Modifiers
- human_cn_colony:0 "Human Colonial Nation"
- human_cn_admin:0 "Colonial Administration"
- human_cn_military:0 "Colonial Military"
+ cn_colony_admin:0 "Colonial Administration"
+ cn_colony_navy:0 "Colonial Navy"
+ cn_colony_army:0 "Colonial Army"
+ cn_dominion_admin:0 "Dominion Administration"
+ cn_dominion_navy:0 "Dominion Navy"
+ cn_dominion_army:0 "Dominion Army"
 #CN Overlord Bonus
  reward_owning_cn:0 "Colonial Imports"
 #Misc

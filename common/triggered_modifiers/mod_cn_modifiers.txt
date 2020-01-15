@@ -78,53 +78,110 @@ reward_owning_cn = {
 	global_trade_goods_size_modifier = 0.10
 }
 
-human_cn_colony = {
-    potential = {
+##Penalties
+
+cn_colony_admin = {
+	potential = {
 		is_colonial_nation = yes
+		NOT = { has_country_flag = cn_dominion }
 	}
     trigger = {
 	    was_player = yes
 		is_colonial_nation = yes
+		NOT = { has_country_flag = cn_dominion }
 	}
-	
-	development_cost = 0.20
-	sailors_recovery_speed = -0.50
-	naval_forcelimit_modifier = -0.75
-	global_sailors_modifier = -0.75
+
+	development_cost = 0.25
+	all_power_cost = 0.05
+	possible_policy = -1
+}
+
+cn_dominion_admin = {
+	potential = {
+		is_colonial_nation = yes
+		has_country_flag = cn_dominion
+	}
+    trigger = {
+	    was_player = yes
+		is_colonial_nation = yes
+		has_country_flag = cn_dominion
+	}
+
+	development_cost = 0.25
+}
+
+cn_colony_navy = {
+	potential = {
+		is_colonial_nation = yes
+		NOT = { has_country_flag = cn_dominion }
+	}
+    trigger = {
+	    was_player = yes
+		is_colonial_nation = yes
+		NOT = { has_country_flag = cn_dominion }
+	}
+
+	naval_forcelimit_modifier = -0.50
+	global_sailors_modifier = -1
 	global_ship_cost = 0.25
+	global_ship_repair = -0.50
+	sailor_maintenance_modifer = 0.50
+	navy_tradition_decay = 0.01
+	blockade_efficiency = -1
+}
+
+cn_dominion_navy = {
+	potential = {
+		is_colonial_nation = yes
+		has_country_flag = cn_dominion
+	}
+    trigger = {
+	    was_player = yes
+		is_colonial_nation = yes
+		has_country_flag = cn_dominion
+	}
+
+	naval_forcelimit_modifier = -0.50
+	global_sailors_modifier = -1
+    global_ship_cost = 0.25
+	global_ship_repair = -0.50
+	sailor_maintenance_modifer = 0.35
+	blockade_efficiency = -1
+}
+
+cn_colony_army = {
+	potential = {
+		is_colonial_nation = yes
+		NOT = { has_country_flag = cn_dominion }
+	}
+    trigger = {
+	    was_player = yes
+		is_colonial_nation = yes
+		NOT = { has_country_flag = cn_dominion }
+	}
+
 	global_regiment_cost = 0.25
-	possible_mercenaries = -1
-	reinforce_speed = -0.15
+	possible_mercenaries = -2.50
+	reinforce_cost_modifier = 0.50
+	reinforce_speed = -0.50
+	army_tradition_decay = 0.01
 }
 
-human_cn_admin = {
-    potential = {
+cn_dominion_army = {
+	potential = {
 		is_colonial_nation = yes
-		NOT = { has_country_flag = cn_dominion }
+		has_country_flag = cn_dominion
 	}
     trigger = {
 	    was_player = yes
 		is_colonial_nation = yes
-		NOT = { has_country_flag = cn_dominion }
-	}
-	
-	all_power_cost = 0.10
-}
-
-human_cn_military = {
-    potential = {
-		is_colonial_nation = yes
-		NOT = { has_country_flag = cn_dominion }
-	}
-    trigger = {
-	    was_player = yes
-		is_colonial_nation = yes
-		NOT = { has_country_flag = cn_dominion }
+		has_country_flag = cn_dominion
 	}
 
-	reinforce_speed = -0.15
-	possible_mil_policy = -1
-	yearly_army_professionalism = -0.005
+	global_regiment_cost = 0.25
+	possible_mercenaries = -2.50
+	reinforce_cost_modifier = 0.35
+	reinforce_speed = -0.35
 }
 
 #LD Penalty
