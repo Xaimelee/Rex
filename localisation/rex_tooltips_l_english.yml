@@ -24,6 +24,8 @@
  rex_march_restriction:0 "You may not request to become a March."
  rex_march_restriction_i:0 "You are limited to having 3 marches without Imperialism ideas completed."
  rex_march_restriction_ii:0 ""You are limited to having 5 marches with Imperialism ideas completed."
+ rex_player_alliance_restriction:0 "You may only have up to 3 player alliances at any given time."
+ rex_player_alliance_restriction_offer:0 "This nation has already reached the maximum of 3 player alliances."
 #Stratagem restrictions
  rex_stratagem_restrictions:0 "You may only have 2 stratagems active at the same time."
 #Mission Tooltips

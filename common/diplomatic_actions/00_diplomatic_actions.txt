@@ -400,6 +400,50 @@ allianceaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = rex_player_alliance_restriction_offer
+		potential = {
+		}
+		allow = {
+			NOT = {
+				AND = {
+					FROM = {
+						calc_true_if = {
+							all_ally = {
+								was_player = yes
+							}
+							amount = 3
+						}
+					}
+					ROOT = {
+						was_player = yes
+					}
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = rex_player_alliance_restriction
+		potential = {
+		}
+		allow = {
+			NOT = {
+				AND = {
+					ROOT = {
+						calc_true_if = {
+							all_ally = {
+								was_player = yes
+							}
+							amount = 3
+						}
+					}
+					FROM = {
+						was_player = yes
+					}
+				}
+			}
+		}
+	}
 }
 
 declarewar = {
