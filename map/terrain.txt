@@ -131,7 +131,7 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9
 		allowed_num_of_buildings = 2
 		
-		combat_width = -0.25
+		#combat_width = -0.25
 		
 		terrain_override = { 
 			2 4 8 9 11 18 29 30 31 315 4123 4124 # Sweden
@@ -163,7 +163,7 @@ categories =  {
 		defence = 1
 		allowed_num_of_buildings = 2
 		
-		combat_width = -0.25
+		#combat_width = -0.25
 		
 		terrain_override = {
 			508 509 511 515 525 527 530 545 550 554 557 1947 2036 
@@ -458,7 +458,7 @@ categories =  {
 		supply_limit = 5
 		allowed_num_of_buildings = 2
 		
-		combat_width = -0.25
+		#combat_width = -0.25
 
 		terrain_override = {
 			1860 #England
@@ -628,7 +628,7 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9
 		allowed_num_of_buildings = 2		
 		
-		combat_width = -0.25
+		#combat_width = -0.25
 
 		terrain_override = {
 			520 536 542 544 578 2035 2077 2079 2085 2087 2093
