@@ -633,7 +633,7 @@ the_integrated_administration_act = {
 		full_idea_group = quality_ideas
 	}	
 	
-    land_morale = 0.025
+    infantry_cost = -0.1
 	infantry_power = 0.075
 	
 	ai_will_do = {
@@ -901,8 +901,8 @@ the_naval_supremacy_act = {
 		full_idea_group = traditional_ideas
 	}	
 	
-    land_morale = 0.075
-	stability_cost_modifier = -0.1
+    land_morale = 0.05
+	stability_cost_modifier = -0.25
 	
 	ai_will_do = {
 		factor = 0.8
