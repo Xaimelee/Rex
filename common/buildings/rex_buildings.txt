@@ -7,8 +7,7 @@ military_infras_base = {
 	time = 36
 	
 	modifier = {
-		local_manpower_modifier = 0.15
-		local_defensiveness = 0.1
+		local_defensiveness = 0.15
 		local_manpower = 1
 		allowed_num_of_buildings = 1
 	}
@@ -203,9 +202,9 @@ industry_infras_base = {
 	allow_in_gold_provinces = no
 	
 	modifier = {
-		trade_value_modifier = 0.35
-		trade_goods_size_modifier = 0.35
-		province_trade_power_modifier = 0.75
+		trade_value_modifier = 0.25
+		trade_goods_size_modifier = 0.25
+		province_trade_power_modifier = 1
 		allowed_num_of_buildings = 1
 	}
 	
