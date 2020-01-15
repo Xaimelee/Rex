@@ -111,6 +111,8 @@ NDefines.NCountry.RAZE_TECH_POWER_DECREASE_MAX = 0
 NDefines.NCountry.HORDE_UNITY_PER_LOOT = 0.5
 NDefines.NCountry.HORDE_UNITY_PER_RAZE = 0.25
 
+NDefines.NCountry.MIN_LIBERTY_DESIRE_INFLUENCE = -50
+
 -- Economy Defines
 
 NDefines.NEconomy.ADVISOR_COST = 0.8
