@@ -200,7 +200,7 @@ cossack_ideas = {
 berber_ideas = {
 	start = {
 		naval_attrition = -0.25
-		may_perform_slave_raid = yes
+		privateer_efficiency = 0.10
 	}
 	
 	bonus = {
@@ -224,7 +224,7 @@ berber_ideas = {
 	}
 	corsairs = {
 		navy_tradition = 1
-		privateer_efficiency = 0.10
+		may_perform_slave_raid = yes
 	}
 	tuareg_cavalry = {
 		cavalry_power = 0.10
