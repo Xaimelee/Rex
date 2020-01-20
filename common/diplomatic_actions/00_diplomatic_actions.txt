@@ -556,6 +556,15 @@ sabotage_reputation = {
 			FROM = { same_continent = ROOT }
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 support_rebels = {
 	condition = {
@@ -565,6 +574,15 @@ support_rebels = {
 		}
 		allow = {
 			FROM = { same_continent = ROOT }
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
 		}
 	}
 }
@@ -578,6 +596,15 @@ sow_discontent = {
 			FROM = { same_continent = ROOT }
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 study_technology = {
 	condition = {
@@ -587,6 +614,15 @@ study_technology = {
 		}
 		allow = {
 			FROM = { same_continent = ROOT }
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
 		}
 	}
 }
@@ -600,6 +636,15 @@ agitate_for_liberty = {
 			FROM = { same_continent = ROOT }
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 slander_merchants = {
 	condition = {
@@ -609,6 +654,15 @@ slander_merchants = {
 		}
 		allow = {
 			FROM = { same_continent = ROOT }
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
 		}
 	}
 }
@@ -622,6 +676,15 @@ sabotage_recruitment = {
 			FROM = { same_continent = ROOT }
 		}
 	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 corrupt_officials = {
 	condition = {
@@ -631,6 +694,15 @@ corrupt_officials = {
 		}
 		allow = {
 			FROM = { same_continent = ROOT }
+		}
+	}
+	condition = {
+		tooltip = rex_ming_restriction
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			always = no
 		}
 	}
 }
