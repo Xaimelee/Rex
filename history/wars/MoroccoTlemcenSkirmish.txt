@@ -1,0 +1,16 @@
+name = "Morocco and Tlemcen Border War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 4562
+}
+
+1443.1.1 = {
+	add_attacker = MOR
+	add_defender = TLC
+}
+
+1444.10.10 = {
+	rem_attacker = MOR
+	rem_defender = TLC
+}
