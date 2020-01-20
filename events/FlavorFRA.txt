@@ -1622,18 +1622,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = ENG
-		exists = FRA
-		NOT = { alliance_with = FRA }
-		NOT = { war_with = FRA }
-		NOT = { is_year = 1450 }
-		NOT = { truce_with = FRA }
-		177 = {
-			owned_by = ENG
-		}
-		FRA = {
-			is_subject = no
-		}
+		always = no
 	}
 	
 	mean_time_to_happen = {
