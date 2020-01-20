@@ -87,7 +87,7 @@ national_focus = DIP
 		regent = yes
 		adm = 4
 		dip = 2
-		mil = 1
+		mil = 2
 	}
 }
 
