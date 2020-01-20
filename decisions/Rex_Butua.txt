@@ -3,7 +3,10 @@ country_decisions = {
 	rex_butua_formable = {
 		major = yes
 		potential = {
-			tag = ZAN
+			OR = {
+				tag = ZAN
+				tag = KON
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
