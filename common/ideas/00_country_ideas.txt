@@ -655,7 +655,7 @@ HAB_ideas = {
 
 
 	habsburg_dominance = {
-		diplomatic_reputation = 2
+		diplomatic_reputation = 1
 		diplomatic_upkeep = 1
 	}
 	military_border = {
