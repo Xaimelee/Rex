@@ -3,13 +3,13 @@ privy_council_establishment_act = {
 
 
 	potential = {
-		has_idea_group = spy_ideas
-		has_idea_group = defensive_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = spy_ideas
 	}
 	
 	allow = {
+		full_idea_group = religious_ideas
 		full_idea_group = spy_ideas
-		full_idea_group = defensive_ideas
 	}
 
     manpower_recovery_speed = 0.15
@@ -61,8 +61,8 @@ the_provincial_taxation_system = {
 		full_idea_group = quantity_ideas
 	}
 	
-    land_forcelimit_modifier = 0.10
-	global_manpower_modifier = 0.10
+    land_forcelimit_modifier = 0.125
+	global_manpower_modifier = 0.125
 	
 	ai_will_do = {
 		factor = 1
@@ -312,7 +312,7 @@ the_garrison_act = {
 }
 
 military_zeal_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = quality_ideas
@@ -324,7 +324,7 @@ military_zeal_act = {
 		full_idea_group = religious_ideas
 	}
 	
-    recover_army_morale_speed = 0.1
+    recover_army_morale_speed = 0.15
 	leader_land_shock = 1
 
 	ai_will_do = {
@@ -362,7 +362,7 @@ field_priests = {
 }
 
 pen_rely_on_sword_act = {
-	monarch_power = DIP
+	monarch_power = ADM
 	potential = {
 		has_idea_group = mercantilist_ideas
 		has_idea_group = quantity_ideas
@@ -373,7 +373,7 @@ pen_rely_on_sword_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-    caravan_power = 0.10
+    caravan_power = 0.15
 	production_efficiency = 0.10
 	
 	ai_will_do = {
@@ -662,7 +662,7 @@ the_maritime_intelligencer_unit = {
 }
 
 the_nautic_education_act = {
-	monarch_power = DIP
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = culturalism_ideas
@@ -691,7 +691,7 @@ the_nautic_education_act = {
 }
 
 zealous_captains = {
-	monarch_power = DIP
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = culturalism_ideas
@@ -704,7 +704,7 @@ zealous_captains = {
 	}	
 	
     years_of_nationalism = -5
-	expel_minorities_cost = -0.5
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -995,20 +995,20 @@ the_combination_act = {
 }
 
 military_allotment_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
-		has_idea_group = spy_ideas
+		has_idea_group = imperialism_ideas
 		has_idea_group = strategic_ideas
 	}
 	
 	allow = {
-		full_idea_group = spy_ideas
+		full_idea_group = imperialism_ideas
 		full_idea_group = strategic_ideas
 	}
 
-    land_morale = 0.05
-	war_taxes_cost_modifier = -1
+    reinforce_cost_modifier = -0.1
+	yearly_army_professionalism = 0.0025
 
 	ai_will_do = {
 		factor = 0.8
@@ -1020,16 +1020,16 @@ unified_army_command = {
 	
 	potential = {
 		has_idea_group = strategic_ideas
-		has_idea_group = imperialism_ideas
+		has_idea_group = innovativeness_ideas
 	}
 	
 	allow = {
 		full_idea_group = strategic_ideas
-		full_idea_group = imperialism_ideas
+		full_idea_group = innovativeness_ideas
 	}		
 	
-    yearly_army_professionalism = 0.005
-	leader_siege = 1
+    cav_to_inf_ratio = 0.20
+	cavalry_fire = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -1109,7 +1109,7 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-    cavalry_power = 0.15
+    cavalry_power = 0.10
 	cavalry_flanking = 0.5
 	
 	ai_will_do = {

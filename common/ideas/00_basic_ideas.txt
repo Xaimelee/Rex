@@ -250,15 +250,15 @@ innovativeness_ideas = {
 		innovativeness_gain = 1
 	}
 	print_culture = {
-		global_institution_spread = 0.30
+		global_institution_spread = 0.25
 		embracement_cost = -0.20
 	}
 	patron_of_art  = {
 		prestige_decay = -0.01
 	}
 	dynamic_court = {
-		advisor_pool = 2
-		advisor_cost = -0.05
+		advisor_pool = 1
+		advisor_cost = -0.075
 		female_advisor_chance = 1
 	}
 	optimism = {
@@ -697,7 +697,7 @@ imperialism_ideas = {
 	category = DIP
 
 	bonus = {
-		vassal_forcelimit_bonus = 0.50
+		vassal_forcelimit_bonus = 0.25
 	}
 
 	tribute_system = {
