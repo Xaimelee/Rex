@@ -254,9 +254,7 @@ japanse_missions_sea = {
 			custom_tooltip = rex_japan_tooltip_ii
 			hidden_effect = {
 				japan_region = {
-					every_province = { 
-						remove_province_modifier = rex_japan_dev_penalty_ii
-					}
+					remove_province_modifier = rex_japan_dev_penalty_ii
 				}
 			}
 		}

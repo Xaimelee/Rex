@@ -35,13 +35,11 @@ country_decisions = {
 			custom_tooltip = rex_japan_tooltip_i
 			hidden_effect = {
 				japan_region = {
-					every_province = { 
-						add_permanent_province_modifier = {
-							name = rex_japan_dev_penalty_ii
-							duration = -1
-						}
-						remove_province_modifier = rex_japan_dev_penalty_i
+					add_permanent_province_modifier = {
+						name = rex_japan_dev_penalty_ii
+						duration = -1
 					}
+					remove_province_modifier = rex_japan_dev_penalty_i
 				}
 			}
 		}
