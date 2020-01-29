@@ -1,7 +1,7 @@
 #130 - Istria
 
-owner = VEN
-controller = VEN
+owner = AQU
+controller = AQU
 culture = croatian
 religion = catholic
 capital = "Trieste"
@@ -12,7 +12,7 @@ base_tax = 2
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = VEN
+add_core = AQU
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
