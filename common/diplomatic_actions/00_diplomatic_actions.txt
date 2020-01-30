@@ -444,6 +444,32 @@ allianceaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = rex_ai_hre_alliance_restriction
+		potential = {
+			ai = yes
+			is_part_of_hre = no
+		}
+		allow = {
+			NOT = {
+				FROM = {
+					is_part_of_hre = yes
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = rex_ai_hre_alliance_restriction
+		potential = {
+			ai = yes
+			is_part_of_hre = yes
+		}
+		allow = {
+			FROM = {
+				is_part_of_hre = yes
+			}
+		}
+	}
 }
 
 declarewar = {
