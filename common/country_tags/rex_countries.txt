@@ -1,3 +1,5 @@
 CTH = "countries/Carthage.txt"
 SIA = "countries/Siam.txt"
 ZZN = "countries/Zanzibar.txt"
+RAV = "countries/Ravenna.txt"
+ATR = "countries/Altkirch.txt"
