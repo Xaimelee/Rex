@@ -228,6 +228,7 @@ republic = {
 				presidential_despot_reform
 				cossacks_reform
 				r_dominion_government
+				rex_swiss_government
 			}
 		}
 		republican_virtues = {

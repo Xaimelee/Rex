@@ -21,6 +21,8 @@
  rex_ruthenia_government_desc:0 "The Kingdom of Ruthenia also known as Regnum Russiae was a state in the regions of Galicia and Volhynia that historically existed from 1199 to 1349."
  rex_china_warlord_reform:0 "Chinese Warlord"
  rex_china_warlord_reform_desc:0 "Warlords are states to the West whom have split off from the crumbling Ming Dynasty. Their independence is maintained through sheer might and warrior prowess."
+ rex_swiss_government:0 "Swiss Confederacy"
+ rex_swiss_government_desc:0 "This confederation of loosely independent small states was historically politically and militarily successful for more than a century. The Swiss Confederation was also rather renown for many Swiss mercenary companies that originated from this Confederacy."
  #India
  rise_of_player_india:0 "Rise of Indian Claimants"
  #Zoroastrian

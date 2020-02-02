@@ -1,3 +1,25 @@
+rex_swiss_government = {
+	icon = "peasant_republic"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	fixed_rank = 1
+	potential = {
+	    has_reform = rex_swiss_government
+	}
+
+	modifiers = {
+		max_states = -8
+		max_absolutism = -40
+		possible_condottieri = 0.5
+		merc_maintenance_modifier = -0.15
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 4
+}
 r_dominion_government = {
 	icon = "constitution"
 	valid_for_nation_designer = no
