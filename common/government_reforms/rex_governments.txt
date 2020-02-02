@@ -9,10 +9,11 @@ rex_swiss_government = {
 	}
 
 	modifiers = {
-		max_states = -8
+		max_states = -2
 		max_absolutism = -40
-		possible_condottieri = 0.5
+		mercenary_cost = -0.10
 		merc_maintenance_modifier = -0.15
+		mercenary_discipline = 0.05
 	}
 
 	custom_attributes = {

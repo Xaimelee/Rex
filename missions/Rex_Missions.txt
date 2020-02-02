@@ -1,0 +1,63 @@
+#Switzerland
+
+rex_swiss = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SWI
+	}
+	has_country_shield = yes
+	
+	rex_swiss_1 = {
+		icon = mission_landsknecht_soldier
+		required_missions = { }
+		
+		provinces_to_highlight = {
+			area = switzerland_area
+			area = romandie_area
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			adm_tech = 5
+			switzerland_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			romandie_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_government_reform = rex_swiss_government
+			switzerland_area = {
+				limit = {
+					OR = {
+						has_terrain = mountain
+						has_terrain = hills
+					}
+				}
+				add_permanent_province_modifier = {
+					name = r_swi_dev
+					duration = -1
+				}
+			}
+			romandie_area = {
+				limit = {
+					OR = {
+						has_terrain = mountain
+						has_terrain = hills
+					}
+				}
+				add_permanent_province_modifier = {
+					name = r_swi_dev
+					duration = -1
+				}
+			}
+		}
+	}
+}

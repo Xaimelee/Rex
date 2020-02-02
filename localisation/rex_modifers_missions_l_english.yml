@@ -1,4 +1,6 @@
 ﻿l_english:
+#Switzerland Missions
+ r_swi_dev:0 "Development Focus"
 #Khorasan Missions
  r_kho_zoroastrian:0 "Zoroastrian Restoration"
  r_kho_zoroastrian_converted:0 "Forceful Conversion"

@@ -4,6 +4,12 @@
 
 ## Missions
 
+##Switzerland
+
+r_swi_dev = {
+	local_development_cost = -0.20
+}
+
 ##Portugal
 
 r_por_china_access = {
