@@ -20,6 +20,7 @@ discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
 
+
 1444.1.1 = {
 	owner = MLO
 	controller = MLO
