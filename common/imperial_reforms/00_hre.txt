@@ -45,12 +45,12 @@ rex_hre_reform_iii = {
 	empire = hre
 	member = {
 		global_tax_income = 6
-		stability_cost_modifier = -0.1
+		development_cost = -0.05
 	}
 	
 	emperor = {
 		global_manpower = 3.75
-		stability_cost_modifier = -0.1
+		development_cost = -0.05
 	}
 	
 	on_effect = {
@@ -62,7 +62,7 @@ rex_hre_reform_iii = {
 }
 
 ##Economic
-rex_hre_reform_iv= {
+rex_hre_reform_iv = {
 	empire = hre
 	member = {
 		global_tax_income = 6
@@ -87,12 +87,12 @@ rex_hre_reform_v = {
 	empire = hre
 	member = {
 		global_tax_income = 6
-		advisor_cost = -0.10
+		advisor_cost = -0.05
 	}
 	
 	emperor = {
 		global_manpower = 3.75
-		advisor_cost = -0.10
+		advisor_cost = -0.075
 	}
 	
 	on_effect = {
@@ -108,12 +108,12 @@ rex_hre_reform_vi = {
 	empire = hre
 	member = {
 		global_tax_income = 6
-		land_forcelimit = 10
+		land_forcelimit_modifier = -0.075
 	}
 	
 	emperor = {
 		global_manpower = 3.75
-		land_forcelimit_modifier = 0.10
+		land_forcelimit_modifier = 0.15
 	}
 	
 	on_effect = {
@@ -129,12 +129,12 @@ rex_hre_reform_vii = {
 	empire = hre
 	member = {
 		global_tax_income = 6
-		development_cost = -0.075
+		stability_cost_modifier = -0.1
 	}
 	
 	emperor = {
 		global_manpower = 3.75
-		development_cost = -0.075
+		stability_cost_modifier = -0.1
 	}
 	
 	on_effect = {
@@ -149,12 +149,12 @@ rex_hre_reform_vii = {
 rex_hre_reform_viii = {
 	empire = hre
 	member = {
-		global_tax_income = 18
-		army_tradition = 0.25
+		global_tax_income = 6
+		army_tradition = 0.5
 	}
 	
 	emperor = {
-		global_manpower = 3.75
+		global_manpower = 7.5
 		infantry_power = 0.1
 	}
 	

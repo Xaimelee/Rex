@@ -225,7 +225,7 @@ rex_hre_penalty_elector_vii = {
 		is_elector = yes
 		was_player = yes
 		NOT = { is_emperor = yes }
-		NOT = { has_country_modifier = rex_hre_penalty_elector_vii }
+		NOT = { has_country_modifier = rex_hre_penalty_elector_viii }
 		hre_reform_level = 7
 	}
 	trigger = {
@@ -361,7 +361,7 @@ rex_hre_penalty_emperor_vii = {
 		is_emperor = yes
 		was_player = yes
 		hre_reform_level = 7
-		NOT = { has_country_modifier = rex_hre_penalty_emperor_vii }
+		NOT = { has_country_modifier = rex_hre_penalty_emperor_viii }
 	}
 	trigger = {
 		hre_reform_level = 7
