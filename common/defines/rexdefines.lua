@@ -44,6 +44,8 @@ NDefines.NDiplomacy.PO_REVOKE_REFORM_PEACE_COST = 50
 
 -- Country Defines
 
+NDefines.NCountry.PS_REDUCE_WAREXHAUSTION = 100
+
 NDefines.NCountry.PROSPERITY_INCREASE_SIZE = 2
 NDefines.NCountry.PROSPERITY_MONTHLY_DECLINE = -1
 
