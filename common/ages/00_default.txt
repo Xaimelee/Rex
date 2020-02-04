@@ -227,6 +227,7 @@ age_of_discovery = {
 			    OR = {
 				    technology_group = sub_saharan
 				    technology_group = east_african
+					technology_group = central_african
 				}
 			}
 			modifier = {
