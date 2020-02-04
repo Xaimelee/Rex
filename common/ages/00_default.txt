@@ -869,7 +869,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				land_morale = 0.10
+				land_morale = 0.075
 				drill_gain_modifier = 0.20
 				drill_decay_modifier = -0.10
 			}
