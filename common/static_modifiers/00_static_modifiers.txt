@@ -180,7 +180,7 @@ blockaded = {
 	ship_recruit_speed = 0.50
 	trade_goods_size_modifier = -0.75
 	province_trade_power_modifier = -1
-	local_monthly_devastation = 0.5
+	local_monthly_devastation = 0.2
     local_defensiveness = -0.10
 }
 
