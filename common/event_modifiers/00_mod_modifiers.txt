@@ -235,8 +235,8 @@ strategic_stratagem = {
 }
 
 offensive_stratagem = {
-    land_attrition = -0.15
-	siege_ability = 0.15
+    infantry_shock = 0.5
+	land_morale = 0.05
 	land_maintenance_modifier = 0.20
 }
 
@@ -247,12 +247,13 @@ defensive_stratagem = {
 }
 
 quality_stratagem = {
-    fire_damage = 0.10
+    fire_damage = 0.15
 	land_maintenance_modifier = 0.20
 }
 
 quantity_stratagem = {
-    land_morale = 0.15
+    reinforce_speed = 0.35
+	possible_mercenaries = 0.50
 	land_maintenance_modifier = 0.20
 }
 
