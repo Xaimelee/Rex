@@ -449,6 +449,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				artillery_cost = -0.20
+				artillery_fire = 0.5
 			}
 			ai_will_do = {
 				factor = 100
