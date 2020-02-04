@@ -26,8 +26,8 @@ imperial_elector = {
 	}
 
 	prestige = 0.5
-	ae_impact = -0.1
-	global_tax_income = 6
+	ae_impact = -0.20
+	global_tax_income = 12
 }
 
 imperial_protector = {
