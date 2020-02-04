@@ -14,7 +14,7 @@ first_wave_colonist = {
 	}
 	
 	colonists = 1
-	range = 0.25
+	range = 0.5
 }
 
 second_wave_colonist = {
@@ -33,7 +33,7 @@ second_wave_colonist = {
 	}
 	
 	colonists = 2
-	range = 0.5
+	range = 1
 }
 
 third_wave_colonist = {
@@ -49,5 +49,5 @@ third_wave_colonist = {
 	}
 	
 	colonists = 3
-	range = 1
+	range = 1.5
 }
