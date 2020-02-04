@@ -844,7 +844,7 @@ age_of_revolutions = {
 				technology_group = western
 			}
 			modifier = {
-				artillery_power = 0.10
+				discipline = 0.03
 			}
 			ai_will_do = {
 				factor = 100
