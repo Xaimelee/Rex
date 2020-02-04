@@ -71,9 +71,9 @@ rise_of_player_india = {
 		NOT = { is_year = 1500 }
 	}
 
-	land_forcelimit = 6
-	global_tax_income = 12
-	ae_impact = -0.10
+	land_forcelimit = 12
+	global_tax_income = 24
+	ae_impact = -0.20
 }
 
 rex_ming = {
