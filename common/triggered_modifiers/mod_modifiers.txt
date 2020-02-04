@@ -85,11 +85,13 @@ rex_ming = {
 	}
 	
 	manpower_recovery_speed = 0.25
-	land_forcelimit_modifier = 0.25
-	global_unrest = -10
-	global_manpower_modifier = 0.25
+	land_forcelimit_modifier = 0.50
+	global_unrest = -25
+	global_manpower_modifier = 0.50
 	land_maintenance_modifier = -0.25
-	discipline = -0.05
+	discipline = -0.10
+	idea_cost = -0.25
+	defensiveness = 0.15
 }
 
 rex_imperial_penalty = {
