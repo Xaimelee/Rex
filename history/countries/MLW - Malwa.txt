@@ -4,7 +4,9 @@ primary_culture = malvi
 religion = hinduism
 technology_group = indian
 capital = 4460	# Mandu
-add_accepted_culture = rajput
+#add_accepted_culture = rajput
+add_accepted_culture = gondi
+add_accepted_culture = marathi
 religious_school = hanafi_school
  
 #Sultans of Malwa
