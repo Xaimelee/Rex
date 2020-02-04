@@ -10,5 +10,5 @@ war_exhaustion_modifier_1 = {
 		}
 	}
 	
-	war_exhaustion = 0.05
+	war_exhaustion = 0.10
 }
