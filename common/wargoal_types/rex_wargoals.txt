@@ -24,14 +24,16 @@ rex_china_conquest = {
 	
 	allowed_provinces = {
 		OR = {
-			province_id = 666
-			province_id = 2160
-			province_id = 2139
+			area = west_guangdong_area
 			area = guangdong_area
 			area = fujian_area
 			area = zhejiang_area
 			area = south_jiangsu_area
 			area = liaoning_area
+			area = jiangsu_area
+			area = shandong_area
+			area = south_hebei_area
+			area = hebei_area
 		}
 	}
 
