@@ -25,7 +25,7 @@ country_decisions = {
 			    name = traditional_stratagem
 				duration = 730
 			}
-			add_years_of_income = -0.25
+			#add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -57,7 +57,7 @@ country_decisions = {
 			    name = strategic_stratagem
 				duration = 730
 			}
-			add_years_of_income = -0.25
+			#add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -89,7 +89,7 @@ country_decisions = {
 			    name = offensive_stratagem
 				duration = 730
 			}
-			add_years_of_income = -0.25
+			#add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -121,7 +121,7 @@ country_decisions = {
 			    name = defensive_stratagem
 				duration = 730
 			}
-			add_years_of_income = -0.25
+			#add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -153,7 +153,7 @@ country_decisions = {
 			    name = quality_stratagem
 				duration = 730
 			}
-			add_years_of_income = -0.25
+			#add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
@@ -185,7 +185,7 @@ country_decisions = {
 			    name = quantity_stratagem
 				duration = 730
 			}
-			add_years_of_income = -0.25
+			#add_years_of_income = -0.25
 		}
 		ai_will_do = {
 			factor = 0.1
