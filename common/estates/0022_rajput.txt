@@ -40,6 +40,17 @@ estate_rajput = {
 			culture_group = hindusthani
 			culture_group = central_indic
 			tag = BHA
+			tag = VIJ
+			tag = MLW
+			tag = MER
+			tag = PUN
+			tag = JNP
+			tag = BNG
+			tag = BAH
+			tag = MAR
+			tag = RJP
+			tag = NAG
+			tag = NEP
 		}
 		NOT = { has_government_attribute = is_merchant_republic }
 		NOT = { has_reform = trading_city }
