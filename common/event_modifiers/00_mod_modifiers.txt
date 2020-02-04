@@ -109,8 +109,8 @@ r_bur_lorraine = {
 ## Austria
 
 r_austria_bohemia = {
-	ae_impact = -0.1
-	province_warscore_cost = -0.15
+	ae_impact = -0.2
+	province_warscore_cost = -0.2
 }
 
 ## England
