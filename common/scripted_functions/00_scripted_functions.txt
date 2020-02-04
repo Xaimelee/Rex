@@ -21,14 +21,14 @@ can_harsh_treatment = {
 }
 
 can_reduce_war_exhaustion = {
-	condition = {
-		tooltip = "rex_we_restriction"
-		potential = {
-		}
-		allow = {
-			is_at_war = no
-		}
-	}
+	#condition = {
+	#	tooltip = "rex_we_restriction"
+	#	potential = {
+	#	}
+	#	allow = {
+	#		is_at_war = no
+	#	}
+	#}
 }
 
 can_reduce_inflation = {
