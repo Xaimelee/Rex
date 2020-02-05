@@ -181,7 +181,7 @@ new_naval_tactis = {
 	}
 
     ship_durability = 0.05
-	capture_ship_chance = 0.5
+	capture_ship_chance = 0.33
 
 	ai_will_do = {
 		factor = 1
@@ -204,9 +204,8 @@ nobles_in_navy_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	navy_tradition = 0.5
-	shock_damage = 0.075
-
+	sailor_maintenance_modifer = -0.15
+	manpower_recovery_speed = 0.10
 
 	ai_will_do = {
 		factor = 0.6
@@ -336,7 +335,7 @@ cloth_quality_edict = {
 		full_idea_group = quality_ideas
 	}
 
-    trade_efficiency = 0.10
+    global_trade_power = 0.10
 	ship_durability = 0.05
 
 	ai_will_do = {
@@ -498,7 +497,7 @@ professional_diplomatic_corps = {
 	}
 	
     development_cost = -0.05
-	galley_power = 0.10
+	global_prov_trade_power_modifier = 0.10
 
 	ai_will_do = {
 		factor = 0.7
@@ -545,7 +544,7 @@ chaplains_of_the_fleet = {
 	}
 	
     galley_power = 0.15
-	blockade_efficiency = 0.5
+	blockade_efficiency = 0.33
 	
 	ai_will_do = {
 		factor = 1
@@ -569,8 +568,8 @@ multilingual_diplomats = {
 		full_idea_group = mercantilist_ideas
 	}	
 	
-    global_prov_trade_power_modifier = 0.15
-	caravan_power = 0.15
+	naval_morale = 0.05
+	naval_forcelimit = 15
 	
 	ai_will_do = {
 		factor = 1
@@ -599,7 +598,7 @@ the_foreign_aid_act = {
 }
 
 cultural_unity = {
-	monarch_power = ADM
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = imperialism_ideas
@@ -633,7 +632,7 @@ the_integrated_administration_act = {
 		full_idea_group = quality_ideas
 	}	
 	
-    infantry_cost = -0.1
+    infantry_cost = -0.05
 	infantry_power = 0.075
 	
 	ai_will_do = {
@@ -901,8 +900,7 @@ the_naval_supremacy_act = {
 		full_idea_group = traditional_ideas
 	}	
 	
-    land_morale = 0.05
-	stability_cost_modifier = -0.25
+    land_morale = 0.075
 	
 	ai_will_do = {
 		factor = 0.8
