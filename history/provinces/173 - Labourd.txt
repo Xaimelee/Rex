@@ -12,6 +12,7 @@ base_production = 3
 trade_goods = wine
 base_manpower = 4
 add_claim = ENG
+add_permanent_claim = FRA
 add_core = GUY
 fort_15th = yes
 
