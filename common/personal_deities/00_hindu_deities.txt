@@ -93,7 +93,7 @@ shakti =
 { 
 	#(Military - Offensive) 
 	siege_ability = 0.15
-	land_morale = 0.05
+	discipline = 0.03
 	
 	allow = { religion = hinduism }
 	sprite = 5
@@ -114,8 +114,8 @@ shakti =
 vishnu =
 {
 	# (Military - Defensive)
-	defensiveness = 0.15
-	fire_damage_received = -0.1
+	manpower_recovery_speed = 0.15
+	land_maintenance_modifier = -0.1
 	
 	allow = { religion = hinduism }
 	sprite = 6
