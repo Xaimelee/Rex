@@ -3,7 +3,7 @@ rex_zoro_i = {
 
 	modifier = {
 		infantry_power = 0.1
-		reinforce_cost_modifier = 2.0
+		reinforce_cost_modifier = 0.5
 		
 	}
 	ai_will_do = {
