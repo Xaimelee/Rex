@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 trade_goods = wine
 base_manpower = 4
-add_claim = FRA
+add_core = FRA
 add_core = GUY
 fort_15th = yes
 
