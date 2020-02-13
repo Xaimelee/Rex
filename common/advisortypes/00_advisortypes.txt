@@ -278,7 +278,7 @@ navigator = {
 	monarch_power = DIP
 	
 	# Bonus
-	range = 0.20
+	range = 0.25
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
@@ -341,7 +341,7 @@ commandant = {
 	monarch_power = MIL
 	
 	# Bonus
-	discipline = 0.025
+	discipline = 0.03
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
@@ -359,7 +359,7 @@ quartermaster = {
 	monarch_power = MIL
 	
 	# Bonus
-	siege_ability = 0.10
+	fire_damage_received = -0.1
 
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
@@ -403,7 +403,7 @@ fortification_expert = {
 	monarch_power = MIL
 	
 	# Bonus
-	defensiveness = 0.15
+	defensiveness = 0.20
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
