@@ -1,0 +1,18 @@
+name = "Gascogne Independence"
+war_goal = {
+	type = defend_capital
+	casus_belli = cb_independence_war
+	province = 174
+}
+
+1443.1.1 = {
+	add_attacker = ENG
+	add_attacker = CAS
+	add_defender = GUY
+}
+
+1444.10.10 = {
+	rem_attacker = ENG
+	rem_attacker = CAS
+	rem_defender = GUY
+}
