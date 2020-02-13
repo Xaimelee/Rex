@@ -139,7 +139,7 @@ SIA_ideas = {
 KHA_ideas = {
 	start = {
 		manpower_recovery_speed = 0.15
-		cavalry_power = 0.15
+		cavalry_power = 0.20
 	}
 	
 	bonus = {
@@ -201,7 +201,7 @@ uzbek_ideas = {
 	free = yes
 	
 	rex_traditions_of_the_great_khan = {
-		cavalry_power = 0.15
+		cavalry_power = 0.20
 	}
 	rex_glory_of_conquest = {
 		global_manpower_modifier = 0.15
@@ -234,7 +234,7 @@ BRA_ideas = {
 	}
 	
 	bonus = {
-		shock_damage_received = -0.10
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -256,6 +256,7 @@ BRA_ideas = {
 	}
 	rex_divided_estates = {
 		shock_damage = 0.10
+		shock_damage_received = -0.10
 	}
 	rex_noble_cadets = {
 		mil_tech_cost_modifier  = -0.1
