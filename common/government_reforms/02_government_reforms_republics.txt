@@ -1111,7 +1111,8 @@ strengthen_executive_powers_reform = {
 	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		max_absolutism = 25
+		max_absolutism = 40
+		yearly_absolutism = 0.5
 	}
 }
 
