@@ -40,7 +40,10 @@ monastic_order_reform = {
 
 papacy_reform = {
 	potential = {
-		tag = PAP
+		OR = {
+			tag = PAP
+			tag = ITA
+		}
 	}
 
 	modifiers = {
@@ -49,7 +52,7 @@ papacy_reform = {
 	}
 	valid_for_nation_designer = no
 	icon = "papacy"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	legacy_equivalent = papal_government
 	papacy = yes
 	allow_convert = no
