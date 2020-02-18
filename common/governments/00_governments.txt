@@ -253,6 +253,7 @@ republic = {
 				#council_of_the_indies_reform
 				rex_republicanism_3
 				rex_republicanism_4
+				rex_republicanism_11
 			}
 		}
 		federalism_vs_unitarism_vs_confederacy = {
@@ -262,6 +263,7 @@ republic = {
 				#union_of_states_reform
 				rex_republicanism_5
 				rex_republicanism_6
+				rex_republicanism_12
 			}
 		}
 		#parliamentary_vs_presidential = {

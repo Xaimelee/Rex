@@ -2,7 +2,7 @@
 ## Republics
 
 rex_republicanism_1 = {
-	icon = "clergyman"
+	icon = "merchant"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -24,7 +24,7 @@ rex_republicanism_1 = {
 }
 
 rex_republicanism_2 = {
-	icon = "merchant"
+	icon = "paper_with_seal_3"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -40,7 +40,7 @@ rex_republicanism_2 = {
 		government = republic
 	}
 	modifiers = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 		republican_tradition = 0.25
 	}
 }
@@ -48,7 +48,7 @@ rex_republicanism_2 = {
 #
 
 rex_republicanism_3 = {
-	icon = "merchant_ship"
+	icon = "trading_city"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -91,10 +91,32 @@ rex_republicanism_4 = {
 	}
 }
 
+rex_republicanism_11 = {
+	icon = "landscape"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				
+				
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+			}
+		}
+		government = republic
+	}
+	modifiers = {
+		build_cost = -0.05
+		production_efficiency = 0.10
+	}
+}
+
 #
 
 rex_republicanism_5 = {
-	icon = "paper_with_seal"
+	icon = "soldiers_3"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -116,7 +138,7 @@ rex_republicanism_5 = {
 }
 
 rex_republicanism_6 = {
-	icon = "trading_city"
+	icon = "merchant_ship"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -134,6 +156,18 @@ rex_republicanism_6 = {
 	modifiers = {
 		global_trade_power = 0.1
 		light_ship_cost = -0.25
+	}
+}
+
+rex_republicanism_12 = {
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	trigger = {
+		government = republic
+	}
+	modifiers = {
+		advisor_cost = -0.05
+		yearly_corruption = -0.15
 	}
 }
 
