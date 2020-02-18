@@ -9,10 +9,6 @@ rex_liberalism_1 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -31,10 +27,6 @@ rex_liberalism_2 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -52,10 +44,6 @@ rex_liberalism_8 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -73,10 +61,6 @@ rex_liberalism_4 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -97,10 +81,6 @@ rex_liberalism_5 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -119,10 +99,6 @@ rex_liberalism_6 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -143,10 +119,6 @@ rex_liberalism_3 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -165,10 +137,6 @@ rex_liberalism_9 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -187,10 +155,6 @@ rex_liberalism_10 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
@@ -212,10 +176,6 @@ rex_liberalism_7 = {
 			OR = {
 				has_reform = rex_militarism_1
 				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
