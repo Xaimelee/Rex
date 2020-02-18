@@ -1,3 +1,48 @@
+#Austria-Hungary
+
+AHU_ideas = {
+	start = {
+		land_morale = 0.15
+		num_accepted_cultures = 2
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = AHU
+	}
+	free = yes
+	
+	rex_ahu_i = {
+		land_maintenance_modifier = -0.05
+		free_leader_pool = 1
+		general_cost = -0.25
+	}
+	rex_ahu_ii = {
+		global_tax_modifier = 0.15
+	}
+	rex_ahu_iii = {
+		no_religion_penalty = yes
+	}
+	rex_ahu_iv = {
+		infantry_power = 0.10
+		cavalry_power = 0.15
+	}
+	rex_ahu_v = {
+		max_states = 3
+		global_unrest = -1
+	}
+	rex_ahu_vi = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	rex_ahu_vii = {
+		land_forcelimit_modifier = 0.25
+		global_manpower_modifier = 0.25
+	}
+}
+
 #Zanzibar
 
 ZZN_ideas = {
