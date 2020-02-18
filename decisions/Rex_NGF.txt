@@ -1,0 +1,48 @@
+country_decisions = {
+
+	rex_ngf_formable = {
+		major = yes
+		potential = {
+			OR = {
+				tag = BRA
+				tag = HES
+				tag = PRU
+				tag = HAN
+			}
+			NOT = { exists = NGF }
+		}
+		provinces_to_highlight = {
+			OR = {
+			   region = north_german_region
+			   area = silesia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			adm_tech = 20
+			north_german_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			silesia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			NOT = { exists = NGF }
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = NGF
+			set_country_flag = formed_ngf
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}

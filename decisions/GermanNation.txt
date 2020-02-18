@@ -9,6 +9,9 @@ country_decisions = {
 				tag = HAB
 				tag = HES
 				tag = HAN
+				tag = SGF
+				tag = NGF
+				tag = SWI
 			}
 		}
 		provinces_to_highlight = {
