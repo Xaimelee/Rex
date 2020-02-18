@@ -273,3 +273,11 @@ rex_china_trade_province = {
 	province_trade_power_value = 25
 	province_trade_power_modifier = 1
 }
+
+## Misc Modifiers
+
+rex_janissaries = {
+	discipline = 0.05
+	is_janissary_modifier = yes
+}
+

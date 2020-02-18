@@ -1,0 +1,31 @@
+country_decisions = {
+	
+	rex_ottoman_janissaries = {
+		potential = {
+			tag = TUR
+			NOT = { has_country_modifier = rex_janissaries }
+		}
+		allow = {
+            janissary_percentage = 0.33
+			OR = {
+				has_reform = rex_militarism_9
+				has_reform = rex_militarism_10
+				has_reform = rex_liberalism_10
+				has_reform = rex_liberalism_7
+			}
+			mil_power = 100
+			years_of_income = 0.25
+		}
+		effect = {
+			add_country_modifier = {
+			    name = rex_janissaries
+				duration = -1
+			}
+			add_mil_power = -100
+			add_years_of_income = -0.25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
