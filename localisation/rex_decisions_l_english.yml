@@ -17,6 +17,9 @@
 #Zanzibar Formable
  rex_zanzibar_formable_title:0 "Establish Zanzibar Caliphate"
  rex_zanzibar_formable_desc:0 ""
+#Austria-Hungary Formable
+ rex_ahu_formable_title:0 "Form Austria-Hungary"
+ rex_ahu_formable_desc:0 ""
 #Misc Decisions
  rex_ottoman_janissaries_title:0 "Combat Janissary Decadence"
  rex_ottoman_janissaries_desc:0 "Combat Janissary Decadence"
