@@ -70,7 +70,8 @@ internal_mission_reform = {
 	icon = "clergyman"
 	allow_normal_conversion = yes
 	modifiers = {
-		land_morale = 0.075
+		defensiveness = 0.15
+		shock_damage_received = -0.10
 	}
 }
 
@@ -78,8 +79,8 @@ external_mission_reform = {
 	icon = "soldiers"
 	allow_normal_conversion = yes
 	modifiers = {
-		shock_damage = 0.15
-		leader_land_shock = 1
+		army_tradition = 0.5
+		land_morale = 0.05
 	}
 }
 
@@ -118,7 +119,8 @@ subservient_administrators_reform = {
 	icon = "paper_with_seal"
 	allow_normal_conversion = yes
 	modifiers = {
-		possible_mil_policy = 1
+		free_adm_policy = 1
+		advisor_cost = -0.075
 	}
 }
 
@@ -126,10 +128,8 @@ religious_administrators_reform = {
 	icon = "paper_with_seal_3"
 	allow_normal_conversion = yes
 	modifiers = {
-		free_adm_policy = 1
-		possible_adm_policy = 1
-		free_dip_policy = 1
-		possible_dip_policy = 1
+		possible_mil_policy = 1
+		mil_advisor_cost = -0.10
 	}
 }
 
@@ -139,8 +139,8 @@ maintain_religious_head_reform = {
 	icon = "nobleman"
 	allow_normal_conversion = yes
 	modifiers = {
-		global_manpower_modifier = 0.20
-		land_maintenance_modifier = -0.10
+		global_manpower_modifier = 0.25
+		land_maintenance_modifier = -0.05
 	}
 }
 
