@@ -107,8 +107,8 @@ monarchy = {
 				#legislative_houses_reform
 				rex_militarism_9
 				rex_militarism_10
-				#rex_liberalism_7
 				rex_liberalism_10
+			    rex_liberalism_7
 				become_a_republic_reform
 				install_theocratic_government_reform
 			}

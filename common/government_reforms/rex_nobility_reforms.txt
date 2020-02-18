@@ -9,15 +9,12 @@ rex_militarism_1 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
 		global_manpower_modifier = 0.10
+		manpower_recovery_speed = 0.05
 		global_unrest = 1
 	}
 }
@@ -30,16 +27,13 @@ rex_militarism_2 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
 		siege_ability = 0.10
-		artillery_cost = -0.10
+		ae_impact = -0.20
+		movement_speed = 0.10
 	}
 }
 
@@ -53,15 +47,12 @@ rex_militarism_3 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
-		mil_advisor_cost = -0.15
+		mil_advisor_cost = -0.10
+		army_tradition = 0.25
 	}
 }
 
@@ -73,15 +64,12 @@ rex_militarism_4 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
 		mil_tech_cost_modifier = -0.10
+		possible_mil_policy = 1
 	}
 }
 
@@ -93,16 +81,13 @@ rex_militarism_5 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
 		yearly_absolutism = 0.5
 		max_absolutism = 20
+		harsh_treatment_cost = -0.33
 	}
 }
 
@@ -114,16 +99,13 @@ rex_militarism_6 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
 		max_states = 3
 		global_autonomy = -0.05
+		state_maintenance_modifier = -0.25
 	}
 }
 
@@ -137,15 +119,12 @@ rex_militarism_7 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
 		cavalry_power = 0.10
+		cavalry_cost = -0.10
 		loot_amount = 0.5
 	}
 }
@@ -158,56 +137,49 @@ rex_militarism_8 = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
-		yearly_army_professionalism = 0.005
+		yearly_army_professionalism = 0.003
+		army_tradition_decay = -0.01
 	}
 }
 
 #
 
 rex_militarism_9 = {
-	icon = "soldiers_6"
+	icon = "rex_artillery_icon"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
 			OR = {
 				has_reform = rex_liberalism_1
 				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
-			}
-		}
-	}
-	modifiers = {
-		leader_land_fire = 1		
-	}
-}
-
-rex_militarism_10 = {
-	icon = "castle"
-	allow_normal_conversion = yes
-	trigger = {
-		NOT = {
-			OR = {
-				has_reform = rex_liberalism_1
-				has_reform = rex_liberalism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
 			}
 		}
 	}
 	modifiers = {
 		artillery_bonus_vs_fort = 2
+		artillery_power = 0.10
+		artillery_cost = -0.10
+	}
+}
+
+rex_militarism_10 = {
+	icon = "rex_carolean_icon"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_liberalism_1
+				has_reform = rex_liberalism_2
+			}
+		}
+	}
+	modifiers = {
+		land_morale = 0.05
+		drill_decay_modifier = -0.10
+		drill_gain_modifier = 0.25
 	}
 }

@@ -214,4 +214,12 @@ spriteTypes = {
 		name = "rex_qara_rum_mission"
 		texturefile = "gfx//rex_missions//rex_qara_rum_mission.dds"
 	}
+	spriteType = {
+		name = "government_reform_rex_carolean_icon"
+		texturefile = "gfx//rex_gov_icons//rex_carolean_icon.tga"
+	}
+	spriteType = {
+		name = "government_reform_rex_artillery_icon"
+		texturefile = "gfx//rex_gov_icons//rex_artillery_icon.tga"
+	}
 }

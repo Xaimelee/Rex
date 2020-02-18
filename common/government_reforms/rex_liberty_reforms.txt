@@ -19,7 +19,7 @@ rex_liberalism_1 = {
 	modifiers = {
 		num_accepted_cultures = 1
 		promote_culture_cost = -0.5
-		culture_conversion_cost = -0.15
+		culture_conversion_cost = -0.25
 	}
 }
 
@@ -39,12 +39,13 @@ rex_liberalism_2 = {
 		}
 	}
 	modifiers = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.125
 	}
 }
 
-rex_liberalism_3 = {
-	icon = "peasants"
+
+rex_liberalism_8 = {
+	icon = "landscape"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -59,7 +60,8 @@ rex_liberalism_3 = {
 		}
 	}
 	modifiers = {
-		global_trade_goods_size_modifier = 0.1
+		development_cost = -0.05
+		colonist_placement_chance = 0.03
 	}
 }
 
@@ -80,6 +82,8 @@ rex_liberalism_4 = {
 	}
 	modifiers = {
 		trade_efficiency = 0.10
+		trade_steering = 0.25
+		production_efficiency = 0.10
 	}
 }
 
@@ -103,6 +107,7 @@ rex_liberalism_5 = {
 	modifiers = {
 		free_dip_policy = 1
 		possible_dip_policy = 1
+		dip_advisor_cost = -0.10
 	}
 }
 
@@ -124,13 +129,14 @@ rex_liberalism_6 = {
 	modifiers = {
 		free_adm_policy = 1
 		possible_adm_policy = 1
+		adm_advisor_cost = -0.10
 	}
 }
 
 #
 
-rex_liberalism_7 = {
-	icon = "merchant"
+rex_liberalism_3 = {
+	icon = "peasants"
 	allow_normal_conversion = yes
 	trigger = {
 		NOT = {
@@ -146,29 +152,10 @@ rex_liberalism_7 = {
 	}
 	modifiers = {
 		global_trade_goods_size_modifier = 0.1
+		build_cost = -0.1
+		global_ship_cost = -0.1
 	}
 }
-
-rex_liberalism_8 = {
-	icon = "landscape"
-	allow_normal_conversion = yes
-	trigger = {
-		NOT = {
-			OR = {
-				has_reform = rex_militarism_1
-				has_reform = rex_militarism_2
-				
-				
-				has_reform = rex_republicanism_1
-				has_reform = rex_republicanism_2
-			}
-		}
-	}
-	modifiers = {
-		development_cost = -0.05
-	}
-}
-
 
 rex_liberalism_9 = {
 	icon = "paper_with_seal_3"
@@ -186,9 +173,9 @@ rex_liberalism_9 = {
 		}
 	}
 	modifiers = {
-		land_maintenance_modifier = -0.05
-		naval_maintenance_modifier = -0.05
-		build_cost = -0.05
+		land_attrition = -0.20
+		global_supply_limit_modifier = 1
+		global_regiment_cost = -0.1
 	}
 }
 
@@ -213,5 +200,28 @@ rex_liberalism_10 = {
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
 		has_parliament = yes
+	}
+}
+
+
+rex_liberalism_7 = {
+	icon = "constitution"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = rex_militarism_1
+				has_reform = rex_militarism_2
+				
+				
+				has_reform = rex_republicanism_1
+				has_reform = rex_republicanism_2
+			}
+		}
+	}
+	modifiers = {
+		monarch_admin_power = 1
+		prestige = 1
+		all_power_cost = -0.05
 	}
 }

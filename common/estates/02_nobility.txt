@@ -147,7 +147,7 @@ estate_nobles =
 	influence_modifier = {
 		desc = EST_VAL_CURTAILED_NOBLE_PRIVILEGES
 		trigger = {
-			has_reform = quash_noble_power_reform
+			has_reform = rex_liberalism_2
 		}
 		influence = -10
 	}
@@ -204,6 +204,13 @@ estate_nobles =
 	
 	
 	# Loyalty modifiers
+	loyalty_modifier = {
+		desc = EST_VAL_CURTAILED_NOBLE_PRIVILEGES
+		trigger = {
+			has_reform = rex_liberalism_2
+		}
+		loyalty = -10
+	}
 	loyalty_modifier = {
 		desc = EST_VAL_PERMANENT_MARATHAS_COUNTIL_LOY
 		trigger = {
