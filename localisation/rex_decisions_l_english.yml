@@ -20,6 +20,12 @@
 #Austria-Hungary Formable
  rex_ahu_formable_title:0 "Form Austria-Hungary"
  rex_ahu_formable_desc:0 ""
+#NGF Formable
+ rex_ngf_formable_title:0 "Declare Federation of North Germany"
+ rex_ngf_formable_desc:0 ""
+#SGF Formable
+ rex_sgf_formable_title:0 "Declare Federation of South Germany"
+ rex_sgf_formable_desc:0 ""
 #Misc Decisions
  rex_ottoman_janissaries_title:0 "Combat Janissary Decadence"
  rex_ottoman_janissaries_desc:0 "Combat Janissary Decadence"
