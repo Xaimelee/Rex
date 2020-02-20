@@ -399,6 +399,10 @@ prussian_monarchy = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
+				tag = NGF
+				have_had_reform = prussian_monarchy
+			}
+			AND = {
 				tag = GER
 				have_had_reform = prussian_monarchy
 			}
