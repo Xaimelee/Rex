@@ -176,6 +176,7 @@ iberia_region = {
 		basque_country
 		galicia_area
 		baleares_area
+		macaronesia_area
 	}
 }
 
@@ -314,7 +315,6 @@ maghreb_region = {
 		western_morocco_area
 		tripolitania_area
 		barbary_coast_area
-		macaronesia_area
 	}
 }
 
