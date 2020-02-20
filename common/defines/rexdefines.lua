@@ -231,6 +231,8 @@ NDefines.NMilitary.MONTHLY_REINFORCE = 0.08
 NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.15
 NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0
 
+NDefines.NMilitary.SLAVE_RAIDS_DURATION = 5475
+
 -- Naval
 	
 -- NDefines.NMilitary.NAVAL_TARGET_SELECT_ITERATIONS = 8 		
