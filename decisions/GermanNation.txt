@@ -72,6 +72,9 @@ country_decisions = {
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
+			50 = {
+				move_capital_effect = yes
+			}
 		}
 		ai_will_do = {
 			factor = 1
