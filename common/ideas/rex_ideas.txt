@@ -433,7 +433,7 @@ BRA_ideas = {
 	free = yes		#will be added at load.
 	
 	rex_kammergericht = {
-		same_culture_advisor_cost = -0.2
+		same_culture_advisor_cost = -0.15
 	}
 	rex_army_professionalism = {
 		global_trade_goods_size_modifier = 0.1
@@ -453,7 +453,7 @@ BRA_ideas = {
 		tolerance_heretic = 2
 	}
 	rex_religious_toleration = {
-		global_regiment_recruit_speed = -0.20
+		global_regiment_recruit_speed = -0.25
 		war_exhaustion = -0.03
 	}
 }
