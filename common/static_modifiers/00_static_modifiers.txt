@@ -659,6 +659,7 @@ war_exhaustion = {
 	sailors_recovery_speed = -0.025
 	defensiveness = -0.025
 	global_trade_goods_size_modifier = -0.025
+	global_tariffs = -0.025
 	reduced_liberty_desire = -2.5
 	liberty_desire = 2.5
 }
