@@ -37,6 +37,9 @@ imperial_protector = {
 
 	trigger = {
 	    has_reform = rex_hreprotector_reform
+		NOT = {
+			is_emperor = yes
+		}
 	}
 
 	land_forcelimit_modifier = 0.25
