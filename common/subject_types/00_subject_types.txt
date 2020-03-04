@@ -413,7 +413,7 @@ colony = {
 	transfer_trade_power = yes
 	#divert_trade = yes
 	#can_release_and_play = yes
-	#uses_tariffs = yes
+	uses_tariffs = yes
 	eats_overlords_colonies = yes
 	has_colonial_parent = yes
 	overlord_can_attack = no
@@ -453,8 +453,8 @@ colony = {
 	customize_subject = yes
 	#replace_governor = yes
 	start_colonial_war = yes
-	#increase_tariffs = yes
-	#decrease_tariffs = yes
+	increase_tariffs = yes
+	decrease_tariffs = yes
 
 	# Modifiers:
 	modifier_overlord = {
