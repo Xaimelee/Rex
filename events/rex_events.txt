@@ -38,12 +38,10 @@ country_event = {
 	hidden = yes
 	
 	trigger = {
-		OR = {
-			AND = {
-				has_reform = rex_hreprotector_reform
-				is_elector = no
-				is_part_of_hre = no
-			}
+		AND = {
+			has_reform = rex_hreprotector_reform
+			is_elector = no
+			is_part_of_hre = no
 		}
 	}
 	
@@ -127,24 +125,21 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		AND = {
-			has_reform = rex_hreprotector_reform
-			OR = {
-				any_elector = {
-					war_score_against = {
-						who = ROOT
-						value = 80
-						casus_belli = rex_cb_revoke_protector
-					}
+		OR = {
+			AND = {
+				has_reform = rex_hreprotector_reform
+				is_in_war = {
+					war_score = -80
+					casus_belli = rex_cb_revoke_protector
 				}
-				any_elector = {
-					war_score_against = {
-						who = ROOT
-						casus_belli = rex_cb_revoke_protector
-					}
-					capital_scope = {
-						NOT = { controlled_by = ROOT }
-					}
+			}
+			AND = {
+				has_reform = rex_hreprotector_reform
+				is_in_war = {
+					casus_belli = rex_cb_revoke_protector
+				}
+				capital_scope = {
+					NOT = { controlled_by = ROOT }
 				}
 			}
 		}
