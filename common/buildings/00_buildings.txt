@@ -92,6 +92,7 @@ fort_15th = {
 			}
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -167,6 +168,7 @@ fort_16th = {
 			}
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 
 	onmap = yes
@@ -247,6 +249,7 @@ fort_17th = {
 			}
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 
 	onmap = yes
@@ -332,6 +335,7 @@ fort_18th = {
 			}
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 
 	onmap = yes

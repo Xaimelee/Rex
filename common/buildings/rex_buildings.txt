@@ -41,6 +41,7 @@ military_infras_base = {
 		}
 		development = 15
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -66,6 +67,7 @@ military_left_1 = {
 			has_building = military_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -90,6 +92,7 @@ military_left_2 = {
 			has_building = military_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -114,6 +117,7 @@ military_left_3 = {
 			has_building = military_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -139,6 +143,7 @@ military_right_1 = {
 			has_building = military_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -163,6 +168,7 @@ military_right_2 = {
 			has_building = military_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -187,6 +193,7 @@ military_right_3 = {
 			has_building = military_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -237,6 +244,7 @@ industry_infras_base = {
 		}
 		development = 15
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -263,6 +271,7 @@ industry_left_1 = {
 			has_building = industry_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -288,6 +297,7 @@ industry_left_2 = {
 			has_building = industry_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -313,6 +323,7 @@ industry_left_3 = {
 			has_building = industry_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -338,6 +349,7 @@ industry_right_1 = {
 			has_building = industry_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -362,6 +374,7 @@ industry_right_2 = {
 			has_building = industry_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -386,6 +399,7 @@ industry_right_3 = {
 			has_building = industry_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -435,6 +449,7 @@ government_infras_base = {
 		}
 		development = 15
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -460,6 +475,7 @@ government_left_1 = {
 			has_building = government_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -484,6 +500,7 @@ government_left_2 = {
 			has_building = government_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -493,7 +510,8 @@ government_left_2 = {
 
 government_left_3 = {
 	cost = 180
-	time = 12make_obsolete = government_left_2
+	time = 12
+	make_obsolete = government_left_2
 	
 	modifier = {
 		local_tax_modifier = 0.6
@@ -507,6 +525,7 @@ government_left_3 = {
 			has_building = government_right_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -532,6 +551,7 @@ government_right_1 = {
 			has_building = government_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -556,6 +576,7 @@ government_right_2 = {
 			has_building = government_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -580,6 +601,7 @@ government_right_3 = {
 			has_building = government_left_3
 		}
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -630,6 +652,7 @@ naval_infras_base = {
 		}
 		development = 15
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -657,6 +680,7 @@ naval_left_1 = {
 		}
 		has_port = yes
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -683,6 +707,7 @@ naval_left_2 = {
 		}
 		has_port = yes
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -709,6 +734,7 @@ naval_left_3 = {
 		}
 		has_port = yes
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -736,6 +762,7 @@ naval_right_1 = {
 		}
 		has_port = yes
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -762,6 +789,7 @@ naval_right_2 = {
 		}
 		has_port = yes
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
@@ -788,6 +816,7 @@ naval_right_3 = {
 		}
 		has_port = yes
 		is_state_core = ROOT
+		is_state = yes
 	}
 	
 	ai_will_do = {
