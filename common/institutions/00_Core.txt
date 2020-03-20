@@ -2042,7 +2042,11 @@ enlightenment = {
 			factor = 5
 			custom_trigger_tooltip = {
 				tooltip = tooltip_university_on_institution_continent
-				has_building = university
+				OR = {
+					has_building = government_left_3
+					has_building = government_right_3
+					has_building = government_infras_base
+				}
 				any_province = {
 					is_institution_origin = enlightenment
 					continent = PREV
@@ -2053,7 +2057,11 @@ enlightenment = {
 			factor = 1
 			custom_trigger_tooltip = {
 				tooltip = tooltip_university_not_institution_continent
-				has_building = university
+				OR = {
+					has_building = government_left_3
+					has_building = government_right_3
+					has_building = government_infras_base
+				}
 				any_province = {
 					is_institution_origin = enlightenment
 					NOT = { continent = PREV }
